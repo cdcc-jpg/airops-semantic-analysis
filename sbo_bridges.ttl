@@ -1,0 +1,133 @@
+@prefix asoft: <https://github.com/cdcc-jpg/ontologies#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sbo: <http://example.org/semantic-bridge/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/bridge/Facette_Silo1_Retail_e95c1c14_ModelBridge_0> a sbo:SemanticBridge ;
+    sbo:confidence 5.331e-01 ;
+    sbo:inFacette <http://example.org/facette/Facette_Silo1_Retail_e95c1c14> ;
+    sbo:mappingNuance "Domain-guided mapping: Retail Item Record → [RepairInvoice, AirsoftReplica]" ;
+    sbo:sourceElement <http://example.org/data-ontology/retail/ItemRecord> ;
+    sbo:targetElement asoft:AirsoftReplica ;
+    sbo:translationRule """PREFIX h: <https://github.com/cdcc-jpg/ontologies#>
+PREFIX src: <http://example.org/data-ontology/retail/>
+CONSTRUCT {
+    ?repairInvoice a h:RepairInvoice ;
+            h:repairID ?item_sku ;
+            h:repairedReplica ?airsoftReplica .
+    ?airsoftReplica a h:AirsoftReplica ;
+            h:hasModelName ?item_name ;
+            h:hasBrand ?brand_name ;
+            h:hasPowerSource ?power_source .
+}
+WHERE {
+    ?source a src:ItemRecord ;
+            src:brand_name ?brand_name ;
+            src:item_name ?item_name ;
+            src:item_sku ?item_sku ;
+            src:power_source ?power_source .
+    BIND(URI(CONCAT("http://example.org/inst/RepairInvoice_", MD5(STR(?source)))) AS ?repairInvoice)
+    BIND(URI(CONCAT("http://example.org/inst/AirsoftReplica_", MD5(STR(?source)))) AS ?airsoftReplica)
+}""" .
+
+<http://example.org/bridge/Facette_Silo2_Chrono_4ae3767f_ModelBridge_0> a sbo:SemanticBridge ;
+    sbo:confidence 7.908e-01 ;
+    sbo:inFacette <http://example.org/facette/Facette_Silo2_Chrono_4ae3767f> ;
+    sbo:mappingNuance "Domain-guided mapping: Chrono Record → [ChronoEvent, FieldZone, RepairInvoice, AirsoftReplica]" ;
+    sbo:sourceElement <http://example.org/data-ontology/field-logs/ChronoRecord> ;
+    sbo:targetElement asoft:ChronoEvent ;
+    sbo:translationRule """PREFIX h: <https://github.com/cdcc-jpg/ontologies#>
+PREFIX src: <http://example.org/data-ontology/field-logs/>
+CONSTRUCT {
+    ?chronoEvent a h:ChronoEvent ;
+            h:hasChronoStatus ?test_status .
+    ?fieldZone a h:FieldZone ;
+            h:hasPlayerCapacity ?player_id ;
+            h:hasMaxJouleLimit ?measured_muzzle_energy .
+    ?repairInvoice a h:RepairInvoice ;
+            h:platformModel ?replica_spotted ;
+            h:repairedReplica ?airsoftReplica .
+    ?airsoftReplica a h:AirsoftReplica ;
+            h:hasFPS ?velocity_fps .
+}
+WHERE {
+    ?source a src:ChronoRecord ;
+            src:measured_muzzle_energy ?measured_muzzle_energy ;
+            src:player_id ?player_id ;
+            src:replica_spotted ?replica_spotted ;
+            src:test_status ?test_status ;
+            src:velocity_fps ?velocity_fps .
+    BIND(URI(CONCAT("http://example.org/inst/ChronoEvent_", MD5(STR(?source)))) AS ?chronoEvent)
+    BIND(URI(CONCAT("http://example.org/inst/FieldZone_", MD5(STR(?source)))) AS ?fieldZone)
+    BIND(URI(CONCAT("http://example.org/inst/RepairInvoice_", MD5(STR(?source)))) AS ?repairInvoice)
+    BIND(URI(CONCAT("http://example.org/inst/AirsoftReplica_", MD5(STR(?source)))) AS ?airsoftReplica)
+}""" .
+
+<http://example.org/bridge/Facette_Silo3_Repairs_8925ace7_ModelBridge_0> a sbo:SemanticBridge ;
+    sbo:confidence 8.428e-01 ;
+    sbo:inFacette <http://example.org/facette/Facette_Silo3_Repairs_8925ace7> ;
+    sbo:mappingNuance "Domain-guided mapping: Tech Invoice Repair Record → [GameEvent, RepairInvoice, AirsoftReplica]" ;
+    sbo:sourceElement <http://example.org/data-ontology/repairs/RepairRecord> ;
+    sbo:targetElement asoft:RepairInvoice ;
+    sbo:translationRule """PREFIX h: <https://github.com/cdcc-jpg/ontologies#>
+PREFIX src: <http://example.org/data-ontology/repairs/>
+CONSTRUCT {
+    ?gameEvent a h:GameEvent ;
+            h:hasTimestamp ?intake_date .
+    ?repairInvoice a h:RepairInvoice ;
+            h:repairID ?repair_id ;
+            h:detectedFailure ?tech_diagnosis ;
+            h:installedUpgrade ?upgrade_parts_installed ;
+            h:repairID ?repair_status ;
+            h:repairedReplica ?airsoftReplica .
+    ?airsoftReplica a h:AirsoftReplica ;
+            h:hasModelName ?platform_model .
+}
+WHERE {
+    ?source a src:RepairRecord ;
+            src:intake_date ?intake_date ;
+            src:platform_model ?platform_model ;
+            src:player_id ?player_id ;
+            src:repair_id ?repair_id ;
+            src:repair_status ?repair_status ;
+            src:tech_diagnosis ?tech_diagnosis ;
+            src:upgrade_parts_installed ?upgrade_parts_installed .
+    BIND(URI(CONCAT("http://example.org/inst/GameEvent_", MD5(STR(?source)))) AS ?gameEvent)
+    BIND(URI(CONCAT("http://example.org/inst/RepairInvoice_", MD5(STR(?source)))) AS ?repairInvoice)
+    BIND(URI(CONCAT("http://example.org/inst/AirsoftReplica_", MD5(STR(?source)))) AS ?airsoftReplica)
+}""" .
+
+<http://example.org/bridge/Facette_Silo4_Social_d6ec1003_ModelBridge_0> a sbo:SemanticBridge ;
+    sbo:confidence 7.85e-01 ;
+    sbo:inFacette <http://example.org/facette/Facette_Silo4_Social_d6ec1003> ;
+    sbo:mappingNuance "Domain-guided mapping: Social Stream Mention Record → [SocialMention]" ;
+    sbo:sourceElement <http://example.org/data-ontology/social-mentions/SocialRecord> ;
+    sbo:targetElement asoft:SocialMention ;
+    sbo:translationRule """PREFIX h: <https://github.com/cdcc-jpg/ontologies#>
+PREFIX src: <http://example.org/data-ontology/social-mentions/>
+CONSTRUCT {
+    ?socialMention a h:SocialMention ;
+            h:userCallsign ?user_callsign ;
+            h:rawComment ?raw_comment ;
+            h:detectedSlangTopic ?detected_slang_topic .
+}
+WHERE {
+    ?source a src:SocialRecord ;
+            src:detected_slang_topic ?detected_slang_topic ;
+            src:raw_comment ?raw_comment ;
+            src:user_callsign ?user_callsign .
+    BIND(URI(CONCAT("http://example.org/inst/SocialMention_", MD5(STR(?source)))) AS ?socialMention)
+}""" .
+
+<http://example.org/facette/Facette_Silo1_Retail_e95c1c14> a sbo:Facette ;
+    rdfs:label "Model-Generated AirOps Facette for Silo1_Retail" .
+
+<http://example.org/facette/Facette_Silo2_Chrono_4ae3767f> a sbo:Facette ;
+    rdfs:label "Model-Generated AirOps Facette for Silo2_Chrono" .
+
+<http://example.org/facette/Facette_Silo3_Repairs_8925ace7> a sbo:Facette ;
+    rdfs:label "Model-Generated AirOps Facette for Silo3_Repairs" .
+
+<http://example.org/facette/Facette_Silo4_Social_d6ec1003> a sbo:Facette ;
+    rdfs:label "Model-Generated AirOps Facette for Silo4_Social" .
+

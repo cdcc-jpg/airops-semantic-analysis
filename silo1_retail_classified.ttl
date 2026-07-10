@@ -1,0 +1,2252 @@
+@prefix asoft: <https://github.com/cdcc-jpg/ontologies#> .
+
+<http://example.org/inst/RepairInvoice_000a29f9cbb570fe9d6f2f8ea8e8c747> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0009" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_000a29f9cbb570fe9d6f2f8ea8e8c747> .
+
+<http://example.org/inst/RepairInvoice_01370666138050fa1fb56ecdfc300b76> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0127" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_01370666138050fa1fb56ecdfc300b76> .
+
+<http://example.org/inst/RepairInvoice_01ec64f78c7f1e41ad2c42cbe9aeb133> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0177" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_01ec64f78c7f1e41ad2c42cbe9aeb133> .
+
+<http://example.org/inst/RepairInvoice_03cb1ebb22c46c7e4c097c78538b9d36> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0042" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_03cb1ebb22c46c7e4c097c78538b9d36> .
+
+<http://example.org/inst/RepairInvoice_03e910486c496a9b255dc9a92ce42f88> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0129" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_03e910486c496a9b255dc9a92ce42f88> .
+
+<http://example.org/inst/RepairInvoice_04d6e1e59d699c46dfbe2fb453497f77> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0092" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_04d6e1e59d699c46dfbe2fb453497f77> .
+
+<http://example.org/inst/RepairInvoice_04fe9ca4ddb2abed2bca4ed9c730025b> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0057" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_04fe9ca4ddb2abed2bca4ed9c730025b> .
+
+<http://example.org/inst/RepairInvoice_05a4f66315a72703398360c669231f04> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0138" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_05a4f66315a72703398360c669231f04> .
+
+<http://example.org/inst/RepairInvoice_05b82e82bbe0bbaa13ecae0c14f3dd8c> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0208" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_05b82e82bbe0bbaa13ecae0c14f3dd8c> .
+
+<http://example.org/inst/RepairInvoice_06e613becf5c3e3c6e7f31dcf6abca45> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0161" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_06e613becf5c3e3c6e7f31dcf6abca45> .
+
+<http://example.org/inst/RepairInvoice_079a82f1cbda6f9bda3eb4e112fac2d1> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0187" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_079a82f1cbda6f9bda3eb4e112fac2d1> .
+
+<http://example.org/inst/RepairInvoice_0838b90cf25028937c2e5bca2c2ac18f> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0017" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0838b90cf25028937c2e5bca2c2ac18f> .
+
+<http://example.org/inst/RepairInvoice_08b64bfa93deb9e154dae1053c61511c> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0249" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_08b64bfa93deb9e154dae1053c61511c> .
+
+<http://example.org/inst/RepairInvoice_08e5d446fe0ccb072712255b92f5e48c> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0123" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_08e5d446fe0ccb072712255b92f5e48c> .
+
+<http://example.org/inst/RepairInvoice_09733d59b182dae94bc3ede6f2579afa> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0002" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_09733d59b182dae94bc3ede6f2579afa> .
+
+<http://example.org/inst/RepairInvoice_0a25b5504acc1ba4fb5f3fac83f53640> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0186" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0a25b5504acc1ba4fb5f3fac83f53640> .
+
+<http://example.org/inst/RepairInvoice_0ac1dc6341adde276802bf7e0e190558> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0221" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0ac1dc6341adde276802bf7e0e190558> .
+
+<http://example.org/inst/RepairInvoice_0bc6d6de38ecc06fe29da50f866a3a13> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0192" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0bc6d6de38ecc06fe29da50f866a3a13> .
+
+<http://example.org/inst/RepairInvoice_0e0348abd5fee444f19e99d1c50aee42> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0103" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0e0348abd5fee444f19e99d1c50aee42> .
+
+<http://example.org/inst/RepairInvoice_0fb61a9150085c3baae3cd9eacc8a929> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0099" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0fb61a9150085c3baae3cd9eacc8a929> .
+
+<http://example.org/inst/RepairInvoice_121f4d3bb154122b79abf8caa64d5c54> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0079" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_121f4d3bb154122b79abf8caa64d5c54> .
+
+<http://example.org/inst/RepairInvoice_125aeceb7cb7aa0e1fc9ad31fdf43965> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0005" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_125aeceb7cb7aa0e1fc9ad31fdf43965> .
+
+<http://example.org/inst/RepairInvoice_134c0247df68db78624006b3ea7f9179> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0183" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_134c0247df68db78624006b3ea7f9179> .
+
+<http://example.org/inst/RepairInvoice_1382340bdd646387d2438bdad5b8d98e> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0134" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1382340bdd646387d2438bdad5b8d98e> .
+
+<http://example.org/inst/RepairInvoice_13d12be2c49a51305db6fd46a1b9e4e2> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0027" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_13d12be2c49a51305db6fd46a1b9e4e2> .
+
+<http://example.org/inst/RepairInvoice_1457c81279898b03de0b600b5da13f13> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0122" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1457c81279898b03de0b600b5da13f13> .
+
+<http://example.org/inst/RepairInvoice_149b790e9c645c07f7668d8413e2ad4e> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0162" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_149b790e9c645c07f7668d8413e2ad4e> .
+
+<http://example.org/inst/RepairInvoice_1571f2d9516f34fd37f37cd44835f5f4> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0230" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1571f2d9516f34fd37f37cd44835f5f4> .
+
+<http://example.org/inst/RepairInvoice_167d8a9556cc2b4ac7ebd32ac6cb771c> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0097" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_167d8a9556cc2b4ac7ebd32ac6cb771c> .
+
+<http://example.org/inst/RepairInvoice_16b01d97f8e547cfcc0f7cc3f306d56f> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0094" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_16b01d97f8e547cfcc0f7cc3f306d56f> .
+
+<http://example.org/inst/RepairInvoice_17dffd71d7a48d767f2566ed13c54ec1> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0133" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_17dffd71d7a48d767f2566ed13c54ec1> .
+
+<http://example.org/inst/RepairInvoice_1a177156bd62cc5549860b7f21aa18cb> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0112" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1a177156bd62cc5549860b7f21aa18cb> .
+
+<http://example.org/inst/RepairInvoice_1ac27e7177e83a54dad3ee8a9c049053> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0055" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1ac27e7177e83a54dad3ee8a9c049053> .
+
+<http://example.org/inst/RepairInvoice_1d62b61b96c61be5d3fddc382b41afd4> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0020" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1d62b61b96c61be5d3fddc382b41afd4> .
+
+<http://example.org/inst/RepairInvoice_1f29eeb266ae8dfd35abef6afacc06cb> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0154" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1f29eeb266ae8dfd35abef6afacc06cb> .
+
+<http://example.org/inst/RepairInvoice_205fcad43d35d4b3fc289f425569b7e6> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0098" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_205fcad43d35d4b3fc289f425569b7e6> .
+
+<http://example.org/inst/RepairInvoice_2097657f0c0c0bf624cdf1d9d6e95804> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0095" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2097657f0c0c0bf624cdf1d9d6e95804> .
+
+<http://example.org/inst/RepairInvoice_2349490fe48fc2d1b61a0a763333d775> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0090" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2349490fe48fc2d1b61a0a763333d775> .
+
+<http://example.org/inst/RepairInvoice_24be3f302d408e1f93e97d92eef79fb4> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0178" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_24be3f302d408e1f93e97d92eef79fb4> .
+
+<http://example.org/inst/RepairInvoice_25475eddd5c5b377160ad370085ea586> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0015" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_25475eddd5c5b377160ad370085ea586> .
+
+<http://example.org/inst/RepairInvoice_25d0fc6b8bfdb008b3715fb55ee6c12e> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0058" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_25d0fc6b8bfdb008b3715fb55ee6c12e> .
+
+<http://example.org/inst/RepairInvoice_26bdd25dcb284dec2effec41c4e3f1eb> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0085" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_26bdd25dcb284dec2effec41c4e3f1eb> .
+
+<http://example.org/inst/RepairInvoice_270bd5414106aa52a5a532f90ff62c82> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0077" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_270bd5414106aa52a5a532f90ff62c82> .
+
+<http://example.org/inst/RepairInvoice_270e91db02c3546aa884bd00eecb833f> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0050" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_270e91db02c3546aa884bd00eecb833f> .
+
+<http://example.org/inst/RepairInvoice_279eeb30ada472f43087fa3695e886ab> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0246" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_279eeb30ada472f43087fa3695e886ab> .
+
+<http://example.org/inst/RepairInvoice_27c3ff6659eac1108097d69247c46394> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0151" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_27c3ff6659eac1108097d69247c46394> .
+
+<http://example.org/inst/RepairInvoice_282e2942e49bccf009aee060a8c0de94> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0244" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_282e2942e49bccf009aee060a8c0de94> .
+
+<http://example.org/inst/RepairInvoice_2b71ad0b2ee81854864130a00afd1709> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0075" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2b71ad0b2ee81854864130a00afd1709> .
+
+<http://example.org/inst/RepairInvoice_2bec9021559143165c5448421fbf5dcd> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0132" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2bec9021559143165c5448421fbf5dcd> .
+
+<http://example.org/inst/RepairInvoice_2c0ed0a76bc3f9b08449923b2ed4698c> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0116" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2c0ed0a76bc3f9b08449923b2ed4698c> .
+
+<http://example.org/inst/RepairInvoice_2c41df39f790d1fbdb5e70f4baba32fb> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0155" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2c41df39f790d1fbdb5e70f4baba32fb> .
+
+<http://example.org/inst/RepairInvoice_2c6912f4d10965c092f8fa6e2d36083b> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0071" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2c6912f4d10965c092f8fa6e2d36083b> .
+
+<http://example.org/inst/RepairInvoice_2c7b92e0486fb793aee42584a6529d70> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0120" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2c7b92e0486fb793aee42584a6529d70> .
+
+<http://example.org/inst/RepairInvoice_2d0bf39e8fda427375af26eeb70eeda3> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0065" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2d0bf39e8fda427375af26eeb70eeda3> .
+
+<http://example.org/inst/RepairInvoice_2d45f8d9d856601961984a3b738c8a8a> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0060" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2d45f8d9d856601961984a3b738c8a8a> .
+
+<http://example.org/inst/RepairInvoice_2e98c6537883e3ccde09a169007a7220> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0082" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2e98c6537883e3ccde09a169007a7220> .
+
+<http://example.org/inst/RepairInvoice_30ed51d1e702664e1cbf29ff73a177c0> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0203" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_30ed51d1e702664e1cbf29ff73a177c0> .
+
+<http://example.org/inst/RepairInvoice_3176b766f415c908d6708cde752718ab> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0190" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3176b766f415c908d6708cde752718ab> .
+
+<http://example.org/inst/RepairInvoice_333003c3bdb9b2d2a2444623c9c7ea0a> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0011" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_333003c3bdb9b2d2a2444623c9c7ea0a> .
+
+<http://example.org/inst/RepairInvoice_352e09e9757275e0448abc2ff04cc344> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0025" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_352e09e9757275e0448abc2ff04cc344> .
+
+<http://example.org/inst/RepairInvoice_36e5fd80e15d6649c28f63809b11dbd0> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0248" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_36e5fd80e15d6649c28f63809b11dbd0> .
+
+<http://example.org/inst/RepairInvoice_378fc19d25c15298631602c49420c901> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0115" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_378fc19d25c15298631602c49420c901> .
+
+<http://example.org/inst/RepairInvoice_39b50c27d58fe483881f04d4068efa68> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0066" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_39b50c27d58fe483881f04d4068efa68> .
+
+<http://example.org/inst/RepairInvoice_3a993c898e67bcacb191176e4262d22c> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0016" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3a993c898e67bcacb191176e4262d22c> .
+
+<http://example.org/inst/RepairInvoice_3b36bc939eed1e0ac3a96bd93fa6114a> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0204" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3b36bc939eed1e0ac3a96bd93fa6114a> .
+
+<http://example.org/inst/RepairInvoice_3e9e8562fe8c6aa2ace19de9e4326974> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0224" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3e9e8562fe8c6aa2ace19de9e4326974> .
+
+<http://example.org/inst/RepairInvoice_413dcfb92e11340892b13c27daf00535> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0084" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_413dcfb92e11340892b13c27daf00535> .
+
+<http://example.org/inst/RepairInvoice_4445e7c5a9cf175e69524b4f3d9bdee0> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0188" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4445e7c5a9cf175e69524b4f3d9bdee0> .
+
+<http://example.org/inst/RepairInvoice_45be7926a42db67d665b63cca4813583> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0191" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_45be7926a42db67d665b63cca4813583> .
+
+<http://example.org/inst/RepairInvoice_4745523a9128949aeb0bb4bbf503b4a0> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0044" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4745523a9128949aeb0bb4bbf503b4a0> .
+
+<http://example.org/inst/RepairInvoice_47860339e00074e9e0da711c26b0637d> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0240" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_47860339e00074e9e0da711c26b0637d> .
+
+<http://example.org/inst/RepairInvoice_49153b7b0b751f662ea5da4b84300f8b> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0218" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_49153b7b0b751f662ea5da4b84300f8b> .
+
+<http://example.org/inst/RepairInvoice_498d078876306192039665b622e875aa> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0156" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_498d078876306192039665b622e875aa> .
+
+<http://example.org/inst/RepairInvoice_4a96a842b8dd8e34e13ff15845335a94> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0235" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4a96a842b8dd8e34e13ff15845335a94> .
+
+<http://example.org/inst/RepairInvoice_4aa3ec7f9f614f79395f1d2af56cbd95> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0141" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4aa3ec7f9f614f79395f1d2af56cbd95> .
+
+<http://example.org/inst/RepairInvoice_4bc0cacaebc44fb619043873c02d19ed> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0034" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4bc0cacaebc44fb619043873c02d19ed> .
+
+<http://example.org/inst/RepairInvoice_4c0f382a773ce19f83b146e68eb02bb7> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0228" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4c0f382a773ce19f83b146e68eb02bb7> .
+
+<http://example.org/inst/RepairInvoice_4dc9b5e9b1488647d003821408c01543> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0107" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4dc9b5e9b1488647d003821408c01543> .
+
+<http://example.org/inst/RepairInvoice_4eef0a6b3cc47fd02e5aaaa301fbacb3> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0245" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4eef0a6b3cc47fd02e5aaaa301fbacb3> .
+
+<http://example.org/inst/RepairInvoice_501d1e893e170d202059e6b0a4c26822> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0062" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_501d1e893e170d202059e6b0a4c26822> .
+
+<http://example.org/inst/RepairInvoice_516856c0ec63c3041246ce914b19bf1a> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0193" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_516856c0ec63c3041246ce914b19bf1a> .
+
+<http://example.org/inst/RepairInvoice_522c6610096d4858eab51740e31d026a> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0063" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_522c6610096d4858eab51740e31d026a> .
+
+<http://example.org/inst/RepairInvoice_5249b05abe6794f71f5976040335bc3c> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0205" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5249b05abe6794f71f5976040335bc3c> .
+
+<http://example.org/inst/RepairInvoice_5430987138f6d968d74933fe09294bcd> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0184" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5430987138f6d968d74933fe09294bcd> .
+
+<http://example.org/inst/RepairInvoice_54666bd6773966b3fb01d32b730b45eb> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0214" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_54666bd6773966b3fb01d32b730b45eb> .
+
+<http://example.org/inst/RepairInvoice_559ce97dc09071cdde0898b25a83c1c9> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0146" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_559ce97dc09071cdde0898b25a83c1c9> .
+
+<http://example.org/inst/RepairInvoice_57861bc5c86d2f5abde95ebd297c9b04> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0239" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_57861bc5c86d2f5abde95ebd297c9b04> .
+
+<http://example.org/inst/RepairInvoice_57bf47713e27f98c484bcfa112d41abb> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0076" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_57bf47713e27f98c484bcfa112d41abb> .
+
+<http://example.org/inst/RepairInvoice_582b372115f1f6904bf2472f01f16217> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0109" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_582b372115f1f6904bf2472f01f16217> .
+
+<http://example.org/inst/RepairInvoice_58423ba7aae3602bc93c0d84b2cb6132> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0121" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_58423ba7aae3602bc93c0d84b2cb6132> .
+
+<http://example.org/inst/RepairInvoice_5ab4290c6c08bade503dc7aa9183fc72> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0179" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5ab4290c6c08bade503dc7aa9183fc72> .
+
+<http://example.org/inst/RepairInvoice_5bf22600ffcbdd2f48a1ec44790c9b2b> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0049" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5bf22600ffcbdd2f48a1ec44790c9b2b> .
+
+<http://example.org/inst/RepairInvoice_5bf55c487e0a5267860da2ea6952721d> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0142" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5bf55c487e0a5267860da2ea6952721d> .
+
+<http://example.org/inst/RepairInvoice_5bfdb0ad0cb9f517a7118781b45aa00e> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0102" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5bfdb0ad0cb9f517a7118781b45aa00e> .
+
+<http://example.org/inst/RepairInvoice_5ca0d0381e50888819225df873ca2848> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0217" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5ca0d0381e50888819225df873ca2848> .
+
+<http://example.org/inst/RepairInvoice_5caa1ac31a30847416667b59ec8d62df> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0047" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5caa1ac31a30847416667b59ec8d62df> .
+
+<http://example.org/inst/RepairInvoice_5cb923d2d7d9dfb23773beb448e7adc4> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0213" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5cb923d2d7d9dfb23773beb448e7adc4> .
+
+<http://example.org/inst/RepairInvoice_5cba59337aacf3deaac29b750a4cb266> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0033" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5cba59337aacf3deaac29b750a4cb266> .
+
+<http://example.org/inst/RepairInvoice_5d79ee2b17158e423ac33c4fdfee37e5> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0119" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5d79ee2b17158e423ac33c4fdfee37e5> .
+
+<http://example.org/inst/RepairInvoice_5e9e7a0cf48e75a7fb2324a05d3eced8> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0200" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5e9e7a0cf48e75a7fb2324a05d3eced8> .
+
+<http://example.org/inst/RepairInvoice_5f919c06ac85d10c4a747906099b23ba> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0110" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5f919c06ac85d10c4a747906099b23ba> .
+
+<http://example.org/inst/RepairInvoice_6246e9b336937302fd0495ae656f911b> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0170" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6246e9b336937302fd0495ae656f911b> .
+
+<http://example.org/inst/RepairInvoice_62f83bb21aecaa11c26da0fec6a80b09> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0001" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_62f83bb21aecaa11c26da0fec6a80b09> .
+
+<http://example.org/inst/RepairInvoice_6440ea0c0d7632303b0902e68734af32> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0210" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6440ea0c0d7632303b0902e68734af32> .
+
+<http://example.org/inst/RepairInvoice_6582928ccf2a5ef6b0a6353962e84cc0> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0149" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6582928ccf2a5ef6b0a6353962e84cc0> .
+
+<http://example.org/inst/RepairInvoice_688dc321429aa9bf1e4cb70600ab3e50> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0046" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_688dc321429aa9bf1e4cb70600ab3e50> .
+
+<http://example.org/inst/RepairInvoice_68d5a111147ab049e87b45314dfb854a> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0207" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_68d5a111147ab049e87b45314dfb854a> .
+
+<http://example.org/inst/RepairInvoice_698bb775e5c9418f8155131222baaa60> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0247" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_698bb775e5c9418f8155131222baaa60> .
+
+<http://example.org/inst/RepairInvoice_6b023bbaec3cca10ab57b8c7abd7c326> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0174" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6b023bbaec3cca10ab57b8c7abd7c326> .
+
+<http://example.org/inst/RepairInvoice_6c819bbb64288884a96c8151149c9e16> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0087" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6c819bbb64288884a96c8151149c9e16> .
+
+<http://example.org/inst/RepairInvoice_6cbc4305f12824a04a15b3f1f8bc8aab> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0008" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6cbc4305f12824a04a15b3f1f8bc8aab> .
+
+<http://example.org/inst/RepairInvoice_6d11130ded8a8898d0d321a9fe49997d> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0013" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6d11130ded8a8898d0d321a9fe49997d> .
+
+<http://example.org/inst/RepairInvoice_70d5cef1fda46f9087f11d1a266ecd92> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0036" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_70d5cef1fda46f9087f11d1a266ecd92> .
+
+<http://example.org/inst/RepairInvoice_71777e7a4d9d9f1810f1eaf66f1cdd83> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0093" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_71777e7a4d9d9f1810f1eaf66f1cdd83> .
+
+<http://example.org/inst/RepairInvoice_71783feb239a72d2d0c2ee71f2795d45> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0158" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_71783feb239a72d2d0c2ee71f2795d45> .
+
+<http://example.org/inst/RepairInvoice_720369ec887a25706151c5f385495e46> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0083" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_720369ec887a25706151c5f385495e46> .
+
+<http://example.org/inst/RepairInvoice_7258f2574ca79234dff624c6a190663d> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0147" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7258f2574ca79234dff624c6a190663d> .
+
+<http://example.org/inst/RepairInvoice_73e8a28d684046a916132bcf6c246e24> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0073" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_73e8a28d684046a916132bcf6c246e24> .
+
+<http://example.org/inst/RepairInvoice_756343193c42a48d08b80e2bdf3b05d2> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0236" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_756343193c42a48d08b80e2bdf3b05d2> .
+
+<http://example.org/inst/RepairInvoice_76982f5bbd0d68085dfc78a33953c57c> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0220" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_76982f5bbd0d68085dfc78a33953c57c> .
+
+<http://example.org/inst/RepairInvoice_76b0278decc0fc159460674de138e374> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0233" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_76b0278decc0fc159460674de138e374> .
+
+<http://example.org/inst/RepairInvoice_7889d34623bde91d1481796f55886efd> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0003" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7889d34623bde91d1481796f55886efd> .
+
+<http://example.org/inst/RepairInvoice_790c69a56cb1b84532206b6700c3ebad> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0006" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_790c69a56cb1b84532206b6700c3ebad> .
+
+<http://example.org/inst/RepairInvoice_79bdde3f05aa177bb1fce98a94e0eca1> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0039" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_79bdde3f05aa177bb1fce98a94e0eca1> .
+
+<http://example.org/inst/RepairInvoice_7a8774c888b32e5d3a72814f24bcf8ec> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0022" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7a8774c888b32e5d3a72814f24bcf8ec> .
+
+<http://example.org/inst/RepairInvoice_7b568a4334ca0e6b8c0cf6877a8fb7ff> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0054" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7b568a4334ca0e6b8c0cf6877a8fb7ff> .
+
+<http://example.org/inst/RepairInvoice_7b88616d99ad2de7be0454a25236cb8b> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0004" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7b88616d99ad2de7be0454a25236cb8b> .
+
+<http://example.org/inst/RepairInvoice_7bb489a0522b8bd5f2a31166ebac54a3> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0139" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7bb489a0522b8bd5f2a31166ebac54a3> .
+
+<http://example.org/inst/RepairInvoice_7c0d1b19429222edb3d614168a24e31d> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0172" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7c0d1b19429222edb3d614168a24e31d> .
+
+<http://example.org/inst/RepairInvoice_7d32079871607b3f01fb663a169c7707> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0226" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7d32079871607b3f01fb663a169c7707> .
+
+<http://example.org/inst/RepairInvoice_7ec017537d41b94e0b4179268d8bcaa4> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0243" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7ec017537d41b94e0b4179268d8bcaa4> .
+
+<http://example.org/inst/RepairInvoice_7f9532318469cc38d7fd40bd82af6e4f> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0227" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7f9532318469cc38d7fd40bd82af6e4f> .
+
+<http://example.org/inst/RepairInvoice_807bef57a0a730cd11d90c15fa47bb03> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0219" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_807bef57a0a730cd11d90c15fa47bb03> .
+
+<http://example.org/inst/RepairInvoice_81cd55a2053ed8978d594c98239f06df> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0037" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_81cd55a2053ed8978d594c98239f06df> .
+
+<http://example.org/inst/RepairInvoice_82b729394431b9296dbb90f2b1cdc9c4> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0074" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_82b729394431b9296dbb90f2b1cdc9c4> .
+
+<http://example.org/inst/RepairInvoice_82ed1e94121601f6303589453183959a> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0182" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_82ed1e94121601f6303589453183959a> .
+
+<http://example.org/inst/RepairInvoice_841bacc56c7034b5fb30bd524553bb0b> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0206" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_841bacc56c7034b5fb30bd524553bb0b> .
+
+<http://example.org/inst/RepairInvoice_859b2785d12e18cf7d689277598c4e7c> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0108" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_859b2785d12e18cf7d689277598c4e7c> .
+
+<http://example.org/inst/RepairInvoice_85b7f83cc1a8ead1b23e8f991a0c1ea8> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0136" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_85b7f83cc1a8ead1b23e8f991a0c1ea8> .
+
+<http://example.org/inst/RepairInvoice_8758cb5ef1c1490572e01a116afd24ba> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0131" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8758cb5ef1c1490572e01a116afd24ba> .
+
+<http://example.org/inst/RepairInvoice_8a8935dcc78807db7715a56b0e33bbd0> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0180" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8a8935dcc78807db7715a56b0e33bbd0> .
+
+<http://example.org/inst/RepairInvoice_8ae5fdba856ca48a58637a1e7dd863e8> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0014" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8ae5fdba856ca48a58637a1e7dd863e8> .
+
+<http://example.org/inst/RepairInvoice_8b18c019694b84b19bbdfb7327bac8d9> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0041" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8b18c019694b84b19bbdfb7327bac8d9> .
+
+<http://example.org/inst/RepairInvoice_8b2f0c54bba4851dd4592cf9d57daf61> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0159" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8b2f0c54bba4851dd4592cf9d57daf61> .
+
+<http://example.org/inst/RepairInvoice_8c21aa48f04b5d8e9a5d4fda8e744488> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0229" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8c21aa48f04b5d8e9a5d4fda8e744488> .
+
+<http://example.org/inst/RepairInvoice_8c63c855ab0f70ee4a74ecbd94841f8a> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0028" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8c63c855ab0f70ee4a74ecbd94841f8a> .
+
+<http://example.org/inst/RepairInvoice_8c7754fd2bbb8f049ec5ecb24833f938> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0056" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8c7754fd2bbb8f049ec5ecb24833f938> .
+
+<http://example.org/inst/RepairInvoice_8e504a2528bd2228be9cbb7a52d6a87a> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0148" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8e504a2528bd2228be9cbb7a52d6a87a> .
+
+<http://example.org/inst/RepairInvoice_8f855a66fef19812506feadd17ee9128> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0021" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8f855a66fef19812506feadd17ee9128> .
+
+<http://example.org/inst/RepairInvoice_8fbe49305afad989ca76aae780a127c5> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0029" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8fbe49305afad989ca76aae780a127c5> .
+
+<http://example.org/inst/RepairInvoice_92d90062c7a9fa19ba909085187f50b3> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0211" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_92d90062c7a9fa19ba909085187f50b3> .
+
+<http://example.org/inst/RepairInvoice_931654f5f429457e6fa8adb095040d40> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0242" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_931654f5f429457e6fa8adb095040d40> .
+
+<http://example.org/inst/RepairInvoice_93d6ef1da962dc1b86b99602d2e632b7> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0166" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_93d6ef1da962dc1b86b99602d2e632b7> .
+
+<http://example.org/inst/RepairInvoice_948138f0a751b16397aa92b381908456> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0189" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_948138f0a751b16397aa92b381908456> .
+
+<http://example.org/inst/RepairInvoice_94a0af1de20c7e7d4a6d127423ee5c3e> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0019" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_94a0af1de20c7e7d4a6d127423ee5c3e> .
+
+<http://example.org/inst/RepairInvoice_9597e8eac833a435678da059195270ec> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0052" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_9597e8eac833a435678da059195270ec> .
+
+<http://example.org/inst/RepairInvoice_96c3a8cd05abe1e4f5718f01b250c931> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0215" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_96c3a8cd05abe1e4f5718f01b250c931> .
+
+<http://example.org/inst/RepairInvoice_988cf864caf3992503cb19f3991c765e> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0091" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_988cf864caf3992503cb19f3991c765e> .
+
+<http://example.org/inst/RepairInvoice_9bb2c355da3283dcb8c4a202614d67c5> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0169" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_9bb2c355da3283dcb8c4a202614d67c5> .
+
+<http://example.org/inst/RepairInvoice_9ced6398ca0ee03ca165ab6da5a0bba9> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0104" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_9ced6398ca0ee03ca165ab6da5a0bba9> .
+
+<http://example.org/inst/RepairInvoice_9d72a6d790bff67fb22dadc14b0635e0> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0113" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_9d72a6d790bff67fb22dadc14b0635e0> .
+
+<http://example.org/inst/RepairInvoice_9fc771fea1794f536cdc348b60e683bb> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0199" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_9fc771fea1794f536cdc348b60e683bb> .
+
+<http://example.org/inst/RepairInvoice_a0a646d264cdb58f4d08dee88c066bc8> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0160" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a0a646d264cdb58f4d08dee88c066bc8> .
+
+<http://example.org/inst/RepairInvoice_a0d6bce99ae3712c684e03fd9d7e0bc3> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0241" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a0d6bce99ae3712c684e03fd9d7e0bc3> .
+
+<http://example.org/inst/RepairInvoice_a18e5703f3523483d5f594e25e4c0611> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0043" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a18e5703f3523483d5f594e25e4c0611> .
+
+<http://example.org/inst/RepairInvoice_a28490b95916fee669421377e026c874> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0012" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a28490b95916fee669421377e026c874> .
+
+<http://example.org/inst/RepairInvoice_a2a6783c2377d7a17334a04e03bb1da5> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0070" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a2a6783c2377d7a17334a04e03bb1da5> .
+
+<http://example.org/inst/RepairInvoice_a323990a4a8d2fd38e0fd8af66d757a0> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0232" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a323990a4a8d2fd38e0fd8af66d757a0> .
+
+<http://example.org/inst/RepairInvoice_a51fc30655e3ae01d78a46d2d02890fe> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0234" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a51fc30655e3ae01d78a46d2d02890fe> .
+
+<http://example.org/inst/RepairInvoice_a5dfa324b3bc8dd4d63b571c3e838562> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0198" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a5dfa324b3bc8dd4d63b571c3e838562> .
+
+<http://example.org/inst/RepairInvoice_a6b122d8ea5bf4768e413dfa141725f3> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0078" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a6b122d8ea5bf4768e413dfa141725f3> .
+
+<http://example.org/inst/RepairInvoice_a95a20f9b16a7f5af6df9c45807064e7> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0195" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a95a20f9b16a7f5af6df9c45807064e7> .
+
+<http://example.org/inst/RepairInvoice_ab6201e3417d3adb99c3e0c35983b9dc> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0117" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ab6201e3417d3adb99c3e0c35983b9dc> .
+
+<http://example.org/inst/RepairInvoice_abd57ce1f8c55c5dd94bc55bab6571b0> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0010" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_abd57ce1f8c55c5dd94bc55bab6571b0> .
+
+<http://example.org/inst/RepairInvoice_ae65f366142d07426d9831383f963faa> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0081" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ae65f366142d07426d9831383f963faa> .
+
+<http://example.org/inst/RepairInvoice_b031de842885df60d984a2c81aa681fb> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0105" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b031de842885df60d984a2c81aa681fb> .
+
+<http://example.org/inst/RepairInvoice_b1a2b77c2b18131a8f32f5d790b7b4e9> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0164" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b1a2b77c2b18131a8f32f5d790b7b4e9> .
+
+<http://example.org/inst/RepairInvoice_b2564c0f264812035cc84b63c9ae6445> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0040" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b2564c0f264812035cc84b63c9ae6445> .
+
+<http://example.org/inst/RepairInvoice_b34cb4c54f7d74911c7212e9567b81f7> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0031" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b34cb4c54f7d74911c7212e9567b81f7> .
+
+<http://example.org/inst/RepairInvoice_b8ded82b1d3a80755983bf5c067442a7> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0165" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b8ded82b1d3a80755983bf5c067442a7> .
+
+<http://example.org/inst/RepairInvoice_b96b9b4137c45aaa65a71b7f2bc016b9> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0106" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b96b9b4137c45aaa65a71b7f2bc016b9> .
+
+<http://example.org/inst/RepairInvoice_bb0472e39f213ceb0ab5bb518b4787d0> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0181" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bb0472e39f213ceb0ab5bb518b4787d0> .
+
+<http://example.org/inst/RepairInvoice_bb54204100d5e0c1f5ffd9fcc8363d22> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0128" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bb54204100d5e0c1f5ffd9fcc8363d22> .
+
+<http://example.org/inst/RepairInvoice_bcffa04067a3ca2992625c9c3f226fbc> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0069" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bcffa04067a3ca2992625c9c3f226fbc> .
+
+<http://example.org/inst/RepairInvoice_be8ad5e74c2dc897b5b39d825d200b11> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0080" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_be8ad5e74c2dc897b5b39d825d200b11> .
+
+<http://example.org/inst/RepairInvoice_bed26dcf94ca28c511fe1056ebcacb82> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0086" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bed26dcf94ca28c511fe1056ebcacb82> .
+
+<http://example.org/inst/RepairInvoice_bedebfcb9d3530a73d0295e43e66d1c0> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0032" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bedebfcb9d3530a73d0295e43e66d1c0> .
+
+<http://example.org/inst/RepairInvoice_bfc1fec1b0e447ff3cc2e9d0f712ff23> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0023" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bfc1fec1b0e447ff3cc2e9d0f712ff23> .
+
+<http://example.org/inst/RepairInvoice_c0522180f6fbc936f6239b3efb62a0b5> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0118" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c0522180f6fbc936f6239b3efb62a0b5> .
+
+<http://example.org/inst/RepairInvoice_c140fe280c0f24070881b5fbc6347da2> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0194" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c140fe280c0f24070881b5fbc6347da2> .
+
+<http://example.org/inst/RepairInvoice_c204076ad6d272c6855a61c1fdbe1d53> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0175" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c204076ad6d272c6855a61c1fdbe1d53> .
+
+<http://example.org/inst/RepairInvoice_c2161f4824edd372aa32495730c90807> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0051" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c2161f4824edd372aa32495730c90807> .
+
+<http://example.org/inst/RepairInvoice_c240f84318164c94a6e11362843b1108> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0038" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c240f84318164c94a6e11362843b1108> .
+
+<http://example.org/inst/RepairInvoice_c4507c83c9cfa46279a74c22a550d0c0> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0072" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c4507c83c9cfa46279a74c22a550d0c0> .
+
+<http://example.org/inst/RepairInvoice_c4606cc8a4453dec1e95ec257c20c887> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0024" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c4606cc8a4453dec1e95ec257c20c887> .
+
+<http://example.org/inst/RepairInvoice_c61b4f0f1f75cda14de036eb36aeba77> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0185" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c61b4f0f1f75cda14de036eb36aeba77> .
+
+<http://example.org/inst/RepairInvoice_c6becaa970a30c3fb5e3aaac53f7cdbe> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0150" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c6becaa970a30c3fb5e3aaac53f7cdbe> .
+
+<http://example.org/inst/RepairInvoice_c70c538dc7a9d940e22162d42032c010> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0124" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c70c538dc7a9d940e22162d42032c010> .
+
+<http://example.org/inst/RepairInvoice_c8a606f540fc71446d6456d79b681a1c> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0216" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c8a606f540fc71446d6456d79b681a1c> .
+
+<http://example.org/inst/RepairInvoice_ca7244e7579130e39350cdcf3291816a> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0144" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ca7244e7579130e39350cdcf3291816a> .
+
+<http://example.org/inst/RepairInvoice_cba26f31e6e1165b85a25eb074288470> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0064" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_cba26f31e6e1165b85a25eb074288470> .
+
+<http://example.org/inst/RepairInvoice_cc0edf6de6e3ac9de0dd801431ec394d> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0130" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_cc0edf6de6e3ac9de0dd801431ec394d> .
+
+<http://example.org/inst/RepairInvoice_ccea40d9b4057b7c7265c548151d902c> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0222" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ccea40d9b4057b7c7265c548151d902c> .
+
+<http://example.org/inst/RepairInvoice_cd25cbf53751300ca13a60ffadf4551a> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0143" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_cd25cbf53751300ca13a60ffadf4551a> .
+
+<http://example.org/inst/RepairInvoice_cd27e15fee9d3f50e96854754a244f06> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0007" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_cd27e15fee9d3f50e96854754a244f06> .
+
+<http://example.org/inst/RepairInvoice_ce58181e9365c4a6aa18ba49f24fc5b7> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0030" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ce58181e9365c4a6aa18ba49f24fc5b7> .
+
+<http://example.org/inst/RepairInvoice_ce83f07fe9ec8eecf486c64a26b96f7e> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0250" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ce83f07fe9ec8eecf486c64a26b96f7e> .
+
+<http://example.org/inst/RepairInvoice_d0b013ad8e1ef4d1640ad11c4c881b70> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0096" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d0b013ad8e1ef4d1640ad11c4c881b70> .
+
+<http://example.org/inst/RepairInvoice_d1cfd683117fb613e7f8d94c754b8688> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0111" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d1cfd683117fb613e7f8d94c754b8688> .
+
+<http://example.org/inst/RepairInvoice_d1ef33fe6a292d3968dd3e0c3934f403> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0153" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d1ef33fe6a292d3968dd3e0c3934f403> .
+
+<http://example.org/inst/RepairInvoice_d2568d29c5ffd3e024afbb050d3f6ec6> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0196" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d2568d29c5ffd3e024afbb050d3f6ec6> .
+
+<http://example.org/inst/RepairInvoice_d320499a2de5a7da65d2672478e28970> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0061" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d320499a2de5a7da65d2672478e28970> .
+
+<http://example.org/inst/RepairInvoice_d43736263308820662abd9839332fe75> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0125" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d43736263308820662abd9839332fe75> .
+
+<http://example.org/inst/RepairInvoice_d4e401e567bed0cd37eda800e623739b> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0152" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d4e401e567bed0cd37eda800e623739b> .
+
+<http://example.org/inst/RepairInvoice_d613815ca66358b363fc7019904c418c> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0145" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d613815ca66358b363fc7019904c418c> .
+
+<http://example.org/inst/RepairInvoice_d6dbbc9abfd99efbd275bf0ecb1432b2> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0223" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d6dbbc9abfd99efbd275bf0ecb1432b2> .
+
+<http://example.org/inst/RepairInvoice_db4de45718b6a47d123acae81c9f99fe> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0067" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_db4de45718b6a47d123acae81c9f99fe> .
+
+<http://example.org/inst/RepairInvoice_ded8ab30aff7c687ccd85b94330e6bb8> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0114" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ded8ab30aff7c687ccd85b94330e6bb8> .
+
+<http://example.org/inst/RepairInvoice_e1afd1f8421b0e0855e4f16ed31863be> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0168" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e1afd1f8421b0e0855e4f16ed31863be> .
+
+<http://example.org/inst/RepairInvoice_e1ed5a46c0872e1cccc40d17bda0d506> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0225" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e1ed5a46c0872e1cccc40d17bda0d506> .
+
+<http://example.org/inst/RepairInvoice_e283548982fbfb040ac587a859982bf5> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0088" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e283548982fbfb040ac587a859982bf5> .
+
+<http://example.org/inst/RepairInvoice_e2d97e1de88eb7d7d6da7539c7b939c6> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0035" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e2d97e1de88eb7d7d6da7539c7b939c6> .
+
+<http://example.org/inst/RepairInvoice_e37a4b07e78d38baf6c586c54cd47c79> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0101" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e37a4b07e78d38baf6c586c54cd47c79> .
+
+<http://example.org/inst/RepairInvoice_e62d3d259d90dec59e1007f2e1ff684b> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0171" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e62d3d259d90dec59e1007f2e1ff684b> .
+
+<http://example.org/inst/RepairInvoice_e634cf8e27636f4279e653b8da72c230> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0209" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e634cf8e27636f4279e653b8da72c230> .
+
+<http://example.org/inst/RepairInvoice_e7905b44160cefbaf1c7d40015cef035> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0212" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e7905b44160cefbaf1c7d40015cef035> .
+
+<http://example.org/inst/RepairInvoice_e7947f15b340af5d6b5d842bdf2dfe65> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0173" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e7947f15b340af5d6b5d842bdf2dfe65> .
+
+<http://example.org/inst/RepairInvoice_e7f2fea6566e024a475b1f28ab74c496> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0176" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e7f2fea6566e024a475b1f28ab74c496> .
+
+<http://example.org/inst/RepairInvoice_ea0191e0e4ce7d65c18803f5ea872cd2> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0231" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ea0191e0e4ce7d65c18803f5ea872cd2> .
+
+<http://example.org/inst/RepairInvoice_eb05e3ca122f7ae9c6dee29f9b913174> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0126" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_eb05e3ca122f7ae9c6dee29f9b913174> .
+
+<http://example.org/inst/RepairInvoice_eb1e624b00445ae541940c3dc0cf03cc> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0201" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_eb1e624b00445ae541940c3dc0cf03cc> .
+
+<http://example.org/inst/RepairInvoice_eb5cf6be96e5081c596d528580920e9c> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0167" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_eb5cf6be96e5081c596d528580920e9c> .
+
+<http://example.org/inst/RepairInvoice_edc30853581a455072e5fe5434872dff> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0045" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_edc30853581a455072e5fe5434872dff> .
+
+<http://example.org/inst/RepairInvoice_ee16bc44e843f87ce81a531cd853ad55> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0089" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ee16bc44e843f87ce81a531cd853ad55> .
+
+<http://example.org/inst/RepairInvoice_ee6cd6cfd68886176d1c27491468b433> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0135" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ee6cd6cfd68886176d1c27491468b433> .
+
+<http://example.org/inst/RepairInvoice_eee93977b561af2dd751b6d4e9b912a2> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0100" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_eee93977b561af2dd751b6d4e9b912a2> .
+
+<http://example.org/inst/RepairInvoice_ef3c3e8914c9a6bf62b9f0750e1d9756> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0068" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ef3c3e8914c9a6bf62b9f0750e1d9756> .
+
+<http://example.org/inst/RepairInvoice_f0c0e4fd75812083e234642764b086a0> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0202" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f0c0e4fd75812083e234642764b086a0> .
+
+<http://example.org/inst/RepairInvoice_f16f3613c9eb8d9a3709d38c9ed2bd1d> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0018" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f16f3613c9eb8d9a3709d38c9ed2bd1d> .
+
+<http://example.org/inst/RepairInvoice_f4017b564b0355b6290bccf1e96d4fed> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0157" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f4017b564b0355b6290bccf1e96d4fed> .
+
+<http://example.org/inst/RepairInvoice_f468ae82433c62f1ccc58f99076ee2e7> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0197" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f468ae82433c62f1ccc58f99076ee2e7> .
+
+<http://example.org/inst/RepairInvoice_f839b857d7c8a134962fb7ee8894c2e1> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0053" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f839b857d7c8a134962fb7ee8894c2e1> .
+
+<http://example.org/inst/RepairInvoice_f8ea3807c942d6d881da4f3c251d6c61> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0059" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f8ea3807c942d6d881da4f3c251d6c61> .
+
+<http://example.org/inst/RepairInvoice_f9173157e26293987ce0c9e28eeebc08> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0163" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f9173157e26293987ce0c9e28eeebc08> .
+
+<http://example.org/inst/RepairInvoice_f97a3c9de9b2080fa4a4fb3f5f0e6a5a> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0238" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f97a3c9de9b2080fa4a4fb3f5f0e6a5a> .
+
+<http://example.org/inst/RepairInvoice_fa6e273e6cfa19356452b39dbf6ea11a> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0237" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_fa6e273e6cfa19356452b39dbf6ea11a> .
+
+<http://example.org/inst/RepairInvoice_fc188ba21714ffdb55dcda7fd79c590a> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0137" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_fc188ba21714ffdb55dcda7fd79c590a> .
+
+<http://example.org/inst/RepairInvoice_fcbe19b3a83907d5ed95b21c4a675e7e> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0048" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_fcbe19b3a83907d5ed95b21c4a675e7e> .
+
+<http://example.org/inst/RepairInvoice_fddc0e0c6ceb2ba734e00bd88a049666> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0140" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_fddc0e0c6ceb2ba734e00bd88a049666> .
+
+<http://example.org/inst/RepairInvoice_fed754ab8cac90453f2ddfc1b0a2f45b> a asoft:RepairInvoice ;
+    asoft:repairID "SKU-0026" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_fed754ab8cac90453f2ddfc1b0a2f45b> .
+
+<http://example.org/inst/AirsoftReplica_000a29f9cbb570fe9d6f2f8ea8e8c747> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine Kythera SR25 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_01370666138050fa1fb56ecdfc300b76> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine MTW HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_01ec64f78c7f1e41ad2c42cbe9aeb133> a asoft:AirsoftReplica ;
+    asoft:hasBrand "G&G" ;
+    asoft:hasModelName "G&G SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_03cb1ebb22c46c7e4c097c78538b9d36> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_03e910486c496a9b255dc9a92ce42f88> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui Steyr Scout Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_04d6e1e59d699c46dfbe2fb453497f77> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Modify" ;
+    asoft:hasModelName "Modify VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_04fe9ca4ddb2abed2bca4ed9c730025b> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_05a4f66315a72703398360c669231f04> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Redline" ;
+    asoft:hasModelName "Redline Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_05b82e82bbe0bbaa13ecae0c14f3dd8c> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui AKM GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_06e613becf5c3e3c6e7f31dcf6abca45> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SSG10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_079a82f1cbda6f9bda3eb4e112fac2d1> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_0838b90cf25028937c2e5bca2c2ac18f> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_08b64bfa93deb9e154dae1053c61511c> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_08e5d446fe0ccb072712255b92f5e48c> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Silverback" ;
+    asoft:hasModelName "Silverback SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_09733d59b182dae94bc3ede6f2579afa> a asoft:AirsoftReplica ;
+    asoft:hasBrand "GHK" ;
+    asoft:hasModelName "GHK Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_0a25b5504acc1ba4fb5f3fac83f53640> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KJW" ;
+    asoft:hasModelName "KJW Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_0ac1dc6341adde276802bf7e0e190558> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_0bc6d6de38ecc06fe29da50f866a3a13> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Silverback" ;
+    asoft:hasModelName "Silverback VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_0e0348abd5fee444f19e99d1c50aee42> a asoft:AirsoftReplica ;
+    asoft:hasBrand "GHK" ;
+    asoft:hasModelName "GHK M4A1 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_0fb61a9150085c3baae3cd9eacc8a929> a asoft:AirsoftReplica ;
+    asoft:hasBrand "WE Tech" ;
+    asoft:hasModelName "WE Tech M4A1 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_121f4d3bb154122b79abf8caa64d5c54> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar MTW HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_125aeceb7cb7aa0e1fc9ad31fdf43965> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Silverback" ;
+    asoft:hasModelName "Silverback VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_134c0247df68db78624006b3ea7f9179> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KJW" ;
+    asoft:hasModelName "KJW Hi-Capa 5.1 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_1382340bdd646387d2438bdad5b8d98e> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_13d12be2c49a51305db6fd46a1b9e4e2> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KJW" ;
+    asoft:hasModelName "KJW MP7 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_1457c81279898b03de0b600b5da13f13> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Redline" ;
+    asoft:hasModelName "Redline Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_149b790e9c645c07f7668d8413e2ad4e> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KJW" ;
+    asoft:hasModelName "KJW AKM GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_1571f2d9516f34fd37f37cd44835f5f4> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_167d8a9556cc2b4ac7ebd32ac6cb771c> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Silverback" ;
+    asoft:hasModelName "Silverback SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_16b01d97f8e547cfcc0f7cc3f306d56f> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KWA" ;
+    asoft:hasModelName "KWA Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_17dffd71d7a48d767f2566ed13c54ec1> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Silverback" ;
+    asoft:hasModelName "Silverback VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_1a177156bd62cc5549860b7f21aa18cb> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine Kythera SR25 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_1ac27e7177e83a54dad3ee8a9c049053> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_1d62b61b96c61be5d3fddc382b41afd4> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine F2 M4 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_1f29eeb266ae8dfd35abef6afacc06cb> a asoft:AirsoftReplica ;
+    asoft:hasBrand "G&G" ;
+    asoft:hasModelName "G&G AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_205fcad43d35d4b3fc289f425569b7e6> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch SSG10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_2097657f0c0c0bf624cdf1d9d6e95804> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine Kythera SR25 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_2349490fe48fc2d1b61a0a763333d775> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Modify" ;
+    asoft:hasModelName "Modify VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_24be3f302d408e1f93e97d92eef79fb4> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_25475eddd5c5b377160ad370085ea586> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_25d0fc6b8bfdb008b3715fb55ee6c12e> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_26bdd25dcb284dec2effec41c4e3f1eb> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KJW" ;
+    asoft:hasModelName "KJW Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_270bd5414106aa52a5a532f90ff62c82> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_270e91db02c3546aa884bd00eecb833f> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Modify" ;
+    asoft:hasModelName "Modify VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_279eeb30ada472f43087fa3695e886ab> a asoft:AirsoftReplica ;
+    asoft:hasBrand "G&G" ;
+    asoft:hasModelName "G&G SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_27c3ff6659eac1108097d69247c46394> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KJW" ;
+    asoft:hasModelName "KJW Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_282e2942e49bccf009aee060a8c0de94> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Redline" ;
+    asoft:hasModelName "Redline F2 M4 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_2b71ad0b2ee81854864130a00afd1709> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_2bec9021559143165c5448421fbf5dcd> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine MTW HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_2c0ed0a76bc3f9b08449923b2ed4698c> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_2c41df39f790d1fbdb5e70f4baba32fb> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar F2 M4 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_2c6912f4d10965c092f8fa6e2d36083b> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_2c7b92e0486fb793aee42584a6529d70> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_2d0bf39e8fda427375af26eeb70eeda3> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_2d45f8d9d856601961984a3b738c8a8a> a asoft:AirsoftReplica ;
+    asoft:hasBrand "WE Tech" ;
+    asoft:hasModelName "WE Tech AKM GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_2e98c6537883e3ccde09a169007a7220> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_30ed51d1e702664e1cbf29ff73a177c0> a asoft:AirsoftReplica ;
+    asoft:hasBrand "G&G" ;
+    asoft:hasModelName "G&G SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_3176b766f415c908d6708cde752718ab> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KWA" ;
+    asoft:hasModelName "KWA Hi-Capa 5.1 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_333003c3bdb9b2d2a2444623c9c7ea0a> a asoft:AirsoftReplica ;
+    asoft:hasBrand "G&G" ;
+    asoft:hasModelName "G&G AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_352e09e9757275e0448abc2ff04cc344> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_36e5fd80e15d6649c28f63809b11dbd0> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar F2 M4 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_378fc19d25c15298631602c49420c901> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_39b50c27d58fe483881f04d4068efa68> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_3a993c898e67bcacb191176e4262d22c> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_3b36bc939eed1e0ac3a96bd93fa6114a> a asoft:AirsoftReplica ;
+    asoft:hasBrand "GHK" ;
+    asoft:hasModelName "GHK Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_3e9e8562fe8c6aa2ace19de9e4326974> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Redline" ;
+    asoft:hasModelName "Redline Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_413dcfb92e11340892b13c27daf00535> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_4445e7c5a9cf175e69524b4f3d9bdee0> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Modify" ;
+    asoft:hasModelName "Modify Steyr Scout Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_45be7926a42db67d665b63cca4813583> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Redline" ;
+    asoft:hasModelName "Redline Kythera SR25 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_4745523a9128949aeb0bb4bbf503b4a0> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_47860339e00074e9e0da711c26b0637d> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_49153b7b0b751f662ea5da4b84300f8b> a asoft:AirsoftReplica ;
+    asoft:hasBrand "WE Tech" ;
+    asoft:hasModelName "WE Tech Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_498d078876306192039665b622e875aa> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_4a96a842b8dd8e34e13ff15845335a94> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_4aa3ec7f9f614f79395f1d2af56cbd95> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_4bc0cacaebc44fb619043873c02d19ed> a asoft:AirsoftReplica ;
+    asoft:hasBrand "WE Tech" ;
+    asoft:hasModelName "WE Tech Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_4c0f382a773ce19f83b146e68eb02bb7> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_4dc9b5e9b1488647d003821408c01543> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_4eef0a6b3cc47fd02e5aaaa301fbacb3> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Silverback" ;
+    asoft:hasModelName "Silverback VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_501d1e893e170d202059e6b0a4c26822> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar MTW HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_516856c0ec63c3041246ce914b19bf1a> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_522c6610096d4858eab51740e31d026a> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_5249b05abe6794f71f5976040335bc3c> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine F2 M4 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_5430987138f6d968d74933fe09294bcd> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_54666bd6773966b3fb01d32b730b45eb> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_559ce97dc09071cdde0898b25a83c1c9> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_57861bc5c86d2f5abde95ebd297c9b04> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_57bf47713e27f98c484bcfa112d41abb> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_582b372115f1f6904bf2472f01f16217> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar F2 M4 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_58423ba7aae3602bc93c0d84b2cb6132> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_5ab4290c6c08bade503dc7aa9183fc72> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_5bf22600ffcbdd2f48a1ec44790c9b2b> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar MTW HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_5bf55c487e0a5267860da2ea6952721d> a asoft:AirsoftReplica ;
+    asoft:hasBrand "GHK" ;
+    asoft:hasModelName "GHK MP7 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_5bfdb0ad0cb9f517a7118781b45aa00e> a asoft:AirsoftReplica ;
+    asoft:hasBrand "WE Tech" ;
+    asoft:hasModelName "WE Tech MP7 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_5ca0d0381e50888819225df873ca2848> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KWA" ;
+    asoft:hasModelName "KWA AKM GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_5caa1ac31a30847416667b59ec8d62df> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_5cb923d2d7d9dfb23773beb448e7adc4> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_5cba59337aacf3deaac29b750a4cb266> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_5d79ee2b17158e423ac33c4fdfee37e5> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_5e9e7a0cf48e75a7fb2324a05d3eced8> a asoft:AirsoftReplica ;
+    asoft:hasBrand "GHK" ;
+    asoft:hasModelName "GHK MP7 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_5f919c06ac85d10c4a747906099b23ba> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_6246e9b336937302fd0495ae656f911b> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KWA" ;
+    asoft:hasModelName "KWA Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_62f83bb21aecaa11c26da0fec6a80b09> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch SSG10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_6440ea0c0d7632303b0902e68734af32> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KJW" ;
+    asoft:hasModelName "KJW MP7 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_6582928ccf2a5ef6b0a6353962e84cc0> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch SSG10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_688dc321429aa9bf1e4cb70600ab3e50> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_68d5a111147ab049e87b45314dfb854a> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_698bb775e5c9418f8155131222baaa60> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_6b023bbaec3cca10ab57b8c7abd7c326> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SSG10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_6c819bbb64288884a96c8151149c9e16> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_6cbc4305f12824a04a15b3f1f8bc8aab> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_6d11130ded8a8898d0d321a9fe49997d> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_70d5cef1fda46f9087f11d1a266ecd92> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_71777e7a4d9d9f1810f1eaf66f1cdd83> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KWA" ;
+    asoft:hasModelName "KWA Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_71783feb239a72d2d0c2ee71f2795d45> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_720369ec887a25706151c5f385495e46> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KJW" ;
+    asoft:hasModelName "KJW MP7 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_7258f2574ca79234dff624c6a190663d> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_73e8a28d684046a916132bcf6c246e24> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_756343193c42a48d08b80e2bdf3b05d2> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_76982f5bbd0d68085dfc78a33953c57c> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui Steyr Scout Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_76b0278decc0fc159460674de138e374> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_7889d34623bde91d1481796f55886efd> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_790c69a56cb1b84532206b6700c3ebad> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_79bdde3f05aa177bb1fce98a94e0eca1> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_7a8774c888b32e5d3a72814f24bcf8ec> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KJW" ;
+    asoft:hasModelName "KJW Hi-Capa 5.1 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_7b568a4334ca0e6b8c0cf6877a8fb7ff> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Silverback" ;
+    asoft:hasModelName "Silverback VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_7b88616d99ad2de7be0454a25236cb8b> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_7bb489a0522b8bd5f2a31166ebac54a3> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine Kythera SR25 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_7c0d1b19429222edb3d614168a24e31d> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KWA" ;
+    asoft:hasModelName "KWA AKM GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_7d32079871607b3f01fb663a169c7707> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Silverback" ;
+    asoft:hasModelName "Silverback SSG10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_7ec017537d41b94e0b4179268d8bcaa4> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Modify" ;
+    asoft:hasModelName "Modify SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_7f9532318469cc38d7fd40bd82af6e4f> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_807bef57a0a730cd11d90c15fa47bb03> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_81cd55a2053ed8978d594c98239f06df> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_82b729394431b9296dbb90f2b1cdc9c4> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_82ed1e94121601f6303589453183959a> a asoft:AirsoftReplica ;
+    asoft:hasBrand "WE Tech" ;
+    asoft:hasModelName "WE Tech M4A1 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_841bacc56c7034b5fb30bd524553bb0b> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Modify" ;
+    asoft:hasModelName "Modify SSG10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_859b2785d12e18cf7d689277598c4e7c> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_85b7f83cc1a8ead1b23e8f991a0c1ea8> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_8758cb5ef1c1490572e01a116afd24ba> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Redline" ;
+    asoft:hasModelName "Redline F2 M4 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_8a8935dcc78807db7715a56b0e33bbd0> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_8ae5fdba856ca48a58637a1e7dd863e8> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_8b18c019694b84b19bbdfb7327bac8d9> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_8b2f0c54bba4851dd4592cf9d57daf61> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar Kythera SR25 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_8c21aa48f04b5d8e9a5d4fda8e744488> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_8c63c855ab0f70ee4a74ecbd94841f8a> a asoft:AirsoftReplica ;
+    asoft:hasBrand "WE Tech" ;
+    asoft:hasModelName "WE Tech Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_8c7754fd2bbb8f049ec5ecb24833f938> a asoft:AirsoftReplica ;
+    asoft:hasBrand "G&G" ;
+    asoft:hasModelName "G&G AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_8e504a2528bd2228be9cbb7a52d6a87a> a asoft:AirsoftReplica ;
+    asoft:hasBrand "G&G" ;
+    asoft:hasModelName "G&G SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_8f855a66fef19812506feadd17ee9128> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Redline" ;
+    asoft:hasModelName "Redline F2 M4 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_8fbe49305afad989ca76aae780a127c5> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_92d90062c7a9fa19ba909085187f50b3> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_931654f5f429457e6fa8adb095040d40> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_93d6ef1da962dc1b86b99602d2e632b7> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Silverback" ;
+    asoft:hasModelName "Silverback VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_948138f0a751b16397aa92b381908456> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_94a0af1de20c7e7d4a6d127423ee5c3e> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_9597e8eac833a435678da059195270ec> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Redline" ;
+    asoft:hasModelName "Redline F2 M4 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_96c3a8cd05abe1e4f5718f01b250c931> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch SSG10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_988cf864caf3992503cb19f3991c765e> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_9bb2c355da3283dcb8c4a202614d67c5> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_9ced6398ca0ee03ca165ab6da5a0bba9> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_9d72a6d790bff67fb22dadc14b0635e0> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_9fc771fea1794f536cdc348b60e683bb> a asoft:AirsoftReplica ;
+    asoft:hasBrand "G&G" ;
+    asoft:hasModelName "G&G AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_a0a646d264cdb58f4d08dee88c066bc8> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Modify" ;
+    asoft:hasModelName "Modify SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_a0d6bce99ae3712c684e03fd9d7e0bc3> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KWA" ;
+    asoft:hasModelName "KWA Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_a18e5703f3523483d5f594e25e4c0611> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KJW" ;
+    asoft:hasModelName "KJW AKM GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_a28490b95916fee669421377e026c874> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_a2a6783c2377d7a17334a04e03bb1da5> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_a323990a4a8d2fd38e0fd8af66d757a0> a asoft:AirsoftReplica ;
+    asoft:hasBrand "G&G" ;
+    asoft:hasModelName "G&G SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_a51fc30655e3ae01d78a46d2d02890fe> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_a5dfa324b3bc8dd4d63b571c3e838562> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_a6b122d8ea5bf4768e413dfa141725f3> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_a95a20f9b16a7f5af6df9c45807064e7> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_ab6201e3417d3adb99c3e0c35983b9dc> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine F2 M4 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_abd57ce1f8c55c5dd94bc55bab6571b0> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Redline" ;
+    asoft:hasModelName "Redline MTW HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_ae65f366142d07426d9831383f963faa> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_b031de842885df60d984a2c81aa681fb> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine Kythera SR25 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_b1a2b77c2b18131a8f32f5d790b7b4e9> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar Kythera SR25 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_b2564c0f264812035cc84b63c9ae6445> a asoft:AirsoftReplica ;
+    asoft:hasBrand "G&G" ;
+    asoft:hasModelName "G&G SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_b34cb4c54f7d74911c7212e9567b81f7> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KJW" ;
+    asoft:hasModelName "KJW M4A1 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_b8ded82b1d3a80755983bf5c067442a7> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine MTW HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_b96b9b4137c45aaa65a71b7f2bc016b9> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KWA" ;
+    asoft:hasModelName "KWA MP7 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_bb0472e39f213ceb0ab5bb518b4787d0> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_bb54204100d5e0c1f5ffd9fcc8363d22> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch Steyr Scout Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_bcffa04067a3ca2992625c9c3f226fbc> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_be8ad5e74c2dc897b5b39d825d200b11> a asoft:AirsoftReplica ;
+    asoft:hasBrand "WE Tech" ;
+    asoft:hasModelName "WE Tech AKM GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_bed26dcf94ca28c511fe1056ebcacb82> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_bedebfcb9d3530a73d0295e43e66d1c0> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_bfc1fec1b0e447ff3cc2e9d0f712ff23> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KJW" ;
+    asoft:hasModelName "KJW MP7 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_c0522180f6fbc936f6239b3efb62a0b5> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar MTW HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_c140fe280c0f24070881b5fbc6347da2> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KWA" ;
+    asoft:hasModelName "KWA AKM GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_c204076ad6d272c6855a61c1fdbe1d53> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SSG10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_c2161f4824edd372aa32495730c90807> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_c240f84318164c94a6e11362843b1108> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui Steyr Scout Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_c4507c83c9cfa46279a74c22a550d0c0> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar Kythera SR25 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_c4606cc8a4453dec1e95ec257c20c887> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_c61b4f0f1f75cda14de036eb36aeba77> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar MTW HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_c6becaa970a30c3fb5e3aaac53f7cdbe> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine Kythera SR25 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_c70c538dc7a9d940e22162d42032c010> a asoft:AirsoftReplica ;
+    asoft:hasBrand "GHK" ;
+    asoft:hasModelName "GHK M4A1 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_c8a606f540fc71446d6456d79b681a1c> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_ca7244e7579130e39350cdcf3291816a> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_cba26f31e6e1165b85a25eb074288470> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KJW" ;
+    asoft:hasModelName "KJW Hi-Capa 5.1 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_cc0edf6de6e3ac9de0dd801431ec394d> a asoft:AirsoftReplica ;
+    asoft:hasBrand "GHK" ;
+    asoft:hasModelName "GHK AKM GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_ccea40d9b4057b7c7265c548151d902c> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_cd25cbf53751300ca13a60ffadf4551a> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KWA" ;
+    asoft:hasModelName "KWA Hi-Capa 5.1 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_cd27e15fee9d3f50e96854754a244f06> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KWA" ;
+    asoft:hasModelName "KWA Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_ce58181e9365c4a6aa18ba49f24fc5b7> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine MTW HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_ce83f07fe9ec8eecf486c64a26b96f7e> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_d0b013ad8e1ef4d1640ad11c4c881b70> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch SSG10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_d1cfd683117fb613e7f8d94c754b8688> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_d1ef33fe6a292d3968dd3e0c3934f403> a asoft:AirsoftReplica ;
+    asoft:hasBrand "G&G" ;
+    asoft:hasModelName "G&G M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_d2568d29c5ffd3e024afbb050d3f6ec6> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui MP7 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_d320499a2de5a7da65d2672478e28970> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Redline" ;
+    asoft:hasModelName "Redline Kythera SR25 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_d43736263308820662abd9839332fe75> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SSG10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_d4e401e567bed0cd37eda800e623739b> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_d613815ca66358b363fc7019904c418c> a asoft:AirsoftReplica ;
+    asoft:hasBrand "G&G" ;
+    asoft:hasModelName "G&G M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_d6dbbc9abfd99efbd275bf0ecb1432b2> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Wolverine" ;
+    asoft:hasModelName "Wolverine Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_db4de45718b6a47d123acae81c9f99fe> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_ded8ab30aff7c687ccd85b94330e6bb8> a asoft:AirsoftReplica ;
+    asoft:hasBrand "WE Tech" ;
+    asoft:hasModelName "WE Tech MP7 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_e1afd1f8421b0e0855e4f16ed31863be> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Redline" ;
+    asoft:hasModelName "Redline Jack CQB HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_e1ed5a46c0872e1cccc40d17bda0d506> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_e283548982fbfb040ac587a859982bf5> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KWA" ;
+    asoft:hasModelName "KWA Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_e2d97e1de88eb7d7d6da7539c7b939c6> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui Steyr Scout Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_e37a4b07e78d38baf6c586c54cd47c79> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_e62d3d259d90dec59e1007f2e1ff684b> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_e634cf8e27636f4279e653b8da72c230> a asoft:AirsoftReplica ;
+    asoft:hasBrand "GHK" ;
+    asoft:hasModelName "GHK Hi-Capa 5.1 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_e7905b44160cefbaf1c7d40015cef035> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KWA" ;
+    asoft:hasModelName "KWA Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_e7947f15b340af5d6b5d842bdf2dfe65> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar MTW HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_e7f2fea6566e024a475b1f28ab74c496> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Modify" ;
+    asoft:hasModelName "Modify Steyr Scout Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_ea0191e0e4ce7d65c18803f5ea872cd2> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac SR25 AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_eb05e3ca122f7ae9c6dee29f9b913174> a asoft:AirsoftReplica ;
+    asoft:hasBrand "GHK" ;
+    asoft:hasModelName "GHK Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_eb1e624b00445ae541940c3dc0cf03cc> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_eb5cf6be96e5081c596d528580920e9c> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac M4 CQB AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_edc30853581a455072e5fe5434872dff> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_ee16bc44e843f87ce81a531cd853ad55> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_ee6cd6cfd68886176d1c27491468b433> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar MTW HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+
+<http://example.org/inst/AirsoftReplica_eee93977b561af2dd751b6d4e9b912a2> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Modify" ;
+    asoft:hasModelName "Modify SSG10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_ef3c3e8914c9a6bf62b9f0750e1d9756> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Modify" ;
+    asoft:hasModelName "Modify SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_f0c0e4fd75812083e234642764b086a0> a asoft:AirsoftReplica ;
+    asoft:hasBrand "GHK" ;
+    asoft:hasModelName "GHK Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_f16f3613c9eb8d9a3709d38c9ed2bd1d> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Cyma" ;
+    asoft:hasModelName "Cyma SCAR-L AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_f4017b564b0355b6290bccf1e96d4fed> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Modify" ;
+    asoft:hasModelName "Modify VSR-10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_f468ae82433c62f1ccc58f99076ee2e7> a asoft:AirsoftReplica ;
+    asoft:hasBrand "LCT" ;
+    asoft:hasModelName "LCT Vector SMG AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_f839b857d7c8a134962fb7ee8894c2e1> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KJW" ;
+    asoft:hasModelName "KJW MP7 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_f8ea3807c942d6d881da4f3c251d6c61> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Tokyo Marui" ;
+    asoft:hasModelName "Tokyo Marui SSG10 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_f9173157e26293987ce0c9e28eeebc08> a asoft:AirsoftReplica ;
+    asoft:hasBrand "KWA" ;
+    asoft:hasModelName "KWA Glock 19 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_f97a3c9de9b2080fa4a4fb3f5f0e6a5a> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_fa6e273e6cfa19356452b39dbf6ea11a> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Novritsch" ;
+    asoft:hasModelName "Novritsch SRS A2 Bolt Action" ;
+    asoft:hasPowerSource "Spring Action" .
+
+<http://example.org/inst/AirsoftReplica_fc188ba21714ffdb55dcda7fd79c590a> a asoft:AirsoftReplica ;
+    asoft:hasBrand "GHK" ;
+    asoft:hasModelName "GHK Hi-Capa 5.1 GBBR" ;
+    asoft:hasPowerSource "Green Gas" .
+
+<http://example.org/inst/AirsoftReplica_fcbe19b3a83907d5ed95b21c4a675e7e> a asoft:AirsoftReplica ;
+    asoft:hasBrand "Krytac" ;
+    asoft:hasModelName "Krytac AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_fddc0e0c6ceb2ba734e00bd88a049666> a asoft:AirsoftReplica ;
+    asoft:hasBrand "VFC" ;
+    asoft:hasModelName "VFC AK74U AEG" ;
+    asoft:hasPowerSource "Electric (LiPo)" .
+
+<http://example.org/inst/AirsoftReplica_fed754ab8cac90453f2ddfc1b0a2f45b> a asoft:AirsoftReplica ;
+    asoft:hasBrand "PolarStar" ;
+    asoft:hasModelName "PolarStar F2 M4 HPA System" ;
+    asoft:hasPowerSource "High Pressure Air" .
+

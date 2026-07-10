@@ -1,0 +1,3503 @@
+@prefix asoft: <https://github.com/cdcc-jpg/ontologies#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/inst/ChronoEvent_009c89a9d66727c5aadfa09985873325> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_02e45294efc368379bbd478a3a5c2820> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_03dc507da0570b6302ee760a7dcd7fa5> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_045f3f3f6436ce875f4ca5b9023af86b> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_05a351c20495177f7561f10bc7436a93> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_05b786c4eb8435bcdef26a58c6b75e2a> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_05ca6cb28ed6e3c6045afaa3e712b7a6> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_07ad5d4b1f3cab8dbe59343d8990cf5d> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_0842f62999a234e0ccf1329af421127e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_090d72a3a442615877f43e78394547df> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_0942a05efc13eddb6dd1f260bf1c6f95> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_094af69e5b4f55f4e67f0ef55fcac585> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_09d076e38890ac4837bfd786511ac4f3> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_0bb96a76365ddca67a35dd2c8100324c> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_0bf620179a32af1b3726433d5a6ca42e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_0cc5f17ed05a515f9ea1772b54f3d394> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_0d88e92abc6b441be207ab1448bcf445> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_0dfa85ec7e34b6f9bd9f94d67760b4eb> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_0e2e9d0f870b66ab27c3ce58158eff1f> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_0ed55971aebca27281d4096a72c4002d> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_0eed36f9f1a1a5c1de4c8f1013d6158b> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_0ef99a1232f1ecea91ad56cb424ec68c> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_0f54b360c72a0051e9f9fb4577a495b1> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_1097359f09edc3209e3df465e5ead4ef> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_13e0cef5869b053e9d1d6df2d4e35fbb> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_1440e423afcb9efe05873db53c122412> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_149c57e276c105be47cc4cee751bbb67> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_164a7a93abbe9233850a27269b8de7f6> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_1691a6c13b4bc89f823d94c66e916f4e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_17747c5271b1687b37959df57120fa30> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_185482e2c4cba3ee35a7652e1c4707de> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_19546d02912146ad311b3039a34f65e5> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_197aa4c2a3ac2c51f9defc93a9a868dd> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_197b184e2f894c9c55cd7606b71b38d4> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_1b2879c1a9c2b02b46237159b847d1dc> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_1c309d0fa794424a83f4acd834e7076a> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_1dfe541685ab328ed7c83c5a57e8cce1> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_1e8fa915143bce3da1f4b79cf23500e4> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_1ee5b0e0ec8b6fd552f6f1de14bad6c2> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_1fb040b500057c77989f00e6f82a622f> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_1fc3108d83b825fe8cf449e276aa519f> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_201d7025a1659f3dfc114e4d53ab399f> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_206187f4746e79c8216d4278e042ce56> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_208b1198a06f74d73103475094a2eb77> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_21ebbb8a634964cecf2130ba6aadcbc3> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_222fb69b23004315771d69fc36132ef1> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_25d679429ac6514495752d470edd15ae> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_267e86a74877520b26b684cadc6031b1> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_2718e810f44458e8d44823be8e34ef3c> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_2733ca4c956231a3556eb9add435c7fe> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_27bc5351d69950dd9deb4f2b703d1d91> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_27c32231367aaa1d9eac184fae63f7ff> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_27e898558a8525d7a3ac69de8801d472> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_2824bf0c4e9aa7a34c1e3348295bc47f> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_28809e7fafe1db90bedc8c229c6d1c8d> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_291a27dcc6d9981983d341b55d478e1f> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_293a2b45c60d5427b536278a72630ef2> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_2a30a23c1d82b5b82e4f89435dbb8149> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_2c71e78045005fea73d2bbf9feb5cc70> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_2c94599b2245b6a9bc9b7bfc67198fcb> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_2ce4d73f464ad0887088841fcb051fa1> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_2e395f5aec825064373300110c738c76> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_3084b523cb2bbe2cf82a083897693557> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_30d6fffd256e53d1d70101e023b6b195> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_323e77cb74feb15fafeba3624e0399ed> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_332f0714b598c828460b8378fe254f4b> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_335d0f3b4cec57b515c50c7073d3dfbd> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_359b50a202b61dd049c63697446e6e5e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_359c812bd197ab0b16545d9be385cefe> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_35f289571385efcd3629d6b02408ff02> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_38482a66c6214499cdbeff51c64cc73f> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_3a9417bd4a9cd186289bf4c144f944c2> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_3b1869d8de628bc66f1ca3f26518df92> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_3b6d33c3ec40658516e277ccdd04af9b> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_3c5269d8fcb6ec30ccb3cba3197cb35b> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_3cba332b871ecba937a8d193267a1f94> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_3df810f2bfaf02439d1cd5a6faeebce6> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_3ecb6984f9c76e2415d22b81e643f21d> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_3f55889dae851d317937e33f6d6b1075> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_3fc47e8fc0bcf456943433b373771ec2> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_40bd82ab46168023624c35fe5ac17f57> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_4158df54967499fcfd32b5b51735a2f1> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_4184663f5023f232407ae59823b2ce5e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_427d87927b62fad74b3c894d26d2447a> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_43df7889f94d2b7af706359e089b4107> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_46eab4e457e99d56970a3ad7b81d7d71> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_4ac62ca18b3050e782c1dde45d5a6b2e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_4d57576a4766e1a45243246dfacd5efb> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_4dc6be1b8dedf0eaa43b5247b311bdba> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_507a13340dcbf0bae1c1415325085d58> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_50b9501ef8943a8cb3a45a2d9c549776> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_50d2a1a7e965504b94b2b209469ca23e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_51202754064450e172119499fb258524> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_56d25cd74ffbf57fda47e0d0068e4093> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_57d6ffebddc2ab40217fcc6cca6c081d> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_5c2bf22f26c8c88b3d9fa70839ebf519> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_5c8285a499e6da8c6a9aaa101c1b2aab> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_5d3dc03d44d300978de86599d21573ab> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_5d47d7f99d536bd125fb9e38df31f1da> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_5f82a3c5935ca4e1a9944b631ca975ca> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_5fd8ba1ac975ffa992d90eda3b264290> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_60e2eaaed2e3d4630b9001690d1dd65b> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_610d8997897c020b9101e7a407e06ef9> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_616fdc606a38ba758efdf3d4abb2e419> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_6272d032825fbaf1e565a05b8403bb6e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_630b191b2787faaf23f00d1e98c1775e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_63a8166e797759602785d2fb756e48db> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_63e7d4e83bcdf90056a8087ad51c2189> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_63f2e263b79941670397e8b59fe9b8d4> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_64b03f7da31e9c893ae04c5924d001f8> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_66f0528724f6094833a56c811da49184> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_676e8ce20585c6926a50130cccced28e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_69447cfb1bf0c21f0dc840a67c8a7089> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_6b0fe51595ff7b876c2b6fab95a9de2b> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_6cbaec30b4cbb60ac02583ba16edd569> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_6cf3f0b50e4b1e699524f16cef4e603f> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_6cf8dcb0463124da89f9648f2f07db3e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_6d677155193e93aa6295852bc7c1281e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_6d9b515b3755470e88ec9e81ea9f6235> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_6e1b7955143b51b2059a391593ef8912> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_6ea74b27c283a4507e4a2d4af35b3c43> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_70ecf74190b01fcabba51d990c8018ab> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_7163c41d32258ff680862de0654127b2> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_71ca07d58388316d5fa5d04e599a9a69> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_7200dc054e7385043a3253578083e9c9> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_753a5b9870dbbf9719637627889784b8> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_76c34f0a0c84d5cbb3b5deff251d5bee> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_781cfe2ae3e6b5c3e1033d3a04a826ea> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_789f3c86dd855b03dd6290282548f8b9> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_7a729cb613979041b482a5b1e755ccfa> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_7af3813fab3a03821bb005914db9c099> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_7df333cf3f17ae935e53e2e11db7f1a8> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_7ef85ff5c1e16f2cf70ddfb414ad2414> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_7fe696b4c186667f13ca69fd1286e83d> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_80db80d1b9ac41365db5362ad15971fc> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_8311b1987a2d603d947af2085392e2b9> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_83713a24f60c492ddbaa0958c472be5b> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_8423863a0678827fc5a3cf6dff7f1c12> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_86e59109e14be7d937176ba5bf058bf4> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_87bb170af2d3c3ad57ecfe0f41b1e24e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_89aa4610b2a159cf531ca38917a56fa6> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_8acb10d1d0bb8f6fb29f08fc93eed7ae> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_8b98ffce218f275dee70d1643b93b0d8> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_8c456521f3c4ccf74a32ef62db5d8c69> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_8d90f6d772f1cf289f3c066581b9c417> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_8de9aeff20af1441f3ff6322f4305367> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_8fd1085ed299efd812165bcbaa100801> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_90a6a8e0fecb3d9855b9863a0fbe7f4b> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_916c0a6485a9af82cb58692424199af1> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_927284729fd4e8c032dbcf98dbc2fca9> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_934d8f708a2e022e4d66a6a8e7934c9c> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_93efc68553dc1e5683a4bebaf096a7bc> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_9403e42755ac367ee10dbf730f4f04c8> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_943b9f50b4600de97da10f80b265de83> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_94bb50e33b3603e582e3df751b726845> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_95cd1ff044e890929f04e0c8f13f6b95> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_979ab78658b9553dc95e09bfab327a66> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_9d08763ffee1e5fed5e86d4f046dd385> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_9d3c03b736ac7931601d6d32ce15c523> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_9e5e0a89e23aae9cddd7301f108098cc> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_a02a4f9faea2035a0a38f12e8372a63e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_a0aa499534bb766b59f8b6950f83cee2> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_a121536b43aa5e2e766b6f6e16c484d9> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_a2ea48ba8911e8bbb61fc11a3a5c1305> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_a4d5482b0cd58f27869a6d57a18cf220> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_a600bdaa202ce0d6ffe7071452f52d90> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_a60cd1f0dbcd9a10412865af327fc586> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_a62fa2b92dcf9d123bd510a3e5049764> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_a758bff3d03744d2806b4c04326860a8> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_a8302ab4aebc2e82c3f6ff1b0e52fbbf> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_aaf3d0d15fcdfbe15263e2c5d43fff40> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_ac9e01f53e572e6a1b52c026c1b20ecf> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_adf5a9bdadae2dd34892036b1a9bbeb2> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_ae02c21c8ebfca751339ba4cb8c92a6c> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_ae33669b21e9ecc5b9be73c2c0778167> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_ae5c10264858f4047afb5dc15e87172b> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_af1cf1dfe23699034041404b749a8ae8> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_afcd33ee3eb429373d2aa85a5104c810> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_b0969bcfeb113f398bb0f16a9be5bf20> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_b17dad478e47331aad5e00e1926abfd5> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_b1d980153c728dbfe589c1777696b1d0> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_b291fe73967b6be3ee7d564049d7feeb> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_b36386273e4630b4eedf4d8db09a2f2e> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_b65439832f730f9acfa10be517be8844> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_b6ec49f4b35e2744c805923eb19399a8> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_b6efb2024593a4cbd05106a9556e9754> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_b85755393412af1f1c6e836bfd1a6296> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_b9f960586142f9186169a08c9b100521> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_ba45c930753efa77969fc0a17063f4f9> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_badba794bc81d61ccc90708534822db0> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_bcf4dc433843a69f2a6a2a496dc654bd> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_bd4be350c957d6318f180c7740f7785f> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_be13beb2edbe509b213a432825eed900> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_bf6124dd8f210a37144b5ca1443cc24c> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_bf95970bd9fe06905ae46aea7864bd0a> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_c042847f71b03288e3c29f93eca042f4> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_c1a292fa422fb901a70a1d4e700f95f8> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_c26b16ddaf6c693ec435bf3262126471> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_c28ae48e0205d19012ba965e079745df> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_c405325206cd5c76a34d5f844d16184b> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_c415990aa7934b4e1e2f706e28cbb954> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_c5f24eaa5e15c66a7421e92fb5007c4c> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_c5feedd7032414055dccd34ebea8eefa> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_c6296e6344ebc9d1852bef2822fb4738> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_c7de9578b08a2fff0a09644e9a1c678d> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_c8c82fe61915ede5a7aa50b0c8a49470> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_c907b5d303bba9a998e878245497d2e0> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_d09347190d9657701bf2270947f007a8> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_d0a6bd4780c195a71fb94b1c028dbd14> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_d0dee7f9b238f20d6fda87c589fe62a8> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_d0e49a192126e70fbe582873dbe90b9c> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_d1202c770164b2d29af72d950c634f7d> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_d37009df5c3d7162964bc6a10018d19c> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_d3886f01cb5542c6c7523c5c340fbccc> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_d39848e368d224c741bb17cf99ce58fb> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_d3ab3416e57a8f6a03d12457e004173d> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_d44c77da0e2008c4ae55fabfc130f7fb> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_d4f2ba34e17905f3ae11eb1fbae0bad8> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_d8e0e8bb9a6a569ffcdc26071b51b17b> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_d9564231be39fbd34ce3df4c35115413> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_daa0f85269e7cf77b4f455ee7e772bed> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_db50e0042187b5f88596b46740c4c140> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_dc8b85a2616e455a24e2e054275c6c12> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_ddef949df620341743a5a76742c71650> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_debe67ed15ec2f21b8721fcdd6ea13b9> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_df01377696d0819638da7713d85f2cb8> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_e1a6932274cb16ef69c9357106a4a688> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_e38a2eb5dcc563dbbf55f0ffcede7c4c> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_e5141c5b946c1b1f513cf29c4da20bde> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_e58fc62ec5ce8be1c3cf7ca253c666db> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_e6bf16f0c9d5851e30a9d50b8285a7b4> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_e7b9aa1bce008314110bfeb5a91e0b7a> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_e890358b29bc741b52e4849ebc9b4fce> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_ea1412c17152efe3da6ef39e05779ab5> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_edb101b2afb7fee6cb6114a667d15439> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_edb135520919241142fa56f6f74d1303> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_edf206d4d1b412a0bd27fdd6b36df648> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_f2afb0f79797bd337908c60d7e11c434> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_f301a5aaa56e0be2640e3906dad4a432> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_f455ae0775756164e7437dec3e0c1b5f> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_f492a919777a04ff849fa83fb0af5388> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_f5da65518f61656f7f8558c7e11e8c76> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_f5f6bbc7067c92c434a15fedd56daa5a> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_f83c99ac85fb5cdf692ca4772805ebf7> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_f85cc2f3f0f0f595df74605c2dac0b2d> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_f94312b9f09d6435d196cee8966fda6d> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS" .
+
+<http://example.org/inst/ChronoEvent_f94f3d9371c26f836ab8112ba1a1a975> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/ChronoEvent_fb256f115eaffc7f566f1c35dde07505> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "FAILED_MIN_PERFORMANCE" .
+
+<http://example.org/inst/ChronoEvent_fb38dd71da6099bbf20af1b990bb0a99> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "PASS_DMR_RULES" .
+
+<http://example.org/inst/ChronoEvent_ff9ded16ff7093700367ee9522fc7592> a asoft:ChronoEvent ;
+    asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
+
+<http://example.org/inst/FieldZone_009c89a9d66727c5aadfa09985873325> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.87 ;
+    asoft:hasPlayerCapacity "P_0050" .
+
+<http://example.org/inst/FieldZone_02e45294efc368379bbd478a3a5c2820> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 3.02 ;
+    asoft:hasPlayerCapacity "P_0139" .
+
+<http://example.org/inst/FieldZone_03dc507da0570b6302ee760a7dcd7fa5> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.62 ;
+    asoft:hasPlayerCapacity "P_0130" .
+
+<http://example.org/inst/FieldZone_045f3f3f6436ce875f4ca5b9023af86b> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.05 ;
+    asoft:hasPlayerCapacity "P_0066" .
+
+<http://example.org/inst/FieldZone_05a351c20495177f7561f10bc7436a93> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.55 ;
+    asoft:hasPlayerCapacity "P_0085" .
+
+<http://example.org/inst/FieldZone_05b786c4eb8435bcdef26a58c6b75e2a> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.1 ;
+    asoft:hasPlayerCapacity "P_0147" .
+
+<http://example.org/inst/FieldZone_05ca6cb28ed6e3c6045afaa3e712b7a6> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.02 ;
+    asoft:hasPlayerCapacity "P_0042" .
+
+<http://example.org/inst/FieldZone_07ad5d4b1f3cab8dbe59343d8990cf5d> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.82 ;
+    asoft:hasPlayerCapacity "P_0118" .
+
+<http://example.org/inst/FieldZone_0842f62999a234e0ccf1329af421127e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.6 ;
+    asoft:hasPlayerCapacity "P_0218" .
+
+<http://example.org/inst/FieldZone_090d72a3a442615877f43e78394547df> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.65 ;
+    asoft:hasPlayerCapacity "P_0084" .
+
+<http://example.org/inst/FieldZone_0942a05efc13eddb6dd1f260bf1c6f95> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.65 ;
+    asoft:hasPlayerCapacity "P_0229" .
+
+<http://example.org/inst/FieldZone_094af69e5b4f55f4e67f0ef55fcac585> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.99 ;
+    asoft:hasPlayerCapacity "P_0058" .
+
+<http://example.org/inst/FieldZone_09d076e38890ac4837bfd786511ac4f3> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.66 ;
+    asoft:hasPlayerCapacity "P_0094" .
+
+<http://example.org/inst/FieldZone_0bb96a76365ddca67a35dd2c8100324c> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.11 ;
+    asoft:hasPlayerCapacity "P_0033" .
+
+<http://example.org/inst/FieldZone_0bf620179a32af1b3726433d5a6ca42e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.54 ;
+    asoft:hasPlayerCapacity "P_0114" .
+
+<http://example.org/inst/FieldZone_0cc5f17ed05a515f9ea1772b54f3d394> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.02 ;
+    asoft:hasPlayerCapacity "P_0040" .
+
+<http://example.org/inst/FieldZone_0d88e92abc6b441be207ab1448bcf445> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.11 ;
+    asoft:hasPlayerCapacity "P_0250" .
+
+<http://example.org/inst/FieldZone_0dfa85ec7e34b6f9bd9f94d67760b4eb> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.91 ;
+    asoft:hasPlayerCapacity "P_0135" .
+
+<http://example.org/inst/FieldZone_0e2e9d0f870b66ab27c3ce58158eff1f> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.09 ;
+    asoft:hasPlayerCapacity "P_0090" .
+
+<http://example.org/inst/FieldZone_0ed55971aebca27281d4096a72c4002d> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.46 ;
+    asoft:hasPlayerCapacity "P_0088" .
+
+<http://example.org/inst/FieldZone_0eed36f9f1a1a5c1de4c8f1013d6158b> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.48 ;
+    asoft:hasPlayerCapacity "P_0155" .
+
+<http://example.org/inst/FieldZone_0ef99a1232f1ecea91ad56cb424ec68c> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.7 ;
+    asoft:hasPlayerCapacity "P_0137" .
+
+<http://example.org/inst/FieldZone_0f54b360c72a0051e9f9fb4577a495b1> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.04 ;
+    asoft:hasPlayerCapacity "P_0225" .
+
+<http://example.org/inst/FieldZone_1097359f09edc3209e3df465e5ead4ef> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.6 ;
+    asoft:hasPlayerCapacity "P_0023" .
+
+<http://example.org/inst/FieldZone_13e0cef5869b053e9d1d6df2d4e35fbb> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.57 ;
+    asoft:hasPlayerCapacity "P_0131" .
+
+<http://example.org/inst/FieldZone_1440e423afcb9efe05873db53c122412> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.06 ;
+    asoft:hasPlayerCapacity "P_0076" .
+
+<http://example.org/inst/FieldZone_149c57e276c105be47cc4cee751bbb67> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.39 ;
+    asoft:hasPlayerCapacity "P_0062" .
+
+<http://example.org/inst/FieldZone_164a7a93abbe9233850a27269b8de7f6> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.98 ;
+    asoft:hasPlayerCapacity "P_0110" .
+
+<http://example.org/inst/FieldZone_1691a6c13b4bc89f823d94c66e916f4e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.83 ;
+    asoft:hasPlayerCapacity "P_0005" .
+
+<http://example.org/inst/FieldZone_17747c5271b1687b37959df57120fa30> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.6 ;
+    asoft:hasPlayerCapacity "P_0083" .
+
+<http://example.org/inst/FieldZone_185482e2c4cba3ee35a7652e1c4707de> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.01 ;
+    asoft:hasPlayerCapacity "P_0201" .
+
+<http://example.org/inst/FieldZone_19546d02912146ad311b3039a34f65e5> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.3 ;
+    asoft:hasPlayerCapacity "P_0223" .
+
+<http://example.org/inst/FieldZone_197aa4c2a3ac2c51f9defc93a9a868dd> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.97 ;
+    asoft:hasPlayerCapacity "P_0054" .
+
+<http://example.org/inst/FieldZone_197b184e2f894c9c55cd7606b71b38d4> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.06 ;
+    asoft:hasPlayerCapacity "P_0213" .
+
+<http://example.org/inst/FieldZone_1b2879c1a9c2b02b46237159b847d1dc> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.76 ;
+    asoft:hasPlayerCapacity "P_0129" .
+
+<http://example.org/inst/FieldZone_1c309d0fa794424a83f4acd834e7076a> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.09 ;
+    asoft:hasPlayerCapacity "P_0211" .
+
+<http://example.org/inst/FieldZone_1dfe541685ab328ed7c83c5a57e8cce1> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.0 ;
+    asoft:hasPlayerCapacity "P_0070" .
+
+<http://example.org/inst/FieldZone_1e8fa915143bce3da1f4b79cf23500e4> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.12 ;
+    asoft:hasPlayerCapacity "P_0226" .
+
+<http://example.org/inst/FieldZone_1ee5b0e0ec8b6fd552f6f1de14bad6c2> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.74 ;
+    asoft:hasPlayerCapacity "P_0089" .
+
+<http://example.org/inst/FieldZone_1fb040b500057c77989f00e6f82a622f> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 3.08 ;
+    asoft:hasPlayerCapacity "P_0127" .
+
+<http://example.org/inst/FieldZone_1fc3108d83b825fe8cf449e276aa519f> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.54 ;
+    asoft:hasPlayerCapacity "P_0209" .
+
+<http://example.org/inst/FieldZone_201d7025a1659f3dfc114e4d53ab399f> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.63 ;
+    asoft:hasPlayerCapacity "P_0142" .
+
+<http://example.org/inst/FieldZone_206187f4746e79c8216d4278e042ce56> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.65 ;
+    asoft:hasPlayerCapacity "P_0241" .
+
+<http://example.org/inst/FieldZone_208b1198a06f74d73103475094a2eb77> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.98 ;
+    asoft:hasPlayerCapacity "P_0061" .
+
+<http://example.org/inst/FieldZone_21ebbb8a634964cecf2130ba6aadcbc3> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.51 ;
+    asoft:hasPlayerCapacity "P_0143" .
+
+<http://example.org/inst/FieldZone_222fb69b23004315771d69fc36132ef1> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.09 ;
+    asoft:hasPlayerCapacity "P_0013" .
+
+<http://example.org/inst/FieldZone_25d679429ac6514495752d470edd15ae> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.11 ;
+    asoft:hasPlayerCapacity "P_0014" .
+
+<http://example.org/inst/FieldZone_267e86a74877520b26b684cadc6031b1> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.59 ;
+    asoft:hasPlayerCapacity "P_0019" .
+
+<http://example.org/inst/FieldZone_2718e810f44458e8d44823be8e34ef3c> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.03 ;
+    asoft:hasPlayerCapacity "P_0063" .
+
+<http://example.org/inst/FieldZone_2733ca4c956231a3556eb9add435c7fe> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.98 ;
+    asoft:hasPlayerCapacity "P_0205" .
+
+<http://example.org/inst/FieldZone_27bc5351d69950dd9deb4f2b703d1d91> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.02 ;
+    asoft:hasPlayerCapacity "P_0029" .
+
+<http://example.org/inst/FieldZone_27c32231367aaa1d9eac184fae63f7ff> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.13 ;
+    asoft:hasPlayerCapacity "P_0051" .
+
+<http://example.org/inst/FieldZone_27e898558a8525d7a3ac69de8801d472> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.81 ;
+    asoft:hasPlayerCapacity "P_0245" .
+
+<http://example.org/inst/FieldZone_2824bf0c4e9aa7a34c1e3348295bc47f> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.67 ;
+    asoft:hasPlayerCapacity "P_0164" .
+
+<http://example.org/inst/FieldZone_28809e7fafe1db90bedc8c229c6d1c8d> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.06 ;
+    asoft:hasPlayerCapacity "P_0207" .
+
+<http://example.org/inst/FieldZone_291a27dcc6d9981983d341b55d478e1f> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.99 ;
+    asoft:hasPlayerCapacity "P_0111" .
+
+<http://example.org/inst/FieldZone_293a2b45c60d5427b536278a72630ef2> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 3.08 ;
+    asoft:hasPlayerCapacity "P_0049" .
+
+<http://example.org/inst/FieldZone_2a30a23c1d82b5b82e4f89435dbb8149> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.04 ;
+    asoft:hasPlayerCapacity "P_0197" .
+
+<http://example.org/inst/FieldZone_2c71e78045005fea73d2bbf9feb5cc70> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.11 ;
+    asoft:hasPlayerCapacity "P_0067" .
+
+<http://example.org/inst/FieldZone_2c94599b2245b6a9bc9b7bfc67198fcb> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.96 ;
+    asoft:hasPlayerCapacity "P_0169" .
+
+<http://example.org/inst/FieldZone_2ce4d73f464ad0887088841fcb051fa1> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.77 ;
+    asoft:hasPlayerCapacity "P_0206" .
+
+<http://example.org/inst/FieldZone_2e395f5aec825064373300110c738c76> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.49 ;
+    asoft:hasPlayerCapacity "P_0022" .
+
+<http://example.org/inst/FieldZone_3084b523cb2bbe2cf82a083897693557> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.66 ;
+    asoft:hasPlayerCapacity "P_0210" .
+
+<http://example.org/inst/FieldZone_30d6fffd256e53d1d70101e023b6b195> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.03 ;
+    asoft:hasPlayerCapacity "P_0107" .
+
+<http://example.org/inst/FieldZone_323e77cb74feb15fafeba3624e0399ed> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.02 ;
+    asoft:hasPlayerCapacity "P_0001" .
+
+<http://example.org/inst/FieldZone_332f0714b598c828460b8378fe254f4b> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.26 ;
+    asoft:hasPlayerCapacity "P_0010" .
+
+<http://example.org/inst/FieldZone_335d0f3b4cec57b515c50c7073d3dfbd> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.54 ;
+    asoft:hasPlayerCapacity "P_0103" .
+
+<http://example.org/inst/FieldZone_359b50a202b61dd049c63697446e6e5e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.7 ;
+    asoft:hasPlayerCapacity "P_0093" .
+
+<http://example.org/inst/FieldZone_359c812bd197ab0b16545d9be385cefe> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.06 ;
+    asoft:hasPlayerCapacity "P_0075" .
+
+<http://example.org/inst/FieldZone_35f289571385efcd3629d6b02408ff02> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.68 ;
+    asoft:hasPlayerCapacity "P_0102" .
+
+<http://example.org/inst/FieldZone_38482a66c6214499cdbeff51c64cc73f> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.53 ;
+    asoft:hasPlayerCapacity "P_0162" .
+
+<http://example.org/inst/FieldZone_3a9417bd4a9cd186289bf4c144f944c2> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.96 ;
+    asoft:hasPlayerCapacity "P_0174" .
+
+<http://example.org/inst/FieldZone_3b1869d8de628bc66f1ca3f26518df92> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.1 ;
+    asoft:hasPlayerCapacity "P_0024" .
+
+<http://example.org/inst/FieldZone_3b6d33c3ec40658516e277ccdd04af9b> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.17 ;
+    asoft:hasPlayerCapacity "P_0175" .
+
+<http://example.org/inst/FieldZone_3c5269d8fcb6ec30ccb3cba3197cb35b> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.83 ;
+    asoft:hasPlayerCapacity "P_0161" .
+
+<http://example.org/inst/FieldZone_3cba332b871ecba937a8d193267a1f94> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.04 ;
+    asoft:hasPlayerCapacity "P_0171" .
+
+<http://example.org/inst/FieldZone_3df810f2bfaf02439d1cd5a6faeebce6> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.05 ;
+    asoft:hasPlayerCapacity "P_0246" .
+
+<http://example.org/inst/FieldZone_3ecb6984f9c76e2415d22b81e643f21d> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.44 ;
+    asoft:hasPlayerCapacity "P_0173" .
+
+<http://example.org/inst/FieldZone_3f55889dae851d317937e33f6d6b1075> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.02 ;
+    asoft:hasPlayerCapacity "P_0012" .
+
+<http://example.org/inst/FieldZone_3fc47e8fc0bcf456943433b373771ec2> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.52 ;
+    asoft:hasPlayerCapacity "P_0117" .
+
+<http://example.org/inst/FieldZone_40bd82ab46168023624c35fe5ac17f57> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.58 ;
+    asoft:hasPlayerCapacity "P_0041" .
+
+<http://example.org/inst/FieldZone_4158df54967499fcfd32b5b51735a2f1> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.98 ;
+    asoft:hasPlayerCapacity "P_0056" .
+
+<http://example.org/inst/FieldZone_4184663f5023f232407ae59823b2ce5e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.02 ;
+    asoft:hasPlayerCapacity "P_0044" .
+
+<http://example.org/inst/FieldZone_427d87927b62fad74b3c894d26d2447a> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 3.03 ;
+    asoft:hasPlayerCapacity "P_0138" .
+
+<http://example.org/inst/FieldZone_43df7889f94d2b7af706359e089b4107> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.81 ;
+    asoft:hasPlayerCapacity "P_0006" .
+
+<http://example.org/inst/FieldZone_46eab4e457e99d56970a3ad7b81d7d71> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.11 ;
+    asoft:hasPlayerCapacity "P_0091" .
+
+<http://example.org/inst/FieldZone_4ac62ca18b3050e782c1dde45d5a6b2e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.85 ;
+    asoft:hasPlayerCapacity "P_0239" .
+
+<http://example.org/inst/FieldZone_4d57576a4766e1a45243246dfacd5efb> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.18 ;
+    asoft:hasPlayerCapacity "P_0243" .
+
+<http://example.org/inst/FieldZone_4dc6be1b8dedf0eaa43b5247b311bdba> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.94 ;
+    asoft:hasPlayerCapacity "P_0108" .
+
+<http://example.org/inst/FieldZone_507a13340dcbf0bae1c1415325085d58> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.72 ;
+    asoft:hasPlayerCapacity "P_0235" .
+
+<http://example.org/inst/FieldZone_50b9501ef8943a8cb3a45a2d9c549776> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.71 ;
+    asoft:hasPlayerCapacity "P_0200" .
+
+<http://example.org/inst/FieldZone_50d2a1a7e965504b94b2b209469ca23e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.03 ;
+    asoft:hasPlayerCapacity "P_0059" .
+
+<http://example.org/inst/FieldZone_51202754064450e172119499fb258524> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.06 ;
+    asoft:hasPlayerCapacity "P_0231" .
+
+<http://example.org/inst/FieldZone_56d25cd74ffbf57fda47e0d0068e4093> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.23 ;
+    asoft:hasPlayerCapacity "P_0237" .
+
+<http://example.org/inst/FieldZone_57d6ffebddc2ab40217fcc6cca6c081d> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.02 ;
+    asoft:hasPlayerCapacity "P_0078" .
+
+<http://example.org/inst/FieldZone_5c2bf22f26c8c88b3d9fa70839ebf519> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.62 ;
+    asoft:hasPlayerCapacity "P_0002" .
+
+<http://example.org/inst/FieldZone_5c8285a499e6da8c6a9aaa101c1b2aab> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.13 ;
+    asoft:hasPlayerCapacity "P_0228" .
+
+<http://example.org/inst/FieldZone_5d3dc03d44d300978de86599d21573ab> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.09 ;
+    asoft:hasPlayerCapacity "P_0178" .
+
+<http://example.org/inst/FieldZone_5d47d7f99d536bd125fb9e38df31f1da> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.44 ;
+    asoft:hasPlayerCapacity "P_0168" .
+
+<http://example.org/inst/FieldZone_5f82a3c5935ca4e1a9944b631ca975ca> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.01 ;
+    asoft:hasPlayerCapacity "P_0158" .
+
+<http://example.org/inst/FieldZone_5fd8ba1ac975ffa992d90eda3b264290> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.85 ;
+    asoft:hasPlayerCapacity "P_0122" .
+
+<http://example.org/inst/FieldZone_60e2eaaed2e3d4630b9001690d1dd65b> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.01 ;
+    asoft:hasPlayerCapacity "P_0096" .
+
+<http://example.org/inst/FieldZone_610d8997897c020b9101e7a407e06ef9> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.65 ;
+    asoft:hasPlayerCapacity "P_0079" .
+
+<http://example.org/inst/FieldZone_616fdc606a38ba758efdf3d4abb2e419> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.01 ;
+    asoft:hasPlayerCapacity "P_0199" .
+
+<http://example.org/inst/FieldZone_6272d032825fbaf1e565a05b8403bb6e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.02 ;
+    asoft:hasPlayerCapacity "P_0154" .
+
+<http://example.org/inst/FieldZone_630b191b2787faaf23f00d1e98c1775e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.07 ;
+    asoft:hasPlayerCapacity "P_0177" .
+
+<http://example.org/inst/FieldZone_63a8166e797759602785d2fb756e48db> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.53 ;
+    asoft:hasPlayerCapacity "P_0202" .
+
+<http://example.org/inst/FieldZone_63e7d4e83bcdf90056a8087ad51c2189> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.09 ;
+    asoft:hasPlayerCapacity "P_0214" .
+
+<http://example.org/inst/FieldZone_63f2e263b79941670397e8b59fe9b8d4> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.03 ;
+    asoft:hasPlayerCapacity "P_0136" .
+
+<http://example.org/inst/FieldZone_64b03f7da31e9c893ae04c5924d001f8> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.49 ;
+    asoft:hasPlayerCapacity "P_0043" .
+
+<http://example.org/inst/FieldZone_66f0528724f6094833a56c811da49184> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.08 ;
+    asoft:hasPlayerCapacity "P_0140" .
+
+<http://example.org/inst/FieldZone_676e8ce20585c6926a50130cccced28e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.58 ;
+    asoft:hasPlayerCapacity "P_0196" .
+
+<http://example.org/inst/FieldZone_69447cfb1bf0c21f0dc840a67c8a7089> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.02 ;
+    asoft:hasPlayerCapacity "P_0047" .
+
+<http://example.org/inst/FieldZone_6b0fe51595ff7b876c2b6fab95a9de2b> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.09 ;
+    asoft:hasPlayerCapacity "P_0039" .
+
+<http://example.org/inst/FieldZone_6cbaec30b4cbb60ac02583ba16edd569> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.01 ;
+    asoft:hasPlayerCapacity "P_0181" .
+
+<http://example.org/inst/FieldZone_6cf3f0b50e4b1e699524f16cef4e603f> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.6 ;
+    asoft:hasPlayerCapacity "P_0189" .
+
+<http://example.org/inst/FieldZone_6cf8dcb0463124da89f9648f2f07db3e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.48 ;
+    asoft:hasPlayerCapacity "P_0248" .
+
+<http://example.org/inst/FieldZone_6d677155193e93aa6295852bc7c1281e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.01 ;
+    asoft:hasPlayerCapacity "P_0187" .
+
+<http://example.org/inst/FieldZone_6d9b515b3755470e88ec9e81ea9f6235> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.49 ;
+    asoft:hasPlayerCapacity "P_0007" .
+
+<http://example.org/inst/FieldZone_6e1b7955143b51b2059a391593ef8912> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.14 ;
+    asoft:hasPlayerCapacity "P_0240" .
+
+<http://example.org/inst/FieldZone_6ea74b27c283a4507e4a2d4af35b3c43> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.61 ;
+    asoft:hasPlayerCapacity "P_0030" .
+
+<http://example.org/inst/FieldZone_70ecf74190b01fcabba51d990c8018ab> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.48 ;
+    asoft:hasPlayerCapacity "P_0126" .
+
+<http://example.org/inst/FieldZone_7163c41d32258ff680862de0654127b2> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.03 ;
+    asoft:hasPlayerCapacity "P_0073" .
+
+<http://example.org/inst/FieldZone_71ca07d58388316d5fa5d04e599a9a69> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.06 ;
+    asoft:hasPlayerCapacity "P_0238" .
+
+<http://example.org/inst/FieldZone_7200dc054e7385043a3253578083e9c9> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.12 ;
+    asoft:hasPlayerCapacity "P_0082" .
+
+<http://example.org/inst/FieldZone_753a5b9870dbbf9719637627889784b8> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.07 ;
+    asoft:hasPlayerCapacity "P_0119" .
+
+<http://example.org/inst/FieldZone_76c34f0a0c84d5cbb3b5deff251d5bee> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.74 ;
+    asoft:hasPlayerCapacity "P_0249" .
+
+<http://example.org/inst/FieldZone_781cfe2ae3e6b5c3e1033d3a04a826ea> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.0 ;
+    asoft:hasPlayerCapacity "P_0065" .
+
+<http://example.org/inst/FieldZone_789f3c86dd855b03dd6290282548f8b9> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.02 ;
+    asoft:hasPlayerCapacity "P_0153" .
+
+<http://example.org/inst/FieldZone_7a729cb613979041b482a5b1e755ccfa> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.64 ;
+    asoft:hasPlayerCapacity "P_0020" .
+
+<http://example.org/inst/FieldZone_7af3813fab3a03821bb005914db9c099> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.35 ;
+    asoft:hasPlayerCapacity "P_0222" .
+
+<http://example.org/inst/FieldZone_7df333cf3f17ae935e53e2e11db7f1a8> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.79 ;
+    asoft:hasPlayerCapacity "P_0152" .
+
+<http://example.org/inst/FieldZone_7ef85ff5c1e16f2cf70ddfb414ad2414> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.63 ;
+    asoft:hasPlayerCapacity "P_0080" .
+
+<http://example.org/inst/FieldZone_7fe696b4c186667f13ca69fd1286e83d> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.76 ;
+    asoft:hasPlayerCapacity "P_0244" .
+
+<http://example.org/inst/FieldZone_80db80d1b9ac41365db5362ad15971fc> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.02 ;
+    asoft:hasPlayerCapacity "P_0069" .
+
+<http://example.org/inst/FieldZone_8311b1987a2d603d947af2085392e2b9> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.97 ;
+    asoft:hasPlayerCapacity "P_0086" .
+
+<http://example.org/inst/FieldZone_83713a24f60c492ddbaa0958c472be5b> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.56 ;
+    asoft:hasPlayerCapacity "P_0151" .
+
+<http://example.org/inst/FieldZone_8423863a0678827fc5a3cf6dff7f1c12> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.13 ;
+    asoft:hasPlayerCapacity "P_0115" .
+
+<http://example.org/inst/FieldZone_86e59109e14be7d937176ba5bf058bf4> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.76 ;
+    asoft:hasPlayerCapacity "P_0087" .
+
+<http://example.org/inst/FieldZone_87bb170af2d3c3ad57ecfe0f41b1e24e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.82 ;
+    asoft:hasPlayerCapacity "P_0193" .
+
+<http://example.org/inst/FieldZone_89aa4610b2a159cf531ca38917a56fa6> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.03 ;
+    asoft:hasPlayerCapacity "P_0120" .
+
+<http://example.org/inst/FieldZone_8acb10d1d0bb8f6fb29f08fc93eed7ae> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.81 ;
+    asoft:hasPlayerCapacity "P_0191" .
+
+<http://example.org/inst/FieldZone_8b98ffce218f275dee70d1643b93b0d8> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.99 ;
+    asoft:hasPlayerCapacity "P_0035" .
+
+<http://example.org/inst/FieldZone_8c456521f3c4ccf74a32ef62db5d8c69> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.0 ;
+    asoft:hasPlayerCapacity "P_0077" .
+
+<http://example.org/inst/FieldZone_8d90f6d772f1cf289f3c066581b9c417> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.04 ;
+    asoft:hasPlayerCapacity "P_0148" .
+
+<http://example.org/inst/FieldZone_8de9aeff20af1441f3ff6322f4305367> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.05 ;
+    asoft:hasPlayerCapacity "P_0081" .
+
+<http://example.org/inst/FieldZone_8fd1085ed299efd812165bcbaa100801> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.05 ;
+    asoft:hasPlayerCapacity "P_0017" .
+
+<http://example.org/inst/FieldZone_90a6a8e0fecb3d9855b9863a0fbe7f4b> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.67 ;
+    asoft:hasPlayerCapacity "P_0176" .
+
+<http://example.org/inst/FieldZone_916c0a6485a9af82cb58692424199af1> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.05 ;
+    asoft:hasPlayerCapacity "P_0101" .
+
+<http://example.org/inst/FieldZone_927284729fd4e8c032dbcf98dbc2fca9> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.98 ;
+    asoft:hasPlayerCapacity "P_0215" .
+
+<http://example.org/inst/FieldZone_934d8f708a2e022e4d66a6a8e7934c9c> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.12 ;
+    asoft:hasPlayerCapacity "P_0216" .
+
+<http://example.org/inst/FieldZone_93efc68553dc1e5683a4bebaf096a7bc> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.05 ;
+    asoft:hasPlayerCapacity "P_0113" .
+
+<http://example.org/inst/FieldZone_9403e42755ac367ee10dbf730f4f04c8> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.65 ;
+    asoft:hasPlayerCapacity "P_0031" .
+
+<http://example.org/inst/FieldZone_943b9f50b4600de97da10f80b265de83> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.66 ;
+    asoft:hasPlayerCapacity "P_0124" .
+
+<http://example.org/inst/FieldZone_94bb50e33b3603e582e3df751b726845> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.97 ;
+    asoft:hasPlayerCapacity "P_0203" .
+
+<http://example.org/inst/FieldZone_95cd1ff044e890929f04e0c8f13f6b95> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.77 ;
+    asoft:hasPlayerCapacity "P_0009" .
+
+<http://example.org/inst/FieldZone_979ab78658b9553dc95e09bfab327a66> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.49 ;
+    asoft:hasPlayerCapacity "P_0027" .
+
+<http://example.org/inst/FieldZone_9d08763ffee1e5fed5e86d4f046dd385> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.53 ;
+    asoft:hasPlayerCapacity "P_0060" .
+
+<http://example.org/inst/FieldZone_9d3c03b736ac7931601d6d32ce15c523> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.96 ;
+    asoft:hasPlayerCapacity "P_0167" .
+
+<http://example.org/inst/FieldZone_9e5e0a89e23aae9cddd7301f108098cc> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.5 ;
+    asoft:hasPlayerCapacity "P_0186" .
+
+<http://example.org/inst/FieldZone_a02a4f9faea2035a0a38f12e8372a63e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.07 ;
+    asoft:hasPlayerCapacity "P_0144" .
+
+<http://example.org/inst/FieldZone_a0aa499534bb766b59f8b6950f83cee2> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.23 ;
+    asoft:hasPlayerCapacity "P_0125" .
+
+<http://example.org/inst/FieldZone_a121536b43aa5e2e766b6f6e16c484d9> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.02 ;
+    asoft:hasPlayerCapacity "P_0003" .
+
+<http://example.org/inst/FieldZone_a2ea48ba8911e8bbb61fc11a3a5c1305> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.55 ;
+    asoft:hasPlayerCapacity "P_0028" .
+
+<http://example.org/inst/FieldZone_a4d5482b0cd58f27869a6d57a18cf220> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.09 ;
+    asoft:hasPlayerCapacity "P_0011" .
+
+<http://example.org/inst/FieldZone_a600bdaa202ce0d6ffe7071452f52d90> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 3.02 ;
+    asoft:hasPlayerCapacity "P_0165" .
+
+<http://example.org/inst/FieldZone_a60cd1f0dbcd9a10412865af327fc586> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.52 ;
+    asoft:hasPlayerCapacity "P_0004" .
+
+<http://example.org/inst/FieldZone_a62fa2b92dcf9d123bd510a3e5049764> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.68 ;
+    asoft:hasPlayerCapacity "P_0183" .
+
+<http://example.org/inst/FieldZone_a758bff3d03744d2806b4c04326860a8> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.03 ;
+    asoft:hasPlayerCapacity "P_0018" .
+
+<http://example.org/inst/FieldZone_a8302ab4aebc2e82c3f6ff1b0e52fbbf> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.73 ;
+    asoft:hasPlayerCapacity "P_0172" .
+
+<http://example.org/inst/FieldZone_aaf3d0d15fcdfbe15263e2c5d43fff40> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.95 ;
+    asoft:hasPlayerCapacity "P_0008" .
+
+<http://example.org/inst/FieldZone_ac9e01f53e572e6a1b52c026c1b20ecf> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.8 ;
+    asoft:hasPlayerCapacity "P_0098" .
+
+<http://example.org/inst/FieldZone_adf5a9bdadae2dd34892036b1a9bbeb2> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.09 ;
+    asoft:hasPlayerCapacity "P_0116" .
+
+<http://example.org/inst/FieldZone_ae02c21c8ebfca751339ba4cb8c92a6c> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.96 ;
+    asoft:hasPlayerCapacity "P_0195" .
+
+<http://example.org/inst/FieldZone_ae33669b21e9ecc5b9be73c2c0778167> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.96 ;
+    asoft:hasPlayerCapacity "P_0100" .
+
+<http://example.org/inst/FieldZone_ae5c10264858f4047afb5dc15e87172b> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.65 ;
+    asoft:hasPlayerCapacity "P_0105" .
+
+<http://example.org/inst/FieldZone_af1cf1dfe23699034041404b749a8ae8> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.64 ;
+    asoft:hasPlayerCapacity "P_0141" .
+
+<http://example.org/inst/FieldZone_afcd33ee3eb429373d2aa85a5104c810> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.02 ;
+    asoft:hasPlayerCapacity "P_0221" .
+
+<http://example.org/inst/FieldZone_b0969bcfeb113f398bb0f16a9be5bf20> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.06 ;
+    asoft:hasPlayerCapacity "P_0121" .
+
+<http://example.org/inst/FieldZone_b17dad478e47331aad5e00e1926abfd5> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.65 ;
+    asoft:hasPlayerCapacity "P_0150" .
+
+<http://example.org/inst/FieldZone_b1d980153c728dbfe589c1777696b1d0> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.37 ;
+    asoft:hasPlayerCapacity "P_0236" .
+
+<http://example.org/inst/FieldZone_b291fe73967b6be3ee7d564049d7feeb> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.93 ;
+    asoft:hasPlayerCapacity "P_0021" .
+
+<http://example.org/inst/FieldZone_b36386273e4630b4eedf4d8db09a2f2e> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.05 ;
+    asoft:hasPlayerCapacity "P_0180" .
+
+<http://example.org/inst/FieldZone_b65439832f730f9acfa10be517be8844> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.04 ;
+    asoft:hasPlayerCapacity "P_0184" .
+
+<http://example.org/inst/FieldZone_b6ec49f4b35e2744c805923eb19399a8> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.93 ;
+    asoft:hasPlayerCapacity "P_0046" .
+
+<http://example.org/inst/FieldZone_b6efb2024593a4cbd05106a9556e9754> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.44 ;
+    asoft:hasPlayerCapacity "P_0159" .
+
+<http://example.org/inst/FieldZone_b85755393412af1f1c6e836bfd1a6296> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.58 ;
+    asoft:hasPlayerCapacity "P_0217" .
+
+<http://example.org/inst/FieldZone_b9f960586142f9186169a08c9b100521> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.0 ;
+    asoft:hasPlayerCapacity "P_0234" .
+
+<http://example.org/inst/FieldZone_ba45c930753efa77969fc0a17063f4f9> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.1 ;
+    asoft:hasPlayerCapacity "P_0219" .
+
+<http://example.org/inst/FieldZone_badba794bc81d61ccc90708534822db0> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.97 ;
+    asoft:hasPlayerCapacity "P_0071" .
+
+<http://example.org/inst/FieldZone_bcf4dc433843a69f2a6a2a496dc654bd> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.07 ;
+    asoft:hasPlayerCapacity "P_0198" .
+
+<http://example.org/inst/FieldZone_bd4be350c957d6318f180c7740f7785f> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.14 ;
+    asoft:hasPlayerCapacity "P_0032" .
+
+<http://example.org/inst/FieldZone_be13beb2edbe509b213a432825eed900> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.14 ;
+    asoft:hasPlayerCapacity "P_0068" .
+
+<http://example.org/inst/FieldZone_bf6124dd8f210a37144b5ca1443cc24c> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.46 ;
+    asoft:hasPlayerCapacity "P_0170" .
+
+<http://example.org/inst/FieldZone_bf95970bd9fe06905ae46aea7864bd0a> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.46 ;
+    asoft:hasPlayerCapacity "P_0224" .
+
+<http://example.org/inst/FieldZone_c042847f71b03288e3c29f93eca042f4> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.35 ;
+    asoft:hasPlayerCapacity "P_0026" .
+
+<http://example.org/inst/FieldZone_c1a292fa422fb901a70a1d4e700f95f8> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.86 ;
+    asoft:hasPlayerCapacity "P_0157" .
+
+<http://example.org/inst/FieldZone_c26b16ddaf6c693ec435bf3262126471> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.04 ;
+    asoft:hasPlayerCapacity "P_0179" .
+
+<http://example.org/inst/FieldZone_c28ae48e0205d19012ba965e079745df> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.01 ;
+    asoft:hasPlayerCapacity "P_0227" .
+
+<http://example.org/inst/FieldZone_c405325206cd5c76a34d5f844d16184b> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.06 ;
+    asoft:hasPlayerCapacity "P_0038" .
+
+<http://example.org/inst/FieldZone_c415990aa7934b4e1e2f706e28cbb954> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.68 ;
+    asoft:hasPlayerCapacity "P_0212" .
+
+<http://example.org/inst/FieldZone_c5f24eaa5e15c66a7421e92fb5007c4c> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.07 ;
+    asoft:hasPlayerCapacity "P_0242" .
+
+<http://example.org/inst/FieldZone_c5feedd7032414055dccd34ebea8eefa> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.03 ;
+    asoft:hasPlayerCapacity "P_0188" .
+
+<http://example.org/inst/FieldZone_c6296e6344ebc9d1852bef2822fb4738> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.56 ;
+    asoft:hasPlayerCapacity "P_0163" .
+
+<http://example.org/inst/FieldZone_c7de9578b08a2fff0a09644e9a1c678d> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.56 ;
+    asoft:hasPlayerCapacity "P_0106" .
+
+<http://example.org/inst/FieldZone_c8c82fe61915ede5a7aa50b0c8a49470> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.7 ;
+    asoft:hasPlayerCapacity "P_0194" .
+
+<http://example.org/inst/FieldZone_c907b5d303bba9a998e878245497d2e0> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.65 ;
+    asoft:hasPlayerCapacity "P_0034" .
+
+<http://example.org/inst/FieldZone_d09347190d9657701bf2270947f007a8> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.72 ;
+    asoft:hasPlayerCapacity "P_0160" .
+
+<http://example.org/inst/FieldZone_d0a6bd4780c195a71fb94b1c028dbd14> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.02 ;
+    asoft:hasPlayerCapacity "P_0123" .
+
+<http://example.org/inst/FieldZone_d0dee7f9b238f20d6fda87c589fe62a8> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.96 ;
+    asoft:hasPlayerCapacity "P_0074" .
+
+<http://example.org/inst/FieldZone_d0e49a192126e70fbe582873dbe90b9c> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.06 ;
+    asoft:hasPlayerCapacity "P_0233" .
+
+<http://example.org/inst/FieldZone_d1202c770164b2d29af72d950c634f7d> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.5 ;
+    asoft:hasPlayerCapacity "P_0204" .
+
+<http://example.org/inst/FieldZone_d37009df5c3d7162964bc6a10018d19c> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.11 ;
+    asoft:hasPlayerCapacity "P_0247" .
+
+<http://example.org/inst/FieldZone_d3886f01cb5542c6c7523c5c340fbccc> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.74 ;
+    asoft:hasPlayerCapacity "P_0097" .
+
+<http://example.org/inst/FieldZone_d39848e368d224c741bb17cf99ce58fb> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.61 ;
+    asoft:hasPlayerCapacity "P_0185" .
+
+<http://example.org/inst/FieldZone_d3ab3416e57a8f6a03d12457e004173d> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.09 ;
+    asoft:hasPlayerCapacity "P_0025" .
+
+<http://example.org/inst/FieldZone_d44c77da0e2008c4ae55fabfc130f7fb> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.64 ;
+    asoft:hasPlayerCapacity "P_0064" .
+
+<http://example.org/inst/FieldZone_d4f2ba34e17905f3ae11eb1fbae0bad8> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.07 ;
+    asoft:hasPlayerCapacity "P_0230" .
+
+<http://example.org/inst/FieldZone_d8e0e8bb9a6a569ffcdc26071b51b17b> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.23 ;
+    asoft:hasPlayerCapacity "P_0192" .
+
+<http://example.org/inst/FieldZone_d9564231be39fbd34ce3df4c35115413> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.93 ;
+    asoft:hasPlayerCapacity "P_0072" .
+
+<http://example.org/inst/FieldZone_daa0f85269e7cf77b4f455ee7e772bed> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 3.04 ;
+    asoft:hasPlayerCapacity "P_0132" .
+
+<http://example.org/inst/FieldZone_db50e0042187b5f88596b46740c4c140> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.24 ;
+    asoft:hasPlayerCapacity "P_0133" .
+
+<http://example.org/inst/FieldZone_dc8b85a2616e455a24e2e054275c6c12> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.82 ;
+    asoft:hasPlayerCapacity "P_0128" .
+
+<http://example.org/inst/FieldZone_ddef949df620341743a5a76742c71650> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.01 ;
+    asoft:hasPlayerCapacity "P_0156" .
+
+<http://example.org/inst/FieldZone_debe67ed15ec2f21b8721fcdd6ea13b9> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.3 ;
+    asoft:hasPlayerCapacity "P_0112" .
+
+<http://example.org/inst/FieldZone_df01377696d0819638da7713d85f2cb8> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.53 ;
+    asoft:hasPlayerCapacity "P_0182" .
+
+<http://example.org/inst/FieldZone_e1a6932274cb16ef69c9357106a4a688> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.87 ;
+    asoft:hasPlayerCapacity "P_0149" .
+
+<http://example.org/inst/FieldZone_e38a2eb5dcc563dbbf55f0ffcede7c4c> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.67 ;
+    asoft:hasPlayerCapacity "P_0099" .
+
+<http://example.org/inst/FieldZone_e5141c5b946c1b1f513cf29c4da20bde> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.05 ;
+    asoft:hasPlayerCapacity "P_0134" .
+
+<http://example.org/inst/FieldZone_e58fc62ec5ce8be1c3cf7ca253c666db> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.1 ;
+    asoft:hasPlayerCapacity "P_0048" .
+
+<http://example.org/inst/FieldZone_e6bf16f0c9d5851e30a9d50b8285a7b4> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.96 ;
+    asoft:hasPlayerCapacity "P_0145" .
+
+<http://example.org/inst/FieldZone_e7b9aa1bce008314110bfeb5a91e0b7a> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.1 ;
+    asoft:hasPlayerCapacity "P_0104" .
+
+<http://example.org/inst/FieldZone_e890358b29bc741b52e4849ebc9b4fce> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.7 ;
+    asoft:hasPlayerCapacity "P_0190" .
+
+<http://example.org/inst/FieldZone_ea1412c17152efe3da6ef39e05779ab5> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.02 ;
+    asoft:hasPlayerCapacity "P_0015" .
+
+<http://example.org/inst/FieldZone_edb101b2afb7fee6cb6114a667d15439> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.69 ;
+    asoft:hasPlayerCapacity "P_0053" .
+
+<http://example.org/inst/FieldZone_edb135520919241142fa56f6f74d1303> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.14 ;
+    asoft:hasPlayerCapacity "P_0092" .
+
+<http://example.org/inst/FieldZone_edf206d4d1b412a0bd27fdd6b36df648> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.97 ;
+    asoft:hasPlayerCapacity "P_0045" .
+
+<http://example.org/inst/FieldZone_f2afb0f79797bd337908c60d7e11c434> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.43 ;
+    asoft:hasPlayerCapacity "P_0037" .
+
+<http://example.org/inst/FieldZone_f301a5aaa56e0be2640e3906dad4a432> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.35 ;
+    asoft:hasPlayerCapacity "P_0109" .
+
+<http://example.org/inst/FieldZone_f455ae0775756164e7437dec3e0c1b5f> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.98 ;
+    asoft:hasPlayerCapacity "P_0232" .
+
+<http://example.org/inst/FieldZone_f492a919777a04ff849fa83fb0af5388> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.34 ;
+    asoft:hasPlayerCapacity "P_0055" .
+
+<http://example.org/inst/FieldZone_f5da65518f61656f7f8558c7e11e8c76> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.8 ;
+    asoft:hasPlayerCapacity "P_0220" .
+
+<http://example.org/inst/FieldZone_f5f6bbc7067c92c434a15fedd56daa5a> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.14 ;
+    asoft:hasPlayerCapacity "P_0146" .
+
+<http://example.org/inst/FieldZone_f83c99ac85fb5cdf692ca4772805ebf7> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.06 ;
+    asoft:hasPlayerCapacity "P_0036" .
+
+<http://example.org/inst/FieldZone_f85cc2f3f0f0f595df74605c2dac0b2d> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.13 ;
+    asoft:hasPlayerCapacity "P_0016" .
+
+<http://example.org/inst/FieldZone_f94312b9f09d6435d196cee8966fda6d> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 1.08 ;
+    asoft:hasPlayerCapacity "P_0057" .
+
+<http://example.org/inst/FieldZone_f94f3d9371c26f836ab8112ba1a1a975> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.25 ;
+    asoft:hasPlayerCapacity "P_0095" .
+
+<http://example.org/inst/FieldZone_fb256f115eaffc7f566f1c35dde07505> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 0.7 ;
+    asoft:hasPlayerCapacity "P_0208" .
+
+<http://example.org/inst/FieldZone_fb38dd71da6099bbf20af1b990bb0a99> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.05 ;
+    asoft:hasPlayerCapacity "P_0166" .
+
+<http://example.org/inst/FieldZone_ff9ded16ff7093700367ee9522fc7592> a asoft:FieldZone ;
+    asoft:hasMaxJouleLimit 2.99 ;
+    asoft:hasPlayerCapacity "P_0052" .
+
+<http://example.org/inst/RepairInvoice_009c89a9d66727c5aadfa09985873325> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_009c89a9d66727c5aadfa09985873325> .
+
+<http://example.org/inst/RepairInvoice_02e45294efc368379bbd478a3a5c2820> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_02e45294efc368379bbd478a3a5c2820> .
+
+<http://example.org/inst/RepairInvoice_03dc507da0570b6302ee760a7dcd7fa5> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_03dc507da0570b6302ee760a7dcd7fa5> .
+
+<http://example.org/inst/RepairInvoice_045f3f3f6436ce875f4ca5b9023af86b> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_045f3f3f6436ce875f4ca5b9023af86b> .
+
+<http://example.org/inst/RepairInvoice_05a351c20495177f7561f10bc7436a93> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_05a351c20495177f7561f10bc7436a93> .
+
+<http://example.org/inst/RepairInvoice_05b786c4eb8435bcdef26a58c6b75e2a> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_05b786c4eb8435bcdef26a58c6b75e2a> .
+
+<http://example.org/inst/RepairInvoice_05ca6cb28ed6e3c6045afaa3e712b7a6> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_05ca6cb28ed6e3c6045afaa3e712b7a6> .
+
+<http://example.org/inst/RepairInvoice_07ad5d4b1f3cab8dbe59343d8990cf5d> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_07ad5d4b1f3cab8dbe59343d8990cf5d> .
+
+<http://example.org/inst/RepairInvoice_0842f62999a234e0ccf1329af421127e> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0842f62999a234e0ccf1329af421127e> .
+
+<http://example.org/inst/RepairInvoice_090d72a3a442615877f43e78394547df> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_090d72a3a442615877f43e78394547df> .
+
+<http://example.org/inst/RepairInvoice_0942a05efc13eddb6dd1f260bf1c6f95> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0942a05efc13eddb6dd1f260bf1c6f95> .
+
+<http://example.org/inst/RepairInvoice_094af69e5b4f55f4e67f0ef55fcac585> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_094af69e5b4f55f4e67f0ef55fcac585> .
+
+<http://example.org/inst/RepairInvoice_09d076e38890ac4837bfd786511ac4f3> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_09d076e38890ac4837bfd786511ac4f3> .
+
+<http://example.org/inst/RepairInvoice_0bb96a76365ddca67a35dd2c8100324c> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0bb96a76365ddca67a35dd2c8100324c> .
+
+<http://example.org/inst/RepairInvoice_0bf620179a32af1b3726433d5a6ca42e> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0bf620179a32af1b3726433d5a6ca42e> .
+
+<http://example.org/inst/RepairInvoice_0cc5f17ed05a515f9ea1772b54f3d394> a asoft:RepairInvoice ;
+    asoft:platformModel "G&G SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0cc5f17ed05a515f9ea1772b54f3d394> .
+
+<http://example.org/inst/RepairInvoice_0d88e92abc6b441be207ab1448bcf445> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0d88e92abc6b441be207ab1448bcf445> .
+
+<http://example.org/inst/RepairInvoice_0dfa85ec7e34b6f9bd9f94d67760b4eb> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0dfa85ec7e34b6f9bd9f94d67760b4eb> .
+
+<http://example.org/inst/RepairInvoice_0e2e9d0f870b66ab27c3ce58158eff1f> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0e2e9d0f870b66ab27c3ce58158eff1f> .
+
+<http://example.org/inst/RepairInvoice_0ed55971aebca27281d4096a72c4002d> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0ed55971aebca27281d4096a72c4002d> .
+
+<http://example.org/inst/RepairInvoice_0eed36f9f1a1a5c1de4c8f1013d6158b> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0eed36f9f1a1a5c1de4c8f1013d6158b> .
+
+<http://example.org/inst/RepairInvoice_0ef99a1232f1ecea91ad56cb424ec68c> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0ef99a1232f1ecea91ad56cb424ec68c> .
+
+<http://example.org/inst/RepairInvoice_0f54b360c72a0051e9f9fb4577a495b1> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0f54b360c72a0051e9f9fb4577a495b1> .
+
+<http://example.org/inst/RepairInvoice_1097359f09edc3209e3df465e5ead4ef> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1097359f09edc3209e3df465e5ead4ef> .
+
+<http://example.org/inst/RepairInvoice_13e0cef5869b053e9d1d6df2d4e35fbb> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_13e0cef5869b053e9d1d6df2d4e35fbb> .
+
+<http://example.org/inst/RepairInvoice_1440e423afcb9efe05873db53c122412> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1440e423afcb9efe05873db53c122412> .
+
+<http://example.org/inst/RepairInvoice_149c57e276c105be47cc4cee751bbb67> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_149c57e276c105be47cc4cee751bbb67> .
+
+<http://example.org/inst/RepairInvoice_164a7a93abbe9233850a27269b8de7f6> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_164a7a93abbe9233850a27269b8de7f6> .
+
+<http://example.org/inst/RepairInvoice_1691a6c13b4bc89f823d94c66e916f4e> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1691a6c13b4bc89f823d94c66e916f4e> .
+
+<http://example.org/inst/RepairInvoice_17747c5271b1687b37959df57120fa30> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_17747c5271b1687b37959df57120fa30> .
+
+<http://example.org/inst/RepairInvoice_185482e2c4cba3ee35a7652e1c4707de> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_185482e2c4cba3ee35a7652e1c4707de> .
+
+<http://example.org/inst/RepairInvoice_19546d02912146ad311b3039a34f65e5> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_19546d02912146ad311b3039a34f65e5> .
+
+<http://example.org/inst/RepairInvoice_197aa4c2a3ac2c51f9defc93a9a868dd> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_197aa4c2a3ac2c51f9defc93a9a868dd> .
+
+<http://example.org/inst/RepairInvoice_197b184e2f894c9c55cd7606b71b38d4> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_197b184e2f894c9c55cd7606b71b38d4> .
+
+<http://example.org/inst/RepairInvoice_1b2879c1a9c2b02b46237159b847d1dc> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1b2879c1a9c2b02b46237159b847d1dc> .
+
+<http://example.org/inst/RepairInvoice_1c309d0fa794424a83f4acd834e7076a> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1c309d0fa794424a83f4acd834e7076a> .
+
+<http://example.org/inst/RepairInvoice_1dfe541685ab328ed7c83c5a57e8cce1> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1dfe541685ab328ed7c83c5a57e8cce1> .
+
+<http://example.org/inst/RepairInvoice_1e8fa915143bce3da1f4b79cf23500e4> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1e8fa915143bce3da1f4b79cf23500e4> .
+
+<http://example.org/inst/RepairInvoice_1ee5b0e0ec8b6fd552f6f1de14bad6c2> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1ee5b0e0ec8b6fd552f6f1de14bad6c2> .
+
+<http://example.org/inst/RepairInvoice_1fb040b500057c77989f00e6f82a622f> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1fb040b500057c77989f00e6f82a622f> .
+
+<http://example.org/inst/RepairInvoice_1fc3108d83b825fe8cf449e276aa519f> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1fc3108d83b825fe8cf449e276aa519f> .
+
+<http://example.org/inst/RepairInvoice_201d7025a1659f3dfc114e4d53ab399f> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_201d7025a1659f3dfc114e4d53ab399f> .
+
+<http://example.org/inst/RepairInvoice_206187f4746e79c8216d4278e042ce56> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_206187f4746e79c8216d4278e042ce56> .
+
+<http://example.org/inst/RepairInvoice_208b1198a06f74d73103475094a2eb77> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_208b1198a06f74d73103475094a2eb77> .
+
+<http://example.org/inst/RepairInvoice_21ebbb8a634964cecf2130ba6aadcbc3> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_21ebbb8a634964cecf2130ba6aadcbc3> .
+
+<http://example.org/inst/RepairInvoice_222fb69b23004315771d69fc36132ef1> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_222fb69b23004315771d69fc36132ef1> .
+
+<http://example.org/inst/RepairInvoice_25d679429ac6514495752d470edd15ae> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_25d679429ac6514495752d470edd15ae> .
+
+<http://example.org/inst/RepairInvoice_267e86a74877520b26b684cadc6031b1> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_267e86a74877520b26b684cadc6031b1> .
+
+<http://example.org/inst/RepairInvoice_2718e810f44458e8d44823be8e34ef3c> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2718e810f44458e8d44823be8e34ef3c> .
+
+<http://example.org/inst/RepairInvoice_2733ca4c956231a3556eb9add435c7fe> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2733ca4c956231a3556eb9add435c7fe> .
+
+<http://example.org/inst/RepairInvoice_27bc5351d69950dd9deb4f2b703d1d91> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_27bc5351d69950dd9deb4f2b703d1d91> .
+
+<http://example.org/inst/RepairInvoice_27c32231367aaa1d9eac184fae63f7ff> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_27c32231367aaa1d9eac184fae63f7ff> .
+
+<http://example.org/inst/RepairInvoice_27e898558a8525d7a3ac69de8801d472> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_27e898558a8525d7a3ac69de8801d472> .
+
+<http://example.org/inst/RepairInvoice_2824bf0c4e9aa7a34c1e3348295bc47f> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2824bf0c4e9aa7a34c1e3348295bc47f> .
+
+<http://example.org/inst/RepairInvoice_28809e7fafe1db90bedc8c229c6d1c8d> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_28809e7fafe1db90bedc8c229c6d1c8d> .
+
+<http://example.org/inst/RepairInvoice_291a27dcc6d9981983d341b55d478e1f> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_291a27dcc6d9981983d341b55d478e1f> .
+
+<http://example.org/inst/RepairInvoice_293a2b45c60d5427b536278a72630ef2> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_293a2b45c60d5427b536278a72630ef2> .
+
+<http://example.org/inst/RepairInvoice_2a30a23c1d82b5b82e4f89435dbb8149> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2a30a23c1d82b5b82e4f89435dbb8149> .
+
+<http://example.org/inst/RepairInvoice_2c71e78045005fea73d2bbf9feb5cc70> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2c71e78045005fea73d2bbf9feb5cc70> .
+
+<http://example.org/inst/RepairInvoice_2c94599b2245b6a9bc9b7bfc67198fcb> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2c94599b2245b6a9bc9b7bfc67198fcb> .
+
+<http://example.org/inst/RepairInvoice_2ce4d73f464ad0887088841fcb051fa1> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2ce4d73f464ad0887088841fcb051fa1> .
+
+<http://example.org/inst/RepairInvoice_2e395f5aec825064373300110c738c76> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2e395f5aec825064373300110c738c76> .
+
+<http://example.org/inst/RepairInvoice_3084b523cb2bbe2cf82a083897693557> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3084b523cb2bbe2cf82a083897693557> .
+
+<http://example.org/inst/RepairInvoice_30d6fffd256e53d1d70101e023b6b195> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_30d6fffd256e53d1d70101e023b6b195> .
+
+<http://example.org/inst/RepairInvoice_323e77cb74feb15fafeba3624e0399ed> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_323e77cb74feb15fafeba3624e0399ed> .
+
+<http://example.org/inst/RepairInvoice_332f0714b598c828460b8378fe254f4b> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_332f0714b598c828460b8378fe254f4b> .
+
+<http://example.org/inst/RepairInvoice_335d0f3b4cec57b515c50c7073d3dfbd> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_335d0f3b4cec57b515c50c7073d3dfbd> .
+
+<http://example.org/inst/RepairInvoice_359b50a202b61dd049c63697446e6e5e> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_359b50a202b61dd049c63697446e6e5e> .
+
+<http://example.org/inst/RepairInvoice_359c812bd197ab0b16545d9be385cefe> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_359c812bd197ab0b16545d9be385cefe> .
+
+<http://example.org/inst/RepairInvoice_35f289571385efcd3629d6b02408ff02> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_35f289571385efcd3629d6b02408ff02> .
+
+<http://example.org/inst/RepairInvoice_38482a66c6214499cdbeff51c64cc73f> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_38482a66c6214499cdbeff51c64cc73f> .
+
+<http://example.org/inst/RepairInvoice_3a9417bd4a9cd186289bf4c144f944c2> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3a9417bd4a9cd186289bf4c144f944c2> .
+
+<http://example.org/inst/RepairInvoice_3b1869d8de628bc66f1ca3f26518df92> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3b1869d8de628bc66f1ca3f26518df92> .
+
+<http://example.org/inst/RepairInvoice_3b6d33c3ec40658516e277ccdd04af9b> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3b6d33c3ec40658516e277ccdd04af9b> .
+
+<http://example.org/inst/RepairInvoice_3c5269d8fcb6ec30ccb3cba3197cb35b> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3c5269d8fcb6ec30ccb3cba3197cb35b> .
+
+<http://example.org/inst/RepairInvoice_3cba332b871ecba937a8d193267a1f94> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3cba332b871ecba937a8d193267a1f94> .
+
+<http://example.org/inst/RepairInvoice_3df810f2bfaf02439d1cd5a6faeebce6> a asoft:RepairInvoice ;
+    asoft:platformModel "G&G SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3df810f2bfaf02439d1cd5a6faeebce6> .
+
+<http://example.org/inst/RepairInvoice_3ecb6984f9c76e2415d22b81e643f21d> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3ecb6984f9c76e2415d22b81e643f21d> .
+
+<http://example.org/inst/RepairInvoice_3f55889dae851d317937e33f6d6b1075> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3f55889dae851d317937e33f6d6b1075> .
+
+<http://example.org/inst/RepairInvoice_3fc47e8fc0bcf456943433b373771ec2> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3fc47e8fc0bcf456943433b373771ec2> .
+
+<http://example.org/inst/RepairInvoice_40bd82ab46168023624c35fe5ac17f57> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_40bd82ab46168023624c35fe5ac17f57> .
+
+<http://example.org/inst/RepairInvoice_4158df54967499fcfd32b5b51735a2f1> a asoft:RepairInvoice ;
+    asoft:platformModel "G&G AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4158df54967499fcfd32b5b51735a2f1> .
+
+<http://example.org/inst/RepairInvoice_4184663f5023f232407ae59823b2ce5e> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4184663f5023f232407ae59823b2ce5e> .
+
+<http://example.org/inst/RepairInvoice_427d87927b62fad74b3c894d26d2447a> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_427d87927b62fad74b3c894d26d2447a> .
+
+<http://example.org/inst/RepairInvoice_43df7889f94d2b7af706359e089b4107> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_43df7889f94d2b7af706359e089b4107> .
+
+<http://example.org/inst/RepairInvoice_46eab4e457e99d56970a3ad7b81d7d71> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_46eab4e457e99d56970a3ad7b81d7d71> .
+
+<http://example.org/inst/RepairInvoice_4ac62ca18b3050e782c1dde45d5a6b2e> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4ac62ca18b3050e782c1dde45d5a6b2e> .
+
+<http://example.org/inst/RepairInvoice_4d57576a4766e1a45243246dfacd5efb> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4d57576a4766e1a45243246dfacd5efb> .
+
+<http://example.org/inst/RepairInvoice_4dc6be1b8dedf0eaa43b5247b311bdba> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4dc6be1b8dedf0eaa43b5247b311bdba> .
+
+<http://example.org/inst/RepairInvoice_507a13340dcbf0bae1c1415325085d58> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_507a13340dcbf0bae1c1415325085d58> .
+
+<http://example.org/inst/RepairInvoice_50b9501ef8943a8cb3a45a2d9c549776> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_50b9501ef8943a8cb3a45a2d9c549776> .
+
+<http://example.org/inst/RepairInvoice_50d2a1a7e965504b94b2b209469ca23e> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_50d2a1a7e965504b94b2b209469ca23e> .
+
+<http://example.org/inst/RepairInvoice_51202754064450e172119499fb258524> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_51202754064450e172119499fb258524> .
+
+<http://example.org/inst/RepairInvoice_56d25cd74ffbf57fda47e0d0068e4093> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_56d25cd74ffbf57fda47e0d0068e4093> .
+
+<http://example.org/inst/RepairInvoice_57d6ffebddc2ab40217fcc6cca6c081d> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_57d6ffebddc2ab40217fcc6cca6c081d> .
+
+<http://example.org/inst/RepairInvoice_5c2bf22f26c8c88b3d9fa70839ebf519> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5c2bf22f26c8c88b3d9fa70839ebf519> .
+
+<http://example.org/inst/RepairInvoice_5c8285a499e6da8c6a9aaa101c1b2aab> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5c8285a499e6da8c6a9aaa101c1b2aab> .
+
+<http://example.org/inst/RepairInvoice_5d3dc03d44d300978de86599d21573ab> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5d3dc03d44d300978de86599d21573ab> .
+
+<http://example.org/inst/RepairInvoice_5d47d7f99d536bd125fb9e38df31f1da> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5d47d7f99d536bd125fb9e38df31f1da> .
+
+<http://example.org/inst/RepairInvoice_5f82a3c5935ca4e1a9944b631ca975ca> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5f82a3c5935ca4e1a9944b631ca975ca> .
+
+<http://example.org/inst/RepairInvoice_5fd8ba1ac975ffa992d90eda3b264290> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5fd8ba1ac975ffa992d90eda3b264290> .
+
+<http://example.org/inst/RepairInvoice_60e2eaaed2e3d4630b9001690d1dd65b> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_60e2eaaed2e3d4630b9001690d1dd65b> .
+
+<http://example.org/inst/RepairInvoice_610d8997897c020b9101e7a407e06ef9> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_610d8997897c020b9101e7a407e06ef9> .
+
+<http://example.org/inst/RepairInvoice_616fdc606a38ba758efdf3d4abb2e419> a asoft:RepairInvoice ;
+    asoft:platformModel "G&G AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_616fdc606a38ba758efdf3d4abb2e419> .
+
+<http://example.org/inst/RepairInvoice_6272d032825fbaf1e565a05b8403bb6e> a asoft:RepairInvoice ;
+    asoft:platformModel "G&G AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6272d032825fbaf1e565a05b8403bb6e> .
+
+<http://example.org/inst/RepairInvoice_630b191b2787faaf23f00d1e98c1775e> a asoft:RepairInvoice ;
+    asoft:platformModel "G&G SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_630b191b2787faaf23f00d1e98c1775e> .
+
+<http://example.org/inst/RepairInvoice_63a8166e797759602785d2fb756e48db> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_63a8166e797759602785d2fb756e48db> .
+
+<http://example.org/inst/RepairInvoice_63e7d4e83bcdf90056a8087ad51c2189> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_63e7d4e83bcdf90056a8087ad51c2189> .
+
+<http://example.org/inst/RepairInvoice_63f2e263b79941670397e8b59fe9b8d4> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_63f2e263b79941670397e8b59fe9b8d4> .
+
+<http://example.org/inst/RepairInvoice_64b03f7da31e9c893ae04c5924d001f8> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_64b03f7da31e9c893ae04c5924d001f8> .
+
+<http://example.org/inst/RepairInvoice_66f0528724f6094833a56c811da49184> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_66f0528724f6094833a56c811da49184> .
+
+<http://example.org/inst/RepairInvoice_676e8ce20585c6926a50130cccced28e> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_676e8ce20585c6926a50130cccced28e> .
+
+<http://example.org/inst/RepairInvoice_69447cfb1bf0c21f0dc840a67c8a7089> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_69447cfb1bf0c21f0dc840a67c8a7089> .
+
+<http://example.org/inst/RepairInvoice_6b0fe51595ff7b876c2b6fab95a9de2b> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6b0fe51595ff7b876c2b6fab95a9de2b> .
+
+<http://example.org/inst/RepairInvoice_6cbaec30b4cbb60ac02583ba16edd569> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6cbaec30b4cbb60ac02583ba16edd569> .
+
+<http://example.org/inst/RepairInvoice_6cf3f0b50e4b1e699524f16cef4e603f> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6cf3f0b50e4b1e699524f16cef4e603f> .
+
+<http://example.org/inst/RepairInvoice_6cf8dcb0463124da89f9648f2f07db3e> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6cf8dcb0463124da89f9648f2f07db3e> .
+
+<http://example.org/inst/RepairInvoice_6d677155193e93aa6295852bc7c1281e> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6d677155193e93aa6295852bc7c1281e> .
+
+<http://example.org/inst/RepairInvoice_6d9b515b3755470e88ec9e81ea9f6235> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6d9b515b3755470e88ec9e81ea9f6235> .
+
+<http://example.org/inst/RepairInvoice_6e1b7955143b51b2059a391593ef8912> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6e1b7955143b51b2059a391593ef8912> .
+
+<http://example.org/inst/RepairInvoice_6ea74b27c283a4507e4a2d4af35b3c43> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6ea74b27c283a4507e4a2d4af35b3c43> .
+
+<http://example.org/inst/RepairInvoice_70ecf74190b01fcabba51d990c8018ab> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_70ecf74190b01fcabba51d990c8018ab> .
+
+<http://example.org/inst/RepairInvoice_7163c41d32258ff680862de0654127b2> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7163c41d32258ff680862de0654127b2> .
+
+<http://example.org/inst/RepairInvoice_71ca07d58388316d5fa5d04e599a9a69> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_71ca07d58388316d5fa5d04e599a9a69> .
+
+<http://example.org/inst/RepairInvoice_7200dc054e7385043a3253578083e9c9> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7200dc054e7385043a3253578083e9c9> .
+
+<http://example.org/inst/RepairInvoice_753a5b9870dbbf9719637627889784b8> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_753a5b9870dbbf9719637627889784b8> .
+
+<http://example.org/inst/RepairInvoice_76c34f0a0c84d5cbb3b5deff251d5bee> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_76c34f0a0c84d5cbb3b5deff251d5bee> .
+
+<http://example.org/inst/RepairInvoice_781cfe2ae3e6b5c3e1033d3a04a826ea> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_781cfe2ae3e6b5c3e1033d3a04a826ea> .
+
+<http://example.org/inst/RepairInvoice_789f3c86dd855b03dd6290282548f8b9> a asoft:RepairInvoice ;
+    asoft:platformModel "G&G M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_789f3c86dd855b03dd6290282548f8b9> .
+
+<http://example.org/inst/RepairInvoice_7a729cb613979041b482a5b1e755ccfa> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7a729cb613979041b482a5b1e755ccfa> .
+
+<http://example.org/inst/RepairInvoice_7af3813fab3a03821bb005914db9c099> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7af3813fab3a03821bb005914db9c099> .
+
+<http://example.org/inst/RepairInvoice_7df333cf3f17ae935e53e2e11db7f1a8> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7df333cf3f17ae935e53e2e11db7f1a8> .
+
+<http://example.org/inst/RepairInvoice_7ef85ff5c1e16f2cf70ddfb414ad2414> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7ef85ff5c1e16f2cf70ddfb414ad2414> .
+
+<http://example.org/inst/RepairInvoice_7fe696b4c186667f13ca69fd1286e83d> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7fe696b4c186667f13ca69fd1286e83d> .
+
+<http://example.org/inst/RepairInvoice_80db80d1b9ac41365db5362ad15971fc> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_80db80d1b9ac41365db5362ad15971fc> .
+
+<http://example.org/inst/RepairInvoice_8311b1987a2d603d947af2085392e2b9> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8311b1987a2d603d947af2085392e2b9> .
+
+<http://example.org/inst/RepairInvoice_83713a24f60c492ddbaa0958c472be5b> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_83713a24f60c492ddbaa0958c472be5b> .
+
+<http://example.org/inst/RepairInvoice_8423863a0678827fc5a3cf6dff7f1c12> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8423863a0678827fc5a3cf6dff7f1c12> .
+
+<http://example.org/inst/RepairInvoice_86e59109e14be7d937176ba5bf058bf4> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_86e59109e14be7d937176ba5bf058bf4> .
+
+<http://example.org/inst/RepairInvoice_87bb170af2d3c3ad57ecfe0f41b1e24e> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_87bb170af2d3c3ad57ecfe0f41b1e24e> .
+
+<http://example.org/inst/RepairInvoice_89aa4610b2a159cf531ca38917a56fa6> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_89aa4610b2a159cf531ca38917a56fa6> .
+
+<http://example.org/inst/RepairInvoice_8acb10d1d0bb8f6fb29f08fc93eed7ae> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8acb10d1d0bb8f6fb29f08fc93eed7ae> .
+
+<http://example.org/inst/RepairInvoice_8b98ffce218f275dee70d1643b93b0d8> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8b98ffce218f275dee70d1643b93b0d8> .
+
+<http://example.org/inst/RepairInvoice_8c456521f3c4ccf74a32ef62db5d8c69> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8c456521f3c4ccf74a32ef62db5d8c69> .
+
+<http://example.org/inst/RepairInvoice_8d90f6d772f1cf289f3c066581b9c417> a asoft:RepairInvoice ;
+    asoft:platformModel "G&G SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8d90f6d772f1cf289f3c066581b9c417> .
+
+<http://example.org/inst/RepairInvoice_8de9aeff20af1441f3ff6322f4305367> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8de9aeff20af1441f3ff6322f4305367> .
+
+<http://example.org/inst/RepairInvoice_8fd1085ed299efd812165bcbaa100801> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8fd1085ed299efd812165bcbaa100801> .
+
+<http://example.org/inst/RepairInvoice_90a6a8e0fecb3d9855b9863a0fbe7f4b> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_90a6a8e0fecb3d9855b9863a0fbe7f4b> .
+
+<http://example.org/inst/RepairInvoice_916c0a6485a9af82cb58692424199af1> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_916c0a6485a9af82cb58692424199af1> .
+
+<http://example.org/inst/RepairInvoice_927284729fd4e8c032dbcf98dbc2fca9> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_927284729fd4e8c032dbcf98dbc2fca9> .
+
+<http://example.org/inst/RepairInvoice_934d8f708a2e022e4d66a6a8e7934c9c> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_934d8f708a2e022e4d66a6a8e7934c9c> .
+
+<http://example.org/inst/RepairInvoice_93efc68553dc1e5683a4bebaf096a7bc> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_93efc68553dc1e5683a4bebaf096a7bc> .
+
+<http://example.org/inst/RepairInvoice_9403e42755ac367ee10dbf730f4f04c8> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_9403e42755ac367ee10dbf730f4f04c8> .
+
+<http://example.org/inst/RepairInvoice_943b9f50b4600de97da10f80b265de83> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_943b9f50b4600de97da10f80b265de83> .
+
+<http://example.org/inst/RepairInvoice_94bb50e33b3603e582e3df751b726845> a asoft:RepairInvoice ;
+    asoft:platformModel "G&G SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_94bb50e33b3603e582e3df751b726845> .
+
+<http://example.org/inst/RepairInvoice_95cd1ff044e890929f04e0c8f13f6b95> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_95cd1ff044e890929f04e0c8f13f6b95> .
+
+<http://example.org/inst/RepairInvoice_979ab78658b9553dc95e09bfab327a66> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_979ab78658b9553dc95e09bfab327a66> .
+
+<http://example.org/inst/RepairInvoice_9d08763ffee1e5fed5e86d4f046dd385> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_9d08763ffee1e5fed5e86d4f046dd385> .
+
+<http://example.org/inst/RepairInvoice_9d3c03b736ac7931601d6d32ce15c523> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_9d3c03b736ac7931601d6d32ce15c523> .
+
+<http://example.org/inst/RepairInvoice_9e5e0a89e23aae9cddd7301f108098cc> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_9e5e0a89e23aae9cddd7301f108098cc> .
+
+<http://example.org/inst/RepairInvoice_a02a4f9faea2035a0a38f12e8372a63e> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a02a4f9faea2035a0a38f12e8372a63e> .
+
+<http://example.org/inst/RepairInvoice_a0aa499534bb766b59f8b6950f83cee2> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a0aa499534bb766b59f8b6950f83cee2> .
+
+<http://example.org/inst/RepairInvoice_a121536b43aa5e2e766b6f6e16c484d9> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a121536b43aa5e2e766b6f6e16c484d9> .
+
+<http://example.org/inst/RepairInvoice_a2ea48ba8911e8bbb61fc11a3a5c1305> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a2ea48ba8911e8bbb61fc11a3a5c1305> .
+
+<http://example.org/inst/RepairInvoice_a4d5482b0cd58f27869a6d57a18cf220> a asoft:RepairInvoice ;
+    asoft:platformModel "G&G AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a4d5482b0cd58f27869a6d57a18cf220> .
+
+<http://example.org/inst/RepairInvoice_a600bdaa202ce0d6ffe7071452f52d90> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a600bdaa202ce0d6ffe7071452f52d90> .
+
+<http://example.org/inst/RepairInvoice_a60cd1f0dbcd9a10412865af327fc586> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a60cd1f0dbcd9a10412865af327fc586> .
+
+<http://example.org/inst/RepairInvoice_a62fa2b92dcf9d123bd510a3e5049764> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a62fa2b92dcf9d123bd510a3e5049764> .
+
+<http://example.org/inst/RepairInvoice_a758bff3d03744d2806b4c04326860a8> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a758bff3d03744d2806b4c04326860a8> .
+
+<http://example.org/inst/RepairInvoice_a8302ab4aebc2e82c3f6ff1b0e52fbbf> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a8302ab4aebc2e82c3f6ff1b0e52fbbf> .
+
+<http://example.org/inst/RepairInvoice_aaf3d0d15fcdfbe15263e2c5d43fff40> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_aaf3d0d15fcdfbe15263e2c5d43fff40> .
+
+<http://example.org/inst/RepairInvoice_ac9e01f53e572e6a1b52c026c1b20ecf> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ac9e01f53e572e6a1b52c026c1b20ecf> .
+
+<http://example.org/inst/RepairInvoice_adf5a9bdadae2dd34892036b1a9bbeb2> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_adf5a9bdadae2dd34892036b1a9bbeb2> .
+
+<http://example.org/inst/RepairInvoice_ae02c21c8ebfca751339ba4cb8c92a6c> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ae02c21c8ebfca751339ba4cb8c92a6c> .
+
+<http://example.org/inst/RepairInvoice_ae33669b21e9ecc5b9be73c2c0778167> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ae33669b21e9ecc5b9be73c2c0778167> .
+
+<http://example.org/inst/RepairInvoice_ae5c10264858f4047afb5dc15e87172b> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ae5c10264858f4047afb5dc15e87172b> .
+
+<http://example.org/inst/RepairInvoice_af1cf1dfe23699034041404b749a8ae8> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_af1cf1dfe23699034041404b749a8ae8> .
+
+<http://example.org/inst/RepairInvoice_afcd33ee3eb429373d2aa85a5104c810> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_afcd33ee3eb429373d2aa85a5104c810> .
+
+<http://example.org/inst/RepairInvoice_b0969bcfeb113f398bb0f16a9be5bf20> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b0969bcfeb113f398bb0f16a9be5bf20> .
+
+<http://example.org/inst/RepairInvoice_b17dad478e47331aad5e00e1926abfd5> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b17dad478e47331aad5e00e1926abfd5> .
+
+<http://example.org/inst/RepairInvoice_b1d980153c728dbfe589c1777696b1d0> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b1d980153c728dbfe589c1777696b1d0> .
+
+<http://example.org/inst/RepairInvoice_b291fe73967b6be3ee7d564049d7feeb> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b291fe73967b6be3ee7d564049d7feeb> .
+
+<http://example.org/inst/RepairInvoice_b36386273e4630b4eedf4d8db09a2f2e> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b36386273e4630b4eedf4d8db09a2f2e> .
+
+<http://example.org/inst/RepairInvoice_b65439832f730f9acfa10be517be8844> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b65439832f730f9acfa10be517be8844> .
+
+<http://example.org/inst/RepairInvoice_b6ec49f4b35e2744c805923eb19399a8> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b6ec49f4b35e2744c805923eb19399a8> .
+
+<http://example.org/inst/RepairInvoice_b6efb2024593a4cbd05106a9556e9754> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b6efb2024593a4cbd05106a9556e9754> .
+
+<http://example.org/inst/RepairInvoice_b85755393412af1f1c6e836bfd1a6296> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b85755393412af1f1c6e836bfd1a6296> .
+
+<http://example.org/inst/RepairInvoice_b9f960586142f9186169a08c9b100521> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b9f960586142f9186169a08c9b100521> .
+
+<http://example.org/inst/RepairInvoice_ba45c930753efa77969fc0a17063f4f9> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ba45c930753efa77969fc0a17063f4f9> .
+
+<http://example.org/inst/RepairInvoice_badba794bc81d61ccc90708534822db0> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_badba794bc81d61ccc90708534822db0> .
+
+<http://example.org/inst/RepairInvoice_bcf4dc433843a69f2a6a2a496dc654bd> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bcf4dc433843a69f2a6a2a496dc654bd> .
+
+<http://example.org/inst/RepairInvoice_bd4be350c957d6318f180c7740f7785f> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bd4be350c957d6318f180c7740f7785f> .
+
+<http://example.org/inst/RepairInvoice_be13beb2edbe509b213a432825eed900> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_be13beb2edbe509b213a432825eed900> .
+
+<http://example.org/inst/RepairInvoice_bf6124dd8f210a37144b5ca1443cc24c> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bf6124dd8f210a37144b5ca1443cc24c> .
+
+<http://example.org/inst/RepairInvoice_bf95970bd9fe06905ae46aea7864bd0a> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bf95970bd9fe06905ae46aea7864bd0a> .
+
+<http://example.org/inst/RepairInvoice_c042847f71b03288e3c29f93eca042f4> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c042847f71b03288e3c29f93eca042f4> .
+
+<http://example.org/inst/RepairInvoice_c1a292fa422fb901a70a1d4e700f95f8> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c1a292fa422fb901a70a1d4e700f95f8> .
+
+<http://example.org/inst/RepairInvoice_c26b16ddaf6c693ec435bf3262126471> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c26b16ddaf6c693ec435bf3262126471> .
+
+<http://example.org/inst/RepairInvoice_c28ae48e0205d19012ba965e079745df> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c28ae48e0205d19012ba965e079745df> .
+
+<http://example.org/inst/RepairInvoice_c405325206cd5c76a34d5f844d16184b> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c405325206cd5c76a34d5f844d16184b> .
+
+<http://example.org/inst/RepairInvoice_c415990aa7934b4e1e2f706e28cbb954> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c415990aa7934b4e1e2f706e28cbb954> .
+
+<http://example.org/inst/RepairInvoice_c5f24eaa5e15c66a7421e92fb5007c4c> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c5f24eaa5e15c66a7421e92fb5007c4c> .
+
+<http://example.org/inst/RepairInvoice_c5feedd7032414055dccd34ebea8eefa> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c5feedd7032414055dccd34ebea8eefa> .
+
+<http://example.org/inst/RepairInvoice_c6296e6344ebc9d1852bef2822fb4738> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c6296e6344ebc9d1852bef2822fb4738> .
+
+<http://example.org/inst/RepairInvoice_c7de9578b08a2fff0a09644e9a1c678d> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c7de9578b08a2fff0a09644e9a1c678d> .
+
+<http://example.org/inst/RepairInvoice_c8c82fe61915ede5a7aa50b0c8a49470> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c8c82fe61915ede5a7aa50b0c8a49470> .
+
+<http://example.org/inst/RepairInvoice_c907b5d303bba9a998e878245497d2e0> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c907b5d303bba9a998e878245497d2e0> .
+
+<http://example.org/inst/RepairInvoice_d09347190d9657701bf2270947f007a8> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d09347190d9657701bf2270947f007a8> .
+
+<http://example.org/inst/RepairInvoice_d0a6bd4780c195a71fb94b1c028dbd14> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d0a6bd4780c195a71fb94b1c028dbd14> .
+
+<http://example.org/inst/RepairInvoice_d0dee7f9b238f20d6fda87c589fe62a8> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d0dee7f9b238f20d6fda87c589fe62a8> .
+
+<http://example.org/inst/RepairInvoice_d0e49a192126e70fbe582873dbe90b9c> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d0e49a192126e70fbe582873dbe90b9c> .
+
+<http://example.org/inst/RepairInvoice_d1202c770164b2d29af72d950c634f7d> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d1202c770164b2d29af72d950c634f7d> .
+
+<http://example.org/inst/RepairInvoice_d37009df5c3d7162964bc6a10018d19c> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d37009df5c3d7162964bc6a10018d19c> .
+
+<http://example.org/inst/RepairInvoice_d3886f01cb5542c6c7523c5c340fbccc> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d3886f01cb5542c6c7523c5c340fbccc> .
+
+<http://example.org/inst/RepairInvoice_d39848e368d224c741bb17cf99ce58fb> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d39848e368d224c741bb17cf99ce58fb> .
+
+<http://example.org/inst/RepairInvoice_d3ab3416e57a8f6a03d12457e004173d> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d3ab3416e57a8f6a03d12457e004173d> .
+
+<http://example.org/inst/RepairInvoice_d44c77da0e2008c4ae55fabfc130f7fb> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d44c77da0e2008c4ae55fabfc130f7fb> .
+
+<http://example.org/inst/RepairInvoice_d4f2ba34e17905f3ae11eb1fbae0bad8> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d4f2ba34e17905f3ae11eb1fbae0bad8> .
+
+<http://example.org/inst/RepairInvoice_d8e0e8bb9a6a569ffcdc26071b51b17b> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d8e0e8bb9a6a569ffcdc26071b51b17b> .
+
+<http://example.org/inst/RepairInvoice_d9564231be39fbd34ce3df4c35115413> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d9564231be39fbd34ce3df4c35115413> .
+
+<http://example.org/inst/RepairInvoice_daa0f85269e7cf77b4f455ee7e772bed> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_daa0f85269e7cf77b4f455ee7e772bed> .
+
+<http://example.org/inst/RepairInvoice_db50e0042187b5f88596b46740c4c140> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_db50e0042187b5f88596b46740c4c140> .
+
+<http://example.org/inst/RepairInvoice_dc8b85a2616e455a24e2e054275c6c12> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_dc8b85a2616e455a24e2e054275c6c12> .
+
+<http://example.org/inst/RepairInvoice_ddef949df620341743a5a76742c71650> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ddef949df620341743a5a76742c71650> .
+
+<http://example.org/inst/RepairInvoice_debe67ed15ec2f21b8721fcdd6ea13b9> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_debe67ed15ec2f21b8721fcdd6ea13b9> .
+
+<http://example.org/inst/RepairInvoice_df01377696d0819638da7713d85f2cb8> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_df01377696d0819638da7713d85f2cb8> .
+
+<http://example.org/inst/RepairInvoice_e1a6932274cb16ef69c9357106a4a688> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e1a6932274cb16ef69c9357106a4a688> .
+
+<http://example.org/inst/RepairInvoice_e38a2eb5dcc563dbbf55f0ffcede7c4c> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e38a2eb5dcc563dbbf55f0ffcede7c4c> .
+
+<http://example.org/inst/RepairInvoice_e5141c5b946c1b1f513cf29c4da20bde> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e5141c5b946c1b1f513cf29c4da20bde> .
+
+<http://example.org/inst/RepairInvoice_e58fc62ec5ce8be1c3cf7ca253c666db> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac AK74U" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e58fc62ec5ce8be1c3cf7ca253c666db> .
+
+<http://example.org/inst/RepairInvoice_e6bf16f0c9d5851e30a9d50b8285a7b4> a asoft:RepairInvoice ;
+    asoft:platformModel "G&G M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e6bf16f0c9d5851e30a9d50b8285a7b4> .
+
+<http://example.org/inst/RepairInvoice_e7b9aa1bce008314110bfeb5a91e0b7a> a asoft:RepairInvoice ;
+    asoft:platformModel "Krytac Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e7b9aa1bce008314110bfeb5a91e0b7a> .
+
+<http://example.org/inst/RepairInvoice_e890358b29bc741b52e4849ebc9b4fce> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e890358b29bc741b52e4849ebc9b4fce> .
+
+<http://example.org/inst/RepairInvoice_ea1412c17152efe3da6ef39e05779ab5> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC M4 CQB" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ea1412c17152efe3da6ef39e05779ab5> .
+
+<http://example.org/inst/RepairInvoice_edb101b2afb7fee6cb6114a667d15439> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_edb101b2afb7fee6cb6114a667d15439> .
+
+<http://example.org/inst/RepairInvoice_edb135520919241142fa56f6f74d1303> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_edb135520919241142fa56f6f74d1303> .
+
+<http://example.org/inst/RepairInvoice_edf206d4d1b412a0bd27fdd6b36df648> a asoft:RepairInvoice ;
+    asoft:platformModel "Tokyo Marui Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_edf206d4d1b412a0bd27fdd6b36df648> .
+
+<http://example.org/inst/RepairInvoice_f2afb0f79797bd337908c60d7e11c434> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f2afb0f79797bd337908c60d7e11c434> .
+
+<http://example.org/inst/RepairInvoice_f301a5aaa56e0be2640e3906dad4a432> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f301a5aaa56e0be2640e3906dad4a432> .
+
+<http://example.org/inst/RepairInvoice_f455ae0775756164e7437dec3e0c1b5f> a asoft:RepairInvoice ;
+    asoft:platformModel "G&G SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f455ae0775756164e7437dec3e0c1b5f> .
+
+<http://example.org/inst/RepairInvoice_f492a919777a04ff849fa83fb0af5388> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f492a919777a04ff849fa83fb0af5388> .
+
+<http://example.org/inst/RepairInvoice_f5da65518f61656f7f8558c7e11e8c76> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f5da65518f61656f7f8558c7e11e8c76> .
+
+<http://example.org/inst/RepairInvoice_f5f6bbc7067c92c434a15fedd56daa5a> a asoft:RepairInvoice ;
+    asoft:platformModel "Cyma Vector SMG" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f5f6bbc7067c92c434a15fedd56daa5a> .
+
+<http://example.org/inst/RepairInvoice_f83c99ac85fb5cdf692ca4772805ebf7> a asoft:RepairInvoice ;
+    asoft:platformModel "LCT SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f83c99ac85fb5cdf692ca4772805ebf7> .
+
+<http://example.org/inst/RepairInvoice_f85cc2f3f0f0f595df74605c2dac0b2d> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC SR25" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f85cc2f3f0f0f595df74605c2dac0b2d> .
+
+<http://example.org/inst/RepairInvoice_f94312b9f09d6435d196cee8966fda6d> a asoft:RepairInvoice ;
+    asoft:platformModel "VFC SCAR-L" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f94312b9f09d6435d196cee8966fda6d> .
+
+<http://example.org/inst/RepairInvoice_f94f3d9371c26f836ab8112ba1a1a975> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f94f3d9371c26f836ab8112ba1a1a975> .
+
+<http://example.org/inst/RepairInvoice_fb256f115eaffc7f566f1c35dde07505> a asoft:RepairInvoice ;
+    asoft:platformModel "Gas Blowback" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_fb256f115eaffc7f566f1c35dde07505> .
+
+<http://example.org/inst/RepairInvoice_fb38dd71da6099bbf20af1b990bb0a99> a asoft:RepairInvoice ;
+    asoft:platformModel "Bolt Action Rifle" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_fb38dd71da6099bbf20af1b990bb0a99> .
+
+<http://example.org/inst/RepairInvoice_ff9ded16ff7093700367ee9522fc7592> a asoft:RepairInvoice ;
+    asoft:platformModel "HPA Rig" ;
+    asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ff9ded16ff7093700367ee9522fc7592> .
+
+<http://example.org/inst/AirsoftReplica_009c89a9d66727c5aadfa09985873325> a asoft:AirsoftReplica ;
+    asoft:hasFPS 306 .
+
+<http://example.org/inst/AirsoftReplica_02e45294efc368379bbd478a3a5c2820> a asoft:AirsoftReplica ;
+    asoft:hasFPS 402 .
+
+<http://example.org/inst/AirsoftReplica_03dc507da0570b6302ee760a7dcd7fa5> a asoft:AirsoftReplica ;
+    asoft:hasFPS 231 .
+
+<http://example.org/inst/AirsoftReplica_045f3f3f6436ce875f4ca5b9023af86b> a asoft:AirsoftReplica ;
+    asoft:hasFPS 336 .
+
+<http://example.org/inst/AirsoftReplica_05a351c20495177f7561f10bc7436a93> a asoft:AirsoftReplica ;
+    asoft:hasFPS 218 .
+
+<http://example.org/inst/AirsoftReplica_05b786c4eb8435bcdef26a58c6b75e2a> a asoft:AirsoftReplica ;
+    asoft:hasFPS 344 .
+
+<http://example.org/inst/AirsoftReplica_05ca6cb28ed6e3c6045afaa3e712b7a6> a asoft:AirsoftReplica ;
+    asoft:hasFPS 331 .
+
+<http://example.org/inst/AirsoftReplica_07ad5d4b1f3cab8dbe59343d8990cf5d> a asoft:AirsoftReplica ;
+    asoft:hasFPS 389 .
+
+<http://example.org/inst/AirsoftReplica_0842f62999a234e0ccf1329af421127e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 228 .
+
+<http://example.org/inst/AirsoftReplica_090d72a3a442615877f43e78394547df> a asoft:AirsoftReplica ;
+    asoft:hasFPS 398 .
+
+<http://example.org/inst/AirsoftReplica_0942a05efc13eddb6dd1f260bf1c6f95> a asoft:AirsoftReplica ;
+    asoft:hasFPS 398 .
+
+<http://example.org/inst/AirsoftReplica_094af69e5b4f55f4e67f0ef55fcac585> a asoft:AirsoftReplica ;
+    asoft:hasFPS 327 .
+
+<http://example.org/inst/AirsoftReplica_09d076e38890ac4837bfd786511ac4f3> a asoft:AirsoftReplica ;
+    asoft:hasFPS 238 .
+
+<http://example.org/inst/AirsoftReplica_0bb96a76365ddca67a35dd2c8100324c> a asoft:AirsoftReplica ;
+    asoft:hasFPS 345 .
+
+<http://example.org/inst/AirsoftReplica_0bf620179a32af1b3726433d5a6ca42e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 215 .
+
+<http://example.org/inst/AirsoftReplica_0cc5f17ed05a515f9ea1772b54f3d394> a asoft:AirsoftReplica ;
+    asoft:hasFPS 331 .
+
+<http://example.org/inst/AirsoftReplica_0d88e92abc6b441be207ab1448bcf445> a asoft:AirsoftReplica ;
+    asoft:hasFPS 345 .
+
+<http://example.org/inst/AirsoftReplica_0dfa85ec7e34b6f9bd9f94d67760b4eb> a asoft:AirsoftReplica ;
+    asoft:hasFPS 395 .
+
+<http://example.org/inst/AirsoftReplica_0e2e9d0f870b66ab27c3ce58158eff1f> a asoft:AirsoftReplica ;
+    asoft:hasFPS 306 .
+
+<http://example.org/inst/AirsoftReplica_0ed55971aebca27281d4096a72c4002d> a asoft:AirsoftReplica ;
+    asoft:hasFPS 200 .
+
+<http://example.org/inst/AirsoftReplica_0eed36f9f1a1a5c1de4c8f1013d6158b> a asoft:AirsoftReplica ;
+    asoft:hasFPS 408 .
+
+<http://example.org/inst/AirsoftReplica_0ef99a1232f1ecea91ad56cb424ec68c> a asoft:AirsoftReplica ;
+    asoft:hasFPS 245 .
+
+<http://example.org/inst/AirsoftReplica_0f54b360c72a0051e9f9fb4577a495b1> a asoft:AirsoftReplica ;
+    asoft:hasFPS 335 .
+
+<http://example.org/inst/AirsoftReplica_1097359f09edc3209e3df465e5ead4ef> a asoft:AirsoftReplica ;
+    asoft:hasFPS 227 .
+
+<http://example.org/inst/AirsoftReplica_13e0cef5869b053e9d1d6df2d4e35fbb> a asoft:AirsoftReplica ;
+    asoft:hasFPS 392 .
+
+<http://example.org/inst/AirsoftReplica_1440e423afcb9efe05873db53c122412> a asoft:AirsoftReplica ;
+    asoft:hasFPS 337 .
+
+<http://example.org/inst/AirsoftReplica_149c57e276c105be47cc4cee751bbb67> a asoft:AirsoftReplica ;
+    asoft:hasFPS 401 .
+
+<http://example.org/inst/AirsoftReplica_164a7a93abbe9233850a27269b8de7f6> a asoft:AirsoftReplica ;
+    asoft:hasFPS 325 .
+
+<http://example.org/inst/AirsoftReplica_1691a6c13b4bc89f823d94c66e916f4e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 303 .
+
+<http://example.org/inst/AirsoftReplica_17747c5271b1687b37959df57120fa30> a asoft:AirsoftReplica ;
+    asoft:hasFPS 228 .
+
+<http://example.org/inst/AirsoftReplica_185482e2c4cba3ee35a7652e1c4707de> a asoft:AirsoftReplica ;
+    asoft:hasFPS 330 .
+
+<http://example.org/inst/AirsoftReplica_19546d02912146ad311b3039a34f65e5> a asoft:AirsoftReplica ;
+    asoft:hasFPS 393 .
+
+<http://example.org/inst/AirsoftReplica_197aa4c2a3ac2c51f9defc93a9a868dd> a asoft:AirsoftReplica ;
+    asoft:hasFPS 314 .
+
+<http://example.org/inst/AirsoftReplica_197b184e2f894c9c55cd7606b71b38d4> a asoft:AirsoftReplica ;
+    asoft:hasFPS 338 .
+
+<http://example.org/inst/AirsoftReplica_1b2879c1a9c2b02b46237159b847d1dc> a asoft:AirsoftReplica ;
+    asoft:hasFPS 308 .
+
+<http://example.org/inst/AirsoftReplica_1c309d0fa794424a83f4acd834e7076a> a asoft:AirsoftReplica ;
+    asoft:hasFPS 342 .
+
+<http://example.org/inst/AirsoftReplica_1dfe541685ab328ed7c83c5a57e8cce1> a asoft:AirsoftReplica ;
+    asoft:hasFPS 328 .
+
+<http://example.org/inst/AirsoftReplica_1e8fa915143bce3da1f4b79cf23500e4> a asoft:AirsoftReplica ;
+    asoft:hasFPS 308 .
+
+<http://example.org/inst/AirsoftReplica_1ee5b0e0ec8b6fd552f6f1de14bad6c2> a asoft:AirsoftReplica ;
+    asoft:hasFPS 306 .
+
+<http://example.org/inst/AirsoftReplica_1fb040b500057c77989f00e6f82a622f> a asoft:AirsoftReplica ;
+    asoft:hasFPS 407 .
+
+<http://example.org/inst/AirsoftReplica_1fc3108d83b825fe8cf449e276aa519f> a asoft:AirsoftReplica ;
+    asoft:hasFPS 216 .
+
+<http://example.org/inst/AirsoftReplica_201d7025a1659f3dfc114e4d53ab399f> a asoft:AirsoftReplica ;
+    asoft:hasFPS 232 .
+
+<http://example.org/inst/AirsoftReplica_206187f4746e79c8216d4278e042ce56> a asoft:AirsoftReplica ;
+    asoft:hasFPS 236 .
+
+<http://example.org/inst/AirsoftReplica_208b1198a06f74d73103475094a2eb77> a asoft:AirsoftReplica ;
+    asoft:hasFPS 400 .
+
+<http://example.org/inst/AirsoftReplica_21ebbb8a634964cecf2130ba6aadcbc3> a asoft:AirsoftReplica ;
+    asoft:hasFPS 210 .
+
+<http://example.org/inst/AirsoftReplica_222fb69b23004315771d69fc36132ef1> a asoft:AirsoftReplica ;
+    asoft:hasFPS 342 .
+
+<http://example.org/inst/AirsoftReplica_25d679429ac6514495752d470edd15ae> a asoft:AirsoftReplica ;
+    asoft:hasFPS 345 .
+
+<http://example.org/inst/AirsoftReplica_267e86a74877520b26b684cadc6031b1> a asoft:AirsoftReplica ;
+    asoft:hasFPS 393 .
+
+<http://example.org/inst/AirsoftReplica_2718e810f44458e8d44823be8e34ef3c> a asoft:AirsoftReplica ;
+    asoft:hasFPS 333 .
+
+<http://example.org/inst/AirsoftReplica_2733ca4c956231a3556eb9add435c7fe> a asoft:AirsoftReplica ;
+    asoft:hasFPS 400 .
+
+<http://example.org/inst/AirsoftReplica_27bc5351d69950dd9deb4f2b703d1d91> a asoft:AirsoftReplica ;
+    asoft:hasFPS 301 .
+
+<http://example.org/inst/AirsoftReplica_27c32231367aaa1d9eac184fae63f7ff> a asoft:AirsoftReplica ;
+    asoft:hasFPS 349 .
+
+<http://example.org/inst/AirsoftReplica_27e898558a8525d7a3ac69de8801d472> a asoft:AirsoftReplica ;
+    asoft:hasFPS 312 .
+
+<http://example.org/inst/AirsoftReplica_2824bf0c4e9aa7a34c1e3348295bc47f> a asoft:AirsoftReplica ;
+    asoft:hasFPS 399 .
+
+<http://example.org/inst/AirsoftReplica_28809e7fafe1db90bedc8c229c6d1c8d> a asoft:AirsoftReplica ;
+    asoft:hasFPS 337 .
+
+<http://example.org/inst/AirsoftReplica_291a27dcc6d9981983d341b55d478e1f> a asoft:AirsoftReplica ;
+    asoft:hasFPS 326 .
+
+<http://example.org/inst/AirsoftReplica_293a2b45c60d5427b536278a72630ef2> a asoft:AirsoftReplica ;
+    asoft:hasFPS 407 .
+
+<http://example.org/inst/AirsoftReplica_2a30a23c1d82b5b82e4f89435dbb8149> a asoft:AirsoftReplica ;
+    asoft:hasFPS 334 .
+
+<http://example.org/inst/AirsoftReplica_2c71e78045005fea73d2bbf9feb5cc70> a asoft:AirsoftReplica ;
+    asoft:hasFPS 346 .
+
+<http://example.org/inst/AirsoftReplica_2c94599b2245b6a9bc9b7bfc67198fcb> a asoft:AirsoftReplica ;
+    asoft:hasFPS 322 .
+
+<http://example.org/inst/AirsoftReplica_2ce4d73f464ad0887088841fcb051fa1> a asoft:AirsoftReplica ;
+    asoft:hasFPS 309 .
+
+<http://example.org/inst/AirsoftReplica_2e395f5aec825064373300110c738c76> a asoft:AirsoftReplica ;
+    asoft:hasFPS 205 .
+
+<http://example.org/inst/AirsoftReplica_3084b523cb2bbe2cf82a083897693557> a asoft:AirsoftReplica ;
+    asoft:hasFPS 238 .
+
+<http://example.org/inst/AirsoftReplica_30d6fffd256e53d1d70101e023b6b195> a asoft:AirsoftReplica ;
+    asoft:hasFPS 333 .
+
+<http://example.org/inst/AirsoftReplica_323e77cb74feb15fafeba3624e0399ed> a asoft:AirsoftReplica ;
+    asoft:hasFPS 301 .
+
+<http://example.org/inst/AirsoftReplica_332f0714b598c828460b8378fe254f4b> a asoft:AirsoftReplica ;
+    asoft:hasFPS 390 .
+
+<http://example.org/inst/AirsoftReplica_335d0f3b4cec57b515c50c7073d3dfbd> a asoft:AirsoftReplica ;
+    asoft:hasFPS 216 .
+
+<http://example.org/inst/AirsoftReplica_359b50a202b61dd049c63697446e6e5e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 246 .
+
+<http://example.org/inst/AirsoftReplica_359c812bd197ab0b16545d9be385cefe> a asoft:AirsoftReplica ;
+    asoft:hasFPS 337 .
+
+<http://example.org/inst/AirsoftReplica_35f289571385efcd3629d6b02408ff02> a asoft:AirsoftReplica ;
+    asoft:hasFPS 242 .
+
+<http://example.org/inst/AirsoftReplica_38482a66c6214499cdbeff51c64cc73f> a asoft:AirsoftReplica ;
+    asoft:hasFPS 214 .
+
+<http://example.org/inst/AirsoftReplica_3a9417bd4a9cd186289bf4c144f944c2> a asoft:AirsoftReplica ;
+    asoft:hasFPS 313 .
+
+<http://example.org/inst/AirsoftReplica_3b1869d8de628bc66f1ca3f26518df92> a asoft:AirsoftReplica ;
+    asoft:hasFPS 344 .
+
+<http://example.org/inst/AirsoftReplica_3b6d33c3ec40658516e277ccdd04af9b> a asoft:AirsoftReplica ;
+    asoft:hasFPS 312 .
+
+<http://example.org/inst/AirsoftReplica_3c5269d8fcb6ec30ccb3cba3197cb35b> a asoft:AirsoftReplica ;
+    asoft:hasFPS 303 .
+
+<http://example.org/inst/AirsoftReplica_3cba332b871ecba937a8d193267a1f94> a asoft:AirsoftReplica ;
+    asoft:hasFPS 334 .
+
+<http://example.org/inst/AirsoftReplica_3df810f2bfaf02439d1cd5a6faeebce6> a asoft:AirsoftReplica ;
+    asoft:hasFPS 336 .
+
+<http://example.org/inst/AirsoftReplica_3ecb6984f9c76e2415d22b81e643f21d> a asoft:AirsoftReplica ;
+    asoft:hasFPS 405 .
+
+<http://example.org/inst/AirsoftReplica_3f55889dae851d317937e33f6d6b1075> a asoft:AirsoftReplica ;
+    asoft:hasFPS 332 .
+
+<http://example.org/inst/AirsoftReplica_3fc47e8fc0bcf456943433b373771ec2> a asoft:AirsoftReplica ;
+    asoft:hasFPS 388 .
+
+<http://example.org/inst/AirsoftReplica_40bd82ab46168023624c35fe5ac17f57> a asoft:AirsoftReplica ;
+    asoft:hasFPS 224 .
+
+<http://example.org/inst/AirsoftReplica_4158df54967499fcfd32b5b51735a2f1> a asoft:AirsoftReplica ;
+    asoft:hasFPS 324 .
+
+<http://example.org/inst/AirsoftReplica_4184663f5023f232407ae59823b2ce5e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 331 .
+
+<http://example.org/inst/AirsoftReplica_427d87927b62fad74b3c894d26d2447a> a asoft:AirsoftReplica ;
+    asoft:hasFPS 403 .
+
+<http://example.org/inst/AirsoftReplica_43df7889f94d2b7af706359e089b4107> a asoft:AirsoftReplica ;
+    asoft:hasFPS 409 .
+
+<http://example.org/inst/AirsoftReplica_46eab4e457e99d56970a3ad7b81d7d71> a asoft:AirsoftReplica ;
+    asoft:hasFPS 346 .
+
+<http://example.org/inst/AirsoftReplica_4ac62ca18b3050e782c1dde45d5a6b2e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 304 .
+
+<http://example.org/inst/AirsoftReplica_4d57576a4766e1a45243246dfacd5efb> a asoft:AirsoftReplica ;
+    asoft:hasFPS 313 .
+
+<http://example.org/inst/AirsoftReplica_4dc6be1b8dedf0eaa43b5247b311bdba> a asoft:AirsoftReplica ;
+    asoft:hasFPS 397 .
+
+<http://example.org/inst/AirsoftReplica_507a13340dcbf0bae1c1415325085d58> a asoft:AirsoftReplica ;
+    asoft:hasFPS 304 .
+
+<http://example.org/inst/AirsoftReplica_50b9501ef8943a8cb3a45a2d9c549776> a asoft:AirsoftReplica ;
+    asoft:hasFPS 248 .
+
+<http://example.org/inst/AirsoftReplica_50d2a1a7e965504b94b2b209469ca23e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 302 .
+
+<http://example.org/inst/AirsoftReplica_51202754064450e172119499fb258524> a asoft:AirsoftReplica ;
+    asoft:hasFPS 337 .
+
+<http://example.org/inst/AirsoftReplica_56d25cd74ffbf57fda47e0d0068e4093> a asoft:AirsoftReplica ;
+    asoft:hasFPS 316 .
+
+<http://example.org/inst/AirsoftReplica_57d6ffebddc2ab40217fcc6cca6c081d> a asoft:AirsoftReplica ;
+    asoft:hasFPS 332 .
+
+<http://example.org/inst/AirsoftReplica_5c2bf22f26c8c88b3d9fa70839ebf519> a asoft:AirsoftReplica ;
+    asoft:hasFPS 231 .
+
+<http://example.org/inst/AirsoftReplica_5c8285a499e6da8c6a9aaa101c1b2aab> a asoft:AirsoftReplica ;
+    asoft:hasFPS 349 .
+
+<http://example.org/inst/AirsoftReplica_5d3dc03d44d300978de86599d21573ab> a asoft:AirsoftReplica ;
+    asoft:hasFPS 343 .
+
+<http://example.org/inst/AirsoftReplica_5d47d7f99d536bd125fb9e38df31f1da> a asoft:AirsoftReplica ;
+    asoft:hasFPS 405 .
+
+<http://example.org/inst/AirsoftReplica_5f82a3c5935ca4e1a9944b631ca975ca> a asoft:AirsoftReplica ;
+    asoft:hasFPS 330 .
+
+<http://example.org/inst/AirsoftReplica_5fd8ba1ac975ffa992d90eda3b264290> a asoft:AirsoftReplica ;
+    asoft:hasFPS 391 .
+
+<http://example.org/inst/AirsoftReplica_60e2eaaed2e3d4630b9001690d1dd65b> a asoft:AirsoftReplica ;
+    asoft:hasFPS 300 .
+
+<http://example.org/inst/AirsoftReplica_610d8997897c020b9101e7a407e06ef9> a asoft:AirsoftReplica ;
+    asoft:hasFPS 398 .
+
+<http://example.org/inst/AirsoftReplica_616fdc606a38ba758efdf3d4abb2e419> a asoft:AirsoftReplica ;
+    asoft:hasFPS 329 .
+
+<http://example.org/inst/AirsoftReplica_6272d032825fbaf1e565a05b8403bb6e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 332 .
+
+<http://example.org/inst/AirsoftReplica_630b191b2787faaf23f00d1e98c1775e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 340 .
+
+<http://example.org/inst/AirsoftReplica_63a8166e797759602785d2fb756e48db> a asoft:AirsoftReplica ;
+    asoft:hasFPS 214 .
+
+<http://example.org/inst/AirsoftReplica_63e7d4e83bcdf90056a8087ad51c2189> a asoft:AirsoftReplica ;
+    asoft:hasFPS 306 .
+
+<http://example.org/inst/AirsoftReplica_63f2e263b79941670397e8b59fe9b8d4> a asoft:AirsoftReplica ;
+    asoft:hasFPS 333 .
+
+<http://example.org/inst/AirsoftReplica_64b03f7da31e9c893ae04c5924d001f8> a asoft:AirsoftReplica ;
+    asoft:hasFPS 205 .
+
+<http://example.org/inst/AirsoftReplica_66f0528724f6094833a56c811da49184> a asoft:AirsoftReplica ;
+    asoft:hasFPS 341 .
+
+<http://example.org/inst/AirsoftReplica_676e8ce20585c6926a50130cccced28e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 223 .
+
+<http://example.org/inst/AirsoftReplica_69447cfb1bf0c21f0dc840a67c8a7089> a asoft:AirsoftReplica ;
+    asoft:hasFPS 332 .
+
+<http://example.org/inst/AirsoftReplica_6b0fe51595ff7b876c2b6fab95a9de2b> a asoft:AirsoftReplica ;
+    asoft:hasFPS 343 .
+
+<http://example.org/inst/AirsoftReplica_6cbaec30b4cbb60ac02583ba16edd569> a asoft:AirsoftReplica ;
+    asoft:hasFPS 329 .
+
+<http://example.org/inst/AirsoftReplica_6cf3f0b50e4b1e699524f16cef4e603f> a asoft:AirsoftReplica ;
+    asoft:hasFPS 394 .
+
+<http://example.org/inst/AirsoftReplica_6cf8dcb0463124da89f9648f2f07db3e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 408 .
+
+<http://example.org/inst/AirsoftReplica_6d677155193e93aa6295852bc7c1281e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 330 .
+
+<http://example.org/inst/AirsoftReplica_6d9b515b3755470e88ec9e81ea9f6235> a asoft:AirsoftReplica ;
+    asoft:hasFPS 205 .
+
+<http://example.org/inst/AirsoftReplica_6e1b7955143b51b2059a391593ef8912> a asoft:AirsoftReplica ;
+    asoft:hasFPS 350 .
+
+<http://example.org/inst/AirsoftReplica_6ea74b27c283a4507e4a2d4af35b3c43> a asoft:AirsoftReplica ;
+    asoft:hasFPS 395 .
+
+<http://example.org/inst/AirsoftReplica_70ecf74190b01fcabba51d990c8018ab> a asoft:AirsoftReplica ;
+    asoft:hasFPS 203 .
+
+<http://example.org/inst/AirsoftReplica_7163c41d32258ff680862de0654127b2> a asoft:AirsoftReplica ;
+    asoft:hasFPS 333 .
+
+<http://example.org/inst/AirsoftReplica_71ca07d58388316d5fa5d04e599a9a69> a asoft:AirsoftReplica ;
+    asoft:hasFPS 337 .
+
+<http://example.org/inst/AirsoftReplica_7200dc054e7385043a3253578083e9c9> a asoft:AirsoftReplica ;
+    asoft:hasFPS 347 .
+
+<http://example.org/inst/AirsoftReplica_753a5b9870dbbf9719637627889784b8> a asoft:AirsoftReplica ;
+    asoft:hasFPS 340 .
+
+<http://example.org/inst/AirsoftReplica_76c34f0a0c84d5cbb3b5deff251d5bee> a asoft:AirsoftReplica ;
+    asoft:hasFPS 306 .
+
+<http://example.org/inst/AirsoftReplica_781cfe2ae3e6b5c3e1033d3a04a826ea> a asoft:AirsoftReplica ;
+    asoft:hasFPS 328 .
+
+<http://example.org/inst/AirsoftReplica_789f3c86dd855b03dd6290282548f8b9> a asoft:AirsoftReplica ;
+    asoft:hasFPS 332 .
+
+<http://example.org/inst/AirsoftReplica_7a729cb613979041b482a5b1e755ccfa> a asoft:AirsoftReplica ;
+    asoft:hasFPS 397 .
+
+<http://example.org/inst/AirsoftReplica_7af3813fab3a03821bb005914db9c099> a asoft:AirsoftReplica ;
+    asoft:hasFPS 397 .
+
+<http://example.org/inst/AirsoftReplica_7df333cf3f17ae935e53e2e11db7f1a8> a asoft:AirsoftReplica ;
+    asoft:hasFPS 387 .
+
+<http://example.org/inst/AirsoftReplica_7ef85ff5c1e16f2cf70ddfb414ad2414> a asoft:AirsoftReplica ;
+    asoft:hasFPS 232 .
+
+<http://example.org/inst/AirsoftReplica_7fe696b4c186667f13ca69fd1286e83d> a asoft:AirsoftReplica ;
+    asoft:hasFPS 405 .
+
+<http://example.org/inst/AirsoftReplica_80db80d1b9ac41365db5362ad15971fc> a asoft:AirsoftReplica ;
+    asoft:hasFPS 318 .
+
+<http://example.org/inst/AirsoftReplica_8311b1987a2d603d947af2085392e2b9> a asoft:AirsoftReplica ;
+    asoft:hasFPS 314 .
+
+<http://example.org/inst/AirsoftReplica_83713a24f60c492ddbaa0958c472be5b> a asoft:AirsoftReplica ;
+    asoft:hasFPS 219 .
+
+<http://example.org/inst/AirsoftReplica_8423863a0678827fc5a3cf6dff7f1c12> a asoft:AirsoftReplica ;
+    asoft:hasFPS 348 .
+
+<http://example.org/inst/AirsoftReplica_86e59109e14be7d937176ba5bf058bf4> a asoft:AirsoftReplica ;
+    asoft:hasFPS 308 .
+
+<http://example.org/inst/AirsoftReplica_87bb170af2d3c3ad57ecfe0f41b1e24e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 302 .
+
+<http://example.org/inst/AirsoftReplica_89aa4610b2a159cf531ca38917a56fa6> a asoft:AirsoftReplica ;
+    asoft:hasFPS 333 .
+
+<http://example.org/inst/AirsoftReplica_8acb10d1d0bb8f6fb29f08fc93eed7ae> a asoft:AirsoftReplica ;
+    asoft:hasFPS 409 .
+
+<http://example.org/inst/AirsoftReplica_8b98ffce218f275dee70d1643b93b0d8> a asoft:AirsoftReplica ;
+    asoft:hasFPS 316 .
+
+<http://example.org/inst/AirsoftReplica_8c456521f3c4ccf74a32ef62db5d8c69> a asoft:AirsoftReplica ;
+    asoft:hasFPS 328 .
+
+<http://example.org/inst/AirsoftReplica_8d90f6d772f1cf289f3c066581b9c417> a asoft:AirsoftReplica ;
+    asoft:hasFPS 334 .
+
+<http://example.org/inst/AirsoftReplica_8de9aeff20af1441f3ff6322f4305367> a asoft:AirsoftReplica ;
+    asoft:hasFPS 336 .
+
+<http://example.org/inst/AirsoftReplica_8fd1085ed299efd812165bcbaa100801> a asoft:AirsoftReplica ;
+    asoft:hasFPS 320 .
+
+<http://example.org/inst/AirsoftReplica_90a6a8e0fecb3d9855b9863a0fbe7f4b> a asoft:AirsoftReplica ;
+    asoft:hasFPS 300 .
+
+<http://example.org/inst/AirsoftReplica_916c0a6485a9af82cb58692424199af1> a asoft:AirsoftReplica ;
+    asoft:hasFPS 303 .
+
+<http://example.org/inst/AirsoftReplica_927284729fd4e8c032dbcf98dbc2fca9> a asoft:AirsoftReplica ;
+    asoft:hasFPS 315 .
+
+<http://example.org/inst/AirsoftReplica_934d8f708a2e022e4d66a6a8e7934c9c> a asoft:AirsoftReplica ;
+    asoft:hasFPS 347 .
+
+<http://example.org/inst/AirsoftReplica_93efc68553dc1e5683a4bebaf096a7bc> a asoft:AirsoftReplica ;
+    asoft:hasFPS 336 .
+
+<http://example.org/inst/AirsoftReplica_9403e42755ac367ee10dbf730f4f04c8> a asoft:AirsoftReplica ;
+    asoft:hasFPS 237 .
+
+<http://example.org/inst/AirsoftReplica_943b9f50b4600de97da10f80b265de83> a asoft:AirsoftReplica ;
+    asoft:hasFPS 238 .
+
+<http://example.org/inst/AirsoftReplica_94bb50e33b3603e582e3df751b726845> a asoft:AirsoftReplica ;
+    asoft:hasFPS 323 .
+
+<http://example.org/inst/AirsoftReplica_95cd1ff044e890929f04e0c8f13f6b95> a asoft:AirsoftReplica ;
+    asoft:hasFPS 406 .
+
+<http://example.org/inst/AirsoftReplica_979ab78658b9553dc95e09bfab327a66> a asoft:AirsoftReplica ;
+    asoft:hasFPS 205 .
+
+<http://example.org/inst/AirsoftReplica_9d08763ffee1e5fed5e86d4f046dd385> a asoft:AirsoftReplica ;
+    asoft:hasFPS 214 .
+
+<http://example.org/inst/AirsoftReplica_9d3c03b736ac7931601d6d32ce15c523> a asoft:AirsoftReplica ;
+    asoft:hasFPS 322 .
+
+<http://example.org/inst/AirsoftReplica_9e5e0a89e23aae9cddd7301f108098cc> a asoft:AirsoftReplica ;
+    asoft:hasFPS 208 .
+
+<http://example.org/inst/AirsoftReplica_a02a4f9faea2035a0a38f12e8372a63e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 340 .
+
+<http://example.org/inst/AirsoftReplica_a0aa499534bb766b59f8b6950f83cee2> a asoft:AirsoftReplica ;
+    asoft:hasFPS 316 .
+
+<http://example.org/inst/AirsoftReplica_a121536b43aa5e2e766b6f6e16c484d9> a asoft:AirsoftReplica ;
+    asoft:hasFPS 332 .
+
+<http://example.org/inst/AirsoftReplica_a2ea48ba8911e8bbb61fc11a3a5c1305> a asoft:AirsoftReplica ;
+    asoft:hasFPS 217 .
+
+<http://example.org/inst/AirsoftReplica_a4d5482b0cd58f27869a6d57a18cf220> a asoft:AirsoftReplica ;
+    asoft:hasFPS 342 .
+
+<http://example.org/inst/AirsoftReplica_a600bdaa202ce0d6ffe7071452f52d90> a asoft:AirsoftReplica ;
+    asoft:hasFPS 402 .
+
+<http://example.org/inst/AirsoftReplica_a60cd1f0dbcd9a10412865af327fc586> a asoft:AirsoftReplica ;
+    asoft:hasFPS 388 .
+
+<http://example.org/inst/AirsoftReplica_a62fa2b92dcf9d123bd510a3e5049764> a asoft:AirsoftReplica ;
+    asoft:hasFPS 242 .
+
+<http://example.org/inst/AirsoftReplica_a758bff3d03744d2806b4c04326860a8> a asoft:AirsoftReplica ;
+    asoft:hasFPS 333 .
+
+<http://example.org/inst/AirsoftReplica_a8302ab4aebc2e82c3f6ff1b0e52fbbf> a asoft:AirsoftReplica ;
+    asoft:hasFPS 250 .
+
+<http://example.org/inst/AirsoftReplica_aaf3d0d15fcdfbe15263e2c5d43fff40> a asoft:AirsoftReplica ;
+    asoft:hasFPS 320 .
+
+<http://example.org/inst/AirsoftReplica_ac9e01f53e572e6a1b52c026c1b20ecf> a asoft:AirsoftReplica ;
+    asoft:hasFPS 300 .
+
+<http://example.org/inst/AirsoftReplica_adf5a9bdadae2dd34892036b1a9bbeb2> a asoft:AirsoftReplica ;
+    asoft:hasFPS 343 .
+
+<http://example.org/inst/AirsoftReplica_ae02c21c8ebfca751339ba4cb8c92a6c> a asoft:AirsoftReplica ;
+    asoft:hasFPS 322 .
+
+<http://example.org/inst/AirsoftReplica_ae33669b21e9ecc5b9be73c2c0778167> a asoft:AirsoftReplica ;
+    asoft:hasFPS 313 .
+
+<http://example.org/inst/AirsoftReplica_ae5c10264858f4047afb5dc15e87172b> a asoft:AirsoftReplica ;
+    asoft:hasFPS 398 .
+
+<http://example.org/inst/AirsoftReplica_af1cf1dfe23699034041404b749a8ae8> a asoft:AirsoftReplica ;
+    asoft:hasFPS 234 .
+
+<http://example.org/inst/AirsoftReplica_afcd33ee3eb429373d2aa85a5104c810> a asoft:AirsoftReplica ;
+    asoft:hasFPS 331 .
+
+<http://example.org/inst/AirsoftReplica_b0969bcfeb113f398bb0f16a9be5bf20> a asoft:AirsoftReplica ;
+    asoft:hasFPS 337 .
+
+<http://example.org/inst/AirsoftReplica_b17dad478e47331aad5e00e1926abfd5> a asoft:AirsoftReplica ;
+    asoft:hasFPS 398 .
+
+<http://example.org/inst/AirsoftReplica_b1d980153c728dbfe589c1777696b1d0> a asoft:AirsoftReplica ;
+    asoft:hasFPS 398 .
+
+<http://example.org/inst/AirsoftReplica_b291fe73967b6be3ee7d564049d7feeb> a asoft:AirsoftReplica ;
+    asoft:hasFPS 396 .
+
+<http://example.org/inst/AirsoftReplica_b36386273e4630b4eedf4d8db09a2f2e> a asoft:AirsoftReplica ;
+    asoft:hasFPS 336 .
+
+<http://example.org/inst/AirsoftReplica_b65439832f730f9acfa10be517be8844> a asoft:AirsoftReplica ;
+    asoft:hasFPS 334 .
+
+<http://example.org/inst/AirsoftReplica_b6ec49f4b35e2744c805923eb19399a8> a asoft:AirsoftReplica ;
+    asoft:hasFPS 311 .
+
+<http://example.org/inst/AirsoftReplica_b6efb2024593a4cbd05106a9556e9754> a asoft:AirsoftReplica ;
+    asoft:hasFPS 405 .
+
+<http://example.org/inst/AirsoftReplica_b85755393412af1f1c6e836bfd1a6296> a asoft:AirsoftReplica ;
+    asoft:hasFPS 223 .
+
+<http://example.org/inst/AirsoftReplica_b9f960586142f9186169a08c9b100521> a asoft:AirsoftReplica ;
+    asoft:hasFPS 328 .
+
+<http://example.org/inst/AirsoftReplica_ba45c930753efa77969fc0a17063f4f9> a asoft:AirsoftReplica ;
+    asoft:hasFPS 344 .
+
+<http://example.org/inst/AirsoftReplica_badba794bc81d61ccc90708534822db0> a asoft:AirsoftReplica ;
+    asoft:hasFPS 323 .
+
+<http://example.org/inst/AirsoftReplica_bcf4dc433843a69f2a6a2a496dc654bd> a asoft:AirsoftReplica ;
+    asoft:hasFPS 340 .
+
+<http://example.org/inst/AirsoftReplica_bd4be350c957d6318f180c7740f7785f> a asoft:AirsoftReplica ;
+    asoft:hasFPS 310 .
+
+<http://example.org/inst/AirsoftReplica_be13beb2edbe509b213a432825eed900> a asoft:AirsoftReplica ;
+    asoft:hasFPS 310 .
+
+<http://example.org/inst/AirsoftReplica_bf6124dd8f210a37144b5ca1443cc24c> a asoft:AirsoftReplica ;
+    asoft:hasFPS 200 .
+
+<http://example.org/inst/AirsoftReplica_bf95970bd9fe06905ae46aea7864bd0a> a asoft:AirsoftReplica ;
+    asoft:hasFPS 406 .
+
+<http://example.org/inst/AirsoftReplica_c042847f71b03288e3c29f93eca042f4> a asoft:AirsoftReplica ;
+    asoft:hasFPS 397 .
+
+<http://example.org/inst/AirsoftReplica_c1a292fa422fb901a70a1d4e700f95f8> a asoft:AirsoftReplica ;
+    asoft:hasFPS 305 .
+
+<http://example.org/inst/AirsoftReplica_c26b16ddaf6c693ec435bf3262126471> a asoft:AirsoftReplica ;
+    asoft:hasFPS 334 .
+
+<http://example.org/inst/AirsoftReplica_c28ae48e0205d19012ba965e079745df> a asoft:AirsoftReplica ;
+    asoft:hasFPS 330 .
+
+<http://example.org/inst/AirsoftReplica_c405325206cd5c76a34d5f844d16184b> a asoft:AirsoftReplica ;
+    asoft:hasFPS 304 .
+
+<http://example.org/inst/AirsoftReplica_c415990aa7934b4e1e2f706e28cbb954> a asoft:AirsoftReplica ;
+    asoft:hasFPS 242 .
+
+<http://example.org/inst/AirsoftReplica_c5f24eaa5e15c66a7421e92fb5007c4c> a asoft:AirsoftReplica ;
+    asoft:hasFPS 340 .
+
+<http://example.org/inst/AirsoftReplica_c5feedd7032414055dccd34ebea8eefa> a asoft:AirsoftReplica ;
+    asoft:hasFPS 319 .
+
+<http://example.org/inst/AirsoftReplica_c6296e6344ebc9d1852bef2822fb4738> a asoft:AirsoftReplica ;
+    asoft:hasFPS 219 .
+
+<http://example.org/inst/AirsoftReplica_c7de9578b08a2fff0a09644e9a1c678d> a asoft:AirsoftReplica ;
+    asoft:hasFPS 219 .
+
+<http://example.org/inst/AirsoftReplica_c8c82fe61915ede5a7aa50b0c8a49470> a asoft:AirsoftReplica ;
+    asoft:hasFPS 245 .
+
+<http://example.org/inst/AirsoftReplica_c907b5d303bba9a998e878245497d2e0> a asoft:AirsoftReplica ;
+    asoft:hasFPS 237 .
+
+<http://example.org/inst/AirsoftReplica_d09347190d9657701bf2270947f007a8> a asoft:AirsoftReplica ;
+    asoft:hasFPS 304 .
+
+<http://example.org/inst/AirsoftReplica_d0a6bd4780c195a71fb94b1c028dbd14> a asoft:AirsoftReplica ;
+    asoft:hasFPS 318 .
+
+<http://example.org/inst/AirsoftReplica_d0dee7f9b238f20d6fda87c589fe62a8> a asoft:AirsoftReplica ;
+    asoft:hasFPS 322 .
+
+<http://example.org/inst/AirsoftReplica_d0e49a192126e70fbe582873dbe90b9c> a asoft:AirsoftReplica ;
+    asoft:hasFPS 338 .
+
+<http://example.org/inst/AirsoftReplica_d1202c770164b2d29af72d950c634f7d> a asoft:AirsoftReplica ;
+    asoft:hasFPS 207 .
+
+<http://example.org/inst/AirsoftReplica_d37009df5c3d7162964bc6a10018d19c> a asoft:AirsoftReplica ;
+    asoft:hasFPS 345 .
+
+<http://example.org/inst/AirsoftReplica_d3886f01cb5542c6c7523c5c340fbccc> a asoft:AirsoftReplica ;
+    asoft:hasFPS 306 .
+
+<http://example.org/inst/AirsoftReplica_d39848e368d224c741bb17cf99ce58fb> a asoft:AirsoftReplica ;
+    asoft:hasFPS 395 .
+
+<http://example.org/inst/AirsoftReplica_d3ab3416e57a8f6a03d12457e004173d> a asoft:AirsoftReplica ;
+    asoft:hasFPS 342 .
+
+<http://example.org/inst/AirsoftReplica_d44c77da0e2008c4ae55fabfc130f7fb> a asoft:AirsoftReplica ;
+    asoft:hasFPS 235 .
+
+<http://example.org/inst/AirsoftReplica_d4f2ba34e17905f3ae11eb1fbae0bad8> a asoft:AirsoftReplica ;
+    asoft:hasFPS 340 .
+
+<http://example.org/inst/AirsoftReplica_d8e0e8bb9a6a569ffcdc26071b51b17b> a asoft:AirsoftReplica ;
+    asoft:hasFPS 316 .
+
+<http://example.org/inst/AirsoftReplica_d9564231be39fbd34ce3df4c35115413> a asoft:AirsoftReplica ;
+    asoft:hasFPS 396 .
+
+<http://example.org/inst/AirsoftReplica_daa0f85269e7cf77b4f455ee7e772bed> a asoft:AirsoftReplica ;
+    asoft:hasFPS 404 .
+
+<http://example.org/inst/AirsoftReplica_db50e0042187b5f88596b46740c4c140> a asoft:AirsoftReplica ;
+    asoft:hasFPS 317 .
+
+<http://example.org/inst/AirsoftReplica_dc8b85a2616e455a24e2e054275c6c12> a asoft:AirsoftReplica ;
+    asoft:hasFPS 313 .
+
+<http://example.org/inst/AirsoftReplica_ddef949df620341743a5a76742c71650> a asoft:AirsoftReplica ;
+    asoft:hasFPS 330 .
+
+<http://example.org/inst/AirsoftReplica_debe67ed15ec2f21b8721fcdd6ea13b9> a asoft:AirsoftReplica ;
+    asoft:hasFPS 393 .
+
+<http://example.org/inst/AirsoftReplica_df01377696d0819638da7713d85f2cb8> a asoft:AirsoftReplica ;
+    asoft:hasFPS 213 .
+
+<http://example.org/inst/AirsoftReplica_e1a6932274cb16ef69c9357106a4a688> a asoft:AirsoftReplica ;
+    asoft:hasFPS 306 .
+
+<http://example.org/inst/AirsoftReplica_e38a2eb5dcc563dbbf55f0ffcede7c4c> a asoft:AirsoftReplica ;
+    asoft:hasFPS 241 .
+
+<http://example.org/inst/AirsoftReplica_e5141c5b946c1b1f513cf29c4da20bde> a asoft:AirsoftReplica ;
+    asoft:hasFPS 336 .
+
+<http://example.org/inst/AirsoftReplica_e58fc62ec5ce8be1c3cf7ca253c666db> a asoft:AirsoftReplica ;
+    asoft:hasFPS 344 .
+
+<http://example.org/inst/AirsoftReplica_e6bf16f0c9d5851e30a9d50b8285a7b4> a asoft:AirsoftReplica ;
+    asoft:hasFPS 322 .
+
+<http://example.org/inst/AirsoftReplica_e7b9aa1bce008314110bfeb5a91e0b7a> a asoft:AirsoftReplica ;
+    asoft:hasFPS 344 .
+
+<http://example.org/inst/AirsoftReplica_e890358b29bc741b52e4849ebc9b4fce> a asoft:AirsoftReplica ;
+    asoft:hasFPS 245 .
+
+<http://example.org/inst/AirsoftReplica_ea1412c17152efe3da6ef39e05779ab5> a asoft:AirsoftReplica ;
+    asoft:hasFPS 332 .
+
+<http://example.org/inst/AirsoftReplica_edb101b2afb7fee6cb6114a667d15439> a asoft:AirsoftReplica ;
+    asoft:hasFPS 244 .
+
+<http://example.org/inst/AirsoftReplica_edb135520919241142fa56f6f74d1303> a asoft:AirsoftReplica ;
+    asoft:hasFPS 310 .
+
+<http://example.org/inst/AirsoftReplica_edf206d4d1b412a0bd27fdd6b36df648> a asoft:AirsoftReplica ;
+    asoft:hasFPS 323 .
+
+<http://example.org/inst/AirsoftReplica_f2afb0f79797bd337908c60d7e11c434> a asoft:AirsoftReplica ;
+    asoft:hasFPS 404 .
+
+<http://example.org/inst/AirsoftReplica_f301a5aaa56e0be2640e3906dad4a432> a asoft:AirsoftReplica ;
+    asoft:hasFPS 397 .
+
+<http://example.org/inst/AirsoftReplica_f455ae0775756164e7437dec3e0c1b5f> a asoft:AirsoftReplica ;
+    asoft:hasFPS 325 .
+
+<http://example.org/inst/AirsoftReplica_f492a919777a04ff849fa83fb0af5388> a asoft:AirsoftReplica ;
+    asoft:hasFPS 396 .
+
+<http://example.org/inst/AirsoftReplica_f5da65518f61656f7f8558c7e11e8c76> a asoft:AirsoftReplica ;
+    asoft:hasFPS 300 .
+
+<http://example.org/inst/AirsoftReplica_f5f6bbc7067c92c434a15fedd56daa5a> a asoft:AirsoftReplica ;
+    asoft:hasFPS 350 .
+
+<http://example.org/inst/AirsoftReplica_f83c99ac85fb5cdf692ca4772805ebf7> a asoft:AirsoftReplica ;
+    asoft:hasFPS 337 .
+
+<http://example.org/inst/AirsoftReplica_f85cc2f3f0f0f595df74605c2dac0b2d> a asoft:AirsoftReplica ;
+    asoft:hasFPS 348 .
+
+<http://example.org/inst/AirsoftReplica_f94312b9f09d6435d196cee8966fda6d> a asoft:AirsoftReplica ;
+    asoft:hasFPS 341 .
+
+<http://example.org/inst/AirsoftReplica_f94f3d9371c26f836ab8112ba1a1a975> a asoft:AirsoftReplica ;
+    asoft:hasFPS 388 .
+
+<http://example.org/inst/AirsoftReplica_fb256f115eaffc7f566f1c35dde07505> a asoft:AirsoftReplica ;
+    asoft:hasFPS 245 .
+
+<http://example.org/inst/AirsoftReplica_fb38dd71da6099bbf20af1b990bb0a99> a asoft:AirsoftReplica ;
+    asoft:hasFPS 303 .
+
+<http://example.org/inst/AirsoftReplica_ff9ded16ff7093700367ee9522fc7592> a asoft:AirsoftReplica ;
+    asoft:hasFPS 401 .
+

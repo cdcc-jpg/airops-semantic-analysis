@@ -1,0 +1,812 @@
+@prefix asoft: <https://github.com/cdcc-jpg/ontologies#> .
+
+<http://example.org/inst/SocialMention_0087fe26f2e2691dea2dac10738dc45b> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_5589_Snipe:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_5589_Snipe" .
+
+<http://example.org/inst/SocialMention_00ef110c3051dd9524c383c8e62afe28> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_1181_BB:** I swear the factory Tokyo Marui assemblers are deaf. My AK74U sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_1181_BB" .
+
+<http://example.org/inst/SocialMention_015918f1a8b24f2397b8b065f8f7f63c> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_9003_BB:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_9003_BB" .
+
+<http://example.org/inst/SocialMention_01ff13cacc781082588488754c014d0f> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_5176_Tech:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_5176_Tech" .
+
+<http://example.org/inst/SocialMention_04cbe6c6699693e62bbd206e676ea796> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_6169_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_6169_Tech" .
+
+<http://example.org/inst/SocialMention_0546cb1b8ab21003b1439a1b890cc862> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_6163_Op:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_6163_Op" .
+
+<http://example.org/inst/SocialMention_06acbd999cd5ac83cd9793a430109a96> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_3122_Gat:** Never running green juice in November again. Dropped to 5C today. My Hi-Capa 5.1 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_3122_Gat" .
+
+<http://example.org/inst/SocialMention_087eee27dc48570e5abda998ad4b09f6> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_1561_Op:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_1561_Op" .
+
+<http://example.org/inst/SocialMention_0ce5efb2b11e1e6f1eccd4b7a3da0311> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_5108_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_5108_Tech" .
+
+<http://example.org/inst/SocialMention_0db2405404c3c3e8140c167718377687> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_7166_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_7166_Tech" .
+
+<http://example.org/inst/SocialMention_13868e1ced2e0468b757ca56042018de> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_9713_Gat:** I swear the factory G&G assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_9713_Gat" .
+
+<http://example.org/inst/SocialMention_13e8fa14a6a2356224196b601aa84eaf> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_5764_Gat:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_5764_Gat" .
+
+<http://example.org/inst/SocialMention_146ac41f152885f6efbfa58866ad0044> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_9458_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_9458_Tech" .
+
+<http://example.org/inst/SocialMention_14f66a88f528c1ccc34dad1cd227a1be> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_6832_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_6832_Tech" .
+
+<http://example.org/inst/SocialMention_15a4605214fcb99b5ff0a7083ebe2660> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_6840_BB:** Never running green juice in November again. Dropped to 5C today. My AKM cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_6840_BB" .
+
+<http://example.org/inst/SocialMention_181a904007bf3ed004dd406ec145f754> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_3761_Gat:** I swear the factory VFC assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_3761_Gat" .
+
+<http://example.org/inst/SocialMention_19ac79f78f69ea18602a6b2d7564061f> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_9616_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my Redline rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_9616_Tech" .
+
+<http://example.org/inst/SocialMention_1b709ce8fa3eca7be34a2ceb0f69d99e> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_7119_Gat:** I swear the factory Tokyo Marui assemblers are deaf. My M4 CQB sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_7119_Gat" .
+
+<http://example.org/inst/SocialMention_20b59f62cf485924639f9e639531e5be> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_3938_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_3938_Tech" .
+
+<http://example.org/inst/SocialMention_245333098d3257f6a881c96b8ef5cab7> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_9638_Gat:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_9638_Gat" .
+
+<http://example.org/inst/SocialMention_24ad62bd6cbfc33de5f5cd8499565393> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_6412_Op:** I swear the factory Cyma assemblers are deaf. My Vector SMG sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_6412_Op" .
+
+<http://example.org/inst/SocialMention_258cb122a76dd65e925d11d17d0d6976> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_8024_Op:** Never running green juice in November again. Dropped to 5C today. My M4A1 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_8024_Op" .
+
+<http://example.org/inst/SocialMention_289cfb52ca0c563fb54bb64a855eda09> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_6066_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_6066_Tech" .
+
+<http://example.org/inst/SocialMention_29488c92757ab89fa075e73cc239dc49> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_9281_Op:** I swear the factory Tokyo Marui assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_9281_Op" .
+
+<http://example.org/inst/SocialMention_2b289dd2ae30623aae5ba7a77f1d70fd> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_7738_Snipe:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my Redline rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_7738_Snipe" .
+
+<http://example.org/inst/SocialMention_2b356cd7306e149beb3be2cc067c7095> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_5240_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_5240_Tech" .
+
+<http://example.org/inst/SocialMention_2bbbdf7c52b9a483d2238f2794d45248> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_5538_Gat:** Never running green juice in November again. Dropped to 5C today. My AKM cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_5538_Gat" .
+
+<http://example.org/inst/SocialMention_2de077e0e3526ebbd966f4ecd931671b> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_2755_Op:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_2755_Op" .
+
+<http://example.org/inst/SocialMention_2f01c31c1436af2e8d1646f55c49eaf2> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_2081_Op:** Never running green juice in November again. Dropped to 5C today. My Hi-Capa 5.1 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_2081_Op" .
+
+<http://example.org/inst/SocialMention_33f0f4960996ab12db4cfc78bad6a76d> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_9020_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_9020_Tech" .
+
+<http://example.org/inst/SocialMention_342442136131c56af38fb85beac31d0b> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_7080_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_7080_Tech" .
+
+<http://example.org/inst/SocialMention_3442f6bb65d46b04cbea1f17c5f6d32e> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_7257_Tech:** I swear the factory Cyma assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_7257_Tech" .
+
+<http://example.org/inst/SocialMention_34e70e03c39eb7ae9824402293fd7f68> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_6095_Op:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_6095_Op" .
+
+<http://example.org/inst/SocialMention_3546f9494959972d5204a5aadc46f3e2> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_4420_Tech:** I swear the factory Cyma assemblers are deaf. My SR25 sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_4420_Tech" .
+
+<http://example.org/inst/SocialMention_38ad9969dce81057655a7bb0adbe0793> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_4746_Op:** I swear the factory Cyma assemblers are deaf. My AK74U sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_4746_Op" .
+
+<http://example.org/inst/SocialMention_3a79f3325fc9334a1e5e4d819a7adbd1> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_2269_Tech:** I swear the factory LCT assemblers are deaf. My SR25 sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_2269_Tech" .
+
+<http://example.org/inst/SocialMention_3aaf165f8750f0f89d8df4527c52dcaa> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_4102_Op:** I swear the factory VFC assemblers are deaf. My Vector SMG sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_4102_Op" .
+
+<http://example.org/inst/SocialMention_3c4adc249a50a2c0caf7578880542b46> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_9480_Gat:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my Redline rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_9480_Gat" .
+
+<http://example.org/inst/SocialMention_3e14452f701f65df950a528a72251762> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_3399_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_3399_Tech" .
+
+<http://example.org/inst/SocialMention_4157f192087a54181dbcd48041e5bbe5> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_5055_Tech:** Never running green juice in November again. Dropped to 5C today. My Hi-Capa 5.1 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_5055_Tech" .
+
+<http://example.org/inst/SocialMention_41da5cbdead9c5cb82c62fd89ed92dd8> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_5234_Tech:** Never running green juice in November again. Dropped to 5C today. My M4A1 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_5234_Tech" .
+
+<http://example.org/inst/SocialMention_42556f56bd9658c88ec9aeef9baa6552> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_9243_Op:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my Redline rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_9243_Op" .
+
+<http://example.org/inst/SocialMention_42dac9b9f8f644c32b3b09d4b77c000c> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_4828_Gat:** Never running green juice in November again. Dropped to 5C today. My Hi-Capa 5.1 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_4828_Gat" .
+
+<http://example.org/inst/SocialMention_44521cf97cbb4be9fcf7088cc1caf65b> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_5689_Tech:** I swear the factory Cyma assemblers are deaf. My AK74U sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_5689_Tech" .
+
+<http://example.org/inst/SocialMention_4670a51351d50181d80316c81a979845> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_9290_Tech:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_9290_Tech" .
+
+<http://example.org/inst/SocialMention_467900024b644a351115fdebfaf13dd9> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_2044_Op:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_2044_Op" .
+
+<http://example.org/inst/SocialMention_492fb8c41e2f3653a3443384b74b16b9> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_2434_Op:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_2434_Op" .
+
+<http://example.org/inst/SocialMention_4971985de8beb65007eaa9b937e94773> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_6946_Gat:** I swear the factory LCT assemblers are deaf. My Vector SMG sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_6946_Gat" .
+
+<http://example.org/inst/SocialMention_49f0e31824acad6a30bea0de3f7d860c> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_8141_BB:** I swear the factory Tokyo Marui assemblers are deaf. My SR25 sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_8141_BB" .
+
+<http://example.org/inst/SocialMention_4d92817fa2bc7609c933ff8afbf790b3> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_9696_Gat:** I swear the factory Krytac assemblers are deaf. My AK74U sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_9696_Gat" .
+
+<http://example.org/inst/SocialMention_4e1a1913238f38a58019860271b2f581> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_9103_Gat:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_9103_Gat" .
+
+<http://example.org/inst/SocialMention_529189e0ecb5c1794befe2414f1380e4> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_2943_BB:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_2943_BB" .
+
+<http://example.org/inst/SocialMention_537b85a3faf96bfc29be2fa6396dcc01> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_8638_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_8638_Tech" .
+
+<http://example.org/inst/SocialMention_54c07bfb88916ce6554235501817f5d5> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_7168_BB:** Never running green juice in November again. Dropped to 5C today. My AKM cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_7168_BB" .
+
+<http://example.org/inst/SocialMention_55293afb0fc52592d71cc179e6a2c9f2> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_1832_BB:** Never running green juice in November again. Dropped to 5C today. My MP7 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_1832_BB" .
+
+<http://example.org/inst/SocialMention_55da5820136e4fbb93c96ae0ba5e2ebf> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_7172_Gat:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_7172_Gat" .
+
+<http://example.org/inst/SocialMention_577d07f3897e6d599d2706f735a90cb0> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_9477_Op:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my Redline rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_9477_Op" .
+
+<http://example.org/inst/SocialMention_5c17d40341760c315f346859fa65fb0a> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_7061_Gat:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_7061_Gat" .
+
+<http://example.org/inst/SocialMention_5c31a90da70332ffb1c556a18f945bb4> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_1835_BB:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_1835_BB" .
+
+<http://example.org/inst/SocialMention_5d5960cc0414d4d784a62890c647b9de> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_8771_Op:** Never running green juice in November again. Dropped to 5C today. My MP7 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_8771_Op" .
+
+<http://example.org/inst/SocialMention_5dfb15b63c28922501d85749dc23bb9e> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_2307_BB:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_2307_BB" .
+
+<http://example.org/inst/SocialMention_5fe3ed66e0edf96b6efe040cd5eb3603> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_8358_Snipe:** Never running green juice in November again. Dropped to 5C today. My MP7 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_8358_Snipe" .
+
+<http://example.org/inst/SocialMention_67a8401d841b6e7c1fba419dccfbce9e> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_7211_BB:** I swear the factory Cyma assemblers are deaf. My Vector SMG sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_7211_BB" .
+
+<http://example.org/inst/SocialMention_69cbff52227497bcab340ded88a9fe23> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_4889_Tech:** I swear the factory Krytac assemblers are deaf. My Vector SMG sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_4889_Tech" .
+
+<http://example.org/inst/SocialMention_6bffe4daf0c64ee12f0a7ed81addadd1> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_9791_Op:** I swear the factory LCT assemblers are deaf. My M4 CQB sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_9791_Op" .
+
+<http://example.org/inst/SocialMention_718f3c9c505f7830f723424787ef51b3> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_4590_Tech:** I swear the factory Krytac assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_4590_Tech" .
+
+<http://example.org/inst/SocialMention_730acb1cf78594f791134f647337fb2c> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_8165_Gat:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my Redline rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_8165_Gat" .
+
+<http://example.org/inst/SocialMention_7910a144517154b8049291c0b54e04ad> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_1948_BB:** I swear the factory G&G assemblers are deaf. My SR25 sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_1948_BB" .
+
+<http://example.org/inst/SocialMention_879ef8a5fb0d7ecd360d17bad4595190> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_5898_BB:** Never running green juice in November again. Dropped to 5C today. My AKM cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_5898_BB" .
+
+<http://example.org/inst/SocialMention_88474d5469027a8e52d1228476ee44d2> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_3594_Snipe:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_3594_Snipe" .
+
+<http://example.org/inst/SocialMention_8884009c80d7e47cdd0bb938f0874697> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_6342_Gat:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_6342_Gat" .
+
+<http://example.org/inst/SocialMention_899b35e92a1087cf27f467f00b9b6ef7> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_4252_Snipe:** I swear the factory Cyma assemblers are deaf. My M4 CQB sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_4252_Snipe" .
+
+<http://example.org/inst/SocialMention_89f80807d844ad2c70521f476353a537> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_5306_BB:** I swear the factory G&G assemblers are deaf. My AK74U sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_5306_BB" .
+
+<http://example.org/inst/SocialMention_8a37d75114bd0b0ce8c4cb43e162ea38> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_6305_Snipe:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my Redline rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_6305_Snipe" .
+
+<http://example.org/inst/SocialMention_8ad6dacc28c76ef7909132ba083e5042> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_6929_BB:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_6929_BB" .
+
+<http://example.org/inst/SocialMention_8b22bb5b330c2c8e6cce8728b86e61c8> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_6383_Op:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my Redline rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_6383_Op" .
+
+<http://example.org/inst/SocialMention_8c20d7eb18c9db0556bf755f1c7d6fd4> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_2584_Snipe:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_2584_Snipe" .
+
+<http://example.org/inst/SocialMention_8e8e14ee796b16728142e6ea6ffc1929> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_4007_BB:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_4007_BB" .
+
+<http://example.org/inst/SocialMention_8ea3c7b07a0188258d6d54f07d39aaea> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_2793_BB:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_2793_BB" .
+
+<http://example.org/inst/SocialMention_8ea3dfb172ff7c371578f668f78b4e52> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_3554_Gat:** I swear the factory Cyma assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_3554_Gat" .
+
+<http://example.org/inst/SocialMention_8f4ecc50d28eaa4a7b738903526ad2d4> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_2260_BB:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_2260_BB" .
+
+<http://example.org/inst/SocialMention_92e3e4c631bb924be10b929e1172d62c> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_3683_Op:** Never running green juice in November again. Dropped to 5C today. My AKM cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_3683_Op" .
+
+<http://example.org/inst/SocialMention_9471822669ddfc6cf51e227462302d42> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_2995_Tech:** I swear the factory G&G assemblers are deaf. My AK74U sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_2995_Tech" .
+
+<http://example.org/inst/SocialMention_94e8369fe10c47d2cf6e9e72aee5fc2d> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_8000_BB:** I swear the factory Krytac assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_8000_BB" .
+
+<http://example.org/inst/SocialMention_95041805baa4f9ea0c9e20b03f25120d> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_9399_Snipe:** Never running green juice in November again. Dropped to 5C today. My MP7 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_9399_Snipe" .
+
+<http://example.org/inst/SocialMention_9744df11048d958bee5e29b2eaa0f09b> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_4024_Op:** I swear the factory Krytac assemblers are deaf. My SR25 sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_4024_Op" .
+
+<http://example.org/inst/SocialMention_975d7dfee7e715c3217abdfaa5bf211e> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_3835_Gat:** I swear the factory G&G assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_3835_Gat" .
+
+<http://example.org/inst/SocialMention_990b871eb46d343409fdba6f3684a7b2> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_2949_Gat:** I swear the factory G&G assemblers are deaf. My AK74U sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_2949_Gat" .
+
+<http://example.org/inst/SocialMention_995665891b9fa86d5e89fccca65c77a4> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_6798_Gat:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_6798_Gat" .
+
+<http://example.org/inst/SocialMention_9a5c76d94756d3c82dea4df4a5649b17> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_7611_Op:** I swear the factory Cyma assemblers are deaf. My Vector SMG sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_7611_Op" .
+
+<http://example.org/inst/SocialMention_9cb59c2b0fce8bd895fcc5fe5e1f5972> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_9899_Snipe:** Never running green juice in November again. Dropped to 5C today. My MP7 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_9899_Snipe" .
+
+<http://example.org/inst/SocialMention_9d3be82d6adacbec66dbdb8ecb0bf211> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_1114_Gat:** Never running green juice in November again. Dropped to 5C today. My AKM cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_1114_Gat" .
+
+<http://example.org/inst/SocialMention_9df25bd0dd3efd89592eae44f3af7ae6> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_6266_Tech:** I swear the factory LCT assemblers are deaf. My M4 CQB sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_6266_Tech" .
+
+<http://example.org/inst/SocialMention_9ee40a9886af414952f5e2e160fd7c9a> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_4116_Snipe:** I swear the factory VFC assemblers are deaf. My SR25 sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_4116_Snipe" .
+
+<http://example.org/inst/SocialMention_a0bf6372037d7980b95e95bb4d44a43f> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_5697_BB:** Never running green juice in November again. Dropped to 5C today. My Hi-Capa 5.1 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_5697_BB" .
+
+<http://example.org/inst/SocialMention_a1441e0228058ddc232182d5ed34dacf> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_4981_Op:** Never running green juice in November again. Dropped to 5C today. My MP7 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_4981_Op" .
+
+<http://example.org/inst/SocialMention_a37f7b6e9c692a6de719859bca105001> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_8384_BB:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_8384_BB" .
+
+<http://example.org/inst/SocialMention_a4ab2882fff7696f87c16c3595e6c171> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_5575_Op:** I swear the factory Tokyo Marui assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_5575_Op" .
+
+<http://example.org/inst/SocialMention_a5ba4befc69f7dd52217e306d10e7b2d> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_6358_BB:** I swear the factory Krytac assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_6358_BB" .
+
+<http://example.org/inst/SocialMention_a846809659b6360ec7af985e329dcd82> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_7070_Op:** I swear the factory LCT assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_7070_Op" .
+
+<http://example.org/inst/SocialMention_a90f268b3346dec738f7ce5f546a364d> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_7429_Gat:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_7429_Gat" .
+
+<http://example.org/inst/SocialMention_aaaaf2f97a519f52b86efa83fdc027b3> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_5270_Tech:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_5270_Tech" .
+
+<http://example.org/inst/SocialMention_ac7c1071b709d869a195e6dfab94dad4> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_4126_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_4126_Tech" .
+
+<http://example.org/inst/SocialMention_aca4c1e3447324969b38c2e935c9d305> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_8840_Tech:** I swear the factory Krytac assemblers are deaf. My M4 CQB sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_8840_Tech" .
+
+<http://example.org/inst/SocialMention_ad03837d919a0ad6733ee9442ff46df9> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_9108_BB:** I swear the factory VFC assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_9108_BB" .
+
+<http://example.org/inst/SocialMention_ad2ac914e9d360e4c0a665dac7a46910> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_2248_BB:** Never running green juice in November again. Dropped to 5C today. My AKM cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_2248_BB" .
+
+<http://example.org/inst/SocialMention_ad34328ca8e5a4a5605dc3e3fc13ce66> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_8960_Tech:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_8960_Tech" .
+
+<http://example.org/inst/SocialMention_b1a77ebfeeef4a6415a9a89993f142a7> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_1635_Gat:** I swear the factory VFC assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_1635_Gat" .
+
+<http://example.org/inst/SocialMention_b472c36048cf807cd9941df20289a6e0> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_1273_BB:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_1273_BB" .
+
+<http://example.org/inst/SocialMention_b90831f5db931d9c8b5dc2cf5169642d> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_2786_BB:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_2786_BB" .
+
+<http://example.org/inst/SocialMention_ba51a82eb56e0a440e4c7af0701637f0> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_4392_BB:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_4392_BB" .
+
+<http://example.org/inst/SocialMention_bae6464f22493e7981336bbe63e30108> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_4724_BB:** Never running green juice in November again. Dropped to 5C today. My MP7 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_4724_BB" .
+
+<http://example.org/inst/SocialMention_bc4ef8bc2ae348f116e727114b419bca> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_3329_Tech:** Never running green juice in November again. Dropped to 5C today. My M4A1 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_3329_Tech" .
+
+<http://example.org/inst/SocialMention_bdf0d76f7f067a3355eed97a163b91fa> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_7215_Gat:** I swear the factory Cyma assemblers are deaf. My SR25 sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_7215_Gat" .
+
+<http://example.org/inst/SocialMention_be91df81a10f1008f0cc8ab5545e9845> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_3797_Tech:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_3797_Tech" .
+
+<http://example.org/inst/SocialMention_be97b5d13cca0c0718252d6ded492d24> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_4763_Gat:** I swear the factory Tokyo Marui assemblers are deaf. My SR25 sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_4763_Gat" .
+
+<http://example.org/inst/SocialMention_bf54cd63ff8654d9cc8890bfa73c0eaa> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_2052_Tech:** Never running green juice in November again. Dropped to 5C today. My MP7 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_2052_Tech" .
+
+<http://example.org/inst/SocialMention_bf78eb5607c7441c0e50bff7f720e780> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_1712_Snipe:** Never running green juice in November again. Dropped to 5C today. My Hi-Capa 5.1 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_1712_Snipe" .
+
+<http://example.org/inst/SocialMention_c235b1b13fae4afd281bcc82f1556fca> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_4967_Tech:** I swear the factory G&G assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_4967_Tech" .
+
+<http://example.org/inst/SocialMention_c236a181ab947a2de2ce12ff64b6c8f8> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_5440_Snipe:** I swear the factory VFC assemblers are deaf. My M4 CQB sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_5440_Snipe" .
+
+<http://example.org/inst/SocialMention_c35b2fb8f92d7689fc8c4f31dc947503> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_6870_BB:** Never running green juice in November again. Dropped to 5C today. My Hi-Capa 5.1 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_6870_BB" .
+
+<http://example.org/inst/SocialMention_c3f18ccf08a0a7e30f3cec4202169129> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_2300_BB:** Never running green juice in November again. Dropped to 5C today. My MP7 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_2300_BB" .
+
+<http://example.org/inst/SocialMention_c4284a395fd15b1a62532e2f2ba9f0a1> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_1754_Tech:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_1754_Tech" .
+
+<http://example.org/inst/SocialMention_c4547c8c703d101a0dce668ffdf09a34> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_5599_BB:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_5599_BB" .
+
+<http://example.org/inst/SocialMention_c711000bcb1c483a7c06d5e6157e882e> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_6474_Snipe:** Never running green juice in November again. Dropped to 5C today. My AKM cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_6474_Snipe" .
+
+<http://example.org/inst/SocialMention_c7e30cd5865d8044cfd0b552309fb7fe> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_5337_Gat:** I swear the factory G&G assemblers are deaf. My AK74U sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_5337_Gat" .
+
+<http://example.org/inst/SocialMention_cc3048f6b87c06500984402e8ffec65d> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_1107_BB:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_1107_BB" .
+
+<http://example.org/inst/SocialMention_ce331f7240691a01512d583e74479445> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_3304_Gat:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_3304_Gat" .
+
+<http://example.org/inst/SocialMention_d03f75202624a4bb8cc3db4683ef52ef> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_8941_BB:** I swear the factory LCT assemblers are deaf. My SR25 sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_8941_BB" .
+
+<http://example.org/inst/SocialMention_d217e31cdcaf3be3594facc7cf77baba> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_4714_Tech:** I swear the factory Krytac assemblers are deaf. My Vector SMG sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_4714_Tech" .
+
+<http://example.org/inst/SocialMention_d3e386a14157befabebf451243ac1cd1> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_5159_BB:** I swear the factory Tokyo Marui assemblers are deaf. My Vector SMG sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_5159_BB" .
+
+<http://example.org/inst/SocialMention_d4367be4867b16e74377e127caadc37f> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_5907_BB:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_5907_BB" .
+
+<http://example.org/inst/SocialMention_d4b1c29393284ab18c0a155058816948> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_6255_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_6255_Tech" .
+
+<http://example.org/inst/SocialMention_d57f19f07180333658ddab31d0970b96> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_5162_Op:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my Redline rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_5162_Op" .
+
+<http://example.org/inst/SocialMention_d58c8c673edeb43b5a0f297def85bd1e> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_9563_Op:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my Redline rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_9563_Op" .
+
+<http://example.org/inst/SocialMention_d71ed658f5fa2a3011ed5392b652bff3> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_2190_Snipe:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my Redline rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_2190_Snipe" .
+
+<http://example.org/inst/SocialMention_d788271cb7ca20682662a04fe557ffc6> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_8174_Op:** I swear the factory Cyma assemblers are deaf. My AK74U sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_8174_Op" .
+
+<http://example.org/inst/SocialMention_d8cc803f8441b8a32c9127b524152d47> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_6276_Op:** I swear the factory Krytac assemblers are deaf. My Vector SMG sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_6276_Op" .
+
+<http://example.org/inst/SocialMention_d93e1b95be462c9d02d49b8be923bbdc> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_7756_Snipe:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_7756_Snipe" .
+
+<http://example.org/inst/SocialMention_dcd1b8e624bf291c8eb582876bd8db1f> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_3311_Gat:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_3311_Gat" .
+
+<http://example.org/inst/SocialMention_dd3c4c0996669454dea996753f152ed7> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_1142_Gat:** Never running green juice in November again. Dropped to 5C today. My Glock 19 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_1142_Gat" .
+
+<http://example.org/inst/SocialMention_dd4fe353b87125ab9a5001db4879359c> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_1992_Gat:** Never running green juice in November again. Dropped to 5C today. My AKM cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_1992_Gat" .
+
+<http://example.org/inst/SocialMention_debf890d1ba522f37ccb33a713d109f2> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_6461_BB:** I swear the factory Tokyo Marui assemblers are deaf. My M4 CQB sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_6461_BB" .
+
+<http://example.org/inst/SocialMention_def284f02eea8f9138f38eb7de384975> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_1756_Snipe:** I swear the factory LCT assemblers are deaf. My SR25 sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_1756_Snipe" .
+
+<http://example.org/inst/SocialMention_e09f4063f9c051aa4b82beb1f0903a21> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_8239_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_8239_Tech" .
+
+<http://example.org/inst/SocialMention_e12b1512e9a0eccd1ca2c81a840afac8> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_1492_Tech:** I swear the factory Tokyo Marui assemblers are deaf. My AK74U sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_1492_Tech" .
+
+<http://example.org/inst/SocialMention_e2a18c46ebe23220fc806001bcd4ccbb> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_3403_BB:** I swear the factory Cyma assemblers are deaf. My M4 CQB sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_3403_BB" .
+
+<http://example.org/inst/SocialMention_e3a152e6e5faff7cba42d8a8f6881d50> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_4747_BB:** Never running green juice in November again. Dropped to 5C today. My M4A1 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_4747_BB" .
+
+<http://example.org/inst/SocialMention_e3adc6f6aa489884c35e99c184079ed3> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_3611_BB:** I swear the factory Tokyo Marui assemblers are deaf. My SCAR-L sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_3611_BB" .
+
+<http://example.org/inst/SocialMention_e3dd76696336ad897e3b0fd4d2abe9dc> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_2671_Tech:** I swear the factory G&G assemblers are deaf. My M4 CQB sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_2671_Tech" .
+
+<http://example.org/inst/SocialMention_e5776cd18f4e6ba4aa7efefd4dc2026d> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_7236_Snipe:** I swear the factory Tokyo Marui assemblers are deaf. My SR25 sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_7236_Snipe" .
+
+<http://example.org/inst/SocialMention_e85b21885161ac73b0fbf1a8fec81c0a> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_7385_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.4g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_7385_Tech" .
+
+<http://example.org/inst/SocialMention_ed94e0b4591a84f9cf0ebbb9189b8e8e> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_1960_Op:** I swear the factory VFC assemblers are deaf. My SR25 sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_1960_Op" .
+
+<http://example.org/inst/SocialMention_efa33ff387d60bbb71d86e37f04bab08> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_9122_Gat:** Never running green juice in November again. Dropped to 5C today. My MP7 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_9122_Gat" .
+
+<http://example.org/inst/SocialMention_f5217cf99ac93231f499812876b336e0> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_8809_Op:** I swear the factory G&G assemblers are deaf. My M4 CQB sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_8809_Op" .
+
+<http://example.org/inst/SocialMention_f5d9f53c68a73f3dcc5676643d064ec6> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_6485_Gat:** I swear the factory Cyma assemblers are deaf. My M4 CQB sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_6485_Gat" .
+
+<http://example.org/inst/SocialMention_f62b416d642be0dfd40f9461d92fa0c0> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_4840_Gat:** Never running green juice in November again. Dropped to 5C today. My MP7 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_4840_Gat" .
+
+<http://example.org/inst/SocialMention_f669446430f51a129cb3994f45cf6485> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_5805_Snipe:** I swear the factory VFC assemblers are deaf. My M4 CQB sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_5805_Snipe" .
+
+<http://example.org/inst/SocialMention_f8778a6d69b22fad9836f76d58e57fb6> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Gearbox Failure" ;
+    asoft:rawComment "**@User_6428_BB:** I swear the factory LCT assemblers are deaf. My M4 CQB sounded like a screeching cat today. Mid-game it just locked up. Pulled the gearbox and the gears are absolute glitter. Motor was burning up because the AOE was trash. Gotta rebuild the whole train now." ;
+    asoft:userCallsign "User_6428_BB" .
+
+<http://example.org/inst/SocialMention_fc19713f11aed100effdefec4e92298e> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_7976_Tech:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.32g pearls in for the woodland game and suddenly my Wolverine rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_7976_Tech" .
+
+<http://example.org/inst/SocialMention_fc8a36caf941befe4ce8f98b59f50cc1> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Heavy BBs" ;
+    asoft:rawComment "**u/User_7938_Op:** Refs are so dumb. Passed chrono at 350 in the morning. Put my 0.36g pearls in for the woodland game and suddenly my PolarStar rig is 'shooting too hot' and 'creeping'. Like dude, it's basic physics. Air volume pushes heavier BBs more efficiently. Now my gat is zip-tied and my dwell is lowered. Rentals ruin everything." ;
+    asoft:userCallsign "User_7938_Op" .
+
+<http://example.org/inst/SocialMention_fe0ce5f44c395425b93da8fb9e8b9a7a> a asoft:SocialMention ;
+    asoft:detectedSlangTopic "Green Gas Anomaly" ;
+    asoft:rawComment "**User: User_6444_Gat:** Never running green juice in November again. Dropped to 5C today. My M4A1 cycled twice, then the whole mag just dumped in a massive white cloud. I stripped it and my nozzle is literally snapped in half like glass. Sick. Back to AEGs until Spring." ;
+    asoft:userCallsign "User_6444_Gat" .
+
