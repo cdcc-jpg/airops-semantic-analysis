@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirOps Semantic Mapping & Classification Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --panel-bg: rgba(17, 24, 39, 0.7);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --text-color: #f3f4f6;
+            --text-muted: #9ca3af;
+            
+            --cyan: #06b6d4;
+            --magenta: #ec4899;
+            --orange: #f97316;
+            --green: #10b981;
+            --purple: #8b5cf6;
+            --gold: #eab308;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(at 10% 20%, rgba(6, 182, 212, 0.05) 0px, transparent 50%),
+                radial-gradient(at 90% 80%, rgba(139, 92, 246, 0.05) 0px, transparent 50%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            padding: 2rem 4rem;
+            border-bottom: 1px solid var(--border-color);
+            background: rgba(11, 15, 25, 0.8);
+            backdrop-filter: blur(12px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            font-weight: 800;
+            letter-spacing: -0.05em;
+            background: linear-gradient(to right, var(--cyan), var(--purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        header p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-top: 0.2rem;
+        }
+
+        .badge {
+            background: rgba(6, 182, 212, 0.1);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            color: var(--cyan);
+            padding: 0.4rem 0.8rem;
+            border-radius: 9999px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            flex: 1;
+            padding: 2rem 4rem;
+            gap: 2rem;
+            max-width: 1800px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .panel {
+            background: var(--panel-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            backdrop-filter: blur(16px);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+        }
+
+        .panel-header {
+            padding: 1.2rem 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .panel-header h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+
+        /* Network Visualizer Panel */
+        .visualizer-container {
+            position: relative;
+            flex: 1;
+            min-height: 550px;
+            background: radial-gradient(circle at center, rgba(17, 24, 39, 0.3) 0%, rgba(11, 15, 25, 0.9) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        svg#network {
+            width: 100%;
+            height: 100%;
+            min-height: 550px;
+        }
+
+        .node {
+            cursor: pointer;
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .node:hover {
+            transform: scale(1.1);
+        }
+
+        .node circle {
+            stroke-width: 2px;
+            transition: stroke-width 0.3s, filter 0.3s;
+        }
+
+        .node:hover circle {
+            stroke-width: 3px;
+        }
+
+        .node.selected circle {
+            stroke-width: 4px;
+        }
+
+        .edge {
+            stroke-dasharray: 5, 5;
+            animation: dash 30s linear infinite;
+            transition: opacity 0.3s, stroke-width 0.3s;
+        }
+
+        @keyframes dash {
+            to {
+                stroke-dashoffset: -1000;
+            }
+        }
+
+        .edge.highlighted {
+            stroke-width: 2.5px;
+            stroke-dasharray: none;
+            animation: none;
+        }
+
+        .node-label {
+            font-family: 'Outfit', sans-serif;
+            font-size: 11px;
+            font-weight: 600;
+            fill: var(--text-color);
+            pointer-events: none;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+        }
+
+        /* Inspector Panel styling */
+        .inspector {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tabs {
+            display: flex;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 0.3rem;
+            border-radius: 8px;
+            margin: 1rem;
+            border: 1px solid var(--border-color);
+        }
+
+        .tab-btn {
+            flex: 1;
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 0.6rem 0.5rem;
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+
+        .tab-btn:hover {
+            color: var(--text-color);
+        }
+
+        .tab-btn.active {
+            background: rgba(255, 255, 255, 0.08);
+            color: var(--text-color);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+
+        .inspector-body {
+            flex: 1;
+            padding: 1.5rem;
+            overflow-y: auto;
+        }
+
+        .content-section {
+            display: none;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        .content-section.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .meta-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-color);
+            padding: 1rem;
+            border-radius: 10px;
+        }
+
+        .meta-card h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            margin-bottom: 0.3rem;
+        }
+
+        .meta-card p {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .code-container {
+            position: relative;
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            margin-top: 1rem;
+            overflow: hidden;
+        }
+
+        .code-header {
+            padding: 0.5rem 1rem;
+            background: rgba(0, 0, 0, 0.2);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        pre {
+            padding: 1.2rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            overflow-x: auto;
+            line-height: 1.5;
+            color: #a7f3d0; /* emerald green-ish for code */
+        }
+
+        .desc-text {
+            line-height: 1.6;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Instruction help banner */
+        .instruction-banner {
+            background: rgba(139, 92, 246, 0.1);
+            border: 1px dashed rgba(139, 92, 246, 0.4);
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .instruction-banner span.icon {
+            font-size: 1.5rem;
+            color: var(--purple);
+        }
+
+        .instruction-banner p {
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        footer {
+            padding: 2rem 4rem;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* Glowing filters for SVG nodes */
+        .glow-cyan { filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.6)); }
+        .glow-magenta { filter: drop-shadow(0 0 8px rgba(236, 72, 153, 0.6)); }
+        .glow-orange { filter: drop-shadow(0 0 8px rgba(249, 115, 22, 0.6)); }
+        .glow-green { filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.6)); }
+        .glow-purple { filter: drop-shadow(0 0 8px rgba(139, 92, 246, 0.6)); }
+        .glow-gold { filter: drop-shadow(0 0 8px rgba(234, 179, 8, 0.6)); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1>AirOps Semantic Web Visualizer</h1>
+            <p>Unified representation of cross-silo data facets mapped via Facettes matcher</p>
+        </div>
+        <div class="badge">4 Silos Materialized</div>
+    </header>
+
+    <main>
+        <!-- Left Panel: Interactive SVG Network Graph -->
+        <div class="panel">
+            <div class="panel-header">
+                <h2>Cross-Silo Entity Integration Graph</h2>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">Click any node to inspect semantic facets</span>
+            </div>
+            <div class="visualizer-container">
+                <svg id="network" viewBox="0 0 800 600">
+                    <!-- Definitions for markers and filters -->
+                    <defs>
+                        <marker id="arrow" viewBox="0 0 10 10" refX="24" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="rgba(255, 255, 255, 0.3)" />
+                        </marker>
+                        <marker id="arrow-highlighted" viewBox="0 0 10 10" refX="24" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b5cf6" />
+                        </marker>
+                    </defs>
+
+                    <!-- Edges / Links -->
+                    <!-- Player P_0001 relations -->
+                    <line id="edge-player-chrono" x1="400" y1="300" x2="220" y2="180" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-start="url(#arrow)" />
+                    <line id="edge-player-repair" x1="400" y1="300" x2="580" y2="180" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-start="url(#arrow)" />
+                    <line id="edge-player-social" x1="400" y1="300" x2="220" y2="420" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-start="url(#arrow)" />
+                    
+                    <!-- Replica relations -->
+                    <line id="edge-chrono-replica" x1="220" y1="180" x2="580" y2="420" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-end="url(#arrow)" />
+                    <line id="edge-repair-replica" x1="580" y1="180" x2="580" y2="420" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-end="url(#arrow)" />
+                    
+                    <!-- Identity Links (owl:sameAs) -->
+                    <path id="edge-sameas-chrono-retail" d="M 220,180 Q 400,100 580,420" fill="none" stroke="rgba(6, 182, 212, 0.3)" stroke-width="2" stroke-dasharray="4,4" class="edge" />
+
+                    <!-- Nodes -->
+                    <!-- Central Player: P_0001 (Gold) -->
+                    <g id="node-player" class="node selected" onclick="selectNode('player')" transform="translate(400, 300)">
+                        <circle r="22" fill="#eab308" stroke="#ffffff" class="glow-gold" />
+                        <text dy="30" text-anchor="middle" class="node-label">Player P_0001</text>
+                    </g>
+
+                    <!-- Chrono Event Node (Green) -->
+                    <g id="node-chrono" class="node" onclick="selectNode('chrono')" transform="translate(220, 180)">
+                        <circle r="18" fill="#10b981" stroke="#ffffff" class="glow-green" />
+                        <text dy="-25" text-anchor="middle" class="node-label">Chrono Event (Silo 2)</text>
+                    </g>
+
+                    <!-- Repair Invoice Node (Orange) -->
+                    <g id="node-repair" class="node" onclick="selectNode('repair')" transform="translate(580, 180)">
+                        <circle r="18" fill="#f97316" stroke="#ffffff" class="glow-orange" />
+                        <text dy="-25" text-anchor="middle" class="node-label">Repair Invoice (Silo 3)</text>
+                    </g>
+
+                    <!-- Social Mention Node (Pink) -->
+                    <g id="node-social" class="node" onclick="selectNode('social')" transform="translate(220, 420)">
+                        <circle r="18" fill="#ec4899" stroke="#ffffff" class="glow-magenta" />
+                        <text dy="30" text-anchor="middle" class="node-label">Social Mention (Silo 4)</text>
+                    </g>
+
+                    <!-- Retail Replica Product Node (Cyan) -->
+                    <g id="node-replica" class="node" onclick="selectNode('replica')" transform="translate(580, 420)">
+                        <circle r="18" fill="#06b6d4" stroke="#ffffff" class="glow-cyan" />
+                        <text dy="30" text-anchor="middle" class="node-label">SSG10 Replica (Silo 1)</text>
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Right Panel: Tab Inspector -->
+        <div class="panel inspector">
+            <div class="panel-header">
+                <h2>Concept Inspector</h2>
+                <span id="inspecting-label" class="badge">Player Profile</span>
+            </div>
+
+            <!-- Tab Buttons -->
+            <div class="tabs">
+                <button id="btn-overview" class="tab-btn active" onclick="switchTab('overview')">Overview</button>
+                <button id="btn-raw" class="tab-btn" onclick="switchTab('raw')">Raw Input</button>
+                <button id="btn-sparql" class="tab-btn" onclick="switchTab('sparql')">SPARQL Rule</button>
+                <button id="btn-triples" class="tab-btn" onclick="switchTab('triples')">Output RDF</button>
+            </div>
+
+            <!-- Tab Contents -->
+            <div class="inspector-body">
+                <div id="instruction-block" class="instruction-banner">
+                    <span class="icon">💡</span>
+                    <p>Click on any node in the graph (e.g. <strong>SSG10 Replica</strong> or <strong>Repair Invoice</strong>) to dynamically load its source record, generated query rules, and output semantic graph triples.</p>
+                </div>
+
+                <!-- OVERVIEW TAB -->
+                <div id="tab-overview" class="content-section active">
+                    <div class="meta-grid">
+                        <div class="meta-card">
+                            <h4>Target Class</h4>
+                            <p id="info-target-class">owl:NamedIndividual</p>
+                        </div>
+                        <div class="meta-card">
+                            <h4>Match Confidence</h4>
+                            <p id="info-confidence">N/A (Anchor Entity)</p>
+                        </div>
+                    </div>
+                    <div class="desc-text" id="info-description">
+                        Represents the primary physical player (P_0001) in the AirOps system. This individual is the common anchor linking all other concepts: they own the retail assets, log the chronograph tests, request tech repairs, and author social media stream logs.
+                    </div>
+                    <div id="diagnostics-block" style="margin-top: 1.5rem; display:none;">
+                        <h4 style="font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem;">Pipeline Diagnostics</h4>
+                        <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); padding: 1rem; border-radius: 8px; font-size: 0.9rem; line-height: 1.5;">
+                            <strong style="color: var(--cyan);">Bi-Encoder Similarity:</strong> <span id="diag-bi-score">0.0</span><br>
+                            <strong style="color: var(--purple);">Cross-Encoder Re-rank:</strong> <span id="diag-cross-score">0.0</span><br>
+                            <strong style="color: var(--green);">Grouping Criteria:</strong> <span id="diag-criteria">Domain-guided rdfs:domain</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RAW TAB -->
+                <div id="tab-raw" class="content-section">
+                    <p class="desc-text">This is the raw input record received from the physical data source before translation:</p>
+                    <div class="code-container">
+                        <div class="code-header">
+                            <span id="raw-file-label">source_file</span>
+                        </div>
+                        <pre><code id="raw-content">Select a node to inspect...</code></pre>
+                    </div>
+                </div>
+
+                <!-- SPARQL TAB -->
+                <div id="tab-sparql" class="content-section">
+                    <p class="desc-text">The SPARQL CONSTRUCT query compiled dynamically by Facettes Stage 2 (Domain-Guided Assembly):</p>
+                    <div class="code-container">
+                        <div class="code-header">
+                            <span>mapping_rule.sparql</span>
+                        </div>
+                        <pre><code id="sparql-content">Select a node to inspect...</code></pre>
+                    </div>
+                </div>
+
+                <!-- TRIPLES TAB -->
+                <div id="tab-triples" class="content-section">
+                    <p class="desc-text">Materialized RDF Layer 1 triples output by the pipeline and integrated into the global knowledge web:</p>
+                    <div class="code-container">
+                        <div class="code-header">
+                            <span>materialized_output.ttl</span>
+                        </div>
+                        <pre><code id="triples-content">Select a node to inspect...</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 cdcc-jpg. Powered by Facettes 3-stage Neural Schema Matching Engine.</p>
+    </footer>
+
+    <!-- Interactive Data Store & Scripts -->
+    <script>
+        const nodesData = {
+            player: {
+                label: "Player Profile (Anchor)",
+                targetClass: "asoft:AirsoftPlayer",
+                confidence: "N/A (System Anchor)",
+                description: "Represents the primary physical player (P_0001) in the AirOps system. This individual is the common anchor linking all other concepts: they own the retail assets, log the chronograph tests, request tech repairs, and author social media stream comments. Linking these records creates the unified graph 'facette'.",
+                rawFile: "N/A (Identified from primary keys across silos)",
+                raw: "PLAYER_ID: P_0001\nCallsign Username: User_4748_Op",
+                sparql: "# Entity resolved via common player index P_0001\n# Mapped across silos: \n#  Silo 2: asoft:isOwnedBy\n#  Silo 3: asoft:associatedPlayer\n#  Silo 4: asoft:mentionSource",
+                triples: "asoft:Player_P_0001 a asoft:AirsoftPlayer ;\n    rdfs:label \"Player P_0001\" ;\n    asoft:belongsToTeam asoft:Team_Alpha .\n\n# Identity resolution links:\nasoft:Player_P_0001 owl:sameAs <http://example.org/inst/Player_P_0001> ."
+            },
+            replica: {
+                label: "SSG10 Replica (Silo 1)",
+                targetClass: "asoft:AirsoftReplica",
+                confidence: "86.47% (Cross-Encoder verified)",
+                biScore: "0.2014",
+                crossScore: "0.8647",
+                criteria: "Class match 'Retail Item Record' -> 'Airsoft replica' enriched with model, brand, and power source attributes.",
+                description: "The retail product record representing the physical weapon owned by Player P_0001. Neural matcher matched the JSON-LD 'ItemRecord' to the target TBox class 'AirsoftReplica' by verifying the properties for brand, model name, and power source.",
+                rawFile: "silo1_retail_catalog.jsonld",
+                raw: "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Product\",\n  \"sku\": \"SKU-0001\",\n  \"name\": \"Novritsch SSG10\",\n  \"brand\": {\n    \"@type\": \"Brand\",\n    \"name\": \"Novritsch\"\n  },\n  \"additionalProperty\": [\n    {\n      \"@type\": \"PropertyValue\",\n      \"name\": \"power_source\",\n      \"value\": \"Spring\"\n    }\n  ]\n}",
+                sparql: "PREFIX h: <https://github.com/cdcc-jpg/ontologies#>\nPREFIX src: <http://example.org/data-ontology/retail/>\nCONSTRUCT {\n    ?airsoftReplica a h:AirsoftReplica ;\n            h:hasModelName ?item_name ;\n            h:hasBrand ?brand_name ;\n            h:hasPowerSource ?power_source .\n} WHERE {\n    ?source a src:ItemRecord ;\n            src:brand_name ?brand_name ;\n            src:item_name ?item_name ;\n            src:power_source ?power_source .\n    BIND(URI(CONCAT(\"http://example.org/inst/AirsoftReplica_\", MD5(STR(?source)))) AS ?airsoftReplica)\n}",
+                triples: "<https://retailer.com/sku/SKU-0001> a asoft:AirsoftReplica ;\n    asoft:hasModelName \"Novritsch SSG10\" ;\n    asoft:hasBrand \"Novritsch\" ;\n    asoft:hasPowerSource \"Spring\" ."
+            },
+            chrono: {
+                label: "Chrono Event (Silo 2)",
+                targetClass: "asoft:ChronoEvent",
+                confidence: "98.87% (Cross-Encoder verified)",
+                biScore: "0.5930",
+                crossScore: "0.9887",
+                criteria: "Class match 'Chrono Record' -> 'Chrono Event' domain-linked with maximum joule limit and velocity FPS properties.",
+                description: "The chronograph field verification test log for P_0001's weapon. Mapped to the game operations TBox class 'ChronoEvent'. Tracks whether the weapon was cleared for play and its recorded velocity in feet-per-second.",
+                rawFile: "silo2_field_logs.ttl",
+                raw: "field-logs:Log_2026_0001 a field-logs:ChronoRecord ;\n    field-logs:player_id \"P_0001\" ;\n    field-logs:replica_spotted \"SSG10\" ;\n    field-logs:velocity_fps 348 ;\n    field-logs:measured_muzzle_energy 1.12 ;\n    field-logs:test_status \"CLEARED\" .",
+                sparql: "PREFIX h: <https://github.com/cdcc-jpg/ontologies#>\nPREFIX src: <http://example.org/data-ontology/field-logs/>\nCONSTRUCT {\n    ?chronoEvent a h:ChronoEvent ;\n            h:hasChronoStatus ?test_status .\n    ?airsoftReplica h:hasFPS ?velocity_fps .\n} WHERE {\n    ?source a src:ChronoRecord ;\n            src:test_status ?test_status ;\n            src:velocity_fps ?velocity_fps .\n    BIND(URI(CONCAT(\"http://example.org/inst/ChronoEvent_\", MD5(STR(?source)))) AS ?chronoEvent)\n}",
+                triples: "<http://example.org/inst/ChronoEvent_f1a2...> a asoft:ChronoEvent ;\n    asoft:hasChronoStatus \"CLEARED\" .\n\n<https://retailer.com/sku/SKU-0001> asoft:hasFPS 348 .\n\n# Linked to player P_0001 in global graph:\n<http://example.org/inst/ChronoEvent_f1a2...> asoft:isOwnedBy asoft:Player_P_0001 ."
+            },
+            repair: {
+                label: "Repair Invoice (Silo 3)",
+                targetClass: "asoft:RepairInvoice",
+                confidence: "98.35% (Cross-Encoder verified)",
+                biScore: "0.7021",
+                crossScore: "0.9835",
+                criteria: "Class match 'Tech Invoice Repair Record' -> 'Repair Invoice' domain-linked with failure diagnosis, installed upgrade, and repaired replica properties.",
+                description: "A workshop log record documenting that Player P_0001 requested maintenance on their SSG10. The repair log tracks the technician's diagnosis ('Factory rubber too weak') and the installed upgrade parts ('Maple Leaf bucking & omega nub').",
+                rawFile: "silo3_tech_repairs.csv",
+                raw: "REPAIR_ID: R_8001\nPLAYER_ID: P_0001\nPLATFORM_MODEL: Novritsch_SSG10\nINTAKE_DATE: 2026-11-23\nTECH_DIAGNOSIS: Customer wanted to lift heavy ammo. Factory rubber too weak.\nUPGRADE_PARTS_INSTALLED: Maple Leaf 70deg Macaron; Omega Nub\nREPAIR_STATUS: COMPLETED",
+                sparql: "PREFIX h: <https://github.com/cdcc-jpg/ontologies#>\nPREFIX src: <http://example.org/data-ontology/repairs/>\nCONSTRUCT {\n    ?repairInvoice a h:RepairInvoice ; \n            h:repairID ?repair_id ;\n            h:detectedFailure ?tech_diagnosis ;\n            h:installedUpgrade ?upgrade_parts_installed ;\n            h:repairedReplica ?airsoftReplica .\n} WHERE {\n    ?source a src:RepairRecord ;\n            src:repair_id ?repair_id ;\n            src:tech_diagnosis ?tech_diagnosis ;\n            src:upgrade_parts_installed ?upgrade_parts_installed .\n    BIND(URI(CONCAT(\"http://example.org/inst/RepairInvoice_\", MD5(STR(?source)))) AS ?repairInvoice)\n}",
+                triples: "<http://example.org/inst/RepairInvoice_a89d...> a asoft:RepairInvoice ;\n    asoft:repairID \"R_8001\" ;\n    asoft:detectedFailure \"Customer wanted to lift heavy ammo. Factory rubber too weak.\" ;\n    asoft:installedUpgrade \"Maple Leaf 70deg Macaron; Omega Nub\" ;\n    asoft:repairedReplica <https://retailer.com/sku/SKU-0001> ;\n    asoft:associatedPlayer asoft:Player_P_0001 ."
+            },
+            social: {
+                label: "Social Mention (Silo 4)",
+                targetClass: "asoft:SocialMention",
+                confidence: "17.51% (Cross-Encoder verified)",
+                biScore: "0.5946",
+                crossScore: "0.1751",
+                criteria: "Class match 'Social Stream Mention Record' -> 'Social Mention' domain-linked with comment text and slang topic.",
+                description: "An unstructured markdown comment scraped from Reddit. Facettes extracts the player's username (@User_4748_Op), aligns it with Player P_0001, and maps the comment text to a semantic social mention entity, linking to the SKOS vocabulary concept for bucking upgrades.",
+                rawFile: "silo4_social_scrape.md",
+                raw: "**u/User_4748_Op:** Just upgraded the hop on my SSG10. Tossed in a 70 degree yellow bucking and omega nub. I am effortlessly lifting 0.48g ammo now. Shooting absolute lasers out to 250ft. Chrono'd right at the edge of the 2.0J limit. It's a laser beam now.",
+                sparql: "PREFIX h: <https://github.com/cdcc-jpg/ontologies#>\nPREFIX src: <http://example.org/data-ontology/social-mentions/>\nCONSTRUCT {\n    ?socialMention a h:SocialMention ;\n            h:userCallsign ?user_callsign ;\n            h:rawComment ?raw_comment ;\n            h:detectedSlangTopic ?detected_slang_topic .\n} WHERE {\n    ?source a src:SocialRecord ;\n            src:user_callsign ?user_callsign ;\n            src:raw_comment ?raw_comment ;\n            src:detected_slang_topic ?detected_slang_topic .\n    BIND(URI(CONCAT(\"http://example.org/inst/SocialMention_\", MD5(STR(?source)))) AS ?socialMention)\n}",
+                triples: "<http://example.org/inst/SocialMention_b5d6...> a asoft:SocialMention ;\n    asoft:userCallsign \"User_4748_Op\" ;\n    asoft:rawComment \"Just upgraded the hop on my SSG10...\" ;\n    asoft:detectedSlangTopic asoft:HeavyAmmunition ;\n    asoft:mentionSource asoft:Player_P_0001 ."
+            }
+        };
+
+        let currentActiveTab = 'overview';
+        let currentSelectedNode = 'player';
+
+        function selectNode(nodeId) {
+            // Remove selected class from all nodes
+            document.querySelectorAll('.node').forEach(node => {
+                node.classList.remove('selected');
+            });
+            
+            // Add selected class to current node
+            document.getElementById(`node-${nodeId}`).classList.add('selected');
+            currentSelectedNode = nodeId;
+
+            // Highlight corresponding edges in SVG
+            highlightEdges(nodeId);
+
+            // Update UI elements
+            updateInspector();
+        }
+
+        function highlightEdges(nodeId) {
+            // Reset all edges
+            document.querySelectorAll('.edge').forEach(edge => {
+                edge.classList.remove('highlighted');
+                edge.style.stroke = "rgba(255, 255, 255, 0.15)";
+                edge.style.strokeWidth = "1.5";
+            });
+
+            // Highlight connections related to the selected node
+            if (nodeId === 'player') {
+                highlightEdge('edge-player-chrono');
+                highlightEdge('edge-player-repair');
+                highlightEdge('edge-player-social');
+            } else if (nodeId === 'chrono') {
+                highlightEdge('edge-player-chrono');
+                highlightEdge('edge-chrono-replica');
+                highlightEdge('edge-sameas-chrono-retail', 'rgba(6, 182, 212, 0.8)');
+            } else if (nodeId === 'repair') {
+                highlightEdge('edge-player-repair');
+                highlightEdge('edge-repair-replica');
+            } else if (nodeId === 'social') {
+                highlightEdge('edge-player-social');
+            } else if (nodeId === 'replica') {
+                highlightEdge('edge-chrono-replica');
+                highlightEdge('edge-repair-replica');
+                highlightEdge('edge-sameas-chrono-retail', 'rgba(6, 182, 212, 0.8)');
+            }
+        }
+
+        function highlightEdge(edgeId, color = '#8b5cf6') {
+            const edge = document.getElementById(edgeId);
+            if (edge) {
+                edge.classList.add('highlighted');
+                edge.style.stroke = color;
+                edge.style.strokeWidth = "2.5";
+            }
+        }
+
+        function updateInspector() {
+            const data = nodesData[currentSelectedNode];
+            
+            // Update labels
+            document.getElementById('inspecting-label').innerText = data.label;
+            document.getElementById('info-target-class').innerText = data.targetClass;
+            document.getElementById('info-confidence').innerText = data.confidence;
+            document.getElementById('info-description').innerText = data.description;
+
+            // Update raw section
+            document.getElementById('raw-file-label').innerText = data.rawFile;
+            document.getElementById('raw-content').innerText = data.raw;
+
+            // Update SPARQL section
+            document.getElementById('sparql-content').innerText = data.sparql;
+
+            // Update Triples section
+            document.getElementById('triples-content').innerText = data.triples;
+
+            // Handle diagnostics block
+            const diagBlock = document.getElementById('diagnostics-block');
+            if (data.biScore) {
+                diagBlock.style.display = 'block';
+                document.getElementById('diag-bi-score').innerText = data.biScore;
+                document.getElementById('diag-cross-score').innerText = data.crossScore;
+                document.getElementById('diag-criteria').innerText = data.criteria;
+            } else {
+                diagBlock.style.display = 'none';
+            }
+        }
+
+        function switchTab(tabId) {
+            // Remove active classes
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelectorAll('.content-section').forEach(sec => {
+                sec.classList.remove('active');
+            });
+
+            // Set active
+            document.getElementById(`btn-${tabId}`).classList.add('active');
+            document.getElementById(`tab-${tabId}`).classList.add('active');
+            currentActiveTab = tabId;
+        }
+
+        // Initialize state
+        selectNode('player');
+    </script>
+</body>
+</html>
