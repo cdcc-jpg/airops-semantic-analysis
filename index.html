@@ -6,7 +6,7 @@
     <title>AirOps Semantic Mapping & Classification Dashboard</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg-color: #0b0f19;
@@ -43,7 +43,7 @@
         }
 
         header {
-            padding: 2rem 4rem;
+            padding: 1.5rem 4rem;
             border-bottom: 1px solid var(--border-color);
             background: rgba(11, 15, 25, 0.8);
             backdrop-filter: blur(12px);
@@ -56,7 +56,7 @@
         }
 
         header h1 {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             font-weight: 800;
             letter-spacing: -0.05em;
             background: linear-gradient(to right, var(--cyan), var(--purple));
@@ -65,25 +65,57 @@
         }
 
         header p {
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             color: var(--text-muted);
-            margin-top: 0.2rem;
+            margin-top: 0.1rem;
         }
 
-        .badge {
-            background: rgba(6, 182, 212, 0.1);
-            border: 1px solid rgba(6, 182, 212, 0.3);
-            color: var(--cyan);
-            padding: 0.4rem 0.8rem;
-            border-radius: 9999px;
-            font-size: 0.8rem;
+        /* Top Page Navigation */
+        .page-nav {
+            display: flex;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            padding: 0.3rem;
+            border-radius: 10px;
+            gap: 0.2rem;
+        }
+
+        .nav-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 0.6rem 1.2rem;
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.9rem;
             font-weight: 600;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+
+        .nav-btn:hover {
+            color: var(--text-color);
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .nav-btn.active {
+            background: rgba(255, 255, 255, 0.08);
+            color: var(--text-color);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .page-content {
+            display: none;
+            animation: fadeIn 0.4s ease-in-out;
+        }
+
+        .page-content.active {
+            display: block;
         }
 
         main {
             display: grid;
             grid-template-columns: 1.2fr 1fr;
-            flex: 1;
             padding: 2rem 4rem;
             gap: 2rem;
             max-width: 1800px;
@@ -116,7 +148,7 @@
             letter-spacing: -0.02em;
         }
 
-        /* Network Visualizer Panel */
+        /* SVG Network Graph Styling */
         .visualizer-container {
             position: relative;
             flex: 1;
@@ -179,7 +211,7 @@
             text-shadow: 0 2px 4px rgba(0,0,0,0.8);
         }
 
-        /* Inspector Panel styling */
+        /* Inspector styling */
         .inspector {
             height: 100%;
             display: flex;
@@ -290,10 +322,10 @@
         pre {
             padding: 1.2rem;
             font-family: 'JetBrains Mono', monospace;
-            font-size: 0.85rem;
+            font-size: 0.82rem;
             overflow-x: auto;
             line-height: 1.5;
-            color: #a7f3d0; /* emerald green-ish for code */
+            color: #a7f3d0;
         }
 
         .desc-text {
@@ -303,7 +335,6 @@
             margin-bottom: 1rem;
         }
 
-        /* Instruction help banner */
         .instruction-banner {
             background: rgba(139, 92, 246, 0.1);
             border: 1px dashed rgba(139, 92, 246, 0.4);
@@ -325,12 +356,169 @@
             line-height: 1.4;
         }
 
+        /* Page 2: E2E Pipeline Walkthrough Styling */
+        .pipeline-flow {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .step-card {
+            background: var(--panel-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: 80px 1.5fr 2fr;
+            gap: 2rem;
+            position: relative;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+            backdrop-filter: blur(12px);
+        }
+
+        .step-num {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: rgba(255,255,255,0.05);
+            background: linear-gradient(to bottom, var(--purple), transparent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            line-height: 1;
+        }
+
+        .step-card h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .step-card h3 span.badge-stage {
+            font-size: 0.75rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            background: rgba(139, 92, 246, 0.2);
+            border: 1px solid rgba(139, 92, 246, 0.4);
+            color: #d8b4fe;
+        }
+
+        .step-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .step-example {
+            background: rgba(0,0,0,0.3);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 1.2rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            overflow-x: auto;
+            max-height: 200px;
+            color: #e2e8f0;
+        }
+
+        /* Page 3: The So What? Pillar Grid */
+        .pillar-section {
+            padding: 3rem 4rem;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .intro-lead {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 3rem auto;
+        }
+
+        .intro-lead h2 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+            margin-bottom: 1rem;
+        }
+
+        .intro-lead p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .pillar-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2.5rem;
+        }
+
+        .pillar-card {
+            background: var(--panel-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+            backdrop-filter: blur(16px);
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s;
+        }
+
+        .pillar-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .pillar-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .pillar-card h3 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .comparison-block {
+            margin-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            padding-top: 1.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+        }
+
+        .comp-item {
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .comp-item strong {
+            display: block;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.3rem;
+        }
+
+        .comp-item.traditional strong { color: var(--magenta); }
+        .comp-item.graph strong { color: var(--green); }
+
         footer {
             padding: 2rem 4rem;
             border-top: 1px solid var(--border-color);
             text-align: center;
             font-size: 0.85rem;
             color: var(--text-muted);
+            margin-top: auto;
         }
 
         /* Glowing filters for SVG nodes */
@@ -349,157 +537,331 @@
             <h1>AirOps Semantic Web Visualizer</h1>
             <p>Unified representation of cross-silo data facets mapped via Facettes matcher</p>
         </div>
-        <div class="badge">4 Silos Materialized</div>
+        <div class="page-nav">
+            <button id="nav-btn-graph" class="nav-btn active" onclick="switchPage('graph')">Interactive Graph</button>
+            <button id="nav-btn-pipeline" class="nav-btn" onclick="switchPage('pipeline')">E2E Pipeline</button>
+            <button id="nav-btn-sowhat" class="nav-btn" onclick="switchPage('sowhat')">Why Semantic Graph? ("So What?")</button>
+        </div>
     </header>
 
-    <main>
-        <!-- Left Panel: Interactive SVG Network Graph -->
-        <div class="panel">
-            <div class="panel-header">
-                <h2>Cross-Silo Entity Integration Graph</h2>
-                <span style="font-size: 0.8rem; color: var(--text-muted);">Click any node to inspect semantic facets</span>
+    <!-- PAGE 1: INTERACTIVE GRAPH -->
+    <div id="page-graph" class="page-content active">
+        <main>
+            <!-- Left Panel: Interactive SVG Network Graph -->
+            <div class="panel">
+                <div class="panel-header">
+                    <h2>Cross-Silo Entity Integration Graph</h2>
+                    <span style="font-size: 0.8rem; color: var(--text-muted);">Click any node to inspect semantic facets</span>
+                </div>
+                <div class="visualizer-container">
+                    <svg id="network" viewBox="0 0 800 600">
+                        <defs>
+                            <marker id="arrow" viewBox="0 0 10 10" refX="24" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="rgba(255, 255, 255, 0.3)" />
+                            </marker>
+                            <marker id="arrow-highlighted" viewBox="0 0 10 10" refX="24" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b5cf6" />
+                            </marker>
+                        </defs>
+
+                        <!-- Edges / Links -->
+                        <line id="edge-player-chrono" x1="400" y1="300" x2="220" y2="180" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-start="url(#arrow)" />
+                        <line id="edge-player-repair" x1="400" y1="300" x2="580" y2="180" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-start="url(#arrow)" />
+                        <line id="edge-player-social" x1="400" y1="300" x2="220" y2="420" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-start="url(#arrow)" />
+                        
+                        <line id="edge-chrono-replica" x1="220" y1="180" x2="580" y2="420" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-end="url(#arrow)" />
+                        <line id="edge-repair-replica" x1="580" y1="180" x2="580" y2="420" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-end="url(#arrow)" />
+                        
+                        <!-- Identity Links (owl:sameAs) -->
+                        <path id="edge-sameas-chrono-retail" d="M 220,180 Q 400,100 580,420" fill="none" stroke="rgba(6, 182, 212, 0.3)" stroke-width="2" stroke-dasharray="4,4" class="edge" />
+
+                        <!-- Nodes -->
+                        <!-- Central Player: P_0001 (Gold) -->
+                        <g id="node-player" class="node selected" onclick="selectNode('player')" transform="translate(400, 300)">
+                            <circle r="22" fill="#eab308" stroke="#ffffff" class="glow-gold" />
+                            <text dy="35" text-anchor="middle" class="node-label">Player P_0001</text>
+                        </g>
+
+                        <!-- Chrono Event Node (Green) -->
+                        <g id="node-chrono" class="node" onclick="selectNode('chrono')" transform="translate(220, 180)">
+                            <circle r="18" fill="#10b981" stroke="#ffffff" class="glow-green" />
+                            <text dy="-25" text-anchor="middle" class="node-label">Chrono Event (Silo 2)</text>
+                        </g>
+
+                        <!-- Repair Invoice Node (Orange) -->
+                        <g id="node-repair" class="node" onclick="selectNode('repair')" transform="translate(580, 180)">
+                            <circle r="18" fill="#f97316" stroke="#ffffff" class="glow-orange" />
+                            <text dy="-25" text-anchor="middle" class="node-label">Repair Invoice (Silo 3)</text>
+                        </g>
+
+                        <!-- Social Mention Node (Pink) -->
+                        <g id="node-social" class="node" onclick="selectNode('social')" transform="translate(220, 420)">
+                            <circle r="18" fill="#ec4899" stroke="#ffffff" class="glow-magenta" />
+                            <text dy="35" text-anchor="middle" class="node-label">Social Mention (Silo 4)</text>
+                        </g>
+
+                        <!-- Retail Replica Product Node (Cyan) -->
+                        <g id="node-replica" class="node" onclick="selectNode('replica')" transform="translate(580, 420)">
+                            <circle r="18" fill="#06b6d4" stroke="#ffffff" class="glow-cyan" />
+                            <text dy="35" text-anchor="middle" class="node-label">SSG10 Replica (Silo 1)</text>
+                        </g>
+                    </svg>
+                </div>
             </div>
-            <div class="visualizer-container">
-                <svg id="network" viewBox="0 0 800 600">
-                    <!-- Definitions for markers and filters -->
-                    <defs>
-                        <marker id="arrow" viewBox="0 0 10 10" refX="24" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-                            <path d="M 0 0 L 10 5 L 0 10 z" fill="rgba(255, 255, 255, 0.3)" />
-                        </marker>
-                        <marker id="arrow-highlighted" viewBox="0 0 10 10" refX="24" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-                            <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b5cf6" />
-                        </marker>
-                    </defs>
 
-                    <!-- Edges / Links -->
-                    <!-- Player P_0001 relations -->
-                    <line id="edge-player-chrono" x1="400" y1="300" x2="220" y2="180" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-start="url(#arrow)" />
-                    <line id="edge-player-repair" x1="400" y1="300" x2="580" y2="180" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-start="url(#arrow)" />
-                    <line id="edge-player-social" x1="400" y1="300" x2="220" y2="420" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-start="url(#arrow)" />
-                    
-                    <!-- Replica relations -->
-                    <line id="edge-chrono-replica" x1="220" y1="180" x2="580" y2="420" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-end="url(#arrow)" />
-                    <line id="edge-repair-replica" x1="580" y1="180" x2="580" y2="420" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-end="url(#arrow)" />
-                    
-                    <!-- Identity Links (owl:sameAs) -->
-                    <path id="edge-sameas-chrono-retail" d="M 220,180 Q 400,100 580,420" fill="none" stroke="rgba(6, 182, 212, 0.3)" stroke-width="2" stroke-dasharray="4,4" class="edge" />
+            <!-- Right Panel: Tab Inspector -->
+            <div class="panel inspector">
+                <div class="panel-header">
+                    <h2>Concept Inspector</h2>
+                    <span id="inspecting-label" class="badge">Player Profile</span>
+                </div>
 
-                    <!-- Nodes -->
-                    <!-- Central Player: P_0001 (Gold) -->
-                    <g id="node-player" class="node selected" onclick="selectNode('player')" transform="translate(400, 300)">
-                        <circle r="22" fill="#eab308" stroke="#ffffff" class="glow-gold" />
-                        <text dy="30" text-anchor="middle" class="node-label">Player P_0001</text>
-                    </g>
+                <!-- Tab Buttons -->
+                <div class="tabs">
+                    <button id="btn-overview" class="tab-btn active" onclick="switchTab('overview')">Overview</button>
+                    <button id="btn-raw" class="tab-btn" onclick="switchTab('raw')">Raw Input</button>
+                    <button id="btn-sparql" class="tab-btn" onclick="switchTab('sparql')">SPARQL Rule</button>
+                    <button id="btn-triples" class="tab-btn" onclick="switchTab('triples')">Output RDF</button>
+                </div>
 
-                    <!-- Chrono Event Node (Green) -->
-                    <g id="node-chrono" class="node" onclick="selectNode('chrono')" transform="translate(220, 180)">
-                        <circle r="18" fill="#10b981" stroke="#ffffff" class="glow-green" />
-                        <text dy="-25" text-anchor="middle" class="node-label">Chrono Event (Silo 2)</text>
-                    </g>
+                <!-- Tab Contents -->
+                <div class="inspector-body">
+                    <div id="instruction-block" class="instruction-banner">
+                        <span class="icon">💡</span>
+                        <p>Click on any node in the graph (e.g. <strong>SSG10 Replica</strong> or <strong>Repair Invoice</strong>) to dynamically load its source record, generated query rules, and output semantic graph triples.</p>
+                    </div>
 
-                    <!-- Repair Invoice Node (Orange) -->
-                    <g id="node-repair" class="node" onclick="selectNode('repair')" transform="translate(580, 180)">
-                        <circle r="18" fill="#f97316" stroke="#ffffff" class="glow-orange" />
-                        <text dy="-25" text-anchor="middle" class="node-label">Repair Invoice (Silo 3)</text>
-                    </g>
+                    <!-- OVERVIEW TAB -->
+                    <div id="tab-overview" class="content-section active">
+                        <div class="meta-grid">
+                            <div class="meta-card">
+                                <h4>Target Class</h4>
+                                <p id="info-target-class">owl:NamedIndividual</p>
+                            </div>
+                            <div class="meta-card">
+                                <h4>Match Confidence</h4>
+                                <p id="info-confidence">N/A (Anchor Entity)</p>
+                            </div>
+                        </div>
+                        <div class="desc-text" id="info-description">
+                            Represents the primary physical player (P_0001) in the AirOps system. This individual is the common anchor linking all other concepts: they own the retail assets, log the chronograph tests, request tech repairs, and author social media stream logs.
+                        </div>
+                        <div id="diagnostics-block" style="margin-top: 1.5rem; display:none;">
+                            <h4 style="font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem;">Pipeline Diagnostics</h4>
+                            <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); padding: 1rem; border-radius: 8px; font-size: 0.9rem; line-height: 1.5;">
+                                <strong style="color: var(--cyan);">Bi-Encoder Similarity:</strong> <span id="diag-bi-score">0.0</span><br>
+                                <strong style="color: var(--purple);">Cross-Encoder Re-rank:</strong> <span id="diag-cross-score">0.0</span><br>
+                                <strong style="color: var(--green);">Grouping Criteria:</strong> <span id="diag-criteria">Domain-guided rdfs:domain</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <!-- Social Mention Node (Pink) -->
-                    <g id="node-social" class="node" onclick="selectNode('social')" transform="translate(220, 420)">
-                        <circle r="18" fill="#ec4899" stroke="#ffffff" class="glow-magenta" />
-                        <text dy="30" text-anchor="middle" class="node-label">Social Mention (Silo 4)</text>
-                    </g>
+                    <!-- RAW TAB -->
+                    <div id="tab-raw" class="content-section">
+                        <p class="desc-text">This is the raw input record received from the physical data source before translation:</p>
+                        <div class="code-container">
+                            <div class="code-header">
+                                <span id="raw-file-label">source_file</span>
+                            </div>
+                            <pre><code id="raw-content">Select a node to inspect...</code></pre>
+                        </div>
+                    </div>
 
-                    <!-- Retail Replica Product Node (Cyan) -->
-                    <g id="node-replica" class="node" onclick="selectNode('replica')" transform="translate(580, 420)">
-                        <circle r="18" fill="#06b6d4" stroke="#ffffff" class="glow-cyan" />
-                        <text dy="30" text-anchor="middle" class="node-label">SSG10 Replica (Silo 1)</text>
-                    </g>
-                </svg>
+                    <!-- SPARQL TAB -->
+                    <div id="tab-sparql" class="content-section">
+                        <p class="desc-text">The SPARQL CONSTRUCT query compiled dynamically by Facettes Stage 2 (Domain-Guided Assembly):</p>
+                        <div class="code-container">
+                            <div class="code-header">
+                                <span>mapping_rule.sparql</span>
+                            </div>
+                            <pre><code id="sparql-content">Select a node to inspect...</code></pre>
+                        </div>
+                    </div>
+
+                    <!-- TRIPLES TAB -->
+                    <div id="tab-triples" class="content-section">
+                        <p class="desc-text">Materialized RDF Layer 1 triples output by the pipeline and integrated into the global knowledge web:</p>
+                        <div class="code-container">
+                            <div class="code-header">
+                                <span>materialized_output.ttl</span>
+                            </div>
+                            <pre><code id="triples-content">Select a node to inspect...</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- PAGE 2: E2E PIPELINE WALKTHROUGH -->
+    <div id="page-pipeline" class="page-content">
+        <div class="pipeline-flow">
+            <div class="intro-lead" style="margin-bottom: 1.5rem;">
+                <h2>End-to-End Classification Pipeline</h2>
+                <p>How Facettes goes from raw physical data columns to fully integrated semantic triples, leveraging vectors and ontologies under the hood.</p>
+            </div>
+
+            <!-- Step 1 -->
+            <div class="step-card">
+                <div class="step-num">01</div>
+                <div>
+                    <h3>Raw Silos Ingestion</h3>
+                    <p>Facettes ingests raw database columns, CSV sheets, Markdown streams, and JSON-LD catalogs. It builds a local <strong>Layer 2 graph</strong> representing the raw data schema exactly as it is (without standardizing column names).</p>
+                </div>
+                <div class="step-example">
+                    # Raw JSON-LD block (Silo 1 Catalog):
+                    {
+                      "@type": "Product",
+                      "sku": "SKU-0001",
+                      "name": "Novritsch SSG10",
+                      "brand": { "name": "Novritsch" }
+                    }
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="step-card">
+                <div class="step-num">02</div>
+                <div>
+                    <h3>Stage 1: Bi-Encoder Candidate Retrieval <span class="badge-stage">Neural</span></h3>
+                    <p>The bi-encoder (`all-MiniLM-L6-v2`) converts all L2 raw schema names and L1 target ontology concepts into dense vector space embeddings. Cosine similarity is calculated to find candidate matches, segregated by schema kind to avoid cross-kind crowding.</p>
+                </div>
+                <div class="step-example">
+                    Embedding L2 "brand name manufacturer"...
+                    Embedding L1 "has brand"...
+                    Cosine Similarity: 0.6020 (Candidate Accepted)
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="step-card">
+                <div class="step-num">03</div>
+                <div>
+                    <h3>Stage 2: Domain-Guided Structural Assembly <span class="badge-stage">Logical</span></h3>
+                    <p>Reads OWL target ontology constraints (`rdfs:domain` and `rdfs:range`) to group candidates by their logical class domain, resolves relationship links (via ObjectProperties like `asoft:repairedReplica`), and compiles a SPARQL CONSTRUCT query mapping the entire record.</p>
+                </div>
+                <div class="step-example">
+                    Activated domains: [AirsoftReplica, RepairInvoice]
+                    Grouping properties under domains:
+                     -> AirsoftReplica: has brand, has model name
+                     -> RepairInvoice: repair ID
+                    Resolved Link: RepairInvoice -> repairedReplica -> AirsoftReplica
+                </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="step-card">
+                <div class="step-num">04</div>
+                <div>
+                    <h3>Stage 3: Cross-Encoder Re-Ranking <span class="badge-stage">Neural</span></h3>
+                    <p>Drafts multiple candidate mappings for all activated target domains, enriches class labels with their mapped attribute property sets, and computes pairwise cross-attention scores using a strict Transformer (`ms-marco-MiniLM-L-6-v2`) to reject false matches.</p>
+                </div>
+                <div class="step-example">
+                    Input Pair to Cross-Encoder:
+                    Sentence A: "Retail Item Record (attributes: item replica model name, brand name manufacturer)"
+                    Sentence B: "Airsoft replica (attributes: has model name, has brand)"
+                    Cross-Encoder Output Confidence: 0.8647 (Passed!)
+                </div>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="step-card">
+                <div class="step-num">05</div>
+                <div>
+                    <h3>Step 5: SPARQL Query Virtualization</h3>
+                    <p>Executes the validated SPARQL CONSTRUCT mapping query over the local Layer 2 data graph using a semantic engine. This translates raw database attributes into target RDF triples and assigns clean namespaces.</p>
+                </div>
+                <div class="step-example">
+                    CONSTRUCT {
+                      ?airsoftReplica a h:AirsoftReplica ;
+                                      h:hasBrand ?brand_name .
+                    } WHERE {
+                      ?source src:brand_name ?brand_name .
+                    }
+                </div>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="step-card">
+                <div class="step-num">06</div>
+                <div>
+                    <h3>Step 6: Identity Resolution & KG Merging</h3>
+                    <p>Merges the translated silo graphs into a single global Knowledge Graph. It runs an entity resolution engine to discover matching keys (like common Player index `P_0001`) and merges records dynamically via `owl:sameAs` links, building the "facette" structure.</p>
+                </div>
+                <div class="step-example">
+                    # Materialized identity linkage:
+                    asoft:Player_P_0001 owl:sameAs <http://example.org/inst/Player_P_0001> .
+                    <http://example.org/inst/ChronoEvent_0001> asoft:isOwnedBy asoft:Player_P_0001 .
+                </div>
             </div>
         </div>
+    </div>
 
-        <!-- Right Panel: Tab Inspector -->
-        <div class="panel inspector">
-            <div class="panel-header">
-                <h2>Concept Inspector</h2>
-                <span id="inspecting-label" class="badge">Player Profile</span>
+    <!-- PAGE 3: THE SO WHAT? -->
+    <div id="page-sowhat" class="page-content">
+        <div class="pillar-section">
+            <div class="intro-lead">
+                <h2>Why Semantic Knowledge Graph? (The "So What?")</h2>
+                <p>Traditional SQL databases keep systems trapped in silos. Semantic Web and Knowledge Graphs break these boundaries, providing unprecedented flexibility and declarative safety.</p>
             </div>
 
-            <!-- Tab Buttons -->
-            <div class="tabs">
-                <button id="btn-overview" class="tab-btn active" onclick="switchTab('overview')">Overview</button>
-                <button id="btn-raw" class="tab-btn" onclick="switchTab('raw')">Raw Input</button>
-                <button id="btn-sparql" class="tab-btn" onclick="switchTab('sparql')">SPARQL Rule</button>
-                <button id="btn-triples" class="tab-btn" onclick="switchTab('triples')">Output RDF</button>
-            </div>
-
-            <!-- Tab Contents -->
-            <div class="inspector-body">
-                <div id="instruction-block" class="instruction-banner">
-                    <span class="icon">💡</span>
-                    <p>Click on any node in the graph (e.g. <strong>SSG10 Replica</strong> or <strong>Repair Invoice</strong>) to dynamically load its source record, generated query rules, and output semantic graph triples.</p>
-                </div>
-
-                <!-- OVERVIEW TAB -->
-                <div id="tab-overview" class="content-section active">
-                    <div class="meta-grid">
-                        <div class="meta-card">
-                            <h4>Target Class</h4>
-                            <p id="info-target-class">owl:NamedIndividual</p>
+            <div class="pillar-grid">
+                <!-- Pillar 1 -->
+                <div class="pillar-card">
+                    <div class="pillar-icon">🔗</div>
+                    <h3>Automatic Identity Linking</h3>
+                    <p class="desc-text">In standard databases, joining client lists, Chrono CSVs, repair logs, and chat records requires writing complex, custom ETL scripts. If a database primary key or schema changes, the queries break.</p>
+                    
+                    <div class="comparison-block">
+                        <div class="comp-item traditional">
+                            <strong>Traditional SQL JOIN</strong>
+                            Requires matching schema structures and strict primary/foreign key mappings. Column changes break the backend code.
                         </div>
-                        <div class="meta-card">
-                            <h4>Match Confidence</h4>
-                            <p id="info-confidence">N/A (Anchor Entity)</p>
-                        </div>
-                    </div>
-                    <div class="desc-text" id="info-description">
-                        Represents the primary physical player (P_0001) in the AirOps system. This individual is the common anchor linking all other concepts: they own the retail assets, log the chronograph tests, request tech repairs, and author social media stream logs.
-                    </div>
-                    <div id="diagnostics-block" style="margin-top: 1.5rem; display:none;">
-                        <h4 style="font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem;">Pipeline Diagnostics</h4>
-                        <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); padding: 1rem; border-radius: 8px; font-size: 0.9rem; line-height: 1.5;">
-                            <strong style="color: var(--cyan);">Bi-Encoder Similarity:</strong> <span id="diag-bi-score">0.0</span><br>
-                            <strong style="color: var(--purple);">Cross-Encoder Re-rank:</strong> <span id="diag-cross-score">0.0</span><br>
-                            <strong style="color: var(--green);">Grouping Criteria:</strong> <span id="diag-criteria">Domain-guided rdfs:domain</span>
+                        <div class="comp-item graph">
+                            <strong>Dynamic Graph sameAs</strong>
+                            Uses unique URIs (e.g. `asoft:Player_P_0001`) to represent the real-world player. References across different silos are resolved dynamically using `owl:sameAs` links, merging facets on-the-fly.
                         </div>
                     </div>
                 </div>
 
-                <!-- RAW TAB -->
-                <div id="tab-raw" class="content-section">
-                    <p class="desc-text">This is the raw input record received from the physical data source before translation:</p>
-                    <div class="code-container">
-                        <div class="code-header">
-                            <span id="raw-file-label">source_file</span>
+                <!-- Pillar 2 -->
+                <div class="pillar-card">
+                    <div class="pillar-icon">🛡️</div>
+                    <h3>Declarative Safety Verification</h3>
+                    <p class="desc-text">Checking if a weapon exceeds its muzzle energy limit across different field zones currently requires hardcoding complex `if/else` logic in Python. When field rules change, the codebase must be refactored and redeployed.</p>
+                    
+                    <div class="comparison-block">
+                        <div class="comp-item traditional">
+                            <strong>Imperative Code Checks</strong>
+                            Safety and chronolog business rules are hardcoded into Python Flask/Java spring endpoints, obscuring the logic.
                         </div>
-                        <pre><code id="raw-content">Select a node to inspect...</code></pre>
+                        <div class="comp-item graph">
+                            <strong>Declarative SHACL Constraints</strong>
+                            Rules are defined as RDF shapes (SHACL). The graph engine runs validation queries directly on the dataset, instantly flagging violations without modifying a single line of backend application code.
+                        </div>
                     </div>
                 </div>
 
-                <!-- SPARQL TAB -->
-                <div id="tab-sparql" class="content-section">
-                    <p class="desc-text">The SPARQL CONSTRUCT query compiled dynamically by Facettes Stage 2 (Domain-Guided Assembly):</p>
-                    <div class="code-container">
-                        <div class="code-header">
-                            <span>mapping_rule.sparql</span>
+                <!-- Pillar 3 -->
+                <div class="pillar-card">
+                    <div class="pillar-icon">⚡</div>
+                    <h3>Open-World Extensibility</h3>
+                    <p class="desc-text">Standard relational databases operate under the Closed-World Assumption (if a column isn't in the schema, it cannot exist). Adding a new unstructured source requires database migrations, updating tables, and refactoring queries.</p>
+                    
+                    <div class="comparison-block">
+                        <div class="comp-item traditional">
+                            <strong>Closed-World Relational</strong>
+                            Adding a column requires running `ALTER TABLE` statements and refactoring backend ORM mappings and SQL join statements.
                         </div>
-                        <pre><code id="sparql-content">Select a node to inspect...</code></pre>
-                    </div>
-                </div>
-
-                <!-- TRIPLES TAB -->
-                <div id="tab-triples" class="content-section">
-                    <p class="desc-text">Materialized RDF Layer 1 triples output by the pipeline and integrated into the global knowledge web:</p>
-                    <div class="code-container">
-                        <div class="code-header">
-                            <span>materialized_output.ttl</span>
+                        <div class="comp-item graph">
+                            <strong>Open-World Semantics</strong>
+                            Under the Open-World Assumption, you simply load new triples (e.g., social comments) into the triple store. Existing SPARQL queries can immediately traverse the new properties without any database migrations.
                         </div>
-                        <pre><code id="triples-content">Select a node to inspect...</code></pre>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
 
     <footer>
         <p>&copy; 2026 cdcc-jpg. Powered by Facettes 3-stage Neural Schema Matching Engine.</p>
@@ -554,7 +916,7 @@
                 description: "A workshop log record documenting that Player P_0001 requested maintenance on their SSG10. The repair log tracks the technician's diagnosis ('Factory rubber too weak') and the installed upgrade parts ('Maple Leaf bucking & omega nub').",
                 rawFile: "silo3_tech_repairs.csv",
                 raw: "REPAIR_ID: R_8001\nPLAYER_ID: P_0001\nPLATFORM_MODEL: Novritsch_SSG10\nINTAKE_DATE: 2026-11-23\nTECH_DIAGNOSIS: Customer wanted to lift heavy ammo. Factory rubber too weak.\nUPGRADE_PARTS_INSTALLED: Maple Leaf 70deg Macaron; Omega Nub\nREPAIR_STATUS: COMPLETED",
-                sparql: "PREFIX h: <https://github.com/cdcc-jpg/ontologies#>\nPREFIX src: <http://example.org/data-ontology/repairs/>\nCONSTRUCT {\n    ?repairInvoice a h:RepairInvoice ; \n            h:repairID ?repair_id ;\n            h:detectedFailure ?tech_diagnosis ;\n            h:installedUpgrade ?upgrade_parts_installed ;\n            h:repairedReplica ?airsoftReplica .\n} WHERE {\n    ?source a src:RepairRecord ;\n            src:repair_id ?repair_id ;\n            src:tech_diagnosis ?tech_diagnosis ;\n            src:upgrade_parts_installed ?upgrade_parts_installed .\n    BIND(URI(CONCAT(\"http://example.org/inst/RepairInvoice_\", MD5(STR(?source)))) AS ?repairInvoice)\n}",
+                sparql: "PREFIX h: <https://github.com/cdcc-jpg/ontologies#>\nPREFIX src: <http://example.org/data-ontology/repairs/>\nCONSTRUCT {\n    ?repairInvoice a h:RepairInvoice ;\n            h:repairID ?repair_id ;\n            h:detectedFailure ?tech_diagnosis ;\n            h:installedUpgrade ?upgrade_parts_installed ;\n            h:repairedReplica ?airsoftReplica .\n} WHERE {\n    ?source a src:RepairRecord ;\n            src:repair_id ?repair_id ;\n            src:tech_diagnosis ?tech_diagnosis ;\n            src:upgrade_parts_installed ?upgrade_parts_installed .\n    BIND(URI(CONCAT(\"http://example.org/inst/RepairInvoice_\", MD5(STR(?source)))) AS ?repairInvoice)\n}",
                 triples: "<http://example.org/inst/RepairInvoice_a89d...> a asoft:RepairInvoice ;\n    asoft:repairID \"R_8001\" ;\n    asoft:detectedFailure \"Customer wanted to lift heavy ammo. Factory rubber too weak.\" ;\n    asoft:installedUpgrade \"Maple Leaf 70deg Macaron; Omega Nub\" ;\n    asoft:repairedReplica <https://retailer.com/sku/SKU-0001> ;\n    asoft:associatedPlayer asoft:Player_P_0001 ."
             },
             social: {
@@ -574,6 +936,20 @@
 
         let currentActiveTab = 'overview';
         let currentSelectedNode = 'player';
+
+        function switchPage(pageId) {
+            // Remove active classes from page nav
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelectorAll('.page-content').forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Set active
+            document.getElementById(`nav-btn-${pageId}`).classList.add('active');
+            document.getElementById(`page-${pageId}`).classList.add('active');
+        }
 
         function selectNode(nodeId) {
             // Remove selected class from all nodes
