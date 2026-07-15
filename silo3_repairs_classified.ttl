@@ -754,1751 +754,1501 @@
 <http://example.org/inst/RepairInvoice_0060c5b67a91e523364b77f702951960> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8137" ;
+    asoft:repairID "R_8137" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0060c5b67a91e523364b77f702951960> .
 
 <http://example.org/inst/RepairInvoice_0117b719ebe81bf8ca260a207bf6fc4b> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8004" ;
+    asoft:repairID "R_8004" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0117b719ebe81bf8ca260a207bf6fc4b> .
 
 <http://example.org/inst/RepairInvoice_018a1b5590df4d7651acb9b23650cd91> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8025" ;
+    asoft:repairID "R_8025" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_018a1b5590df4d7651acb9b23650cd91> .
 
 <http://example.org/inst/RepairInvoice_033ddaaff9f4221763deb583bff99d70> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8026" ;
+    asoft:repairID "R_8026" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_033ddaaff9f4221763deb583bff99d70> .
 
 <http://example.org/inst/RepairInvoice_0352e7e9e72e1d83cbd6205db2a7d688> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8180" ;
+    asoft:repairID "R_8180" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0352e7e9e72e1d83cbd6205db2a7d688> .
 
 <http://example.org/inst/RepairInvoice_0412827ef0e0aa09785f9da5ad547292> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8020" ;
+    asoft:repairID "R_8020" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0412827ef0e0aa09785f9da5ad547292> .
 
 <http://example.org/inst/RepairInvoice_0494882d8f5b0da59e74d23b2166e2b8> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8230" ;
+    asoft:repairID "R_8230" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0494882d8f5b0da59e74d23b2166e2b8> .
 
 <http://example.org/inst/RepairInvoice_04bb3e030195a90c988c9c8f69061cff> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8097" ;
+    asoft:repairID "R_8097" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_04bb3e030195a90c988c9c8f69061cff> .
 
 <http://example.org/inst/RepairInvoice_0531d241c5f0a26a111ed1f6164fa354> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8075" ;
+    asoft:repairID "R_8075" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0531d241c5f0a26a111ed1f6164fa354> .
 
 <http://example.org/inst/RepairInvoice_05945b992fdfca4e0fd7268d6bdefc8a> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8123" ;
+    asoft:repairID "R_8123" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_05945b992fdfca4e0fd7268d6bdefc8a> .
 
 <http://example.org/inst/RepairInvoice_0719fc09842ac49fea7575d409201ca4> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8169" ;
+    asoft:repairID "R_8169" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0719fc09842ac49fea7575d409201ca4> .
 
 <http://example.org/inst/RepairInvoice_083b648d94497b1085d559b059001fee> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8179" ;
+    asoft:repairID "R_8179" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_083b648d94497b1085d559b059001fee> .
 
 <http://example.org/inst/RepairInvoice_0962077006cce11605dbb5b6f300a7fa> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8084" ;
+    asoft:repairID "R_8084" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0962077006cce11605dbb5b6f300a7fa> .
 
 <http://example.org/inst/RepairInvoice_0a14934e99d891fa5d7da326c81ad198> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8174" ;
+    asoft:repairID "R_8174" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0a14934e99d891fa5d7da326c81ad198> .
 
 <http://example.org/inst/RepairInvoice_0a4a619607bfd4e977b989fd885cec47> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8077" ;
+    asoft:repairID "R_8077" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0a4a619607bfd4e977b989fd885cec47> .
 
 <http://example.org/inst/RepairInvoice_0afcbd1d414a100e9a82d1faabaa2d88> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8047" ;
+    asoft:repairID "R_8047" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0afcbd1d414a100e9a82d1faabaa2d88> .
 
 <http://example.org/inst/RepairInvoice_0b82dfd6dfeb327b64a0833aa638c35a> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8068" ;
+    asoft:repairID "R_8068" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0b82dfd6dfeb327b64a0833aa638c35a> .
 
 <http://example.org/inst/RepairInvoice_0bdc3c2002af0bc73694ee630546c62a> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8194" ;
+    asoft:repairID "R_8194" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0bdc3c2002af0bc73694ee630546c62a> .
 
 <http://example.org/inst/RepairInvoice_0cafb8d70e0d146fd531cfd3c763aa63> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8231" ;
+    asoft:repairID "R_8231" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0cafb8d70e0d146fd531cfd3c763aa63> .
 
 <http://example.org/inst/RepairInvoice_0cd19ba071eafeca32e9cec328d535d2> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8236" ;
+    asoft:repairID "R_8236" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0cd19ba071eafeca32e9cec328d535d2> .
 
 <http://example.org/inst/RepairInvoice_0cd85c5c55911b71b810421f11a9b4d6> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8170" ;
+    asoft:repairID "R_8170" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0cd85c5c55911b71b810421f11a9b4d6> .
 
 <http://example.org/inst/RepairInvoice_0d70463ab598c46b78a4295977332273> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8088" ;
+    asoft:repairID "R_8088" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0d70463ab598c46b78a4295977332273> .
 
 <http://example.org/inst/RepairInvoice_0ec6205286f29e10eda5b39bd60a672c> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8073" ;
+    asoft:repairID "R_8073" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0ec6205286f29e10eda5b39bd60a672c> .
 
 <http://example.org/inst/RepairInvoice_0f313d36c74fd7b65ecda1c4836438b8> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8044" ;
+    asoft:repairID "R_8044" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0f313d36c74fd7b65ecda1c4836438b8> .
 
 <http://example.org/inst/RepairInvoice_0f3331391e8fc5299a11c0f3f395e44c> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8113" ;
+    asoft:repairID "R_8113" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0f3331391e8fc5299a11c0f3f395e44c> .
 
 <http://example.org/inst/RepairInvoice_0f587208b4e209f9258f3a89055b7bea> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8039" ;
+    asoft:repairID "R_8039" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0f587208b4e209f9258f3a89055b7bea> .
 
 <http://example.org/inst/RepairInvoice_0fa2a84203ce2477ae1220e572f7ee7b> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8076" ;
+    asoft:repairID "R_8076" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_0fa2a84203ce2477ae1220e572f7ee7b> .
 
 <http://example.org/inst/RepairInvoice_101682b8a24fffbf582d8a734af1d017> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8225" ;
+    asoft:repairID "R_8225" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_101682b8a24fffbf582d8a734af1d017> .
 
 <http://example.org/inst/RepairInvoice_12349a272ad68684624dc47f6202ef86> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8219" ;
+    asoft:repairID "R_8219" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_12349a272ad68684624dc47f6202ef86> .
 
 <http://example.org/inst/RepairInvoice_13e9dab860a73d60b67632ada073ce94> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8015" ;
+    asoft:repairID "R_8015" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_13e9dab860a73d60b67632ada073ce94> .
 
 <http://example.org/inst/RepairInvoice_15c413c7fb1b30ac69afa800f3b1861f> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8120" ;
+    asoft:repairID "R_8120" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_15c413c7fb1b30ac69afa800f3b1861f> .
 
 <http://example.org/inst/RepairInvoice_16cd4f96fa6267d60ff8e0183e5fe777> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8166" ;
+    asoft:repairID "R_8166" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_16cd4f96fa6267d60ff8e0183e5fe777> .
 
 <http://example.org/inst/RepairInvoice_17463c455fba49b71275c5feefd96cc5> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8013" ;
+    asoft:repairID "R_8013" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_17463c455fba49b71275c5feefd96cc5> .
 
 <http://example.org/inst/RepairInvoice_17bf70463bc6db3baedc2d8ec13aadcb> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8192" ;
+    asoft:repairID "R_8192" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_17bf70463bc6db3baedc2d8ec13aadcb> .
 
 <http://example.org/inst/RepairInvoice_189590aba084d7f185d6ecee45904bfc> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8128" ;
+    asoft:repairID "R_8128" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_189590aba084d7f185d6ecee45904bfc> .
 
 <http://example.org/inst/RepairInvoice_1af1b98e67031c620578f8f2c5edf810> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8090" ;
+    asoft:repairID "R_8090" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1af1b98e67031c620578f8f2c5edf810> .
 
 <http://example.org/inst/RepairInvoice_1af723ee3a8ab3d0a792cfae991e67ba> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8131" ;
+    asoft:repairID "R_8131" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1af723ee3a8ab3d0a792cfae991e67ba> .
 
 <http://example.org/inst/RepairInvoice_1befd7cdb4bf7d6efa48078cd5f470d6> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8168" ;
+    asoft:repairID "R_8168" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1befd7cdb4bf7d6efa48078cd5f470d6> .
 
 <http://example.org/inst/RepairInvoice_1d194e8786efc48a149fe5c63599737a> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8122" ;
+    asoft:repairID "R_8122" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1d194e8786efc48a149fe5c63599737a> .
 
 <http://example.org/inst/RepairInvoice_1df83f75e38b1e3eda483a82643c6cea> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8029" ;
+    asoft:repairID "R_8029" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1df83f75e38b1e3eda483a82643c6cea> .
 
 <http://example.org/inst/RepairInvoice_1e37aba36ad294cbe6887271bc1e8825> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8115" ;
+    asoft:repairID "R_8115" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_1e37aba36ad294cbe6887271bc1e8825> .
 
 <http://example.org/inst/RepairInvoice_2004656678f9a1b427190587a778f819> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8078" ;
+    asoft:repairID "R_8078" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2004656678f9a1b427190587a778f819> .
 
 <http://example.org/inst/RepairInvoice_219e4bf81e67e2ca85cf2c55bae7ce67> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8095" ;
+    asoft:repairID "R_8095" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_219e4bf81e67e2ca85cf2c55bae7ce67> .
 
 <http://example.org/inst/RepairInvoice_24c896a6238cd2560e6b2966409f6f11> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8175" ;
+    asoft:repairID "R_8175" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_24c896a6238cd2560e6b2966409f6f11> .
 
 <http://example.org/inst/RepairInvoice_2544ddb60801ecdb922bb870543b6393> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8153" ;
+    asoft:repairID "R_8153" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2544ddb60801ecdb922bb870543b6393> .
 
 <http://example.org/inst/RepairInvoice_26e870a00fad7dee818e315760491323> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8007" ;
+    asoft:repairID "R_8007" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_26e870a00fad7dee818e315760491323> .
 
 <http://example.org/inst/RepairInvoice_28e9b3c200752499a18743a8a7b4620b> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8006" ;
+    asoft:repairID "R_8006" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_28e9b3c200752499a18743a8a7b4620b> .
 
 <http://example.org/inst/RepairInvoice_2bea815db09da8fcf4d2275add5bdd6f> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8145" ;
+    asoft:repairID "R_8145" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2bea815db09da8fcf4d2275add5bdd6f> .
 
 <http://example.org/inst/RepairInvoice_2eec3eacce86679da43cb77384703c94> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8103" ;
+    asoft:repairID "R_8103" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2eec3eacce86679da43cb77384703c94> .
 
 <http://example.org/inst/RepairInvoice_2f0c1a5877432c1aa164ef1006c8ca87> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8099" ;
+    asoft:repairID "R_8099" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_2f0c1a5877432c1aa164ef1006c8ca87> .
 
 <http://example.org/inst/RepairInvoice_304038fc398001e989aed8c73c6f985e> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8109" ;
+    asoft:repairID "R_8109" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_304038fc398001e989aed8c73c6f985e> .
 
 <http://example.org/inst/RepairInvoice_30611722052b8817ea92a0fe2f58791a> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8237" ;
+    asoft:repairID "R_8237" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_30611722052b8817ea92a0fe2f58791a> .
 
 <http://example.org/inst/RepairInvoice_33e928fed07624ea6ec8e49de8b68d13> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8081" ;
+    asoft:repairID "R_8081" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_33e928fed07624ea6ec8e49de8b68d13> .
 
 <http://example.org/inst/RepairInvoice_33fac91856ab6aef5db0186d118fe8ad> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8229" ;
+    asoft:repairID "R_8229" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_33fac91856ab6aef5db0186d118fe8ad> .
 
 <http://example.org/inst/RepairInvoice_3560ffd053dc3676798de415b9c65ec3> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8210" ;
+    asoft:repairID "R_8210" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3560ffd053dc3676798de415b9c65ec3> .
 
 <http://example.org/inst/RepairInvoice_36183104d32065866e4cf5cfd85d315f> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8106" ;
+    asoft:repairID "R_8106" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_36183104d32065866e4cf5cfd85d315f> .
 
 <http://example.org/inst/RepairInvoice_3618f286b29c2d6842130049d6e3871a> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8051" ;
+    asoft:repairID "R_8051" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3618f286b29c2d6842130049d6e3871a> .
 
 <http://example.org/inst/RepairInvoice_3797ed6d9b1ed9eac158e167736ed981> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8188" ;
+    asoft:repairID "R_8188" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3797ed6d9b1ed9eac158e167736ed981> .
 
 <http://example.org/inst/RepairInvoice_388256bac16e9fa7471ec55861558619> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8061" ;
+    asoft:repairID "R_8061" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_388256bac16e9fa7471ec55861558619> .
 
 <http://example.org/inst/RepairInvoice_38b6a8876219fab03346708bb77a9fd5> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8050" ;
+    asoft:repairID "R_8050" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_38b6a8876219fab03346708bb77a9fd5> .
 
 <http://example.org/inst/RepairInvoice_39fff830a7091f938d3fc954421c1687> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8049" ;
+    asoft:repairID "R_8049" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_39fff830a7091f938d3fc954421c1687> .
 
 <http://example.org/inst/RepairInvoice_3c353463f62070d6796f44a0f152aaa1> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8014" ;
+    asoft:repairID "R_8014" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3c353463f62070d6796f44a0f152aaa1> .
 
 <http://example.org/inst/RepairInvoice_3cc0e4cd17ae4e89572212083d97d123> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8148" ;
+    asoft:repairID "R_8148" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3cc0e4cd17ae4e89572212083d97d123> .
 
 <http://example.org/inst/RepairInvoice_3d0f2eeeb469f217b526b0f179a8c75b> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8152" ;
+    asoft:repairID "R_8152" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_3d0f2eeeb469f217b526b0f179a8c75b> .
 
 <http://example.org/inst/RepairInvoice_401498cf5e15fd89ac8f1bc487845685> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8038" ;
+    asoft:repairID "R_8038" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_401498cf5e15fd89ac8f1bc487845685> .
 
 <http://example.org/inst/RepairInvoice_4093d8c0630322caaa90f9e551eb59e2> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8110" ;
+    asoft:repairID "R_8110" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4093d8c0630322caaa90f9e551eb59e2> .
 
 <http://example.org/inst/RepairInvoice_4164a963fcf0549990225885dee36552> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8107" ;
+    asoft:repairID "R_8107" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4164a963fcf0549990225885dee36552> .
 
 <http://example.org/inst/RepairInvoice_41cbacc1ed5a4b7fed0620e1d1b85415> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8135" ;
+    asoft:repairID "R_8135" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_41cbacc1ed5a4b7fed0620e1d1b85415> .
 
 <http://example.org/inst/RepairInvoice_43b9d504de3bc468d86e2ac51f57f906> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8034" ;
+    asoft:repairID "R_8034" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_43b9d504de3bc468d86e2ac51f57f906> .
 
 <http://example.org/inst/RepairInvoice_44346d45c6ab18dcfe04ae860f23fe6a> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8245" ;
+    asoft:repairID "R_8245" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_44346d45c6ab18dcfe04ae860f23fe6a> .
 
 <http://example.org/inst/RepairInvoice_4589ffba7a9a44877da9e9724ecf93fa> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8164" ;
+    asoft:repairID "R_8164" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4589ffba7a9a44877da9e9724ecf93fa> .
 
 <http://example.org/inst/RepairInvoice_479a3d495b6976724beccfc1e9eabf16> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8189" ;
+    asoft:repairID "R_8189" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_479a3d495b6976724beccfc1e9eabf16> .
 
 <http://example.org/inst/RepairInvoice_47e456843488dd257ccca6f43927d968> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8144" ;
+    asoft:repairID "R_8144" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_47e456843488dd257ccca6f43927d968> .
 
 <http://example.org/inst/RepairInvoice_487c16aa28ef18ffd9240244a81b4fe6> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8082" ;
+    asoft:repairID "R_8082" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_487c16aa28ef18ffd9240244a81b4fe6> .
 
 <http://example.org/inst/RepairInvoice_4932d6693dfbda5b2794ecb62e58ace7> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8121" ;
+    asoft:repairID "R_8121" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4932d6693dfbda5b2794ecb62e58ace7> .
 
 <http://example.org/inst/RepairInvoice_49631454461a64a2f12a5a854e1c8b2f> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8242" ;
+    asoft:repairID "R_8242" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_49631454461a64a2f12a5a854e1c8b2f> .
 
 <http://example.org/inst/RepairInvoice_49f761359f5375c7bf320143da10f6bc> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8089" ;
+    asoft:repairID "R_8089" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_49f761359f5375c7bf320143da10f6bc> .
 
 <http://example.org/inst/RepairInvoice_4a0e6b51d14fb7c3a381beb5405290cc> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8134" ;
+    asoft:repairID "R_8134" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4a0e6b51d14fb7c3a381beb5405290cc> .
 
 <http://example.org/inst/RepairInvoice_4aa5b353fe10b0d63a977e922a8693e9> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8023" ;
+    asoft:repairID "R_8023" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4aa5b353fe10b0d63a977e922a8693e9> .
 
 <http://example.org/inst/RepairInvoice_4b4199a9fcac229f6f1ebb7e2d4de7a4> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8129" ;
+    asoft:repairID "R_8129" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4b4199a9fcac229f6f1ebb7e2d4de7a4> .
 
 <http://example.org/inst/RepairInvoice_4b6e35059216dec94692e6d1c1e35b5f> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8010" ;
+    asoft:repairID "R_8010" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4b6e35059216dec94692e6d1c1e35b5f> .
 
 <http://example.org/inst/RepairInvoice_4c62fb708ff9c4e7ee0b715efc939361> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8161" ;
+    asoft:repairID "R_8161" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4c62fb708ff9c4e7ee0b715efc939361> .
 
 <http://example.org/inst/RepairInvoice_4cfd576ede97fe1aa26ac5889e4beaad> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8096" ;
+    asoft:repairID "R_8096" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4cfd576ede97fe1aa26ac5889e4beaad> .
 
 <http://example.org/inst/RepairInvoice_4d043839a10a26a7438d3a2f2c33fa06> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8062" ;
+    asoft:repairID "R_8062" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4d043839a10a26a7438d3a2f2c33fa06> .
 
 <http://example.org/inst/RepairInvoice_4e1bf05cefb93b916636aa8462feb67d> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8176" ;
+    asoft:repairID "R_8176" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_4e1bf05cefb93b916636aa8462feb67d> .
 
 <http://example.org/inst/RepairInvoice_50571647f975e6f4fbf324f628c8b5f8> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8151" ;
+    asoft:repairID "R_8151" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_50571647f975e6f4fbf324f628c8b5f8> .
 
 <http://example.org/inst/RepairInvoice_50a8cba38ca258c5f6b071fcf08e945a> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8027" ;
+    asoft:repairID "R_8027" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_50a8cba38ca258c5f6b071fcf08e945a> .
 
 <http://example.org/inst/RepairInvoice_51c3ba380b548adc09a3ba02720d3ee1> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8074" ;
+    asoft:repairID "R_8074" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_51c3ba380b548adc09a3ba02720d3ee1> .
 
 <http://example.org/inst/RepairInvoice_51eb3a3f2b98ce089e95271f419d47e6> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8019" ;
+    asoft:repairID "R_8019" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_51eb3a3f2b98ce089e95271f419d47e6> .
 
 <http://example.org/inst/RepairInvoice_541f5c01d37a5cb36efcf16704036fce> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8036" ;
+    asoft:repairID "R_8036" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_541f5c01d37a5cb36efcf16704036fce> .
 
 <http://example.org/inst/RepairInvoice_54c87889153078ceb3ff4c6d215a9a0d> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8001" ;
+    asoft:repairID "R_8001" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_54c87889153078ceb3ff4c6d215a9a0d> .
 
 <http://example.org/inst/RepairInvoice_54f325c74e76e46b8f5ef6a582e00d3c> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8138" ;
+    asoft:repairID "R_8138" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_54f325c74e76e46b8f5ef6a582e00d3c> .
 
 <http://example.org/inst/RepairInvoice_550750928c303a755fc49020b13ed50c> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8200" ;
+    asoft:repairID "R_8200" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_550750928c303a755fc49020b13ed50c> .
 
 <http://example.org/inst/RepairInvoice_561dafb7452d9139546ab12ffa0c712c> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8037" ;
+    asoft:repairID "R_8037" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_561dafb7452d9139546ab12ffa0c712c> .
 
 <http://example.org/inst/RepairInvoice_56e1a44375adbc618f4c226a46de5fd2> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8079" ;
+    asoft:repairID "R_8079" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_56e1a44375adbc618f4c226a46de5fd2> .
 
 <http://example.org/inst/RepairInvoice_58561354027c1f189f0e60dd5af05b1a> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8139" ;
+    asoft:repairID "R_8139" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_58561354027c1f189f0e60dd5af05b1a> .
 
 <http://example.org/inst/RepairInvoice_588dab58bee4fdb8ba3379e6c152414b> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8212" ;
+    asoft:repairID "R_8212" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_588dab58bee4fdb8ba3379e6c152414b> .
 
 <http://example.org/inst/RepairInvoice_5a72f54da4ae5bdaaa85f8fac71b09e0> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8022" ;
+    asoft:repairID "R_8022" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5a72f54da4ae5bdaaa85f8fac71b09e0> .
 
 <http://example.org/inst/RepairInvoice_5afab583d1b48f6b650cfa215e1a6909> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8238" ;
+    asoft:repairID "R_8238" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5afab583d1b48f6b650cfa215e1a6909> .
 
 <http://example.org/inst/RepairInvoice_5b518512d0225dc287c15d2899f7a558> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8070" ;
+    asoft:repairID "R_8070" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5b518512d0225dc287c15d2899f7a558> .
 
 <http://example.org/inst/RepairInvoice_5b627cdeaef904569640a47045e24d99> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8083" ;
+    asoft:repairID "R_8083" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5b627cdeaef904569640a47045e24d99> .
 
 <http://example.org/inst/RepairInvoice_5d35f3951e12067e78734666a8cc3adc> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8002" ;
+    asoft:repairID "R_8002" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5d35f3951e12067e78734666a8cc3adc> .
 
 <http://example.org/inst/RepairInvoice_5d4649e234246dde74e57a1647034a7f> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8227" ;
+    asoft:repairID "R_8227" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5d4649e234246dde74e57a1647034a7f> .
 
 <http://example.org/inst/RepairInvoice_5f71a2567fb318e7a40160cb21e780b0> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8172" ;
+    asoft:repairID "R_8172" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_5f71a2567fb318e7a40160cb21e780b0> .
 
 <http://example.org/inst/RepairInvoice_645ffd57b8729d3479eb1afcb0685f22> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8215" ;
+    asoft:repairID "R_8215" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_645ffd57b8729d3479eb1afcb0685f22> .
 
 <http://example.org/inst/RepairInvoice_6464b345581ff9334862a750d5e57878> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8105" ;
+    asoft:repairID "R_8105" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6464b345581ff9334862a750d5e57878> .
 
 <http://example.org/inst/RepairInvoice_64dd618e1343fee5f474aeef7a617e07> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8186" ;
+    asoft:repairID "R_8186" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_64dd618e1343fee5f474aeef7a617e07> .
 
 <http://example.org/inst/RepairInvoice_6513d2de23cf0d45a102752fdf950c1b> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8055" ;
+    asoft:repairID "R_8055" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6513d2de23cf0d45a102752fdf950c1b> .
 
 <http://example.org/inst/RepairInvoice_67e5441203d6e11c4cfd9afc2381d38f> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8086" ;
+    asoft:repairID "R_8086" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_67e5441203d6e11c4cfd9afc2381d38f> .
 
 <http://example.org/inst/RepairInvoice_69f9156da82b71b0a000777362cfc46d> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8198" ;
+    asoft:repairID "R_8198" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_69f9156da82b71b0a000777362cfc46d> .
 
 <http://example.org/inst/RepairInvoice_6a0ee8f71bac940d85114d9b663643a2> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8228" ;
+    asoft:repairID "R_8228" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6a0ee8f71bac940d85114d9b663643a2> .
 
 <http://example.org/inst/RepairInvoice_6b7a34f7edf6711272a23ad4488fe7fb> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8208" ;
+    asoft:repairID "R_8208" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6b7a34f7edf6711272a23ad4488fe7fb> .
 
 <http://example.org/inst/RepairInvoice_6e19c140b4c7cccfa19c8150fb1b2017> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8155" ;
+    asoft:repairID "R_8155" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_6e19c140b4c7cccfa19c8150fb1b2017> .
 
 <http://example.org/inst/RepairInvoice_7194fa39d9a55dccee8ac01c00175d7d> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8173" ;
+    asoft:repairID "R_8173" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7194fa39d9a55dccee8ac01c00175d7d> .
 
 <http://example.org/inst/RepairInvoice_71e018f2d2fcbbfce42e83192be02668> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8226" ;
+    asoft:repairID "R_8226" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_71e018f2d2fcbbfce42e83192be02668> .
 
 <http://example.org/inst/RepairInvoice_7208e2100318bb80060f51d31ed796f0> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8213" ;
+    asoft:repairID "R_8213" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7208e2100318bb80060f51d31ed796f0> .
 
 <http://example.org/inst/RepairInvoice_7246c090aae80a9018a50b961fab5949> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8182" ;
+    asoft:repairID "R_8182" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7246c090aae80a9018a50b961fab5949> .
 
 <http://example.org/inst/RepairInvoice_728b9917ddac307892467d2c5c5d4cb3> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8102" ;
+    asoft:repairID "R_8102" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_728b9917ddac307892467d2c5c5d4cb3> .
 
 <http://example.org/inst/RepairInvoice_7367bac6a9328e9d8ecc5b7118cdd25e> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8116" ;
+    asoft:repairID "R_8116" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7367bac6a9328e9d8ecc5b7118cdd25e> .
 
 <http://example.org/inst/RepairInvoice_7408690ace522aae5869732ec45b87b8> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8028" ;
+    asoft:repairID "R_8028" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7408690ace522aae5869732ec45b87b8> .
 
 <http://example.org/inst/RepairInvoice_76520dcffadd23cdd6a8c4d31cffeea0> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8195" ;
+    asoft:repairID "R_8195" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_76520dcffadd23cdd6a8c4d31cffeea0> .
 
 <http://example.org/inst/RepairInvoice_76884dd933ec8b80f7e7621d02c4994c> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8218" ;
+    asoft:repairID "R_8218" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_76884dd933ec8b80f7e7621d02c4994c> .
 
 <http://example.org/inst/RepairInvoice_76a100267b95f8f793331a17e7ffdbd0> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8178" ;
+    asoft:repairID "R_8178" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_76a100267b95f8f793331a17e7ffdbd0> .
 
 <http://example.org/inst/RepairInvoice_76c3595dae43cc65821915387123805a> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8021" ;
+    asoft:repairID "R_8021" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_76c3595dae43cc65821915387123805a> .
 
 <http://example.org/inst/RepairInvoice_77bbcbcd7b7285b23389248f9b253591> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8224" ;
+    asoft:repairID "R_8224" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_77bbcbcd7b7285b23389248f9b253591> .
 
 <http://example.org/inst/RepairInvoice_78d40ff0feab2fcc8b760269b14343c5> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8101" ;
+    asoft:repairID "R_8101" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_78d40ff0feab2fcc8b760269b14343c5> .
 
 <http://example.org/inst/RepairInvoice_7907a790ef98c3df0a9c30a9246f670d> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8053" ;
+    asoft:repairID "R_8053" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7907a790ef98c3df0a9c30a9246f670d> .
 
 <http://example.org/inst/RepairInvoice_7a70144032a0842e6f3bb6355592bb11> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8114" ;
+    asoft:repairID "R_8114" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7a70144032a0842e6f3bb6355592bb11> .
 
 <http://example.org/inst/RepairInvoice_7ace32ab08a2c4d5d259d76cba826e32> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8163" ;
+    asoft:repairID "R_8163" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7ace32ab08a2c4d5d259d76cba826e32> .
 
 <http://example.org/inst/RepairInvoice_7b042448b5c76cdcd00b10f031706874> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8171" ;
+    asoft:repairID "R_8171" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7b042448b5c76cdcd00b10f031706874> .
 
 <http://example.org/inst/RepairInvoice_7be33a331e811a46bba7a8b89ab30753> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8233" ;
+    asoft:repairID "R_8233" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7be33a331e811a46bba7a8b89ab30753> .
 
 <http://example.org/inst/RepairInvoice_7d0db8938f8fbc4f8865990521d48649> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8012" ;
+    asoft:repairID "R_8012" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_7d0db8938f8fbc4f8865990521d48649> .
 
 <http://example.org/inst/RepairInvoice_808a538d9f09f92108ad51fed0190916> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8093" ;
+    asoft:repairID "R_8093" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_808a538d9f09f92108ad51fed0190916> .
 
 <http://example.org/inst/RepairInvoice_81bbd257a332565551854e03a03a5331> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8045" ;
+    asoft:repairID "R_8045" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_81bbd257a332565551854e03a03a5331> .
 
 <http://example.org/inst/RepairInvoice_837e08d184a0f24487507d3ca1615768> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8232" ;
+    asoft:repairID "R_8232" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_837e08d184a0f24487507d3ca1615768> .
 
 <http://example.org/inst/RepairInvoice_83e2f298907fe2fe932660ac72e257f9> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8005" ;
+    asoft:repairID "R_8005" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_83e2f298907fe2fe932660ac72e257f9> .
 
 <http://example.org/inst/RepairInvoice_83e55ba958bc4c6e7501cc4e984bfb43> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8146" ;
+    asoft:repairID "R_8146" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_83e55ba958bc4c6e7501cc4e984bfb43> .
 
 <http://example.org/inst/RepairInvoice_84871b9db9b5d16c0ab4f6a48b091acd> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8234" ;
+    asoft:repairID "R_8234" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_84871b9db9b5d16c0ab4f6a48b091acd> .
 
 <http://example.org/inst/RepairInvoice_861dd7d0ac61a2d1f191f8c07e7ee1e1> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8191" ;
+    asoft:repairID "R_8191" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_861dd7d0ac61a2d1f191f8c07e7ee1e1> .
 
 <http://example.org/inst/RepairInvoice_87d99e4077a47bf305dc41c12b3cf456> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8035" ;
+    asoft:repairID "R_8035" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_87d99e4077a47bf305dc41c12b3cf456> .
 
 <http://example.org/inst/RepairInvoice_884df7014f44cbe9703efd1a0911efcf> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8235" ;
+    asoft:repairID "R_8235" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_884df7014f44cbe9703efd1a0911efcf> .
 
 <http://example.org/inst/RepairInvoice_89a01c8a85d38bd5ed9f1d2490b75181> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8157" ;
+    asoft:repairID "R_8157" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_89a01c8a85d38bd5ed9f1d2490b75181> .
 
 <http://example.org/inst/RepairInvoice_8a08e367934da451805f7f66321cc026> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8202" ;
+    asoft:repairID "R_8202" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8a08e367934da451805f7f66321cc026> .
 
 <http://example.org/inst/RepairInvoice_8a77dba59a13ed082bf35fae92af126d> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8246" ;
+    asoft:repairID "R_8246" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8a77dba59a13ed082bf35fae92af126d> .
 
 <http://example.org/inst/RepairInvoice_8badd33dde7b2fa21240a3f89bb768b3> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8183" ;
+    asoft:repairID "R_8183" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8badd33dde7b2fa21240a3f89bb768b3> .
 
 <http://example.org/inst/RepairInvoice_8d94c2a6ead11840f90867ee8a49cd7e> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8136" ;
+    asoft:repairID "R_8136" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8d94c2a6ead11840f90867ee8a49cd7e> .
 
 <http://example.org/inst/RepairInvoice_8dc2e7016a59a9b26adee5b795ee4ab0> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8111" ;
+    asoft:repairID "R_8111" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_8dc2e7016a59a9b26adee5b795ee4ab0> .
 
 <http://example.org/inst/RepairInvoice_91030ab45d953af990bfdb33e771d042> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8143" ;
+    asoft:repairID "R_8143" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_91030ab45d953af990bfdb33e771d042> .
 
 <http://example.org/inst/RepairInvoice_917889b32f0715a73767f7a9f69105e7> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8058" ;
+    asoft:repairID "R_8058" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_917889b32f0715a73767f7a9f69105e7> .
 
 <http://example.org/inst/RepairInvoice_93b5379735f1651d987862b4db8e7cdd> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8064" ;
+    asoft:repairID "R_8064" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_93b5379735f1651d987862b4db8e7cdd> .
 
 <http://example.org/inst/RepairInvoice_94555df65744f3adb3cfe1aef1aa73eb> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8140" ;
+    asoft:repairID "R_8140" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_94555df65744f3adb3cfe1aef1aa73eb> .
 
 <http://example.org/inst/RepairInvoice_95a5678639e9c9c4770ecaaf3dd2e498> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8240" ;
+    asoft:repairID "R_8240" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_95a5678639e9c9c4770ecaaf3dd2e498> .
 
 <http://example.org/inst/RepairInvoice_961b5219b5256f4780ede67e4d789359> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8177" ;
+    asoft:repairID "R_8177" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_961b5219b5256f4780ede67e4d789359> .
 
 <http://example.org/inst/RepairInvoice_96f2177ccb52e90172c3fee367c9f56f> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8184" ;
+    asoft:repairID "R_8184" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_96f2177ccb52e90172c3fee367c9f56f> .
 
 <http://example.org/inst/RepairInvoice_97554fb850d6c8030652e84a48b3388e> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8248" ;
+    asoft:repairID "R_8248" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_97554fb850d6c8030652e84a48b3388e> .
 
 <http://example.org/inst/RepairInvoice_98622f6f6267d40001f02d9ffcd78e17> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8094" ;
+    asoft:repairID "R_8094" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_98622f6f6267d40001f02d9ffcd78e17> .
 
 <http://example.org/inst/RepairInvoice_98b4e4e15a1e5e575997817037e2631a> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8190" ;
+    asoft:repairID "R_8190" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_98b4e4e15a1e5e575997817037e2631a> .
 
 <http://example.org/inst/RepairInvoice_9a3f2c48a8519289f6adeefe6c00c768> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8185" ;
+    asoft:repairID "R_8185" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_9a3f2c48a8519289f6adeefe6c00c768> .
 
 <http://example.org/inst/RepairInvoice_9a4348af9a541445d5ca6948284c9262> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8141" ;
+    asoft:repairID "R_8141" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_9a4348af9a541445d5ca6948284c9262> .
 
 <http://example.org/inst/RepairInvoice_9aaec000cc72fd51c10a7909374b2ec8> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8057" ;
+    asoft:repairID "R_8057" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_9aaec000cc72fd51c10a7909374b2ec8> .
 
 <http://example.org/inst/RepairInvoice_9bf5bf251b92da83b71356514c1a4796> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8207" ;
+    asoft:repairID "R_8207" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_9bf5bf251b92da83b71356514c1a4796> .
 
 <http://example.org/inst/RepairInvoice_9e412c8c2c5da7bf6b6a6991ddb35832> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8201" ;
+    asoft:repairID "R_8201" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_9e412c8c2c5da7bf6b6a6991ddb35832> .
 
 <http://example.org/inst/RepairInvoice_a01f22ab46df589cf7edafd560efdae4> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8040" ;
+    asoft:repairID "R_8040" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a01f22ab46df589cf7edafd560efdae4> .
 
 <http://example.org/inst/RepairInvoice_a2c44c0be97f56e14228d166666d089d> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8142" ;
+    asoft:repairID "R_8142" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a2c44c0be97f56e14228d166666d089d> .
 
 <http://example.org/inst/RepairInvoice_a459e9043abf584f0de1b28ea7be5ad7> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8046" ;
+    asoft:repairID "R_8046" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a459e9043abf584f0de1b28ea7be5ad7> .
 
 <http://example.org/inst/RepairInvoice_a6c81ca0d01f0329b918c84c9e1a7ecf> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8031" ;
+    asoft:repairID "R_8031" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a6c81ca0d01f0329b918c84c9e1a7ecf> .
 
 <http://example.org/inst/RepairInvoice_a7b36ee643be4d5c4367dde7df512cdf> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8149" ;
+    asoft:repairID "R_8149" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a7b36ee643be4d5c4367dde7df512cdf> .
 
 <http://example.org/inst/RepairInvoice_a86417431c730c2dcbadc1bd283684e2> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8126" ;
+    asoft:repairID "R_8126" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a86417431c730c2dcbadc1bd283684e2> .
 
 <http://example.org/inst/RepairInvoice_a8df484b876ad5cbf6a443ba6466157c> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8167" ;
+    asoft:repairID "R_8167" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a8df484b876ad5cbf6a443ba6466157c> .
 
 <http://example.org/inst/RepairInvoice_a946fc3836ba532ac8a45aeffefe0ecf> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8197" ;
+    asoft:repairID "R_8197" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_a946fc3836ba532ac8a45aeffefe0ecf> .
 
 <http://example.org/inst/RepairInvoice_aa66e7081c22a8a93dccd5b8f3a0edb5> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8187" ;
+    asoft:repairID "R_8187" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_aa66e7081c22a8a93dccd5b8f3a0edb5> .
 
 <http://example.org/inst/RepairInvoice_aa6e38e1f46032b376e83bede002be73> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8133" ;
+    asoft:repairID "R_8133" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_aa6e38e1f46032b376e83bede002be73> .
 
 <http://example.org/inst/RepairInvoice_ad872d518d1adb56898e64e85a82e29b> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8052" ;
+    asoft:repairID "R_8052" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ad872d518d1adb56898e64e85a82e29b> .
 
 <http://example.org/inst/RepairInvoice_af172a71a337014fabfa7fe509b3a04c> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8091" ;
+    asoft:repairID "R_8091" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_af172a71a337014fabfa7fe509b3a04c> .
 
 <http://example.org/inst/RepairInvoice_b0b79936e568781bdb077dc0c5b199f2> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8124" ;
+    asoft:repairID "R_8124" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b0b79936e568781bdb077dc0c5b199f2> .
 
 <http://example.org/inst/RepairInvoice_b0c31f13311f66b4c292a89076976a49> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8147" ;
+    asoft:repairID "R_8147" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b0c31f13311f66b4c292a89076976a49> .
 
 <http://example.org/inst/RepairInvoice_b1a2a93e1ab1679d9671d1fb80dc580f> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8066" ;
+    asoft:repairID "R_8066" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b1a2a93e1ab1679d9671d1fb80dc580f> .
 
 <http://example.org/inst/RepairInvoice_b45d4ac2f68493ef258fb490b71de7af> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8043" ;
+    asoft:repairID "R_8043" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b45d4ac2f68493ef258fb490b71de7af> .
 
 <http://example.org/inst/RepairInvoice_b69af93c915d3a59db4fb39bea20ac74> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8216" ;
+    asoft:repairID "R_8216" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b69af93c915d3a59db4fb39bea20ac74> .
 
 <http://example.org/inst/RepairInvoice_b7c1e832d1e7deb94b300c85a55e5f02> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8223" ;
+    asoft:repairID "R_8223" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b7c1e832d1e7deb94b300c85a55e5f02> .
 
 <http://example.org/inst/RepairInvoice_b7d5f556f202b3c47dd9aad55f688a8c> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8160" ;
+    asoft:repairID "R_8160" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b7d5f556f202b3c47dd9aad55f688a8c> .
 
 <http://example.org/inst/RepairInvoice_b8407a1ebb605e82b96ad9250e22c385> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8211" ;
+    asoft:repairID "R_8211" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b8407a1ebb605e82b96ad9250e22c385> .
 
 <http://example.org/inst/RepairInvoice_b8c2fa977d828995af3ede831889b112> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8244" ;
+    asoft:repairID "R_8244" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_b8c2fa977d828995af3ede831889b112> .
 
 <http://example.org/inst/RepairInvoice_ba4afa2c92d02999b996825db5d48356> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8132" ;
+    asoft:repairID "R_8132" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ba4afa2c92d02999b996825db5d48356> .
 
 <http://example.org/inst/RepairInvoice_bac179a49dde1dccc2769f5c4732cf7c> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8087" ;
+    asoft:repairID "R_8087" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bac179a49dde1dccc2769f5c4732cf7c> .
 
 <http://example.org/inst/RepairInvoice_bad55843c911878c3cac4529c8683fe1> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8118" ;
+    asoft:repairID "R_8118" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bad55843c911878c3cac4529c8683fe1> .
 
 <http://example.org/inst/RepairInvoice_bb96591a0530245619ce3df5eb50d65a> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8108" ;
+    asoft:repairID "R_8108" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bb96591a0530245619ce3df5eb50d65a> .
 
 <http://example.org/inst/RepairInvoice_bbc31b76e698334d7c0cf6446d60bd58> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8196" ;
+    asoft:repairID "R_8196" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bbc31b76e698334d7c0cf6446d60bd58> .
 
 <http://example.org/inst/RepairInvoice_bbcd488873d56751b45b4eb53f217e5d> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8112" ;
+    asoft:repairID "R_8112" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bbcd488873d56751b45b4eb53f217e5d> .
 
 <http://example.org/inst/RepairInvoice_bbe940275b500864eb1010f4edbfe69c> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8199" ;
+    asoft:repairID "R_8199" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bbe940275b500864eb1010f4edbfe69c> .
 
 <http://example.org/inst/RepairInvoice_bd4a3fc655db193388a72ccda8bcc803> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8220" ;
+    asoft:repairID "R_8220" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bd4a3fc655db193388a72ccda8bcc803> .
 
 <http://example.org/inst/RepairInvoice_beabba1d02f13ca81e935b0952d7a1da> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8239" ;
+    asoft:repairID "R_8239" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_beabba1d02f13ca81e935b0952d7a1da> .
 
 <http://example.org/inst/RepairInvoice_befc2e5ddfc0c4067704ac08518ccd58> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8098" ;
+    asoft:repairID "R_8098" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_befc2e5ddfc0c4067704ac08518ccd58> .
 
 <http://example.org/inst/RepairInvoice_bf65a246081dcb0dae4ca12116e86c08> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8206" ;
+    asoft:repairID "R_8206" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bf65a246081dcb0dae4ca12116e86c08> .
 
 <http://example.org/inst/RepairInvoice_bf7673160e43b9df8464a949433ccb38> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8017" ;
+    asoft:repairID "R_8017" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_bf7673160e43b9df8464a949433ccb38> .
 
 <http://example.org/inst/RepairInvoice_c09a4823c5fe6c0c573c8d9570d776c8> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8162" ;
+    asoft:repairID "R_8162" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c09a4823c5fe6c0c573c8d9570d776c8> .
 
 <http://example.org/inst/RepairInvoice_c0bb8ac30c737ca5ab7ffa86bc6b1b5d> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8085" ;
+    asoft:repairID "R_8085" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c0bb8ac30c737ca5ab7ffa86bc6b1b5d> .
 
 <http://example.org/inst/RepairInvoice_c0da81a0cba6d73bf2290b4bbb7d30c0> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8016" ;
+    asoft:repairID "R_8016" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c0da81a0cba6d73bf2290b4bbb7d30c0> .
 
 <http://example.org/inst/RepairInvoice_c1819a8410f2e9d09b4584a607ba21d1> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8150" ;
+    asoft:repairID "R_8150" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c1819a8410f2e9d09b4584a607ba21d1> .
 
 <http://example.org/inst/RepairInvoice_c36ed5d8f8543c518304900109de0af5> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8104" ;
+    asoft:repairID "R_8104" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c36ed5d8f8543c518304900109de0af5> .
 
 <http://example.org/inst/RepairInvoice_c62001bb178ebb349466c00a309d3145> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8243" ;
+    asoft:repairID "R_8243" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c62001bb178ebb349466c00a309d3145> .
 
 <http://example.org/inst/RepairInvoice_c6621071409b0dae3269b78569d2f430> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8063" ;
+    asoft:repairID "R_8063" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c6621071409b0dae3269b78569d2f430> .
 
 <http://example.org/inst/RepairInvoice_c6a8733e24ead5809ba9a9fb90aef67e> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8030" ;
+    asoft:repairID "R_8030" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c6a8733e24ead5809ba9a9fb90aef67e> .
 
 <http://example.org/inst/RepairInvoice_c786d650bc1163cdc702accff699dedb> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8214" ;
+    asoft:repairID "R_8214" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c786d650bc1163cdc702accff699dedb> .
 
 <http://example.org/inst/RepairInvoice_c7b29da980734fdbe1c3839e98e44ff9> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8069" ;
+    asoft:repairID "R_8069" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c7b29da980734fdbe1c3839e98e44ff9> .
 
 <http://example.org/inst/RepairInvoice_c7bd1ae8d8ff9cd92d9bab84dd5abf00> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8221" ;
+    asoft:repairID "R_8221" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c7bd1ae8d8ff9cd92d9bab84dd5abf00> .
 
 <http://example.org/inst/RepairInvoice_c7f1bdf0649ffde0e7436a1d103d98fc> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8193" ;
+    asoft:repairID "R_8193" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c7f1bdf0649ffde0e7436a1d103d98fc> .
 
 <http://example.org/inst/RepairInvoice_c80680f264fdb207ef3ebf7a998a60e0> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8249" ;
+    asoft:repairID "R_8249" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c80680f264fdb207ef3ebf7a998a60e0> .
 
 <http://example.org/inst/RepairInvoice_c848d6b2ad008185542c3f60ed1d9e6f> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8041" ;
+    asoft:repairID "R_8041" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c848d6b2ad008185542c3f60ed1d9e6f> .
 
 <http://example.org/inst/RepairInvoice_c87811a6822cb722b8314c8a450ba15b> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8067" ;
+    asoft:repairID "R_8067" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c87811a6822cb722b8314c8a450ba15b> .
 
 <http://example.org/inst/RepairInvoice_c8ba8bc29803d5ed7d0cd2c350f269da> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8011" ;
+    asoft:repairID "R_8011" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c8ba8bc29803d5ed7d0cd2c350f269da> .
 
 <http://example.org/inst/RepairInvoice_c903568fc842f84dada4532590399df1> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8203" ;
+    asoft:repairID "R_8203" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_c903568fc842f84dada4532590399df1> .
 
 <http://example.org/inst/RepairInvoice_ca6a008fa2330a7212cd22f919475915> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8100" ;
+    asoft:repairID "R_8100" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ca6a008fa2330a7212cd22f919475915> .
 
 <http://example.org/inst/RepairInvoice_caf58dc0ff31ac13e03664ec205a9f59> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8127" ;
+    asoft:repairID "R_8127" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_caf58dc0ff31ac13e03664ec205a9f59> .
 
 <http://example.org/inst/RepairInvoice_cbafb31b7d08d9d6aeab38ef5ff4291e> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8217" ;
+    asoft:repairID "R_8217" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_cbafb31b7d08d9d6aeab38ef5ff4291e> .
 
 <http://example.org/inst/RepairInvoice_cbc8236eabdd4bab4c98c95b8f5eda44> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8003" ;
+    asoft:repairID "R_8003" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_cbc8236eabdd4bab4c98c95b8f5eda44> .
 
 <http://example.org/inst/RepairInvoice_cca0c8301793f5e749d874532935b57f> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8080" ;
+    asoft:repairID "R_8080" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_cca0c8301793f5e749d874532935b57f> .
 
 <http://example.org/inst/RepairInvoice_cd70de74e6a6045ba54b5ee04356ce32> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8059" ;
+    asoft:repairID "R_8059" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_cd70de74e6a6045ba54b5ee04356ce32> .
 
 <http://example.org/inst/RepairInvoice_ce8f352e04e0b024367c5f1568482a69> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8065" ;
+    asoft:repairID "R_8065" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ce8f352e04e0b024367c5f1568482a69> .
 
 <http://example.org/inst/RepairInvoice_cf06628df2a371feb284b4050685e74f> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8250" ;
+    asoft:repairID "R_8250" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_cf06628df2a371feb284b4050685e74f> .
 
 <http://example.org/inst/RepairInvoice_cfad25c2b22eaba4bfec1272b74fe371> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8158" ;
+    asoft:repairID "R_8158" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_cfad25c2b22eaba4bfec1272b74fe371> .
 
 <http://example.org/inst/RepairInvoice_d19773c82cdbbfcd0e321337f298d255> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8117" ;
+    asoft:repairID "R_8117" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d19773c82cdbbfcd0e321337f298d255> .
 
 <http://example.org/inst/RepairInvoice_d365584e4b9f6dbff7b07dfd5ae91c59> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8154" ;
+    asoft:repairID "R_8154" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d365584e4b9f6dbff7b07dfd5ae91c59> .
 
 <http://example.org/inst/RepairInvoice_d55e77c0e8b239ac4a2d2121472ca950> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8204" ;
+    asoft:repairID "R_8204" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d55e77c0e8b239ac4a2d2121472ca950> .
 
 <http://example.org/inst/RepairInvoice_d569aa007bf8154286677f8b0c398184> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8241" ;
+    asoft:repairID "R_8241" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d569aa007bf8154286677f8b0c398184> .
 
 <http://example.org/inst/RepairInvoice_d69bc9924b20189846ca9e754f229ed4> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8071" ;
+    asoft:repairID "R_8071" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d69bc9924b20189846ca9e754f229ed4> .
 
 <http://example.org/inst/RepairInvoice_d6c3f8cef6cd5fbd212bf0f116f95a1c> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8159" ;
+    asoft:repairID "R_8159" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d6c3f8cef6cd5fbd212bf0f116f95a1c> .
 
 <http://example.org/inst/RepairInvoice_d78b0bfc5051843d6948c379d1be8e81> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8072" ;
+    asoft:repairID "R_8072" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d78b0bfc5051843d6948c379d1be8e81> .
 
 <http://example.org/inst/RepairInvoice_d85d9251331e55e0bc5d81cf52db0e86> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8156" ;
+    asoft:repairID "R_8156" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_d85d9251331e55e0bc5d81cf52db0e86> .
 
 <http://example.org/inst/RepairInvoice_daf2f8fafc17cef047a04d5c213c1683> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8209" ;
+    asoft:repairID "R_8209" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_daf2f8fafc17cef047a04d5c213c1683> .
 
 <http://example.org/inst/RepairInvoice_dc6830138b01773dd74ff656c4266b37> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8024" ;
+    asoft:repairID "R_8024" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_dc6830138b01773dd74ff656c4266b37> .
 
 <http://example.org/inst/RepairInvoice_e128d3e4645ba870b2152309a1b8ddb8> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8056" ;
+    asoft:repairID "R_8056" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e128d3e4645ba870b2152309a1b8ddb8> .
 
 <http://example.org/inst/RepairInvoice_e1b25f47f69969db913bf4c7a9f75b45> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8092" ;
+    asoft:repairID "R_8092" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e1b25f47f69969db913bf4c7a9f75b45> .
 
 <http://example.org/inst/RepairInvoice_e2488083865f51afcf54384dba4bf984> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8205" ;
+    asoft:repairID "R_8205" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e2488083865f51afcf54384dba4bf984> .
 
 <http://example.org/inst/RepairInvoice_e3e16183234dee5231b69e7547f18c6d> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8125" ;
+    asoft:repairID "R_8125" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e3e16183234dee5231b69e7547f18c6d> .
 
 <http://example.org/inst/RepairInvoice_e8c92447481f9bdcc1bbe4d73136f689> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8165" ;
+    asoft:repairID "R_8165" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e8c92447481f9bdcc1bbe4d73136f689> .
 
 <http://example.org/inst/RepairInvoice_e9f4974eec90fd9e128d0252b9503a95> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8247" ;
+    asoft:repairID "R_8247" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_e9f4974eec90fd9e128d0252b9503a95> .
 
 <http://example.org/inst/RepairInvoice_eba92f515e68fb4c0d2b570d7fab7a63> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8222" ;
+    asoft:repairID "R_8222" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_eba92f515e68fb4c0d2b570d7fab7a63> .
 
 <http://example.org/inst/RepairInvoice_ecfca2bbd952b3689dfb26967f6872e5> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8181" ;
+    asoft:repairID "R_8181" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ecfca2bbd952b3689dfb26967f6872e5> .
 
 <http://example.org/inst/RepairInvoice_ed613e555ef008380f3d7e018f0475c7> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8018" ;
+    asoft:repairID "R_8018" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ed613e555ef008380f3d7e018f0475c7> .
 
 <http://example.org/inst/RepairInvoice_eef07c2639ac04d63f249b6f1f1a1995> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8054" ;
+    asoft:repairID "R_8054" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_eef07c2639ac04d63f249b6f1f1a1995> .
 
 <http://example.org/inst/RepairInvoice_f22a3e487e2f7983fd23d2c0193dbadc> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8119" ;
+    asoft:repairID "R_8119" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f22a3e487e2f7983fd23d2c0193dbadc> .
 
 <http://example.org/inst/RepairInvoice_f3023aacac38a4fb9f1f21b5b7ba40e9> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8033" ;
+    asoft:repairID "R_8033" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f3023aacac38a4fb9f1f21b5b7ba40e9> .
 
 <http://example.org/inst/RepairInvoice_f3cf21932571a1308af73011279db43e> a asoft:RepairInvoice ;
     asoft:detectedFailure "Routine maintenance. Re-lubed cylinder." ;
     asoft:installedUpgrade "Silicone Grease" ;
-    asoft:repairID "COMPLETED",
-        "R_8048" ;
+    asoft:repairID "R_8048" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f3cf21932571a1308af73011279db43e> .
 
 <http://example.org/inst/RepairInvoice_f53feb3d718e2b6757ca6bf1cbf92184> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8008" ;
+    asoft:repairID "R_8008" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f53feb3d718e2b6757ca6bf1cbf92184> .
 
 <http://example.org/inst/RepairInvoice_f6308d02bcaac28194968aa844e93acd> a asoft:RepairInvoice ;
     asoft:detectedFailure "FCU locked due to field ban. Customer requested dwell reduction for heavy ammo." ;
     asoft:installedUpgrade "Zip-tie tournament lock" ;
-    asoft:repairID "COMPLETED",
-        "R_8009" ;
+    asoft:repairID "R_8009" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f6308d02bcaac28194968aa844e93acd> .
 
 <http://example.org/inst/RepairInvoice_f76232eb4ad882f03bed9a7b34b413f2> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8130" ;
+    asoft:repairID "R_8130" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_f76232eb4ad882f03bed9a7b34b413f2> .
 
 <http://example.org/inst/RepairInvoice_fab7882b2fd9f6542a0cf0b073dfd516> a asoft:RepairInvoice ;
     asoft:detectedFailure "Stripped spur gear and burnt motor due to terrible factory shimming/AOE." ;
     asoft:installedUpgrade "Prometheus Shim Set; High Torque Motor" ;
-    asoft:repairID "COMPLETED",
-        "R_8042" ;
+    asoft:repairID "R_8042" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_fab7882b2fd9f6542a0cf0b073dfd516> .
 
 <http://example.org/inst/RepairInvoice_ff3672325d54074b8883e65edd8971a0> a asoft:RepairInvoice ;
     asoft:detectedFailure "Customer wanted to lift heavy ammo. Factory rubber too weak." ;
     asoft:installedUpgrade "Maple Leaf 70deg Macaron; Omega Nub" ;
-    asoft:repairID "COMPLETED",
-        "R_8032" ;
+    asoft:repairID "R_8032" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ff3672325d54074b8883e65edd8971a0> .
 
 <http://example.org/inst/RepairInvoice_ff7954ed73131779074f557befb44d04> a asoft:RepairInvoice ;
     asoft:detectedFailure "Shattered loading nozzle and frozen piston seal from rapid venting in cold weather." ;
     asoft:installedUpgrade "Polycarbonate Loading Nozzle; Winter Seal" ;
-    asoft:repairID "COMPLETED",
-        "R_8060" ;
+    asoft:repairID "R_8060" ;
     asoft:repairedReplica <http://example.org/inst/AirsoftReplica_ff7954ed73131779074f557befb44d04> .
 
 <http://example.org/inst/AirsoftReplica_0060c5b67a91e523364b77f702951960> a asoft:AirsoftReplica ;

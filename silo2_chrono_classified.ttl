@@ -752,1004 +752,754 @@
     asoft:hasChronoStatus "JOULE_CREEP_DETECTED" .
 
 <http://example.org/inst/FieldZone_009c89a9d66727c5aadfa09985873325> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.87 ;
-    asoft:hasPlayerCapacity "P_0050" .
+    asoft:hasMaxJouleLimit 1.87 .
 
 <http://example.org/inst/FieldZone_02e45294efc368379bbd478a3a5c2820> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 3.02 ;
-    asoft:hasPlayerCapacity "P_0139" .
+    asoft:hasMaxJouleLimit 3.02 .
 
 <http://example.org/inst/FieldZone_03dc507da0570b6302ee760a7dcd7fa5> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.62 ;
-    asoft:hasPlayerCapacity "P_0130" .
+    asoft:hasMaxJouleLimit 0.62 .
 
 <http://example.org/inst/FieldZone_045f3f3f6436ce875f4ca5b9023af86b> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.05 ;
-    asoft:hasPlayerCapacity "P_0066" .
+    asoft:hasMaxJouleLimit 1.05 .
 
 <http://example.org/inst/FieldZone_05a351c20495177f7561f10bc7436a93> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.55 ;
-    asoft:hasPlayerCapacity "P_0085" .
+    asoft:hasMaxJouleLimit 0.55 .
 
 <http://example.org/inst/FieldZone_05b786c4eb8435bcdef26a58c6b75e2a> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.1 ;
-    asoft:hasPlayerCapacity "P_0147" .
+    asoft:hasMaxJouleLimit 1.1 .
 
 <http://example.org/inst/FieldZone_05ca6cb28ed6e3c6045afaa3e712b7a6> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.02 ;
-    asoft:hasPlayerCapacity "P_0042" .
+    asoft:hasMaxJouleLimit 1.02 .
 
 <http://example.org/inst/FieldZone_07ad5d4b1f3cab8dbe59343d8990cf5d> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.82 ;
-    asoft:hasPlayerCapacity "P_0118" .
+    asoft:hasMaxJouleLimit 2.82 .
 
 <http://example.org/inst/FieldZone_0842f62999a234e0ccf1329af421127e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.6 ;
-    asoft:hasPlayerCapacity "P_0218" .
+    asoft:hasMaxJouleLimit 0.6 .
 
 <http://example.org/inst/FieldZone_090d72a3a442615877f43e78394547df> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.65 ;
-    asoft:hasPlayerCapacity "P_0084" .
+    asoft:hasMaxJouleLimit 2.65 .
 
 <http://example.org/inst/FieldZone_0942a05efc13eddb6dd1f260bf1c6f95> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.65 ;
-    asoft:hasPlayerCapacity "P_0229" .
+    asoft:hasMaxJouleLimit 2.65 .
 
 <http://example.org/inst/FieldZone_094af69e5b4f55f4e67f0ef55fcac585> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.99 ;
-    asoft:hasPlayerCapacity "P_0058" .
+    asoft:hasMaxJouleLimit 0.99 .
 
 <http://example.org/inst/FieldZone_09d076e38890ac4837bfd786511ac4f3> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.66 ;
-    asoft:hasPlayerCapacity "P_0094" .
+    asoft:hasMaxJouleLimit 0.66 .
 
 <http://example.org/inst/FieldZone_0bb96a76365ddca67a35dd2c8100324c> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.11 ;
-    asoft:hasPlayerCapacity "P_0033" .
+    asoft:hasMaxJouleLimit 1.11 .
 
 <http://example.org/inst/FieldZone_0bf620179a32af1b3726433d5a6ca42e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.54 ;
-    asoft:hasPlayerCapacity "P_0114" .
+    asoft:hasMaxJouleLimit 0.54 .
 
 <http://example.org/inst/FieldZone_0cc5f17ed05a515f9ea1772b54f3d394> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.02 ;
-    asoft:hasPlayerCapacity "P_0040" .
+    asoft:hasMaxJouleLimit 1.02 .
 
 <http://example.org/inst/FieldZone_0d88e92abc6b441be207ab1448bcf445> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.11 ;
-    asoft:hasPlayerCapacity "P_0250" .
+    asoft:hasMaxJouleLimit 1.11 .
 
 <http://example.org/inst/FieldZone_0dfa85ec7e34b6f9bd9f94d67760b4eb> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.91 ;
-    asoft:hasPlayerCapacity "P_0135" .
+    asoft:hasMaxJouleLimit 2.91 .
 
 <http://example.org/inst/FieldZone_0e2e9d0f870b66ab27c3ce58158eff1f> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.09 ;
-    asoft:hasPlayerCapacity "P_0090" .
+    asoft:hasMaxJouleLimit 2.09 .
 
 <http://example.org/inst/FieldZone_0ed55971aebca27281d4096a72c4002d> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.46 ;
-    asoft:hasPlayerCapacity "P_0088" .
+    asoft:hasMaxJouleLimit 0.46 .
 
 <http://example.org/inst/FieldZone_0eed36f9f1a1a5c1de4c8f1013d6158b> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.48 ;
-    asoft:hasPlayerCapacity "P_0155" .
+    asoft:hasMaxJouleLimit 2.48 .
 
 <http://example.org/inst/FieldZone_0ef99a1232f1ecea91ad56cb424ec68c> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.7 ;
-    asoft:hasPlayerCapacity "P_0137" .
+    asoft:hasMaxJouleLimit 0.7 .
 
 <http://example.org/inst/FieldZone_0f54b360c72a0051e9f9fb4577a495b1> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.04 ;
-    asoft:hasPlayerCapacity "P_0225" .
+    asoft:hasMaxJouleLimit 1.04 .
 
 <http://example.org/inst/FieldZone_1097359f09edc3209e3df465e5ead4ef> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.6 ;
-    asoft:hasPlayerCapacity "P_0023" .
+    asoft:hasMaxJouleLimit 0.6 .
 
 <http://example.org/inst/FieldZone_13e0cef5869b053e9d1d6df2d4e35fbb> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.57 ;
-    asoft:hasPlayerCapacity "P_0131" .
+    asoft:hasMaxJouleLimit 2.57 .
 
 <http://example.org/inst/FieldZone_1440e423afcb9efe05873db53c122412> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.06 ;
-    asoft:hasPlayerCapacity "P_0076" .
+    asoft:hasMaxJouleLimit 1.06 .
 
 <http://example.org/inst/FieldZone_149c57e276c105be47cc4cee751bbb67> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.39 ;
-    asoft:hasPlayerCapacity "P_0062" .
+    asoft:hasMaxJouleLimit 2.39 .
 
 <http://example.org/inst/FieldZone_164a7a93abbe9233850a27269b8de7f6> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.98 ;
-    asoft:hasPlayerCapacity "P_0110" .
+    asoft:hasMaxJouleLimit 0.98 .
 
 <http://example.org/inst/FieldZone_1691a6c13b4bc89f823d94c66e916f4e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.83 ;
-    asoft:hasPlayerCapacity "P_0005" .
+    asoft:hasMaxJouleLimit 1.83 .
 
 <http://example.org/inst/FieldZone_17747c5271b1687b37959df57120fa30> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.6 ;
-    asoft:hasPlayerCapacity "P_0083" .
+    asoft:hasMaxJouleLimit 0.6 .
 
 <http://example.org/inst/FieldZone_185482e2c4cba3ee35a7652e1c4707de> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.01 ;
-    asoft:hasPlayerCapacity "P_0201" .
+    asoft:hasMaxJouleLimit 1.01 .
 
 <http://example.org/inst/FieldZone_19546d02912146ad311b3039a34f65e5> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.3 ;
-    asoft:hasPlayerCapacity "P_0223" .
+    asoft:hasMaxJouleLimit 2.3 .
 
 <http://example.org/inst/FieldZone_197aa4c2a3ac2c51f9defc93a9a868dd> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.97 ;
-    asoft:hasPlayerCapacity "P_0054" .
+    asoft:hasMaxJouleLimit 1.97 .
 
 <http://example.org/inst/FieldZone_197b184e2f894c9c55cd7606b71b38d4> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.06 ;
-    asoft:hasPlayerCapacity "P_0213" .
+    asoft:hasMaxJouleLimit 1.06 .
 
 <http://example.org/inst/FieldZone_1b2879c1a9c2b02b46237159b847d1dc> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.76 ;
-    asoft:hasPlayerCapacity "P_0129" .
+    asoft:hasMaxJouleLimit 1.76 .
 
 <http://example.org/inst/FieldZone_1c309d0fa794424a83f4acd834e7076a> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.09 ;
-    asoft:hasPlayerCapacity "P_0211" .
+    asoft:hasMaxJouleLimit 1.09 .
 
 <http://example.org/inst/FieldZone_1dfe541685ab328ed7c83c5a57e8cce1> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.0 ;
-    asoft:hasPlayerCapacity "P_0070" .
+    asoft:hasMaxJouleLimit 1.0 .
 
 <http://example.org/inst/FieldZone_1e8fa915143bce3da1f4b79cf23500e4> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.12 ;
-    asoft:hasPlayerCapacity "P_0226" .
+    asoft:hasMaxJouleLimit 2.12 .
 
 <http://example.org/inst/FieldZone_1ee5b0e0ec8b6fd552f6f1de14bad6c2> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.74 ;
-    asoft:hasPlayerCapacity "P_0089" .
+    asoft:hasMaxJouleLimit 1.74 .
 
 <http://example.org/inst/FieldZone_1fb040b500057c77989f00e6f82a622f> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 3.08 ;
-    asoft:hasPlayerCapacity "P_0127" .
+    asoft:hasMaxJouleLimit 3.08 .
 
 <http://example.org/inst/FieldZone_1fc3108d83b825fe8cf449e276aa519f> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.54 ;
-    asoft:hasPlayerCapacity "P_0209" .
+    asoft:hasMaxJouleLimit 0.54 .
 
 <http://example.org/inst/FieldZone_201d7025a1659f3dfc114e4d53ab399f> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.63 ;
-    asoft:hasPlayerCapacity "P_0142" .
+    asoft:hasMaxJouleLimit 0.63 .
 
 <http://example.org/inst/FieldZone_206187f4746e79c8216d4278e042ce56> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.65 ;
-    asoft:hasPlayerCapacity "P_0241" .
+    asoft:hasMaxJouleLimit 0.65 .
 
 <http://example.org/inst/FieldZone_208b1198a06f74d73103475094a2eb77> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.98 ;
-    asoft:hasPlayerCapacity "P_0061" .
+    asoft:hasMaxJouleLimit 2.98 .
 
 <http://example.org/inst/FieldZone_21ebbb8a634964cecf2130ba6aadcbc3> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.51 ;
-    asoft:hasPlayerCapacity "P_0143" .
+    asoft:hasMaxJouleLimit 0.51 .
 
 <http://example.org/inst/FieldZone_222fb69b23004315771d69fc36132ef1> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.09 ;
-    asoft:hasPlayerCapacity "P_0013" .
+    asoft:hasMaxJouleLimit 1.09 .
 
 <http://example.org/inst/FieldZone_25d679429ac6514495752d470edd15ae> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.11 ;
-    asoft:hasPlayerCapacity "P_0014" .
+    asoft:hasMaxJouleLimit 1.11 .
 
 <http://example.org/inst/FieldZone_267e86a74877520b26b684cadc6031b1> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.59 ;
-    asoft:hasPlayerCapacity "P_0019" .
+    asoft:hasMaxJouleLimit 2.59 .
 
 <http://example.org/inst/FieldZone_2718e810f44458e8d44823be8e34ef3c> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.03 ;
-    asoft:hasPlayerCapacity "P_0063" .
+    asoft:hasMaxJouleLimit 1.03 .
 
 <http://example.org/inst/FieldZone_2733ca4c956231a3556eb9add435c7fe> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.98 ;
-    asoft:hasPlayerCapacity "P_0205" .
+    asoft:hasMaxJouleLimit 2.98 .
 
 <http://example.org/inst/FieldZone_27bc5351d69950dd9deb4f2b703d1d91> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.02 ;
-    asoft:hasPlayerCapacity "P_0029" .
+    asoft:hasMaxJouleLimit 2.02 .
 
 <http://example.org/inst/FieldZone_27c32231367aaa1d9eac184fae63f7ff> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.13 ;
-    asoft:hasPlayerCapacity "P_0051" .
+    asoft:hasMaxJouleLimit 1.13 .
 
 <http://example.org/inst/FieldZone_27e898558a8525d7a3ac69de8801d472> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.81 ;
-    asoft:hasPlayerCapacity "P_0245" .
+    asoft:hasMaxJouleLimit 1.81 .
 
 <http://example.org/inst/FieldZone_2824bf0c4e9aa7a34c1e3348295bc47f> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.67 ;
-    asoft:hasPlayerCapacity "P_0164" .
+    asoft:hasMaxJouleLimit 2.67 .
 
 <http://example.org/inst/FieldZone_28809e7fafe1db90bedc8c229c6d1c8d> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.06 ;
-    asoft:hasPlayerCapacity "P_0207" .
+    asoft:hasMaxJouleLimit 1.06 .
 
 <http://example.org/inst/FieldZone_291a27dcc6d9981983d341b55d478e1f> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.99 ;
-    asoft:hasPlayerCapacity "P_0111" .
+    asoft:hasMaxJouleLimit 0.99 .
 
 <http://example.org/inst/FieldZone_293a2b45c60d5427b536278a72630ef2> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 3.08 ;
-    asoft:hasPlayerCapacity "P_0049" .
+    asoft:hasMaxJouleLimit 3.08 .
 
 <http://example.org/inst/FieldZone_2a30a23c1d82b5b82e4f89435dbb8149> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.04 ;
-    asoft:hasPlayerCapacity "P_0197" .
+    asoft:hasMaxJouleLimit 1.04 .
 
 <http://example.org/inst/FieldZone_2c71e78045005fea73d2bbf9feb5cc70> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.11 ;
-    asoft:hasPlayerCapacity "P_0067" .
+    asoft:hasMaxJouleLimit 1.11 .
 
 <http://example.org/inst/FieldZone_2c94599b2245b6a9bc9b7bfc67198fcb> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.96 ;
-    asoft:hasPlayerCapacity "P_0169" .
+    asoft:hasMaxJouleLimit 0.96 .
 
 <http://example.org/inst/FieldZone_2ce4d73f464ad0887088841fcb051fa1> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.77 ;
-    asoft:hasPlayerCapacity "P_0206" .
+    asoft:hasMaxJouleLimit 1.77 .
 
 <http://example.org/inst/FieldZone_2e395f5aec825064373300110c738c76> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.49 ;
-    asoft:hasPlayerCapacity "P_0022" .
+    asoft:hasMaxJouleLimit 0.49 .
 
 <http://example.org/inst/FieldZone_3084b523cb2bbe2cf82a083897693557> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.66 ;
-    asoft:hasPlayerCapacity "P_0210" .
+    asoft:hasMaxJouleLimit 0.66 .
 
 <http://example.org/inst/FieldZone_30d6fffd256e53d1d70101e023b6b195> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.03 ;
-    asoft:hasPlayerCapacity "P_0107" .
+    asoft:hasMaxJouleLimit 1.03 .
 
 <http://example.org/inst/FieldZone_323e77cb74feb15fafeba3624e0399ed> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.02 ;
-    asoft:hasPlayerCapacity "P_0001" .
+    asoft:hasMaxJouleLimit 2.02 .
 
 <http://example.org/inst/FieldZone_332f0714b598c828460b8378fe254f4b> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.26 ;
-    asoft:hasPlayerCapacity "P_0010" .
+    asoft:hasMaxJouleLimit 2.26 .
 
 <http://example.org/inst/FieldZone_335d0f3b4cec57b515c50c7073d3dfbd> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.54 ;
-    asoft:hasPlayerCapacity "P_0103" .
+    asoft:hasMaxJouleLimit 0.54 .
 
 <http://example.org/inst/FieldZone_359b50a202b61dd049c63697446e6e5e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.7 ;
-    asoft:hasPlayerCapacity "P_0093" .
+    asoft:hasMaxJouleLimit 0.7 .
 
 <http://example.org/inst/FieldZone_359c812bd197ab0b16545d9be385cefe> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.06 ;
-    asoft:hasPlayerCapacity "P_0075" .
+    asoft:hasMaxJouleLimit 1.06 .
 
 <http://example.org/inst/FieldZone_35f289571385efcd3629d6b02408ff02> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.68 ;
-    asoft:hasPlayerCapacity "P_0102" .
+    asoft:hasMaxJouleLimit 0.68 .
 
 <http://example.org/inst/FieldZone_38482a66c6214499cdbeff51c64cc73f> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.53 ;
-    asoft:hasPlayerCapacity "P_0162" .
+    asoft:hasMaxJouleLimit 0.53 .
 
 <http://example.org/inst/FieldZone_3a9417bd4a9cd186289bf4c144f944c2> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.96 ;
-    asoft:hasPlayerCapacity "P_0174" .
+    asoft:hasMaxJouleLimit 1.96 .
 
 <http://example.org/inst/FieldZone_3b1869d8de628bc66f1ca3f26518df92> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.1 ;
-    asoft:hasPlayerCapacity "P_0024" .
+    asoft:hasMaxJouleLimit 1.1 .
 
 <http://example.org/inst/FieldZone_3b6d33c3ec40658516e277ccdd04af9b> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.17 ;
-    asoft:hasPlayerCapacity "P_0175" .
+    asoft:hasMaxJouleLimit 2.17 .
 
 <http://example.org/inst/FieldZone_3c5269d8fcb6ec30ccb3cba3197cb35b> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.83 ;
-    asoft:hasPlayerCapacity "P_0161" .
+    asoft:hasMaxJouleLimit 1.83 .
 
 <http://example.org/inst/FieldZone_3cba332b871ecba937a8d193267a1f94> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.04 ;
-    asoft:hasPlayerCapacity "P_0171" .
+    asoft:hasMaxJouleLimit 1.04 .
 
 <http://example.org/inst/FieldZone_3df810f2bfaf02439d1cd5a6faeebce6> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.05 ;
-    asoft:hasPlayerCapacity "P_0246" .
+    asoft:hasMaxJouleLimit 1.05 .
 
 <http://example.org/inst/FieldZone_3ecb6984f9c76e2415d22b81e643f21d> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.44 ;
-    asoft:hasPlayerCapacity "P_0173" .
+    asoft:hasMaxJouleLimit 2.44 .
 
 <http://example.org/inst/FieldZone_3f55889dae851d317937e33f6d6b1075> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.02 ;
-    asoft:hasPlayerCapacity "P_0012" .
+    asoft:hasMaxJouleLimit 1.02 .
 
 <http://example.org/inst/FieldZone_3fc47e8fc0bcf456943433b373771ec2> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.52 ;
-    asoft:hasPlayerCapacity "P_0117" .
+    asoft:hasMaxJouleLimit 2.52 .
 
 <http://example.org/inst/FieldZone_40bd82ab46168023624c35fe5ac17f57> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.58 ;
-    asoft:hasPlayerCapacity "P_0041" .
+    asoft:hasMaxJouleLimit 0.58 .
 
 <http://example.org/inst/FieldZone_4158df54967499fcfd32b5b51735a2f1> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.98 ;
-    asoft:hasPlayerCapacity "P_0056" .
+    asoft:hasMaxJouleLimit 0.98 .
 
 <http://example.org/inst/FieldZone_4184663f5023f232407ae59823b2ce5e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.02 ;
-    asoft:hasPlayerCapacity "P_0044" .
+    asoft:hasMaxJouleLimit 1.02 .
 
 <http://example.org/inst/FieldZone_427d87927b62fad74b3c894d26d2447a> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 3.03 ;
-    asoft:hasPlayerCapacity "P_0138" .
+    asoft:hasMaxJouleLimit 3.03 .
 
 <http://example.org/inst/FieldZone_43df7889f94d2b7af706359e089b4107> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.81 ;
-    asoft:hasPlayerCapacity "P_0006" .
+    asoft:hasMaxJouleLimit 2.81 .
 
 <http://example.org/inst/FieldZone_46eab4e457e99d56970a3ad7b81d7d71> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.11 ;
-    asoft:hasPlayerCapacity "P_0091" .
+    asoft:hasMaxJouleLimit 1.11 .
 
 <http://example.org/inst/FieldZone_4ac62ca18b3050e782c1dde45d5a6b2e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.85 ;
-    asoft:hasPlayerCapacity "P_0239" .
+    asoft:hasMaxJouleLimit 1.85 .
 
 <http://example.org/inst/FieldZone_4d57576a4766e1a45243246dfacd5efb> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.18 ;
-    asoft:hasPlayerCapacity "P_0243" .
+    asoft:hasMaxJouleLimit 2.18 .
 
 <http://example.org/inst/FieldZone_4dc6be1b8dedf0eaa43b5247b311bdba> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.94 ;
-    asoft:hasPlayerCapacity "P_0108" .
+    asoft:hasMaxJouleLimit 2.94 .
 
 <http://example.org/inst/FieldZone_507a13340dcbf0bae1c1415325085d58> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.72 ;
-    asoft:hasPlayerCapacity "P_0235" .
+    asoft:hasMaxJouleLimit 1.72 .
 
 <http://example.org/inst/FieldZone_50b9501ef8943a8cb3a45a2d9c549776> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.71 ;
-    asoft:hasPlayerCapacity "P_0200" .
+    asoft:hasMaxJouleLimit 0.71 .
 
 <http://example.org/inst/FieldZone_50d2a1a7e965504b94b2b209469ca23e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.03 ;
-    asoft:hasPlayerCapacity "P_0059" .
+    asoft:hasMaxJouleLimit 2.03 .
 
 <http://example.org/inst/FieldZone_51202754064450e172119499fb258524> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.06 ;
-    asoft:hasPlayerCapacity "P_0231" .
+    asoft:hasMaxJouleLimit 1.06 .
 
 <http://example.org/inst/FieldZone_56d25cd74ffbf57fda47e0d0068e4093> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.23 ;
-    asoft:hasPlayerCapacity "P_0237" .
+    asoft:hasMaxJouleLimit 2.23 .
 
 <http://example.org/inst/FieldZone_57d6ffebddc2ab40217fcc6cca6c081d> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.02 ;
-    asoft:hasPlayerCapacity "P_0078" .
+    asoft:hasMaxJouleLimit 1.02 .
 
 <http://example.org/inst/FieldZone_5c2bf22f26c8c88b3d9fa70839ebf519> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.62 ;
-    asoft:hasPlayerCapacity "P_0002" .
+    asoft:hasMaxJouleLimit 0.62 .
 
 <http://example.org/inst/FieldZone_5c8285a499e6da8c6a9aaa101c1b2aab> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.13 ;
-    asoft:hasPlayerCapacity "P_0228" .
+    asoft:hasMaxJouleLimit 1.13 .
 
 <http://example.org/inst/FieldZone_5d3dc03d44d300978de86599d21573ab> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.09 ;
-    asoft:hasPlayerCapacity "P_0178" .
+    asoft:hasMaxJouleLimit 1.09 .
 
 <http://example.org/inst/FieldZone_5d47d7f99d536bd125fb9e38df31f1da> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.44 ;
-    asoft:hasPlayerCapacity "P_0168" .
+    asoft:hasMaxJouleLimit 2.44 .
 
 <http://example.org/inst/FieldZone_5f82a3c5935ca4e1a9944b631ca975ca> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.01 ;
-    asoft:hasPlayerCapacity "P_0158" .
+    asoft:hasMaxJouleLimit 1.01 .
 
 <http://example.org/inst/FieldZone_5fd8ba1ac975ffa992d90eda3b264290> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.85 ;
-    asoft:hasPlayerCapacity "P_0122" .
+    asoft:hasMaxJouleLimit 2.85 .
 
 <http://example.org/inst/FieldZone_60e2eaaed2e3d4630b9001690d1dd65b> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.01 ;
-    asoft:hasPlayerCapacity "P_0096" .
+    asoft:hasMaxJouleLimit 2.01 .
 
 <http://example.org/inst/FieldZone_610d8997897c020b9101e7a407e06ef9> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.65 ;
-    asoft:hasPlayerCapacity "P_0079" .
+    asoft:hasMaxJouleLimit 2.65 .
 
 <http://example.org/inst/FieldZone_616fdc606a38ba758efdf3d4abb2e419> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.01 ;
-    asoft:hasPlayerCapacity "P_0199" .
+    asoft:hasMaxJouleLimit 1.01 .
 
 <http://example.org/inst/FieldZone_6272d032825fbaf1e565a05b8403bb6e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.02 ;
-    asoft:hasPlayerCapacity "P_0154" .
+    asoft:hasMaxJouleLimit 1.02 .
 
 <http://example.org/inst/FieldZone_630b191b2787faaf23f00d1e98c1775e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.07 ;
-    asoft:hasPlayerCapacity "P_0177" .
+    asoft:hasMaxJouleLimit 1.07 .
 
 <http://example.org/inst/FieldZone_63a8166e797759602785d2fb756e48db> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.53 ;
-    asoft:hasPlayerCapacity "P_0202" .
+    asoft:hasMaxJouleLimit 0.53 .
 
 <http://example.org/inst/FieldZone_63e7d4e83bcdf90056a8087ad51c2189> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.09 ;
-    asoft:hasPlayerCapacity "P_0214" .
+    asoft:hasMaxJouleLimit 2.09 .
 
 <http://example.org/inst/FieldZone_63f2e263b79941670397e8b59fe9b8d4> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.03 ;
-    asoft:hasPlayerCapacity "P_0136" .
+    asoft:hasMaxJouleLimit 1.03 .
 
 <http://example.org/inst/FieldZone_64b03f7da31e9c893ae04c5924d001f8> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.49 ;
-    asoft:hasPlayerCapacity "P_0043" .
+    asoft:hasMaxJouleLimit 0.49 .
 
 <http://example.org/inst/FieldZone_66f0528724f6094833a56c811da49184> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.08 ;
-    asoft:hasPlayerCapacity "P_0140" .
+    asoft:hasMaxJouleLimit 1.08 .
 
 <http://example.org/inst/FieldZone_676e8ce20585c6926a50130cccced28e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.58 ;
-    asoft:hasPlayerCapacity "P_0196" .
+    asoft:hasMaxJouleLimit 0.58 .
 
 <http://example.org/inst/FieldZone_69447cfb1bf0c21f0dc840a67c8a7089> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.02 ;
-    asoft:hasPlayerCapacity "P_0047" .
+    asoft:hasMaxJouleLimit 1.02 .
 
 <http://example.org/inst/FieldZone_6b0fe51595ff7b876c2b6fab95a9de2b> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.09 ;
-    asoft:hasPlayerCapacity "P_0039" .
+    asoft:hasMaxJouleLimit 1.09 .
 
 <http://example.org/inst/FieldZone_6cbaec30b4cbb60ac02583ba16edd569> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.01 ;
-    asoft:hasPlayerCapacity "P_0181" .
+    asoft:hasMaxJouleLimit 1.01 .
 
 <http://example.org/inst/FieldZone_6cf3f0b50e4b1e699524f16cef4e603f> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.6 ;
-    asoft:hasPlayerCapacity "P_0189" .
+    asoft:hasMaxJouleLimit 2.6 .
 
 <http://example.org/inst/FieldZone_6cf8dcb0463124da89f9648f2f07db3e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.48 ;
-    asoft:hasPlayerCapacity "P_0248" .
+    asoft:hasMaxJouleLimit 2.48 .
 
 <http://example.org/inst/FieldZone_6d677155193e93aa6295852bc7c1281e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.01 ;
-    asoft:hasPlayerCapacity "P_0187" .
+    asoft:hasMaxJouleLimit 1.01 .
 
 <http://example.org/inst/FieldZone_6d9b515b3755470e88ec9e81ea9f6235> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.49 ;
-    asoft:hasPlayerCapacity "P_0007" .
+    asoft:hasMaxJouleLimit 0.49 .
 
 <http://example.org/inst/FieldZone_6e1b7955143b51b2059a391593ef8912> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.14 ;
-    asoft:hasPlayerCapacity "P_0240" .
+    asoft:hasMaxJouleLimit 1.14 .
 
 <http://example.org/inst/FieldZone_6ea74b27c283a4507e4a2d4af35b3c43> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.61 ;
-    asoft:hasPlayerCapacity "P_0030" .
+    asoft:hasMaxJouleLimit 2.61 .
 
 <http://example.org/inst/FieldZone_70ecf74190b01fcabba51d990c8018ab> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.48 ;
-    asoft:hasPlayerCapacity "P_0126" .
+    asoft:hasMaxJouleLimit 0.48 .
 
 <http://example.org/inst/FieldZone_7163c41d32258ff680862de0654127b2> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.03 ;
-    asoft:hasPlayerCapacity "P_0073" .
+    asoft:hasMaxJouleLimit 1.03 .
 
 <http://example.org/inst/FieldZone_71ca07d58388316d5fa5d04e599a9a69> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.06 ;
-    asoft:hasPlayerCapacity "P_0238" .
+    asoft:hasMaxJouleLimit 1.06 .
 
 <http://example.org/inst/FieldZone_7200dc054e7385043a3253578083e9c9> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.12 ;
-    asoft:hasPlayerCapacity "P_0082" .
+    asoft:hasMaxJouleLimit 1.12 .
 
 <http://example.org/inst/FieldZone_753a5b9870dbbf9719637627889784b8> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.07 ;
-    asoft:hasPlayerCapacity "P_0119" .
+    asoft:hasMaxJouleLimit 1.07 .
 
 <http://example.org/inst/FieldZone_76c34f0a0c84d5cbb3b5deff251d5bee> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.74 ;
-    asoft:hasPlayerCapacity "P_0249" .
+    asoft:hasMaxJouleLimit 1.74 .
 
 <http://example.org/inst/FieldZone_781cfe2ae3e6b5c3e1033d3a04a826ea> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.0 ;
-    asoft:hasPlayerCapacity "P_0065" .
+    asoft:hasMaxJouleLimit 1.0 .
 
 <http://example.org/inst/FieldZone_789f3c86dd855b03dd6290282548f8b9> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.02 ;
-    asoft:hasPlayerCapacity "P_0153" .
+    asoft:hasMaxJouleLimit 1.02 .
 
 <http://example.org/inst/FieldZone_7a729cb613979041b482a5b1e755ccfa> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.64 ;
-    asoft:hasPlayerCapacity "P_0020" .
+    asoft:hasMaxJouleLimit 2.64 .
 
 <http://example.org/inst/FieldZone_7af3813fab3a03821bb005914db9c099> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.35 ;
-    asoft:hasPlayerCapacity "P_0222" .
+    asoft:hasMaxJouleLimit 2.35 .
 
 <http://example.org/inst/FieldZone_7df333cf3f17ae935e53e2e11db7f1a8> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.79 ;
-    asoft:hasPlayerCapacity "P_0152" .
+    asoft:hasMaxJouleLimit 2.79 .
 
 <http://example.org/inst/FieldZone_7ef85ff5c1e16f2cf70ddfb414ad2414> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.63 ;
-    asoft:hasPlayerCapacity "P_0080" .
+    asoft:hasMaxJouleLimit 0.63 .
 
 <http://example.org/inst/FieldZone_7fe696b4c186667f13ca69fd1286e83d> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.76 ;
-    asoft:hasPlayerCapacity "P_0244" .
+    asoft:hasMaxJouleLimit 2.76 .
 
 <http://example.org/inst/FieldZone_80db80d1b9ac41365db5362ad15971fc> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.02 ;
-    asoft:hasPlayerCapacity "P_0069" .
+    asoft:hasMaxJouleLimit 2.02 .
 
 <http://example.org/inst/FieldZone_8311b1987a2d603d947af2085392e2b9> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.97 ;
-    asoft:hasPlayerCapacity "P_0086" .
+    asoft:hasMaxJouleLimit 1.97 .
 
 <http://example.org/inst/FieldZone_83713a24f60c492ddbaa0958c472be5b> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.56 ;
-    asoft:hasPlayerCapacity "P_0151" .
+    asoft:hasMaxJouleLimit 0.56 .
 
 <http://example.org/inst/FieldZone_8423863a0678827fc5a3cf6dff7f1c12> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.13 ;
-    asoft:hasPlayerCapacity "P_0115" .
+    asoft:hasMaxJouleLimit 1.13 .
 
 <http://example.org/inst/FieldZone_86e59109e14be7d937176ba5bf058bf4> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.76 ;
-    asoft:hasPlayerCapacity "P_0087" .
+    asoft:hasMaxJouleLimit 1.76 .
 
 <http://example.org/inst/FieldZone_87bb170af2d3c3ad57ecfe0f41b1e24e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.82 ;
-    asoft:hasPlayerCapacity "P_0193" .
+    asoft:hasMaxJouleLimit 1.82 .
 
 <http://example.org/inst/FieldZone_89aa4610b2a159cf531ca38917a56fa6> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.03 ;
-    asoft:hasPlayerCapacity "P_0120" .
+    asoft:hasMaxJouleLimit 1.03 .
 
 <http://example.org/inst/FieldZone_8acb10d1d0bb8f6fb29f08fc93eed7ae> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.81 ;
-    asoft:hasPlayerCapacity "P_0191" .
+    asoft:hasMaxJouleLimit 2.81 .
 
 <http://example.org/inst/FieldZone_8b98ffce218f275dee70d1643b93b0d8> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.99 ;
-    asoft:hasPlayerCapacity "P_0035" .
+    asoft:hasMaxJouleLimit 1.99 .
 
 <http://example.org/inst/FieldZone_8c456521f3c4ccf74a32ef62db5d8c69> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.0 ;
-    asoft:hasPlayerCapacity "P_0077" .
+    asoft:hasMaxJouleLimit 1.0 .
 
 <http://example.org/inst/FieldZone_8d90f6d772f1cf289f3c066581b9c417> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.04 ;
-    asoft:hasPlayerCapacity "P_0148" .
+    asoft:hasMaxJouleLimit 1.04 .
 
 <http://example.org/inst/FieldZone_8de9aeff20af1441f3ff6322f4305367> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.05 ;
-    asoft:hasPlayerCapacity "P_0081" .
+    asoft:hasMaxJouleLimit 1.05 .
 
 <http://example.org/inst/FieldZone_8fd1085ed299efd812165bcbaa100801> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.05 ;
-    asoft:hasPlayerCapacity "P_0017" .
+    asoft:hasMaxJouleLimit 2.05 .
 
 <http://example.org/inst/FieldZone_90a6a8e0fecb3d9855b9863a0fbe7f4b> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.67 ;
-    asoft:hasPlayerCapacity "P_0176" .
+    asoft:hasMaxJouleLimit 1.67 .
 
 <http://example.org/inst/FieldZone_916c0a6485a9af82cb58692424199af1> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.05 ;
-    asoft:hasPlayerCapacity "P_0101" .
+    asoft:hasMaxJouleLimit 2.05 .
 
 <http://example.org/inst/FieldZone_927284729fd4e8c032dbcf98dbc2fca9> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.98 ;
-    asoft:hasPlayerCapacity "P_0215" .
+    asoft:hasMaxJouleLimit 1.98 .
 
 <http://example.org/inst/FieldZone_934d8f708a2e022e4d66a6a8e7934c9c> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.12 ;
-    asoft:hasPlayerCapacity "P_0216" .
+    asoft:hasMaxJouleLimit 1.12 .
 
 <http://example.org/inst/FieldZone_93efc68553dc1e5683a4bebaf096a7bc> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.05 ;
-    asoft:hasPlayerCapacity "P_0113" .
+    asoft:hasMaxJouleLimit 1.05 .
 
 <http://example.org/inst/FieldZone_9403e42755ac367ee10dbf730f4f04c8> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.65 ;
-    asoft:hasPlayerCapacity "P_0031" .
+    asoft:hasMaxJouleLimit 0.65 .
 
 <http://example.org/inst/FieldZone_943b9f50b4600de97da10f80b265de83> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.66 ;
-    asoft:hasPlayerCapacity "P_0124" .
+    asoft:hasMaxJouleLimit 0.66 .
 
 <http://example.org/inst/FieldZone_94bb50e33b3603e582e3df751b726845> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.97 ;
-    asoft:hasPlayerCapacity "P_0203" .
+    asoft:hasMaxJouleLimit 0.97 .
 
 <http://example.org/inst/FieldZone_95cd1ff044e890929f04e0c8f13f6b95> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.77 ;
-    asoft:hasPlayerCapacity "P_0009" .
+    asoft:hasMaxJouleLimit 2.77 .
 
 <http://example.org/inst/FieldZone_979ab78658b9553dc95e09bfab327a66> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.49 ;
-    asoft:hasPlayerCapacity "P_0027" .
+    asoft:hasMaxJouleLimit 0.49 .
 
 <http://example.org/inst/FieldZone_9d08763ffee1e5fed5e86d4f046dd385> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.53 ;
-    asoft:hasPlayerCapacity "P_0060" .
+    asoft:hasMaxJouleLimit 0.53 .
 
 <http://example.org/inst/FieldZone_9d3c03b736ac7931601d6d32ce15c523> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.96 ;
-    asoft:hasPlayerCapacity "P_0167" .
+    asoft:hasMaxJouleLimit 0.96 .
 
 <http://example.org/inst/FieldZone_9e5e0a89e23aae9cddd7301f108098cc> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.5 ;
-    asoft:hasPlayerCapacity "P_0186" .
+    asoft:hasMaxJouleLimit 0.5 .
 
 <http://example.org/inst/FieldZone_a02a4f9faea2035a0a38f12e8372a63e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.07 ;
-    asoft:hasPlayerCapacity "P_0144" .
+    asoft:hasMaxJouleLimit 1.07 .
 
 <http://example.org/inst/FieldZone_a0aa499534bb766b59f8b6950f83cee2> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.23 ;
-    asoft:hasPlayerCapacity "P_0125" .
+    asoft:hasMaxJouleLimit 2.23 .
 
 <http://example.org/inst/FieldZone_a121536b43aa5e2e766b6f6e16c484d9> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.02 ;
-    asoft:hasPlayerCapacity "P_0003" .
+    asoft:hasMaxJouleLimit 1.02 .
 
 <http://example.org/inst/FieldZone_a2ea48ba8911e8bbb61fc11a3a5c1305> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.55 ;
-    asoft:hasPlayerCapacity "P_0028" .
+    asoft:hasMaxJouleLimit 0.55 .
 
 <http://example.org/inst/FieldZone_a4d5482b0cd58f27869a6d57a18cf220> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.09 ;
-    asoft:hasPlayerCapacity "P_0011" .
+    asoft:hasMaxJouleLimit 1.09 .
 
 <http://example.org/inst/FieldZone_a600bdaa202ce0d6ffe7071452f52d90> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 3.02 ;
-    asoft:hasPlayerCapacity "P_0165" .
+    asoft:hasMaxJouleLimit 3.02 .
 
 <http://example.org/inst/FieldZone_a60cd1f0dbcd9a10412865af327fc586> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.52 ;
-    asoft:hasPlayerCapacity "P_0004" .
+    asoft:hasMaxJouleLimit 2.52 .
 
 <http://example.org/inst/FieldZone_a62fa2b92dcf9d123bd510a3e5049764> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.68 ;
-    asoft:hasPlayerCapacity "P_0183" .
+    asoft:hasMaxJouleLimit 0.68 .
 
 <http://example.org/inst/FieldZone_a758bff3d03744d2806b4c04326860a8> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.03 ;
-    asoft:hasPlayerCapacity "P_0018" .
+    asoft:hasMaxJouleLimit 1.03 .
 
 <http://example.org/inst/FieldZone_a8302ab4aebc2e82c3f6ff1b0e52fbbf> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.73 ;
-    asoft:hasPlayerCapacity "P_0172" .
+    asoft:hasMaxJouleLimit 0.73 .
 
 <http://example.org/inst/FieldZone_aaf3d0d15fcdfbe15263e2c5d43fff40> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.95 ;
-    asoft:hasPlayerCapacity "P_0008" .
+    asoft:hasMaxJouleLimit 0.95 .
 
 <http://example.org/inst/FieldZone_ac9e01f53e572e6a1b52c026c1b20ecf> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.8 ;
-    asoft:hasPlayerCapacity "P_0098" .
+    asoft:hasMaxJouleLimit 1.8 .
 
 <http://example.org/inst/FieldZone_adf5a9bdadae2dd34892036b1a9bbeb2> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.09 ;
-    asoft:hasPlayerCapacity "P_0116" .
+    asoft:hasMaxJouleLimit 1.09 .
 
 <http://example.org/inst/FieldZone_ae02c21c8ebfca751339ba4cb8c92a6c> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.96 ;
-    asoft:hasPlayerCapacity "P_0195" .
+    asoft:hasMaxJouleLimit 0.96 .
 
 <http://example.org/inst/FieldZone_ae33669b21e9ecc5b9be73c2c0778167> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.96 ;
-    asoft:hasPlayerCapacity "P_0100" .
+    asoft:hasMaxJouleLimit 1.96 .
 
 <http://example.org/inst/FieldZone_ae5c10264858f4047afb5dc15e87172b> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.65 ;
-    asoft:hasPlayerCapacity "P_0105" .
+    asoft:hasMaxJouleLimit 2.65 .
 
 <http://example.org/inst/FieldZone_af1cf1dfe23699034041404b749a8ae8> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.64 ;
-    asoft:hasPlayerCapacity "P_0141" .
+    asoft:hasMaxJouleLimit 0.64 .
 
 <http://example.org/inst/FieldZone_afcd33ee3eb429373d2aa85a5104c810> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.02 ;
-    asoft:hasPlayerCapacity "P_0221" .
+    asoft:hasMaxJouleLimit 1.02 .
 
 <http://example.org/inst/FieldZone_b0969bcfeb113f398bb0f16a9be5bf20> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.06 ;
-    asoft:hasPlayerCapacity "P_0121" .
+    asoft:hasMaxJouleLimit 1.06 .
 
 <http://example.org/inst/FieldZone_b17dad478e47331aad5e00e1926abfd5> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.65 ;
-    asoft:hasPlayerCapacity "P_0150" .
+    asoft:hasMaxJouleLimit 2.65 .
 
 <http://example.org/inst/FieldZone_b1d980153c728dbfe589c1777696b1d0> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.37 ;
-    asoft:hasPlayerCapacity "P_0236" .
+    asoft:hasMaxJouleLimit 2.37 .
 
 <http://example.org/inst/FieldZone_b291fe73967b6be3ee7d564049d7feeb> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.93 ;
-    asoft:hasPlayerCapacity "P_0021" .
+    asoft:hasMaxJouleLimit 2.93 .
 
 <http://example.org/inst/FieldZone_b36386273e4630b4eedf4d8db09a2f2e> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.05 ;
-    asoft:hasPlayerCapacity "P_0180" .
+    asoft:hasMaxJouleLimit 1.05 .
 
 <http://example.org/inst/FieldZone_b65439832f730f9acfa10be517be8844> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.04 ;
-    asoft:hasPlayerCapacity "P_0184" .
+    asoft:hasMaxJouleLimit 1.04 .
 
 <http://example.org/inst/FieldZone_b6ec49f4b35e2744c805923eb19399a8> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.93 ;
-    asoft:hasPlayerCapacity "P_0046" .
+    asoft:hasMaxJouleLimit 1.93 .
 
 <http://example.org/inst/FieldZone_b6efb2024593a4cbd05106a9556e9754> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.44 ;
-    asoft:hasPlayerCapacity "P_0159" .
+    asoft:hasMaxJouleLimit 2.44 .
 
 <http://example.org/inst/FieldZone_b85755393412af1f1c6e836bfd1a6296> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.58 ;
-    asoft:hasPlayerCapacity "P_0217" .
+    asoft:hasMaxJouleLimit 0.58 .
 
 <http://example.org/inst/FieldZone_b9f960586142f9186169a08c9b100521> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.0 ;
-    asoft:hasPlayerCapacity "P_0234" .
+    asoft:hasMaxJouleLimit 1.0 .
 
 <http://example.org/inst/FieldZone_ba45c930753efa77969fc0a17063f4f9> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.1 ;
-    asoft:hasPlayerCapacity "P_0219" .
+    asoft:hasMaxJouleLimit 1.1 .
 
 <http://example.org/inst/FieldZone_badba794bc81d61ccc90708534822db0> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.97 ;
-    asoft:hasPlayerCapacity "P_0071" .
+    asoft:hasMaxJouleLimit 0.97 .
 
 <http://example.org/inst/FieldZone_bcf4dc433843a69f2a6a2a496dc654bd> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.07 ;
-    asoft:hasPlayerCapacity "P_0198" .
+    asoft:hasMaxJouleLimit 1.07 .
 
 <http://example.org/inst/FieldZone_bd4be350c957d6318f180c7740f7785f> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.14 ;
-    asoft:hasPlayerCapacity "P_0032" .
+    asoft:hasMaxJouleLimit 2.14 .
 
 <http://example.org/inst/FieldZone_be13beb2edbe509b213a432825eed900> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.14 ;
-    asoft:hasPlayerCapacity "P_0068" .
+    asoft:hasMaxJouleLimit 2.14 .
 
 <http://example.org/inst/FieldZone_bf6124dd8f210a37144b5ca1443cc24c> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.46 ;
-    asoft:hasPlayerCapacity "P_0170" .
+    asoft:hasMaxJouleLimit 0.46 .
 
 <http://example.org/inst/FieldZone_bf95970bd9fe06905ae46aea7864bd0a> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.46 ;
-    asoft:hasPlayerCapacity "P_0224" .
+    asoft:hasMaxJouleLimit 2.46 .
 
 <http://example.org/inst/FieldZone_c042847f71b03288e3c29f93eca042f4> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.35 ;
-    asoft:hasPlayerCapacity "P_0026" .
+    asoft:hasMaxJouleLimit 2.35 .
 
 <http://example.org/inst/FieldZone_c1a292fa422fb901a70a1d4e700f95f8> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.86 ;
-    asoft:hasPlayerCapacity "P_0157" .
+    asoft:hasMaxJouleLimit 1.86 .
 
 <http://example.org/inst/FieldZone_c26b16ddaf6c693ec435bf3262126471> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.04 ;
-    asoft:hasPlayerCapacity "P_0179" .
+    asoft:hasMaxJouleLimit 1.04 .
 
 <http://example.org/inst/FieldZone_c28ae48e0205d19012ba965e079745df> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.01 ;
-    asoft:hasPlayerCapacity "P_0227" .
+    asoft:hasMaxJouleLimit 1.01 .
 
 <http://example.org/inst/FieldZone_c405325206cd5c76a34d5f844d16184b> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.06 ;
-    asoft:hasPlayerCapacity "P_0038" .
+    asoft:hasMaxJouleLimit 2.06 .
 
 <http://example.org/inst/FieldZone_c415990aa7934b4e1e2f706e28cbb954> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.68 ;
-    asoft:hasPlayerCapacity "P_0212" .
+    asoft:hasMaxJouleLimit 0.68 .
 
 <http://example.org/inst/FieldZone_c5f24eaa5e15c66a7421e92fb5007c4c> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.07 ;
-    asoft:hasPlayerCapacity "P_0242" .
+    asoft:hasMaxJouleLimit 1.07 .
 
 <http://example.org/inst/FieldZone_c5feedd7032414055dccd34ebea8eefa> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.03 ;
-    asoft:hasPlayerCapacity "P_0188" .
+    asoft:hasMaxJouleLimit 2.03 .
 
 <http://example.org/inst/FieldZone_c6296e6344ebc9d1852bef2822fb4738> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.56 ;
-    asoft:hasPlayerCapacity "P_0163" .
+    asoft:hasMaxJouleLimit 0.56 .
 
 <http://example.org/inst/FieldZone_c7de9578b08a2fff0a09644e9a1c678d> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.56 ;
-    asoft:hasPlayerCapacity "P_0106" .
+    asoft:hasMaxJouleLimit 0.56 .
 
 <http://example.org/inst/FieldZone_c8c82fe61915ede5a7aa50b0c8a49470> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.7 ;
-    asoft:hasPlayerCapacity "P_0194" .
+    asoft:hasMaxJouleLimit 0.7 .
 
 <http://example.org/inst/FieldZone_c907b5d303bba9a998e878245497d2e0> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.65 ;
-    asoft:hasPlayerCapacity "P_0034" .
+    asoft:hasMaxJouleLimit 0.65 .
 
 <http://example.org/inst/FieldZone_d09347190d9657701bf2270947f007a8> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.72 ;
-    asoft:hasPlayerCapacity "P_0160" .
+    asoft:hasMaxJouleLimit 1.72 .
 
 <http://example.org/inst/FieldZone_d0a6bd4780c195a71fb94b1c028dbd14> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.02 ;
-    asoft:hasPlayerCapacity "P_0123" .
+    asoft:hasMaxJouleLimit 2.02 .
 
 <http://example.org/inst/FieldZone_d0dee7f9b238f20d6fda87c589fe62a8> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.96 ;
-    asoft:hasPlayerCapacity "P_0074" .
+    asoft:hasMaxJouleLimit 0.96 .
 
 <http://example.org/inst/FieldZone_d0e49a192126e70fbe582873dbe90b9c> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.06 ;
-    asoft:hasPlayerCapacity "P_0233" .
+    asoft:hasMaxJouleLimit 1.06 .
 
 <http://example.org/inst/FieldZone_d1202c770164b2d29af72d950c634f7d> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.5 ;
-    asoft:hasPlayerCapacity "P_0204" .
+    asoft:hasMaxJouleLimit 0.5 .
 
 <http://example.org/inst/FieldZone_d37009df5c3d7162964bc6a10018d19c> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.11 ;
-    asoft:hasPlayerCapacity "P_0247" .
+    asoft:hasMaxJouleLimit 1.11 .
 
 <http://example.org/inst/FieldZone_d3886f01cb5542c6c7523c5c340fbccc> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.74 ;
-    asoft:hasPlayerCapacity "P_0097" .
+    asoft:hasMaxJouleLimit 1.74 .
 
 <http://example.org/inst/FieldZone_d39848e368d224c741bb17cf99ce58fb> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.61 ;
-    asoft:hasPlayerCapacity "P_0185" .
+    asoft:hasMaxJouleLimit 2.61 .
 
 <http://example.org/inst/FieldZone_d3ab3416e57a8f6a03d12457e004173d> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.09 ;
-    asoft:hasPlayerCapacity "P_0025" .
+    asoft:hasMaxJouleLimit 1.09 .
 
 <http://example.org/inst/FieldZone_d44c77da0e2008c4ae55fabfc130f7fb> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.64 ;
-    asoft:hasPlayerCapacity "P_0064" .
+    asoft:hasMaxJouleLimit 0.64 .
 
 <http://example.org/inst/FieldZone_d4f2ba34e17905f3ae11eb1fbae0bad8> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.07 ;
-    asoft:hasPlayerCapacity "P_0230" .
+    asoft:hasMaxJouleLimit 1.07 .
 
 <http://example.org/inst/FieldZone_d8e0e8bb9a6a569ffcdc26071b51b17b> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.23 ;
-    asoft:hasPlayerCapacity "P_0192" .
+    asoft:hasMaxJouleLimit 2.23 .
 
 <http://example.org/inst/FieldZone_d9564231be39fbd34ce3df4c35115413> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.93 ;
-    asoft:hasPlayerCapacity "P_0072" .
+    asoft:hasMaxJouleLimit 2.93 .
 
 <http://example.org/inst/FieldZone_daa0f85269e7cf77b4f455ee7e772bed> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 3.04 ;
-    asoft:hasPlayerCapacity "P_0132" .
+    asoft:hasMaxJouleLimit 3.04 .
 
 <http://example.org/inst/FieldZone_db50e0042187b5f88596b46740c4c140> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.24 ;
-    asoft:hasPlayerCapacity "P_0133" .
+    asoft:hasMaxJouleLimit 2.24 .
 
 <http://example.org/inst/FieldZone_dc8b85a2616e455a24e2e054275c6c12> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.82 ;
-    asoft:hasPlayerCapacity "P_0128" .
+    asoft:hasMaxJouleLimit 1.82 .
 
 <http://example.org/inst/FieldZone_ddef949df620341743a5a76742c71650> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.01 ;
-    asoft:hasPlayerCapacity "P_0156" .
+    asoft:hasMaxJouleLimit 1.01 .
 
 <http://example.org/inst/FieldZone_debe67ed15ec2f21b8721fcdd6ea13b9> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.3 ;
-    asoft:hasPlayerCapacity "P_0112" .
+    asoft:hasMaxJouleLimit 2.3 .
 
 <http://example.org/inst/FieldZone_df01377696d0819638da7713d85f2cb8> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.53 ;
-    asoft:hasPlayerCapacity "P_0182" .
+    asoft:hasMaxJouleLimit 0.53 .
 
 <http://example.org/inst/FieldZone_e1a6932274cb16ef69c9357106a4a688> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.87 ;
-    asoft:hasPlayerCapacity "P_0149" .
+    asoft:hasMaxJouleLimit 1.87 .
 
 <http://example.org/inst/FieldZone_e38a2eb5dcc563dbbf55f0ffcede7c4c> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.67 ;
-    asoft:hasPlayerCapacity "P_0099" .
+    asoft:hasMaxJouleLimit 0.67 .
 
 <http://example.org/inst/FieldZone_e5141c5b946c1b1f513cf29c4da20bde> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.05 ;
-    asoft:hasPlayerCapacity "P_0134" .
+    asoft:hasMaxJouleLimit 1.05 .
 
 <http://example.org/inst/FieldZone_e58fc62ec5ce8be1c3cf7ca253c666db> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.1 ;
-    asoft:hasPlayerCapacity "P_0048" .
+    asoft:hasMaxJouleLimit 1.1 .
 
 <http://example.org/inst/FieldZone_e6bf16f0c9d5851e30a9d50b8285a7b4> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.96 ;
-    asoft:hasPlayerCapacity "P_0145" .
+    asoft:hasMaxJouleLimit 0.96 .
 
 <http://example.org/inst/FieldZone_e7b9aa1bce008314110bfeb5a91e0b7a> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.1 ;
-    asoft:hasPlayerCapacity "P_0104" .
+    asoft:hasMaxJouleLimit 1.1 .
 
 <http://example.org/inst/FieldZone_e890358b29bc741b52e4849ebc9b4fce> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.7 ;
-    asoft:hasPlayerCapacity "P_0190" .
+    asoft:hasMaxJouleLimit 0.7 .
 
 <http://example.org/inst/FieldZone_ea1412c17152efe3da6ef39e05779ab5> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.02 ;
-    asoft:hasPlayerCapacity "P_0015" .
+    asoft:hasMaxJouleLimit 1.02 .
 
 <http://example.org/inst/FieldZone_edb101b2afb7fee6cb6114a667d15439> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.69 ;
-    asoft:hasPlayerCapacity "P_0053" .
+    asoft:hasMaxJouleLimit 0.69 .
 
 <http://example.org/inst/FieldZone_edb135520919241142fa56f6f74d1303> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.14 ;
-    asoft:hasPlayerCapacity "P_0092" .
+    asoft:hasMaxJouleLimit 2.14 .
 
 <http://example.org/inst/FieldZone_edf206d4d1b412a0bd27fdd6b36df648> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.97 ;
-    asoft:hasPlayerCapacity "P_0045" .
+    asoft:hasMaxJouleLimit 0.97 .
 
 <http://example.org/inst/FieldZone_f2afb0f79797bd337908c60d7e11c434> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.43 ;
-    asoft:hasPlayerCapacity "P_0037" .
+    asoft:hasMaxJouleLimit 2.43 .
 
 <http://example.org/inst/FieldZone_f301a5aaa56e0be2640e3906dad4a432> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.35 ;
-    asoft:hasPlayerCapacity "P_0109" .
+    asoft:hasMaxJouleLimit 2.35 .
 
 <http://example.org/inst/FieldZone_f455ae0775756164e7437dec3e0c1b5f> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.98 ;
-    asoft:hasPlayerCapacity "P_0232" .
+    asoft:hasMaxJouleLimit 0.98 .
 
 <http://example.org/inst/FieldZone_f492a919777a04ff849fa83fb0af5388> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.34 ;
-    asoft:hasPlayerCapacity "P_0055" .
+    asoft:hasMaxJouleLimit 2.34 .
 
 <http://example.org/inst/FieldZone_f5da65518f61656f7f8558c7e11e8c76> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.8 ;
-    asoft:hasPlayerCapacity "P_0220" .
+    asoft:hasMaxJouleLimit 1.8 .
 
 <http://example.org/inst/FieldZone_f5f6bbc7067c92c434a15fedd56daa5a> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.14 ;
-    asoft:hasPlayerCapacity "P_0146" .
+    asoft:hasMaxJouleLimit 1.14 .
 
 <http://example.org/inst/FieldZone_f83c99ac85fb5cdf692ca4772805ebf7> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.06 ;
-    asoft:hasPlayerCapacity "P_0036" .
+    asoft:hasMaxJouleLimit 1.06 .
 
 <http://example.org/inst/FieldZone_f85cc2f3f0f0f595df74605c2dac0b2d> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.13 ;
-    asoft:hasPlayerCapacity "P_0016" .
+    asoft:hasMaxJouleLimit 1.13 .
 
 <http://example.org/inst/FieldZone_f94312b9f09d6435d196cee8966fda6d> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 1.08 ;
-    asoft:hasPlayerCapacity "P_0057" .
+    asoft:hasMaxJouleLimit 1.08 .
 
 <http://example.org/inst/FieldZone_f94f3d9371c26f836ab8112ba1a1a975> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.25 ;
-    asoft:hasPlayerCapacity "P_0095" .
+    asoft:hasMaxJouleLimit 2.25 .
 
 <http://example.org/inst/FieldZone_fb256f115eaffc7f566f1c35dde07505> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 0.7 ;
-    asoft:hasPlayerCapacity "P_0208" .
+    asoft:hasMaxJouleLimit 0.7 .
 
 <http://example.org/inst/FieldZone_fb38dd71da6099bbf20af1b990bb0a99> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.05 ;
-    asoft:hasPlayerCapacity "P_0166" .
+    asoft:hasMaxJouleLimit 2.05 .
 
 <http://example.org/inst/FieldZone_ff9ded16ff7093700367ee9522fc7592> a asoft:FieldZone ;
-    asoft:hasMaxJouleLimit 2.99 ;
-    asoft:hasPlayerCapacity "P_0052" .
+    asoft:hasMaxJouleLimit 2.99 .
 
 <http://example.org/inst/RepairInvoice_009c89a9d66727c5aadfa09985873325> a asoft:RepairInvoice ;
     asoft:platformModel "Bolt Action Rifle" ;

@@ -11,18 +11,6 @@ This directory hosts the output of running the **Facettes** semantic classificat
 * **`silo3_repairs_classified.ttl`**: Classified workshop repairs invoices.
 * **`silo4_social_classified.ttl`**: Classified social feed mentions mapped to concepts.
 
-## Interactive Visualization
-
-An interactive, animated SVG dashboard has been built to visually demonstrate how these silos connect into a single unified player profile.
-
-To view the visualizer:
-1. Open the [index.html](index.html) file directly in your web browser, OR
-2. Spin up a local server:
-   ```bash
-   python3 -m http.server 8000
-   ```
-   And visit: [http://localhost:8000](http://localhost:8000)
-
 ## How to Import
 
 All `.ttl` files are standard RDF graphs and can be imported directly into RDF4J, Apache Jena, or GraphDB.

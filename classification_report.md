@@ -14,7 +14,7 @@ This report documents the semantic alignments discovered between raw physical da
 ### Discovered Bridges & Mappings
 | Source Element (L2) | Target Element (L1) | Re-ranked Confidence | Description / Nuance |
 | :--- | :--- | :--- | :--- |
-| `ItemRecord` | `AirsoftReplica` | `0.5331` | Domain-guided mapping: Retail Item Record → [RepairInvoice, AirsoftReplica] |
+| `ItemRecord` | `AirsoftReplica` | `0.5331` | A Retail Item Record represents an Airsoft replica, which is a piece of gear propelled by 0.6 polymer ballbearings (BBs), with properties such as item SKU code mapping to repair ID, model name to |
 
 ### Generated SPARQL CONSTRUCT Rules
 ```sparql
@@ -45,13 +45,13 @@ WHERE {
 ## 📁 Silo 2: Chrono Field Logs
 * **Layer 2 Signature Hash**: `4ae3767f32610f4e256e27550339e1fb614cf5afc21fa9dd4a9641154302a0f6`
 * **L2 Data Triples**: `1512` triples
-* **Classified L1 Triples**: `2500` triples
+* **Classified L1 Triples**: `2250` triples
 * **Exported File**: [silo2_chrono_classified.ttl](silo2_chrono_classified.ttl)
 
 ### Discovered Bridges & Mappings
 | Source Element (L2) | Target Element (L1) | Re-ranked Confidence | Description / Nuance |
 | :--- | :--- | :--- | :--- |
-| `ChronoRecord` | `ChronoEvent` | `0.7908` | Domain-guided mapping: Chrono Record → [ChronoEvent, FieldZone, RepairInvoice, AirsoftReplica] |
+| `ChronoRecord` | `ChronoEvent` | `0.7908` | A Chrono Record represents a specific instance of a Chrono Event that captures data on a replica's muzzle velocity and energy during a chronograph verification test. |
 
 ### Generated SPARQL CONSTRUCT Rules
 ```sparql
@@ -61,7 +61,6 @@ CONSTRUCT {
     ?chronoEvent a h:ChronoEvent ;
             h:hasChronoStatus ?test_status .
     ?fieldZone a h:FieldZone ;
-            h:hasPlayerCapacity ?player_id ;
             h:hasMaxJouleLimit ?measured_muzzle_energy .
     ?repairInvoice a h:RepairInvoice ;
             h:platformModel ?replica_spotted ;
@@ -72,7 +71,6 @@ CONSTRUCT {
 WHERE {
     ?source a src:ChronoRecord ;
             src:measured_muzzle_energy ?measured_muzzle_energy ;
-            src:player_id ?player_id ;
             src:replica_spotted ?replica_spotted ;
             src:test_status ?test_status ;
             src:velocity_fps ?velocity_fps .
@@ -88,13 +86,13 @@ WHERE {
 ## 📁 Silo 3: Tech Repairs
 * **Layer 2 Signature Hash**: `8925ace72631241d1231d3c2477f973495bf9e1e700b24dd9a56fa74bb36aba5`
 * **L2 Data Triples**: `2016` triples
-* **Classified L1 Triples**: `2500` triples
+* **Classified L1 Triples**: `2250` triples
 * **Exported File**: [silo3_repairs_classified.ttl](silo3_repairs_classified.ttl)
 
 ### Discovered Bridges & Mappings
 | Source Element (L2) | Target Element (L1) | Re-ranked Confidence | Description / Nuance |
 | :--- | :--- | :--- | :--- |
-| `RepairRecord` | `RepairInvoice` | `0.8428` | Domain-guided mapping: Tech Invoice Repair Record → [GameEvent, RepairInvoice, AirsoftReplica] |
+| `RepairRecord` | `RepairInvoice` | `0.8477` | A Tech Invoice Repair Record represents a Repair Invoice with properties related to a replica's repair process, including its model, date, failures identified, and upgraded components. |
 
 ### Generated SPARQL CONSTRUCT Rules
 ```sparql
@@ -107,7 +105,6 @@ CONSTRUCT {
             h:repairID ?repair_id ;
             h:detectedFailure ?tech_diagnosis ;
             h:installedUpgrade ?upgrade_parts_installed ;
-            h:repairID ?repair_status ;
             h:repairedReplica ?airsoftReplica .
     ?airsoftReplica a h:AirsoftReplica ;
             h:hasModelName ?platform_model .
@@ -116,9 +113,7 @@ WHERE {
     ?source a src:RepairRecord ;
             src:intake_date ?intake_date ;
             src:platform_model ?platform_model ;
-            src:player_id ?player_id ;
             src:repair_id ?repair_id ;
-            src:repair_status ?repair_status ;
             src:tech_diagnosis ?tech_diagnosis ;
             src:upgrade_parts_installed ?upgrade_parts_installed .
     BIND(URI(CONCAT("http://example.org/inst/GameEvent_", MD5(STR(?source)))) AS ?gameEvent)
@@ -138,7 +133,7 @@ WHERE {
 ### Discovered Bridges & Mappings
 | Source Element (L2) | Target Element (L1) | Re-ranked Confidence | Description / Nuance |
 | :--- | :--- | :--- | :--- |
-| `SocialRecord` | `SocialMention` | `0.7850` | Domain-guided mapping: Social Stream Mention Record → [SocialMention] |
+| `SocialRecord` | `SocialMention` | `0.7850` | A Social Stream Mention Record represents a Social Mention involving a player's call sign in a community's social post with detected slang topics. |
 
 ### Generated SPARQL CONSTRUCT Rules
 ```sparql
