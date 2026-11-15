@@ -3,24 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AirOps Semantic Mapping & Classification Dashboard</title>
+    <title>AirOps Semantic Mapping &amp; Classification Dashboard</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --bg-color: #0b0f19;
-            --panel-bg: rgba(17, 24, 39, 0.7);
-            --border-color: rgba(255, 255, 255, 0.08);
-            --text-color: #f3f4f6;
-            --text-muted: #9ca3af;
-            
-            --cyan: #06b6d4;
-            --magenta: #ec4899;
-            --orange: #f97316;
-            --green: #10b981;
-            --purple: #8b5cf6;
-            --gold: #eab308;
+        /* Canonical Priory Critical Edition (v5) Foundation Tokens
+         * Daylight (:root, .light) + Nocturne (.dark)
+         */
+        :root, .light, .theme-day {
+            --bg-canvas: #f5f2eb;
+            --bg-canvas-rgb: 245 242 235;
+            --bg-surface-1: #fcfaf5;
+            --bg-surface-1-rgb: 252 250 245;
+            --bg-surface-2: #f3efe6;
+            --bg-surface-2-rgb: 243 239 230;
+            --bg-surface-3: #e9e4d8;
+            --bg-surface-3-rgb: 233 228 216;
+
+            --border-subtle: #ded8ca;
+            --border-subtle-rgb: 222 216 202;
+            --border-strong: #c7beae;
+            --border-strong-rgb: 199 190 174;
+
+            --text-primary: #252830;
+            --text-primary-rgb: 37 40 48;
+            --text-secondary: #484d59;
+            --text-secondary-rgb: 72 77 89;
+            --text-muted: #666259;
+            --text-muted-rgb: 102 98 89;
+
+            --accent-primary: #3b6694;
+            --accent-primary-rgb: 59 102 148;
+            --accent-primary-hover: #2f537a;
+            --accent-primary-text: #fcfaf5;
+
+            --accent-ochre: #b88438;
+            --accent-entail: #4a78a8;
+            --status-clear: #3d8b66;
+            --status-clear-bg: #e7f3ed;
+            --status-clear-bd: #b5dac6;
+            --status-warn: #b88438;
+            --status-warn-bg: #f6eedb;
+            --status-warn-bd: #e0cba0;
+            --status-avoid: #942c40;
+            --status-avoid-bg: #f6dfe3;
+            --status-avoid-bd: #e5b2bc;
+
+            /* Tier 2 BFO Semiotic Tokens (9% tint, 23% border) */
+            --sigil-cont-fg: #9e6b22; --sigil-cont-bg: rgba(158, 107, 34, 0.09); --sigil-cont-bd: rgba(158, 107, 34, 0.23);
+            --sigil-proc-fg: #336699; --sigil-proc-bg: rgba(51, 102, 153, 0.09); --sigil-proc-bd: rgba(51, 102, 153, 0.23);
+            --sigil-role-fg: #7552a3; --sigil-role-bg: rgba(117, 82, 163, 0.09); --sigil-role-bd: rgba(117, 82, 163, 0.23);
+            --sigil-gdc-fg:  #287078; --sigil-gdc-bg:  rgba(40, 112, 120, 0.09); --sigil-gdc-bd:  rgba(40, 112, 120, 0.23);
+            --sigil-qual-fg: #965562; --sigil-qual-bg: rgba(150, 85, 98, 0.09);  --sigil-qual-bd: rgba(150, 85, 98, 0.23);
+            --sigil-ind-fg:  #347555; --sigil-ind-bg:  rgba(52, 117, 85, 0.09);  --sigil-ind-bd:  rgba(52, 117, 85, 0.23);
+
+            --shadow-plate: 0 1px 3px rgba(37, 40, 48, 0.04), 0 1px 2px rgba(37, 40, 48, 0.02);
+            --shadow-popover: 0 8px 24px -4px rgba(37, 40, 48, 0.10), 0 2px 6px -1px rgba(37, 40, 48, 0.05);
+
+            --edge-rest: #c7beae;
+            --edge-sameas: #287078;
+            --graph-dot: rgba(37, 40, 48, 0.08);
+
+            --font-sans: -apple-system, BlinkMacSystemFont, 'Inter', 'SF Pro Text', system-ui, sans-serif;
+            --font-display: -apple-system, BlinkMacSystemFont, 'Inter', 'SF Pro Text', system-ui, sans-serif;
+            --font-mono: 'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, monospace;
+        }
+
+        .dark, .theme-dark {
+            --bg-canvas: #171a23;
+            --bg-canvas-rgb: 23 26 35;
+            --bg-surface-1: #1e222e;
+            --bg-surface-1-rgb: 30 34 46;
+            --bg-surface-2: #252a38;
+            --bg-surface-2-rgb: 37 42 56;
+            --bg-surface-3: #2f3648;
+            --bg-surface-3-rgb: 47 54 72;
+
+            --border-subtle: #353c50;
+            --border-subtle-rgb: 53 60 80;
+            --border-strong: #48516b;
+            --border-strong-rgb: 72 81 107;
+
+            --text-primary: #ece8e0;
+            --text-primary-rgb: 236 232 224;
+            --text-secondary: #b5bbc9;
+            --text-secondary-rgb: 181 187 201;
+            --text-muted: #8d94a6;
+            --text-muted-rgb: 141 148 166;
+
+            --accent-primary: #7ea4d4;
+            --accent-primary-rgb: 126 164 212;
+            --accent-primary-hover: #6891c6;
+            --accent-primary-text: #141821;
+
+            --accent-ochre: #d4a15a;
+            --accent-entail: #7ea4d4;
+            --status-clear: #6ec297;
+            --status-clear-bg: rgba(110, 194, 151, 0.14);
+            --status-clear-bd: rgba(110, 194, 151, 0.30);
+            --status-warn: #d4a15a;
+            --status-warn-bg: rgba(212, 161, 90, 0.14);
+            --status-warn-bd: rgba(212, 161, 90, 0.30);
+            --status-avoid: #ee9aa8;
+            --status-avoid-bg: rgba(201, 86, 107, 0.15);
+            --status-avoid-bd: rgba(201, 86, 107, 0.32);
+
+            --sigil-cont-fg: #dfb068; --sigil-cont-bg: rgba(223, 176, 104, 0.13); --sigil-cont-bd: rgba(223, 176, 104, 0.28);
+            --sigil-proc-fg: #7ea8d8; --sigil-proc-bg: rgba(126, 168, 216, 0.13); --sigil-proc-bd: rgba(126, 168, 216, 0.28);
+            --sigil-role-fg: #b298dc; --sigil-role-bg: rgba(178, 152, 220, 0.13); --sigil-role-bd: rgba(178, 152, 220, 0.28);
+            --sigil-gdc-fg:  #6ec1cb; --sigil-gdc-bg:  rgba(110, 193, 203, 0.13); --sigil-gdc-bd:  rgba(110, 193, 203, 0.28);
+            --sigil-qual-fg: #d9919f; --sigil-qual-bg: rgba(217, 145, 159, 0.13); --sigil-qual-bd: rgba(217, 145, 159, 0.28);
+            --sigil-ind-fg:  #78ba9a; --sigil-ind-bg:  rgba(120, 186, 154, 0.13); --sigil-ind-bd:  rgba(120, 186, 154, 0.28);
+
+            --shadow-plate: 0 1px 3px rgba(0, 0, 0, 0.22);
+            --shadow-popover: 0 10px 28px -4px rgba(0, 0, 0, 0.45);
+
+            --edge-rest: #48516b;
+            --edge-sameas: #6ec1cb;
+            --graph-dot: rgba(236, 232, 224, 0.06);
         }
 
         * {
@@ -29,84 +130,119 @@
             padding: 0;
         }
 
-        body {
-            font-family: 'Outfit', sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
+        html, body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-canvas);
+            background-image: none;
+            color: var(--text-primary);
+            font-size: 13px;
+            line-height: 1.5;
+            font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
             overflow-x: hidden;
-            background-image: 
-                radial-gradient(at 10% 20%, rgba(6, 182, 212, 0.05) 0px, transparent 50%),
-                radial-gradient(at 90% 80%, rgba(139, 92, 246, 0.05) 0px, transparent 50%);
             min-height: 100vh;
             display: flex;
             flex-direction: column;
         }
 
         header {
-            padding: 1.5rem 4rem;
-            border-bottom: 1px solid var(--border-color);
-            background: rgba(11, 15, 25, 0.8);
-            backdrop-filter: blur(12px);
+            padding: 14px 32px;
+            border-bottom: 1px solid var(--border-subtle);
+            background: var(--bg-surface-1);
             position: sticky;
             top: 0;
             z-index: 100;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
         }
 
         header h1 {
-            font-size: 1.6rem;
-            font-weight: 800;
-            letter-spacing: -0.05em;
-            background: linear-gradient(to right, var(--cyan), var(--purple));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: -0.015em;
+            color: var(--text-primary);
         }
 
         header p {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            margin-top: 0.1rem;
+            font-size: 12.5px;
+            color: var(--text-secondary);
+            margin-top: 2px;
+        }
+
+        .header-controls {
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
         /* Top Page Navigation */
         .page-nav {
             display: flex;
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid var(--border-color);
-            padding: 0.3rem;
-            border-radius: 10px;
-            gap: 0.2rem;
+            background: var(--bg-surface-2);
+            border: 1px solid var(--border-subtle);
+            padding: 3px;
+            border-radius: 8px;
+            gap: 2px;
         }
 
         .nav-btn {
             background: transparent;
-            border: none;
-            color: var(--text-muted);
-            padding: 0.6rem 1.2rem;
-            font-family: 'Outfit', sans-serif;
-            font-size: 0.9rem;
-            font-weight: 600;
+            border: 1px solid transparent;
+            color: var(--text-secondary);
+            min-height: 30px;
+            padding: 5px 14px;
+            font-family: var(--font-sans);
+            font-size: 12.5px;
+            font-weight: 500;
+            letter-spacing: -0.005em;
             cursor: pointer;
-            border-radius: 8px;
-            transition: all 0.2s;
+            border-radius: 6px;
+            transition: all 0.15s ease;
         }
 
         .nav-btn:hover {
-            color: var(--text-color);
-            background: rgba(255, 255, 255, 0.02);
+            color: var(--text-primary);
+            background: var(--bg-surface-3);
         }
 
         .nav-btn.active {
-            background: rgba(255, 255, 255, 0.08);
-            color: var(--text-color);
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            background: var(--bg-surface-1);
+            border-color: var(--border-subtle);
+            color: var(--text-primary);
+            box-shadow: var(--shadow-plate);
+        }
+
+        .theme-toggle {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            min-height: 32px;
+            padding: 5px 10px;
+            border-radius: 8px;
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-surface-2);
+            color: var(--text-secondary);
+            font-family: var(--font-sans);
+            font-size: 12.5px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+
+        .theme-toggle:hover {
+            background: var(--bg-surface-3);
+            color: var(--text-primary);
+            border-color: var(--border-strong);
         }
 
         .page-content {
             display: none;
-            animation: fadeIn 0.4s ease-in-out;
+            animation: fadeIn 0.2s ease-out;
         }
 
         .page-content.active {
@@ -116,53 +252,129 @@
         main {
             display: grid;
             grid-template-columns: 1.2fr 1fr;
-            padding: 2rem 4rem;
-            gap: 2rem;
-            max-width: 1800px;
+            padding: 24px 32px;
+            gap: 20px;
+            max-width: 1680px;
             width: 100%;
             margin: 0 auto;
+            align-items: start;
+        }
+
+        @media (max-width: 1024px) {
+            main {
+                grid-template-columns: 1fr;
+                padding: 16px;
+            }
+            header {
+                padding: 14px 16px;
+            }
         }
 
         .panel {
-            background: var(--panel-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 16px;
-            backdrop-filter: blur(16px);
+            background: var(--bg-surface-1);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
             overflow: hidden;
             display: flex;
             flex-direction: column;
-            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+            box-shadow: var(--shadow-plate);
         }
 
         .panel-header {
-            padding: 1.2rem 1.5rem;
-            border-bottom: 1px solid var(--border-color);
+            padding: 12px 18px;
+            border-bottom: 1px solid var(--border-subtle);
+            background: var(--bg-surface-2);
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 12px;
         }
 
         .panel-header h2 {
-            font-size: 1.1rem;
+            font-size: 13.5px;
             font-weight: 600;
-            letter-spacing: -0.02em;
+            letter-spacing: -0.006em;
+            color: var(--text-primary);
         }
 
-        /* SVG Network Graph Styling */
+        .panel-meta-hint {
+            font-size: 11.5px;
+            color: var(--text-muted);
+        }
+
+        /* SVG Network Graph Styling (20px dot grid strictly inside 2D graph viewport) */
         .visualizer-container {
             position: relative;
             flex: 1;
-            min-height: 550px;
-            background: radial-gradient(circle at center, rgba(17, 24, 39, 0.3) 0%, rgba(11, 15, 25, 0.9) 100%);
+            min-height: 540px;
+            background-color: var(--bg-surface-1);
+            background-image: radial-gradient(var(--graph-dot) 1px, transparent 1px);
+            background-size: 20px 20px;
             display: flex;
             align-items: center;
             justify-content: center;
+            overflow: hidden;
         }
 
         svg#network {
             width: 100%;
             height: 100%;
-            min-height: 550px;
+            min-height: 540px;
+            cursor: grab;
+        }
+
+        svg#network:active {
+            cursor: grabbing;
+        }
+
+        .graph-viewport-controls {
+            position: absolute;
+            bottom: 12px;
+            right: 12px;
+            display: flex;
+            gap: 6px;
+            z-index: 10;
+        }
+
+        .graph-ctrl-btn {
+            min-height: 28px;
+            padding: 4px 10px;
+            border-radius: 6px;
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-surface-2);
+            color: var(--text-secondary);
+            font-family: var(--font-sans);
+            font-size: 11.5px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+
+        .graph-ctrl-btn:hover {
+            background: var(--bg-surface-3);
+            color: var(--text-primary);
+            border-color: var(--border-strong);
+        }
+
+        .graph-sigil-legend {
+            position: absolute;
+            bottom: 12px;
+            left: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 6px 10px;
+            border-radius: 6px;
+            background: var(--bg-surface-2);
+            border: 1px solid var(--border-subtle);
+            font-size: 11.5px;
+            color: var(--text-secondary);
+        }
+
+        .sigil-legend-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
         }
 
         .node {
@@ -170,96 +382,125 @@
         }
 
         .node circle {
+            stroke: var(--bg-surface-1);
             stroke-width: 2px;
-            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), stroke-width 0.3s, filter 0.3s;
+            transition: transform 0.2s ease, stroke-width 0.2s ease;
             transform-origin: 0px 0px;
         }
 
         .node:hover circle {
             stroke-width: 3px;
-            transform: scale(1.15);
+            transform: scale(1.1);
         }
 
         .node.selected circle {
-            stroke-width: 4px;
+            stroke: var(--text-primary);
+            stroke-width: 3px;
         }
 
         .edge {
-            stroke-dasharray: 5, 5;
-            animation: dash 30s linear infinite;
-            transition: opacity 0.3s, stroke-width 0.3s;
+            stroke: var(--edge-rest);
+            stroke-width: 1.5px;
+            transition: stroke 0.2s ease, stroke-width 0.2s ease;
         }
 
-        @keyframes dash {
-            to {
-                stroke-dashoffset: -1000;
-            }
+        .edge.sameas-edge {
+            stroke: var(--edge-sameas);
+            stroke-dasharray: 4, 4;
         }
 
         .edge.highlighted {
-            stroke-width: 2.5px;
-            stroke-dasharray: none;
-            animation: none;
+            stroke: var(--accent-primary);
+            stroke-width: 2.2px;
+        }
+
+        .edge.sameas-edge.highlighted {
+            stroke: var(--sigil-gdc-fg);
+            stroke-width: 2.2px;
         }
 
         .node-label {
-            font-family: 'Outfit', sans-serif;
-            font-size: 11px;
-            font-weight: 600;
-            fill: var(--text-color);
+            font-family: var(--font-sans);
+            font-size: 11.5px;
+            font-weight: 500;
+            font-variant-numeric: tabular-nums;
+            fill: var(--text-primary);
             pointer-events: none;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.8);
         }
+
+        /* Semantic BFO node fills */
+        .fill-ind  { fill: var(--sigil-ind-fg); }
+        .fill-proc { fill: var(--sigil-proc-fg); }
+        .fill-gdc  { fill: var(--sigil-gdc-fg); }
+        .fill-qual { fill: var(--sigil-qual-fg); }
+        .fill-cont { fill: var(--sigil-cont-fg); }
 
         /* Inspector styling */
         .inspector {
-            height: 100%;
             display: flex;
             flex-direction: column;
         }
 
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 3px 9px;
+            border-radius: 5px;
+            font-size: 11.5px;
+            font-weight: 500;
+            font-variant-numeric: tabular-nums;
+            background: var(--bg-surface-1);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+        }
+
         .tabs {
             display: flex;
-            background: rgba(0, 0, 0, 0.2);
-            padding: 0.3rem;
-            border-radius: 8px;
-            margin: 1rem;
-            border: 1px solid var(--border-color);
+            background: var(--bg-surface-2);
+            padding: 3px;
+            border-radius: 7px;
+            margin: 14px 18px 0 18px;
+            border: 1px solid var(--border-subtle);
+            gap: 2px;
         }
 
         .tab-btn {
             flex: 1;
             background: transparent;
-            border: none;
-            color: var(--text-muted);
-            padding: 0.6rem 0.5rem;
-            font-family: 'Outfit', sans-serif;
-            font-size: 0.85rem;
-            font-weight: 600;
+            border: 1px solid transparent;
+            color: var(--text-secondary);
+            min-height: 28px;
+            padding: 5px 8px;
+            font-family: var(--font-sans);
+            font-size: 12.5px;
+            font-weight: 500;
             cursor: pointer;
-            border-radius: 6px;
-            transition: all 0.2s;
+            border-radius: 5px;
+            transition: all 0.15s ease;
         }
 
         .tab-btn:hover {
-            color: var(--text-color);
+            color: var(--text-primary);
+            background: var(--bg-surface-3);
         }
 
         .tab-btn.active {
-            background: rgba(255, 255, 255, 0.08);
-            color: var(--text-color);
-            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+            background: var(--bg-surface-1);
+            border-color: var(--border-subtle);
+            color: var(--text-primary);
+            box-shadow: var(--shadow-plate);
         }
 
         .inspector-body {
             flex: 1;
-            padding: 1.5rem;
+            padding: 16px 18px 20px 18px;
             overflow-y: auto;
         }
 
         .content-section {
             display: none;
-            animation: fadeIn 0.3s ease-in-out;
+            animation: fadeIn 0.2s ease-out;
         }
 
         .content-section.active {
@@ -267,267 +508,343 @@
         }
 
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(5px); }
+            from { opacity: 0; transform: translateY(3px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
+        /* Tier 1 Entailed Gutter Note (replaces dashed purple banner) */
+        .epistemic-gutter-note {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 0 0 14px 0;
+            margin-bottom: 14px;
+            border-bottom: 1px solid var(--border-subtle);
+            color: var(--text-secondary);
+            font-size: 12.5px;
+            line-height: 1.5;
+        }
+
+        .epistemic-gutter-note .sigil-turnstile {
+            color: var(--accent-entail);
+            flex-shrink: 0;
+            margin-top: 3px;
+        }
+
+        /* Hairline-separated metadata ledger (One-Container Nesting Ceiling) */
         .meta-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .meta-card {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid var(--border-color);
-            padding: 1rem;
-            border-radius: 10px;
+            gap: 16px;
+            padding-bottom: 14px;
+            margin-bottom: 14px;
+            border-bottom: 1px solid var(--border-subtle);
         }
 
         .meta-card h4 {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
+            font-size: 11.5px;
+            font-weight: 500;
             color: var(--text-muted);
-            margin-bottom: 0.3rem;
+            margin-bottom: 3px;
         }
 
         .meta-card p {
-            font-size: 1.1rem;
-            font-weight: 600;
+            font-size: 13.5px;
+            font-weight: 500;
+            font-variant-numeric: tabular-nums;
+            color: var(--text-primary);
+        }
+
+        .diagnostics-ledger {
+            margin-top: 14px;
+            padding-top: 14px;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .diagnostics-ledger h4 {
+            font-size: 11.5px;
+            font-weight: 500;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+
+        .diag-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            padding: 4px 0;
+            font-size: 12.5px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .diag-row:last-child {
+            border-bottom: none;
+        }
+
+        .diag-lbl {
+            color: var(--text-secondary);
+        }
+
+        .diag-val {
+            font-variant-numeric: tabular-nums;
+            font-weight: 500;
+            color: var(--text-primary);
+            text-align: right;
         }
 
         .code-container {
             position: relative;
-            background: rgba(0, 0, 0, 0.4);
-            border: 1px solid var(--border-color);
-            border-radius: 10px;
-            margin-top: 1rem;
+            background: var(--bg-surface-2);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            margin-top: 10px;
             overflow: hidden;
         }
 
         .code-header {
-            padding: 0.5rem 1rem;
-            background: rgba(0, 0, 0, 0.2);
-            border-bottom: 1px solid var(--border-color);
+            padding: 6px 12px;
+            background: var(--bg-surface-3);
+            border-bottom: 1px solid var(--border-subtle);
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            color: var(--text-muted);
+            font-family: var(--font-sans);
+            font-size: 11.5px;
+            font-variant-numeric: tabular-nums;
+            color: var(--text-secondary);
+        }
+
+        .copy-code-btn {
+            background: var(--bg-surface-1);
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            color: var(--text-secondary);
+            font-family: var(--font-sans);
+            font-size: 11.5px;
+            font-weight: 500;
+            padding: 2px 8px;
+            min-height: 24px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+
+        .copy-code-btn:hover {
+            color: var(--text-primary);
+            border-color: var(--border-strong);
         }
 
         pre {
-            padding: 1.2rem;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.82rem;
+            padding: 12px 14px;
+            font-family: var(--font-mono);
+            font-size: 11.5px;
             overflow-x: auto;
-            line-height: 1.5;
-            color: #a7f3d0;
+            line-height: 1.55;
+            color: var(--text-primary);
+        }
+
+        code {
+            font-family: var(--font-mono);
+            font-size: 11.5px;
         }
 
         .desc-text {
             line-height: 1.6;
-            color: var(--text-muted);
-            font-size: 0.95rem;
-            margin-bottom: 1rem;
-        }
-
-        .instruction-banner {
-            background: rgba(139, 92, 246, 0.1);
-            border: 1px dashed rgba(139, 92, 246, 0.4);
-            padding: 1rem 1.5rem;
-            border-radius: 12px;
-            margin-bottom: 1.5rem;
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-        }
-
-        .instruction-banner span.icon {
-            font-size: 1.5rem;
-            color: var(--purple);
-        }
-
-        .instruction-banner p {
-            font-size: 0.9rem;
-            line-height: 1.4;
+            color: var(--text-secondary);
+            font-size: 13.5px;
+            letter-spacing: -0.006em;
+            margin-bottom: 10px;
         }
 
         /* Page 2: E2E Pipeline Walkthrough Styling */
         .pipeline-flow {
             display: flex;
             flex-direction: column;
-            gap: 2rem;
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 2rem;
+            gap: 16px;
+            max-width: 1160px;
+            margin: 24px auto;
+            padding: 0 24px;
         }
 
         .step-card {
-            background: var(--panel-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 16px;
-            padding: 2rem;
+            background: var(--bg-surface-1);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 20px 24px;
             display: grid;
-            grid-template-columns: 80px 1.5fr 2fr;
-            gap: 2rem;
-            position: relative;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-            backdrop-filter: blur(12px);
+            grid-template-columns: 56px 1.4fr 1.8fr;
+            gap: 20px;
+            align-items: start;
+            box-shadow: var(--shadow-plate);
+        }
+
+        @media (max-width: 900px) {
+            .step-card {
+                grid-template-columns: 1fr;
+            }
         }
 
         .step-num {
-            font-size: 3.5rem;
-            font-weight: 800;
-            color: rgba(255,255,255,0.05);
-            background: linear-gradient(to bottom, var(--purple), transparent);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-align: center;
-            line-height: 1;
+            font-family: var(--font-sans);
+            font-variant-numeric: tabular-nums;
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--accent-primary);
+            padding-top: 2px;
         }
 
         .step-card h3 {
-            font-size: 1.3rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 6px;
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            flex-wrap: wrap;
+            gap: 8px;
         }
 
         .step-card h3 span.badge-stage {
-            font-size: 0.75rem;
-            padding: 0.2rem 0.5rem;
+            font-size: 11.5px;
+            font-weight: 500;
+            padding: 2px 7px;
             border-radius: 4px;
-            background: rgba(139, 92, 246, 0.2);
-            border: 1px solid rgba(139, 92, 246, 0.4);
-            color: #d8b4fe;
+            background: var(--sigil-proc-bg);
+            border: 1px solid var(--sigil-proc-bd);
+            color: var(--sigil-proc-fg);
         }
 
         .step-card p {
-            color: var(--text-muted);
-            font-size: 0.95rem;
+            color: var(--text-secondary);
+            font-size: 13.5px;
             line-height: 1.6;
         }
 
         .step-example {
-            background: rgba(0,0,0,0.3);
-            border: 1px solid var(--border-color);
-            border-radius: 10px;
-            padding: 1.2rem;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.8rem;
+            background: var(--bg-surface-2);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 12px 14px;
+            font-family: var(--font-mono);
+            font-size: 11.5px;
+            line-height: 1.55;
+            white-space: pre-wrap;
             overflow-x: auto;
-            max-height: 200px;
-            color: #e2e8f0;
+            color: var(--text-primary);
         }
 
-        /* Page 3: The So What? Pillar Grid */
+        /* Page 3: Pillar Grid */
         .pillar-section {
-            padding: 3rem 4rem;
-            max-width: 1600px;
+            padding: 32px;
+            max-width: 1440px;
             margin: 0 auto;
         }
 
         .intro-lead {
             text-align: center;
-            max-width: 800px;
-            margin: 0 auto 3rem auto;
+            max-width: 720px;
+            margin: 0 auto 28px auto;
         }
 
         .intro-lead h2 {
-            font-size: 2.2rem;
-            font-weight: 800;
-            letter-spacing: -0.04em;
-            margin-bottom: 1rem;
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: -0.018em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
         }
 
         .intro-lead p {
-            color: var(--text-muted);
-            font-size: 1.1rem;
+            color: var(--text-secondary);
+            font-size: 13.5px;
             line-height: 1.6;
         }
 
         .pillar-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 2.5rem;
+            gap: 20px;
+        }
+
+        @media (max-width: 960px) {
+            .pillar-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         .pillar-card {
-            background: var(--panel-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 20px;
-            padding: 2.5rem;
-            box-shadow: 0 12px 30px rgba(0,0,0,0.3);
-            backdrop-filter: blur(16px);
+            background: var(--bg-surface-1);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 24px;
+            box-shadow: var(--shadow-plate);
             display: flex;
             flex-direction: column;
-            transition: transform 0.3s;
-        }
-
-        .pillar-card:hover {
-            transform: translateY(-5px);
         }
 
         .pillar-icon {
-            font-size: 2.5rem;
-            margin-bottom: 1.5rem;
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            background: var(--bg-surface-2);
+            border: 1px solid var(--border-subtle);
+            color: var(--accent-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 14px;
         }
 
         .pillar-card h3 {
-            font-size: 1.4rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            letter-spacing: -0.02em;
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+            letter-spacing: -0.01em;
         }
 
         .comparison-block {
-            margin-top: 1.5rem;
-            border-top: 1px solid var(--border-color);
-            padding-top: 1.5rem;
+            margin-top: 14px;
+            border-top: 1px solid var(--border-subtle);
+            padding-top: 14px;
             flex: 1;
             display: flex;
             flex-direction: column;
-            gap: 1.2rem;
+            gap: 12px;
         }
 
         .comp-item {
-            font-size: 0.9rem;
+            font-size: 12.5px;
             line-height: 1.5;
+            color: var(--text-secondary);
         }
 
         .comp-item strong {
-            display: block;
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            margin-bottom: 0.3rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 11.5px;
+            font-weight: 500;
+            margin-bottom: 3px;
         }
 
-        .comp-item.traditional strong { color: var(--magenta); }
-        .comp-item.graph strong { color: var(--green); }
+        .comp-item.traditional strong {
+            color: var(--status-avoid);
+        }
+
+        .comp-item.graph strong {
+            color: var(--status-clear);
+        }
 
         footer {
-            padding: 2rem 4rem;
-            border-top: 1px solid var(--border-color);
+            padding: 18px 32px;
+            border-top: 1px solid var(--border-subtle);
+            background: var(--bg-surface-1);
             text-align: center;
-            font-size: 0.85rem;
+            font-size: 11.5px;
+            font-variant-numeric: tabular-nums;
             color: var(--text-muted);
             margin-top: auto;
         }
-
-        /* Glowing filters for SVG nodes */
-        .glow-cyan { filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.6)); }
-        .glow-magenta { filter: drop-shadow(0 0 8px rgba(236, 72, 153, 0.6)); }
-        .glow-orange { filter: drop-shadow(0 0 8px rgba(249, 115, 22, 0.6)); }
-        .glow-green { filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.6)); }
-        .glow-purple { filter: drop-shadow(0 0 8px rgba(139, 92, 246, 0.6)); }
-        .glow-gold { filter: drop-shadow(0 0 8px rgba(234, 179, 8, 0.6)); }
     </style>
 </head>
 <body>
@@ -535,12 +852,21 @@
     <header>
         <div>
             <h1>AirOps Semantic Web Visualizer</h1>
-            <p>Unified representation of cross-silo data facets mapped via Facettes matcher</p>
+            <p>Unified cross-silo entity facets aligned via Facettes neural-symbolic schema matching</p>
         </div>
-        <div class="page-nav">
-            <button id="nav-btn-graph" class="nav-btn active" onclick="switchPage('graph')">Interactive Graph</button>
-            <button id="nav-btn-pipeline" class="nav-btn" onclick="switchPage('pipeline')">E2E Pipeline</button>
-            <button id="nav-btn-sowhat" class="nav-btn" onclick="switchPage('sowhat')">Why Semantic Graph? ("So What?")</button>
+        <div class="header-controls">
+            <div class="page-nav">
+                <button id="nav-btn-graph" class="nav-btn active" onclick="switchPage('graph')">Interactive Graph</button>
+                <button id="nav-btn-pipeline" class="nav-btn" onclick="switchPage('pipeline')">E2E Pipeline</button>
+                <button id="nav-btn-sowhat" class="nav-btn" onclick="switchPage('sowhat')">Semantic Rationale</button>
+            </div>
+            <button type="button" class="theme-toggle" id="btn-theme-toggle" onclick="toggleTheme()" title="Switch Daylight / Nocturne theme">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+                </svg>
+                <span id="theme-toggle-label">Nocturne</span>
+            </button>
         </div>
     </header>
 
@@ -551,61 +877,87 @@
             <div class="panel">
                 <div class="panel-header">
                     <h2>Cross-Silo Entity Integration Graph</h2>
-                    <span style="font-size: 0.8rem; color: var(--text-muted);">Click any node to inspect semantic facets</span>
+                    <span class="panel-meta-hint">Select a node to inspect facets · Scroll or drag to pan/zoom</span>
                 </div>
                 <div class="visualizer-container">
                     <svg id="network" viewBox="0 0 800 600">
                         <defs>
                             <marker id="arrow" viewBox="0 0 10 10" refX="24" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-                                <path d="M 0 0 L 10 5 L 0 10 z" fill="rgba(255, 255, 255, 0.3)" />
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--border-strong)" />
                             </marker>
                             <marker id="arrow-highlighted" viewBox="0 0 10 10" refX="24" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-                                <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b5cf6" />
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--accent-primary)" />
                             </marker>
                         </defs>
 
-                        <!-- Edges / Links -->
-                        <line id="edge-player-chrono" x1="400" y1="300" x2="220" y2="180" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-start="url(#arrow)" />
-                        <line id="edge-player-repair" x1="400" y1="300" x2="580" y2="180" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-start="url(#arrow)" />
-                        <line id="edge-player-social" x1="400" y1="300" x2="220" y2="420" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-start="url(#arrow)" />
-                        
-                        <line id="edge-chrono-replica" x1="220" y1="180" x2="580" y2="420" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-end="url(#arrow)" />
-                        <line id="edge-repair-replica" x1="580" y1="180" x2="580" y2="420" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" class="edge" marker-end="url(#arrow)" />
-                        
-                        <!-- Identity Links (owl:sameAs) -->
-                        <path id="edge-sameas-chrono-retail" d="M 220,180 Q 400,100 580,420" fill="none" stroke="rgba(6, 182, 212, 0.3)" stroke-width="2" stroke-dasharray="4,4" class="edge" />
+                        <g id="network-viewport">
+                            <!-- Edges / Links -->
+                            <line id="edge-player-chrono" x1="400" y1="300" x2="220" y2="180" class="edge" marker-start="url(#arrow)" />
+                            <line id="edge-player-repair" x1="400" y1="300" x2="580" y2="180" class="edge" marker-start="url(#arrow)" />
+                            <line id="edge-player-social" x1="400" y1="300" x2="220" y2="420" class="edge" marker-start="url(#arrow)" />
 
-                        <!-- Nodes -->
-                        <!-- Central Player: P_0001 (Gold) -->
-                        <g id="node-player" class="node selected" onclick="selectNode('player')" transform="translate(400, 300)">
-                            <circle r="22" fill="#eab308" stroke="#ffffff" class="glow-gold" />
-                            <text dy="35" text-anchor="middle" class="node-label">Player P_0001</text>
-                        </g>
+                            <line id="edge-chrono-replica" x1="220" y1="180" x2="580" y2="420" class="edge" marker-end="url(#arrow)" />
+                            <line id="edge-repair-replica" x1="580" y1="180" x2="580" y2="420" class="edge" marker-end="url(#arrow)" />
 
-                        <!-- Chrono Event Node (Green) -->
-                        <g id="node-chrono" class="node" onclick="selectNode('chrono')" transform="translate(220, 180)">
-                            <circle r="18" fill="#10b981" stroke="#ffffff" class="glow-green" />
-                            <text dy="-25" text-anchor="middle" class="node-label">Chrono Event (Silo 2)</text>
-                        </g>
+                            <!-- Identity Links (owl:sameAs) -->
+                            <path id="edge-sameas-chrono-retail" d="M 220,180 Q 400,100 580,420" fill="none" class="edge sameas-edge" />
 
-                        <!-- Repair Invoice Node (Orange) -->
-                        <g id="node-repair" class="node" onclick="selectNode('repair')" transform="translate(580, 180)">
-                            <circle r="18" fill="#f97316" stroke="#ffffff" class="glow-orange" />
-                            <text dy="-25" text-anchor="middle" class="node-label">Repair Invoice (Silo 3)</text>
-                        </g>
+                            <!-- Nodes (Canonical Priory BFO Semiotic Palette) -->
+                            <!-- Central Player: P_0001 (NamedIndividual — Sage) -->
+                            <g id="node-player" class="node selected" onclick="selectNode('player')" transform="translate(400, 300)">
+                                <circle r="20" class="fill-ind" />
+                                <text dy="35" text-anchor="middle" class="node-label">Player P_0001</text>
+                            </g>
 
-                        <!-- Social Mention Node (Pink) -->
-                        <g id="node-social" class="node" onclick="selectNode('social')" transform="translate(220, 420)">
-                            <circle r="18" fill="#ec4899" stroke="#ffffff" class="glow-magenta" />
-                            <text dy="35" text-anchor="middle" class="node-label">Social Mention (Silo 4)</text>
-                        </g>
+                            <!-- Chrono Event Node (Occurrent / Process — Cerulean) -->
+                            <g id="node-chrono" class="node" onclick="selectNode('chrono')" transform="translate(220, 180)">
+                                <circle r="17" class="fill-proc" />
+                                <text dy="-24" text-anchor="middle" class="node-label">Chrono Event (Silo 2)</text>
+                            </g>
 
-                        <!-- Retail Replica Product Node (Cyan) -->
-                        <g id="node-replica" class="node" onclick="selectNode('replica')" transform="translate(580, 420)">
-                            <circle r="18" fill="#06b6d4" stroke="#ffffff" class="glow-cyan" />
-                            <text dy="35" text-anchor="middle" class="node-label">SSG10 Replica (Silo 1)</text>
+                            <!-- Repair Invoice Node (Information Artifact / GDC — Verdigris) -->
+                            <g id="node-repair" class="node" onclick="selectNode('repair')" transform="translate(580, 180)">
+                                <circle r="17" class="fill-gdc" />
+                                <text dy="-24" text-anchor="middle" class="node-label">Repair Invoice (Silo 3)</text>
+                            </g>
+
+                            <!-- Social Mention Node (Quality / Discourse — Rose-Clay) -->
+                            <g id="node-social" class="node" onclick="selectNode('social')" transform="translate(220, 420)">
+                                <circle r="17" class="fill-qual" />
+                                <text dy="33" text-anchor="middle" class="node-label">Social Mention (Silo 4)</text>
+                            </g>
+
+                            <!-- Retail Replica Product Node (Material Continuant — Ochre) -->
+                            <g id="node-replica" class="node" onclick="selectNode('replica')" transform="translate(580, 420)">
+                                <circle r="17" class="fill-cont" />
+                                <text dy="33" text-anchor="middle" class="node-label">SSG10 Replica (Silo 1)</text>
+                            </g>
                         </g>
                     </svg>
+
+                    <!-- Canonical BFO 12x12 Inline SVG Sigil Legend -->
+                    <div class="graph-sigil-legend">
+                        <span class="sigil-legend-item" style="color: var(--sigil-ind-fg);">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M6 2.1L9.9 6L6 9.9L2.1 6Z" fill="currentColor"/></svg>
+                            Individual
+                        </span>
+                        <span class="sigil-legend-item" style="color: var(--sigil-cont-fg);">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><circle cx="6" cy="6" r="3.5" fill="currentColor"/></svg>
+                            Continuant
+                        </span>
+                        <span class="sigil-legend-item" style="color: var(--sigil-proc-fg);">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.6 2.75L6.1 6L2.6 9.25M6.4 2.75L9.9 6L6.4 9.25" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            Process
+                        </span>
+                        <span class="sigil-legend-item" style="color: var(--sigil-gdc-fg);">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M6 1.4L10.6 6L6 10.6L1.4 6Z" stroke="currentColor" stroke-width="1.35" stroke-linejoin="round"/><circle cx="6" cy="6" r="1.4" fill="currentColor"/></svg>
+                            Information
+                        </span>
+                    </div>
+
+                    <div class="graph-viewport-controls">
+                        <button type="button" class="graph-ctrl-btn" onclick="resetGraphViewport()">Reset View</button>
+                    </div>
                 </div>
             </div>
 
@@ -626,9 +978,11 @@
 
                 <!-- Tab Contents -->
                 <div class="inspector-body">
-                    <div id="instruction-block" class="instruction-banner">
-                        <span class="icon">💡</span>
-                        <p>Click on any node in the graph (e.g. <strong>SSG10 Replica</strong> or <strong>Repair Invoice</strong>) to dynamically load its source record, generated query rules, and output semantic graph triples.</p>
+                    <div id="instruction-block" class="epistemic-gutter-note">
+                        <span class="sigil-turnstile" aria-hidden="true">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 2.3V9.7M3 6H9.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                        </span>
+                        <p>Select any node in the graph (such as <strong>SSG10 Replica</strong> or <strong>Repair Invoice</strong>) to inspect its raw silo record, compiled SPARQL CONSTRUCT mapping, and materialized RDF triples.</p>
                     </div>
 
                     <!-- OVERVIEW TAB -->
@@ -646,22 +1000,30 @@
                         <div class="desc-text" id="info-description">
                             Represents the primary physical player (P_0001) in the AirOps system. This individual is the common anchor linking all other concepts: they own the retail assets, log the chronograph tests, request tech repairs, and author social media stream logs.
                         </div>
-                        <div id="diagnostics-block" style="margin-top: 1.5rem; display:none;">
-                            <h4 style="font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem;">Pipeline Diagnostics</h4>
-                            <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); padding: 1rem; border-radius: 8px; font-size: 0.9rem; line-height: 1.5;">
-                                <strong style="color: var(--cyan);">Bi-Encoder Similarity:</strong> <span id="diag-bi-score">0.0</span><br>
-                                <strong style="color: var(--purple);">Cross-Encoder Re-rank:</strong> <span id="diag-cross-score">0.0</span><br>
-                                <strong style="color: var(--green);">Grouping Criteria:</strong> <span id="diag-criteria">Domain-guided rdfs:domain</span>
+                        <div id="diagnostics-block" class="diagnostics-ledger" style="display:none;">
+                            <h4>Pipeline Diagnostics</h4>
+                            <div class="diag-row">
+                                <span class="diag-lbl">Bi-Encoder Similarity</span>
+                                <span class="diag-val" id="diag-bi-score">0.0</span>
+                            </div>
+                            <div class="diag-row">
+                                <span class="diag-lbl">Cross-Encoder Re-rank</span>
+                                <span class="diag-val" id="diag-cross-score">0.0</span>
+                            </div>
+                            <div class="diag-row">
+                                <span class="diag-lbl">Grouping Criteria</span>
+                                <span class="diag-val" id="diag-criteria">Domain-guided rdfs:domain</span>
                             </div>
                         </div>
                     </div>
 
                     <!-- RAW TAB -->
                     <div id="tab-raw" class="content-section">
-                        <p class="desc-text">This is the raw input record received from the physical data source before translation:</p>
+                        <p class="desc-text">Raw input record received from the physical data source before semantic translation:</p>
                         <div class="code-container">
                             <div class="code-header">
                                 <span id="raw-file-label">source_file</span>
+                                <button type="button" class="copy-code-btn" onclick="copyCodeBlock('raw-content', this)">Copy</button>
                             </div>
                             <pre><code id="raw-content">Select a node to inspect...</code></pre>
                         </div>
@@ -669,10 +1031,11 @@
 
                     <!-- SPARQL TAB -->
                     <div id="tab-sparql" class="content-section">
-                        <p class="desc-text">The SPARQL CONSTRUCT query compiled dynamically by Facettes Stage 2 (Domain-Guided Assembly):</p>
+                        <p class="desc-text">SPARQL CONSTRUCT query compiled dynamically by Facettes Stage 2 (Domain-Guided Assembly):</p>
                         <div class="code-container">
                             <div class="code-header">
                                 <span>mapping_rule.sparql</span>
+                                <button type="button" class="copy-code-btn" onclick="copyCodeBlock('sparql-content', this)">Copy</button>
                             </div>
                             <pre><code id="sparql-content">Select a node to inspect...</code></pre>
                         </div>
@@ -680,10 +1043,11 @@
 
                     <!-- TRIPLES TAB -->
                     <div id="tab-triples" class="content-section">
-                        <p class="desc-text">Materialized RDF Layer 1 triples output by the pipeline and integrated into the global knowledge web:</p>
+                        <p class="desc-text">Materialized RDF Layer 1 triples emitted by the pipeline and merged into the knowledge graph:</p>
                         <div class="code-container">
                             <div class="code-header">
                                 <span>materialized_output.ttl</span>
+                                <button type="button" class="copy-code-btn" onclick="copyCodeBlock('triples-content', this)">Copy</button>
                             </div>
                             <pre><code id="triples-content">Select a node to inspect...</code></pre>
                         </div>
@@ -696,9 +1060,9 @@
     <!-- PAGE 2: E2E PIPELINE WALKTHROUGH -->
     <div id="page-pipeline" class="page-content">
         <div class="pipeline-flow">
-            <div class="intro-lead" style="margin-bottom: 1.5rem;">
+            <div class="intro-lead" style="margin-bottom: 8px;">
                 <h2>End-to-End Classification Pipeline</h2>
-                <p>How Facettes goes from raw physical data columns to fully integrated semantic triples, leveraging vectors and ontologies under the hood.</p>
+                <p>How Facettes maps raw physical data columns to integrated semantic triples via dense vector retrieval and OWL domain constraints.</p>
             </div>
 
             <!-- Step 1 -->
@@ -706,17 +1070,15 @@
                 <div class="step-num">01</div>
                 <div>
                     <h3>Raw Silos Ingestion</h3>
-                    <p>Facettes ingests raw database columns, CSV sheets, Markdown streams, and JSON-LD catalogs. It builds a local <strong>Layer 2 graph</strong> representing the raw data schema exactly as it is (without standardizing column names).</p>
+                    <p>Facettes ingests raw database columns, CSV sheets, Markdown streams, and JSON-LD catalogs. It builds a local <strong>Layer 2 graph</strong> representing the raw data schema exactly as it stands without manual column renaming.</p>
                 </div>
-                <div class="step-example">
-                    # Raw JSON-LD block (Silo 1 Catalog):
-                    {
-                      "@type": "Product",
-                      "sku": "SKU-0001",
-                      "name": "Novritsch SSG10",
-                      "brand": { "name": "Novritsch" }
-                    }
-                </div>
+                <div class="step-example"># Raw JSON-LD block (Silo 1 Catalog):
+{
+  "@type": "Product",
+  "sku": "SKU-0001",
+  "name": "Novritsch SSG10",
+  "brand": { "name": "Novritsch" }
+}</div>
             </div>
 
             <!-- Step 2 -->
@@ -724,13 +1086,11 @@
                 <div class="step-num">02</div>
                 <div>
                     <h3>Stage 1: Bi-Encoder Candidate Retrieval <span class="badge-stage">Neural</span></h3>
-                    <p>The bi-encoder (`all-MiniLM-L6-v2`) converts all L2 raw schema names and L1 target ontology concepts into dense vector space embeddings. Cosine similarity is calculated to find candidate matches, segregated by schema kind to avoid cross-kind crowding.</p>
+                    <p>The bi-encoder (<code>all-MiniLM-L6-v2</code>) embeds L2 raw schema names and L1 target ontology concepts into vector space. Cosine similarity retrieves candidate matches segregated by schema kind to prevent cross-kind crowding.</p>
                 </div>
-                <div class="step-example">
-                    Embedding L2 "brand name manufacturer"...
-                    Embedding L1 "has brand"...
-                    Cosine Similarity: 0.6020 (Candidate Accepted)
-                </div>
+                <div class="step-example">Embedding L2 "brand name manufacturer"...
+Embedding L1 "has brand"...
+Cosine Similarity: 0.6020 (Candidate Accepted)</div>
             </div>
 
             <!-- Step 3 -->
@@ -738,15 +1098,13 @@
                 <div class="step-num">03</div>
                 <div>
                     <h3>Stage 2: Domain-Guided Structural Assembly <span class="badge-stage">Logical</span></h3>
-                    <p>Reads OWL target ontology constraints (`rdfs:domain` and `rdfs:range`) to group candidates by their logical class domain, resolves relationship links (via ObjectProperties like `asoft:repairedReplica`), and compiles a SPARQL CONSTRUCT query mapping the entire record.</p>
+                    <p>Reads OWL target ontology constraints (<code>rdfs:domain</code> and <code>rdfs:range</code>) to group candidates by their logical class domain, resolves ObjectProperty links (<code>asoft:repairedReplica</code>), and compiles a SPARQL CONSTRUCT query.</p>
                 </div>
-                <div class="step-example">
-                    Activated domains: [AirsoftReplica, RepairInvoice]
-                    Grouping properties under domains:
-                     -> AirsoftReplica: has brand, has model name
-                     -> RepairInvoice: repair ID
-                    Resolved Link: RepairInvoice -> repairedReplica -> AirsoftReplica
-                </div>
+                <div class="step-example">Activated domains: [AirsoftReplica, RepairInvoice]
+Grouping properties under domains:
+ -&gt; AirsoftReplica: has brand, has model name
+ -&gt; RepairInvoice: repair ID
+Resolved Link: RepairInvoice -&gt; repairedReplica -&gt; AirsoftReplica</div>
             </div>
 
             <!-- Step 4 -->
@@ -754,45 +1112,39 @@
                 <div class="step-num">04</div>
                 <div>
                     <h3>Stage 3: Cross-Encoder Re-Ranking <span class="badge-stage">Neural</span></h3>
-                    <p>Drafts multiple candidate mappings for all activated target domains, enriches class labels with their mapped attribute property sets, and computes pairwise cross-attention scores using a strict Transformer (`ms-marco-MiniLM-L-6-v2`) to reject false matches.</p>
+                    <p>Drafts candidate mappings across activated target domains, enriches class labels with mapped attribute sets, and computes pairwise cross-attention scores (<code>ms-marco-MiniLM-L-6-v2</code>) to filter out false matches.</p>
                 </div>
-                <div class="step-example">
-                    Input Pair to Cross-Encoder:
-                    Sentence A: "Retail Item Record (attributes: item replica model name, brand name manufacturer)"
-                    Sentence B: "Airsoft replica (attributes: has model name, has brand)"
-                    Cross-Encoder Output Confidence: 0.8647 (Passed!)
-                </div>
+                <div class="step-example">Input Pair to Cross-Encoder:
+Sentence A: "Retail Item Record (attributes: item replica model name, brand name manufacturer)"
+Sentence B: "Airsoft replica (attributes: has model name, has brand)"
+Cross-Encoder Output Confidence: 0.8647 (Verified)</div>
             </div>
 
             <!-- Step 5 -->
             <div class="step-card">
                 <div class="step-num">05</div>
                 <div>
-                    <h3>Step 5: SPARQL Query Virtualization</h3>
-                    <p>Executes the validated SPARQL CONSTRUCT mapping query over the local Layer 2 data graph using a semantic engine. This translates raw database attributes into target RDF triples and assigns clean namespaces.</p>
+                    <h3>Stage 4: SPARQL Query Virtualization</h3>
+                    <p>Executes the validated SPARQL CONSTRUCT mapping query over the local Layer 2 data graph, translating raw database attributes into canonical RDF triples under governed namespaces.</p>
                 </div>
-                <div class="step-example">
-                    CONSTRUCT {
-                      ?airsoftReplica a h:AirsoftReplica ;
-                                      h:hasBrand ?brand_name .
-                    } WHERE {
-                      ?source src:brand_name ?brand_name .
-                    }
-                </div>
+                <div class="step-example">CONSTRUCT {
+  ?airsoftReplica a h:AirsoftReplica ;
+                  h:hasBrand ?brand_name .
+} WHERE {
+  ?source src:brand_name ?brand_name .
+}</div>
             </div>
 
             <!-- Step 6 -->
             <div class="step-card">
                 <div class="step-num">06</div>
                 <div>
-                    <h3>Step 6: Identity Resolution & KG Merging</h3>
-                    <p>Merges the translated silo graphs into a single global Knowledge Graph. It runs an entity resolution engine to discover matching keys (like common Player index `P_0001`) and merges records dynamically via `owl:sameAs` links, building the "facette" structure.</p>
+                    <h3>Stage 5: Identity Resolution &amp; KG Merging</h3>
+                    <p>Merges translated silo graphs into a unified Knowledge Graph. Entity resolution aligns shared keys (such as Player index <code>P_0001</code>) via <code>owl:sameAs</code> assertions to form coherent cross-silo facets.</p>
                 </div>
-                <div class="step-example">
-                    # Materialized identity linkage:
-                    asoft:Player_P_0001 owl:sameAs <http://example.org/inst/Player_P_0001> .
-                    <http://example.org/inst/ChronoEvent_0001> asoft:isOwnedBy asoft:Player_P_0001 .
-                </div>
+                <div class="step-example"># Materialized identity linkage:
+asoft:Player_P_0001 owl:sameAs &lt;http://example.org/inst/Player_P_0001&gt; .
+&lt;http://example.org/inst/ChronoEvent_0001&gt; asoft:isOwnedBy asoft:Player_P_0001 .</div>
             </div>
         </div>
     </div>
@@ -801,61 +1153,79 @@
     <div id="page-sowhat" class="page-content">
         <div class="pillar-section">
             <div class="intro-lead">
-                <h2>Why Semantic Knowledge Graph? (The "So What?")</h2>
-                <p>Traditional SQL databases keep systems trapped in silos. Semantic Web and Knowledge Graphs break these boundaries, providing unprecedented flexibility and declarative safety.</p>
+                <h2>Architectural Rationale for Semantic Graphs</h2>
+                <p>Relational schemas isolate operational records across incompatible tables. Formal ontologies and RDF graphs provide identity continuity, declarative validation, and schema-free extensibility.</p>
             </div>
 
             <div class="pillar-grid">
                 <!-- Pillar 1 -->
                 <div class="pillar-card">
-                    <div class="pillar-icon">🔗</div>
+                    <div class="pillar-icon" aria-hidden="true">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                        </svg>
+                    </div>
                     <h3>Automatic Identity Linking</h3>
-                    <p class="desc-text">In standard databases, joining client lists, Chrono CSVs, repair logs, and chat records requires writing complex, custom ETL scripts. If a database primary key or schema changes, the queries break.</p>
-                    
+                    <p class="desc-text">In relational databases, joining client rosters, chronograph CSVs, workshop repair logs, and chat streams requires fragile ETL pipelines that break whenever an upstream column changes.</p>
+
                     <div class="comparison-block">
                         <div class="comp-item traditional">
-                            <strong>Traditional SQL JOIN</strong>
-                            Requires matching schema structures and strict primary/foreign key mappings. Column changes break the backend code.
+                            <strong>≠ Avoid · Brittle SQL Joins</strong><br>
+                            Requires rigid foreign-key coupling and manual table migrations whenever upstream schemas evolve.
                         </div>
                         <div class="comp-item graph">
-                            <strong>Dynamic Graph sameAs</strong>
-                            Uses unique URIs (e.g. `asoft:Player_P_0001`) to represent the real-world player. References across different silos are resolved dynamically using `owl:sameAs` links, merging facets on-the-fly.
+                            <strong>⊢ Clear · Dynamic owl:sameAs Resolution</strong><br>
+                            Uses canonical IRIs (<code>asoft:Player_P_0001</code>) to represent the real-world bearer, aligning cross-silo facets dynamically.
                         </div>
                     </div>
                 </div>
 
                 <!-- Pillar 2 -->
                 <div class="pillar-card">
-                    <div class="pillar-icon">🛡️</div>
+                    <div class="pillar-icon" aria-hidden="true">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            <polyline points="9 12 11 14 15 10"></polyline>
+                        </svg>
+                    </div>
                     <h3>Declarative Safety Verification</h3>
-                    <p class="desc-text">Checking if a weapon exceeds its muzzle energy limit across different field zones currently requires hardcoding complex `if/else` logic in Python. When field rules change, the codebase must be refactored and redeployed.</p>
-                    
+                    <p class="desc-text">Checking whether a replica exceeds muzzle energy limits across field zones typically scatters imperative <code>if/else</code> branches across backend endpoints.</p>
+
                     <div class="comparison-block">
                         <div class="comp-item traditional">
-                            <strong>Imperative Code Checks</strong>
-                            Safety and chronolog business rules are hardcoded into Python Flask/Java spring endpoints, obscuring the logic.
+                            <strong>≠ Avoid · Hardcoded Imperative Checks</strong><br>
+                            Safety and chronograph rules remain buried inside application code, requiring redeployment when field rules change.
                         </div>
                         <div class="comp-item graph">
-                            <strong>Declarative SHACL Constraints</strong>
-                            Rules are defined as RDF shapes (SHACL). The graph engine runs validation queries directly on the dataset, instantly flagging violations without modifying a single line of backend application code.
+                            <strong>⊢ Clear · Declarative SHACL Shapes</strong><br>
+                            Constraints are governed as auditable RDF shapes evaluated directly against the dataset without modifying backend code.
                         </div>
                     </div>
                 </div>
 
                 <!-- Pillar 3 -->
                 <div class="pillar-card">
-                    <div class="pillar-icon">⚡</div>
+                    <div class="pillar-icon" aria-hidden="true">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="18" cy="5" r="3"></circle>
+                            <circle cx="6" cy="12" r="3"></circle>
+                            <circle cx="18" cy="19" r="3"></circle>
+                            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                        </svg>
+                    </div>
                     <h3>Open-World Extensibility</h3>
-                    <p class="desc-text">Standard relational databases operate under the Closed-World Assumption (if a column isn't in the schema, it cannot exist). Adding a new unstructured source requires database migrations, updating tables, and refactoring queries.</p>
-                    
+                    <p class="desc-text">Relational tables enforce a Closed-World schema where unanticipated attributes require destructive <code>ALTER TABLE</code> migrations and ORM refactors.</p>
+
                     <div class="comparison-block">
                         <div class="comp-item traditional">
-                            <strong>Closed-World Relational</strong>
-                            Adding a column requires running `ALTER TABLE` statements and refactoring backend ORM mappings and SQL join statements.
+                            <strong>≠ Avoid · Closed-World Table Migrations</strong><br>
+                            Onboarding unstructured sources forces schema alterations across downstream views and pipelines.
                         </div>
                         <div class="comp-item graph">
-                            <strong>Open-World Semantics</strong>
-                            Under the Open-World Assumption, you simply load new triples (e.g., social comments) into the triple store. Existing SPARQL queries can immediately traverse the new properties without any database migrations.
+                            <strong>⊢ Clear · Open-World Triple Composition</strong><br>
+                            New assertions (such as social stream mentions) merge directly into the triple store for immediate SPARQL traversal.
                         </div>
                     </div>
                 </div>
@@ -864,7 +1234,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2026 cdcc-jpg. Powered by Facettes 3-stage Neural Schema Matching Engine.</p>
+        <p>&copy; 2026 cdcc-jpg · Powered by Facettes 3-Stage Neural-Symbolic Schema Matching Engine</p>
     </footer>
 
     <!-- Interactive Data Store & Scripts -->
@@ -937,8 +1307,34 @@
         let currentActiveTab = 'overview';
         let currentSelectedNode = 'player';
 
+        function toggleTheme() {
+            const root = document.documentElement;
+            const isDark = root.classList.toggle('dark');
+            const lbl = document.getElementById('theme-toggle-label');
+            if (lbl) lbl.textContent = isDark ? 'Daylight' : 'Nocturne';
+            localStorage.setItem('airops-semantic-theme', isDark ? 'dark' : 'light');
+        }
+
+        (function initSavedTheme() {
+            const saved = localStorage.getItem('airops-semantic-theme');
+            if (saved === 'dark') {
+                document.documentElement.classList.add('dark');
+                const lbl = document.getElementById('theme-toggle-label');
+                if (lbl) lbl.textContent = 'Daylight';
+            }
+        })();
+
+        function copyCodeBlock(elementId, btnEl) {
+            const el = document.getElementById(elementId);
+            if (!el) return;
+            navigator.clipboard.writeText(el.innerText).then(() => {
+                const prev = btnEl.innerText;
+                btnEl.innerText = 'Copied';
+                setTimeout(() => { btnEl.innerText = prev; }, 1400);
+            });
+        }
+
         function switchPage(pageId) {
-            // Remove active classes from page nav
             document.querySelectorAll('.nav-btn').forEach(btn => {
                 btn.classList.remove('active');
             });
@@ -946,37 +1342,27 @@
                 content.classList.remove('active');
             });
 
-            // Set active
             document.getElementById(`nav-btn-${pageId}`).classList.add('active');
             document.getElementById(`page-${pageId}`).classList.add('active');
         }
 
         function selectNode(nodeId) {
-            // Remove selected class from all nodes
             document.querySelectorAll('.node').forEach(node => {
                 node.classList.remove('selected');
             });
-            
-            // Add selected class to current node
+
             document.getElementById(`node-${nodeId}`).classList.add('selected');
             currentSelectedNode = nodeId;
 
-            // Highlight corresponding edges in SVG
             highlightEdges(nodeId);
-
-            // Update UI elements
             updateInspector();
         }
 
         function highlightEdges(nodeId) {
-            // Reset all edges
             document.querySelectorAll('.edge').forEach(edge => {
                 edge.classList.remove('highlighted');
-                edge.style.stroke = "rgba(255, 255, 255, 0.15)";
-                edge.style.strokeWidth = "1.5";
             });
 
-            // Highlight connections related to the selected node
             if (nodeId === 'player') {
                 highlightEdge('edge-player-chrono');
                 highlightEdge('edge-player-repair');
@@ -984,7 +1370,7 @@
             } else if (nodeId === 'chrono') {
                 highlightEdge('edge-player-chrono');
                 highlightEdge('edge-chrono-replica');
-                highlightEdge('edge-sameas-chrono-retail', 'rgba(6, 182, 212, 0.8)');
+                highlightEdge('edge-sameas-chrono-retail');
             } else if (nodeId === 'repair') {
                 highlightEdge('edge-player-repair');
                 highlightEdge('edge-repair-replica');
@@ -993,39 +1379,30 @@
             } else if (nodeId === 'replica') {
                 highlightEdge('edge-chrono-replica');
                 highlightEdge('edge-repair-replica');
-                highlightEdge('edge-sameas-chrono-retail', 'rgba(6, 182, 212, 0.8)');
+                highlightEdge('edge-sameas-chrono-retail');
             }
         }
 
-        function highlightEdge(edgeId, color = '#8b5cf6') {
+        function highlightEdge(edgeId) {
             const edge = document.getElementById(edgeId);
             if (edge) {
                 edge.classList.add('highlighted');
-                edge.style.stroke = color;
-                edge.style.strokeWidth = "2.5";
             }
         }
 
         function updateInspector() {
             const data = nodesData[currentSelectedNode];
-            
-            // Update labels
+
             document.getElementById('inspecting-label').innerText = data.label;
             document.getElementById('info-target-class').innerText = data.targetClass;
             document.getElementById('info-confidence').innerText = data.confidence;
             document.getElementById('info-description').innerText = data.description;
 
-            // Update raw section
             document.getElementById('raw-file-label').innerText = data.rawFile;
             document.getElementById('raw-content').innerText = data.raw;
-
-            // Update SPARQL section
             document.getElementById('sparql-content').innerText = data.sparql;
-
-            // Update Triples section
             document.getElementById('triples-content').innerText = data.triples;
 
-            // Handle diagnostics block
             const diagBlock = document.getElementById('diagnostics-block');
             if (data.biScore) {
                 diagBlock.style.display = 'block';
@@ -1038,7 +1415,6 @@
         }
 
         function switchTab(tabId) {
-            // Remove active classes
             document.querySelectorAll('.tab-btn').forEach(btn => {
                 btn.classList.remove('active');
             });
@@ -1046,11 +1422,62 @@
                 sec.classList.remove('active');
             });
 
-            // Set active
             document.getElementById(`btn-${tabId}`).classList.add('active');
             document.getElementById(`tab-${tabId}`).classList.add('active');
             currentActiveTab = tabId;
         }
+
+        // SVG Pan & Zoom Viewport Logic
+        let svgScale = 1;
+        let svgPanX = 0;
+        let svgPanY = 0;
+        let isPanningSvg = false;
+        let panStartX = 0;
+        let panStartY = 0;
+
+        function applySvgViewport() {
+            const vp = document.getElementById('network-viewport');
+            if (vp) {
+                vp.setAttribute('transform', `translate(${svgPanX}, ${svgPanY}) scale(${svgScale})`);
+            }
+        }
+
+        function resetGraphViewport() {
+            svgScale = 1;
+            svgPanX = 0;
+            svgPanY = 0;
+            applySvgViewport();
+        }
+
+        (function initSvgPanZoom() {
+            const svg = document.getElementById('network');
+            if (!svg) return;
+
+            svg.addEventListener('wheel', function(e) {
+                e.preventDefault();
+                const delta = e.deltaY < 0 ? 1.08 : 0.92;
+                svgScale = Math.max(0.5, Math.min(2.6, svgScale * delta));
+                applySvgViewport();
+            }, { passive: false });
+
+            svg.addEventListener('mousedown', function(e) {
+                if (e.target.closest('.node')) return;
+                isPanningSvg = true;
+                panStartX = e.clientX - svgPanX;
+                panStartY = e.clientY - svgPanY;
+            });
+
+            window.addEventListener('mousemove', function(e) {
+                if (!isPanningSvg) return;
+                svgPanX = e.clientX - panStartX;
+                svgPanY = e.clientY - panStartY;
+                applySvgViewport();
+            });
+
+            window.addEventListener('mouseup', function() {
+                isPanningSvg = false;
+            });
+        })();
 
         // Initialize state
         selectNode('player');
